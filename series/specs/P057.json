@@ -1,0 +1,23 @@
+{"id":"P057",
+ "cover":{"set":"kitchen","c":"NA","expr":"proud","kicker":"THIÊN THẦN","lines":["Có thật","không?"]},
+ "music":[[0,"cute",0.6],["Nhưng Na nói tiếp","gentle",0.55],["Giáo lý Công giáo dạy","sacred",0.45],["Tối đó tớ nghe anh rể","gentle",0.6]],
+ "beats":[
+ {"type":"scene","set":"kitchen","cam":"push","hook":{"kicker":"GHẾ THỨ BẢY","lines":["Thiên thần","có thật không?"]},"chars":[{"c":"NA","pose":"holdFront","expr":"happy"}],"items":[{"item":"rice","x":200,"y":-170,"s":0.14}]},
+ {"at":"Một cái ghế nhựa hồng","type":"scene","set":"kitchen","wide":true,"cam":"push","chars":[{"c":"BO","pose":"sit","expr":"neutral"},{"c":"ME","pose":"sit","expr":"smile"},{"c":"NA","pose":"sit","expr":"happy","f":-1},{"c":"PHAOLO","pose":"sit","expr":"smile","f":-1}]},
+ {"at":"Anh rể tớ hỏi","type":"close","set":"kitchen","c":"BO","expr":"confused","talk":true,"emote":"?"},
+ {"at":"Na trả lời tỉnh bơ","type":"close","set":"kitchen","c":"NA","expr":"proud","talk":true,"bubble":"Của thiên thần của con.","captions":false},
+ {"at":"Cả bàn phá lên cười","type":"scene","set":"kitchen","wide":true,"chars":[{"c":"BO","pose":"sit","expr":"laugh"},{"c":"ME","pose":"sit","expr":"laugh"},{"c":"NA","pose":"sit","expr":"pout","f":-1},{"c":"PHAOLO","pose":"sit","expr":"laugh","f":-1}],"emotes":[{"who":0,"type":"music"}]},
+ {"at":"Chị tớ liếc sang tớ","type":"close","set":"kitchen","c":"ME","expr":"annoyed","emote":"?"},
+ {"at":"Tớ đã soạn sẵn","type":"close","set":"kitchen","c":"PHAOLO","expr":"thinking","emote":"idea"},
+ {"at":"Nhưng Na nói tiếp","type":"close","set":"kitchen","c":"NA","expr":"determined","talk":true},
+ {"at":"Bạn ấy không có thân mình","type":"scene","set":"dream","cam":"push","chars":[{"c":"NA","pose":"stand","expr":"peaceful","talk":true}],"items":[{"item":"dove","x":160,"y":-480,"s":0.0}],"emotes":[{"who":0,"type":"sparkle"}]},
+ {"at":"Con chỉ muốn bạn ấy biết","type":"close","set":"kitchen","c":"NA","expr":"love","talk":true,"emote":"heart"},
+ {"at":"Cả bàn im","type":"scene","set":"kitchen","freeze":"IM LẶNG","chars":[{"c":"BO","pose":"sit","expr":"awe"},{"c":"PHAOLO","pose":"sit","expr":"awe","f":-1}]},
+ {"at":"Giáo lý Công giáo dạy","type":"fact","symbol":"dove","title":"Thiên thần","body":["Có thật: thụ tạo thiêng liêng,","không thân xác, phục vụ Thiên Chúa."],"src":"GLHTCG 328–330","icon":"dove"},
+ {"at":"Và từ khi sinh ra","type":"fact","symbol":"heart","title":"Thiên thần bản mệnh","body":["Đời mỗi người được bao bọc bởi","sự che chở và chuyển cầu của các ngài."],"src":"GLHTCG 336","icon":"heart"},
+ {"at":"Chúa Giêsu từng nói","type":"fact","symbol":"bible","title":"Mt 18,10","body":["Thiên thần của các em trên trời","luôn được chiêm ngưỡng nhan Cha."],"src":"Mt 18,10","icon":"bible"},
+ {"at":"Cái ghế hồng thì không có","type":"text","set":"dream","kicker":"ĐÔI CÁNH?","lines":["Chỉ là cách","họa sĩ vẽ"]},
+ {"at":"Nhưng điều Na hiểu","type":"lesson","c":"NA","expr":"peaceful","lines":["Mình không bao giờ","thật sự một mình."]},
+ {"at":"Tối đó tớ nghe anh rể","type":"scene","set":"bedroom","setOpt":{"night":true,"mood":"pnight"},"cam":"push","fg":"plant","chars":[{"c":"NA","pose":"kneelPray","expr":"pray"},{"c":"BO","pose":"kneelPray","expr":"pray","f":-1}]},
+ {"at":"Tuần này, mỗi sáng","type":"end","question":"Tuần này, mỗi sáng trước khi ra khỏi nhà, bạn thử nói một câu với thiên thần bản mệnh của mình, rồi kể tớ nghe bạn đã nói gì nhé?","cast":["PHAOLO","NA"]}
+]}

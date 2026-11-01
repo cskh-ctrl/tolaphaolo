@@ -1,0 +1,591 @@
+{
+ "title": "Bé 6 tuổi kê thêm ghế cho thiên thần",
+ "duration": 106.372,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.788,
+   "line": "Bữa cơm Chủ nhật nhà chị tớ có sáu người nhưng bé Na bày bảy cái ghế.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "hook": {
+     "kicker": "GHẾ THỨ BẢY",
+     "lines": [
+      "Thiên thần",
+      "có thật không?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "holdFront",
+      "expr": "happy"
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 200,
+      "y": -170,
+      "s": 0.14
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.788,
+   "end": 9.312,
+   "line": "Một cái ghế nhựa hồng sát bên nó, có cả bát con và đôi đũa.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "BO",
+      "pose": "sit",
+      "expr": "neutral"
+     },
+     {
+      "c": "ME",
+      "pose": "sit",
+      "expr": "smile"
+     },
+     {
+      "c": "NA",
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 9.312,
+   "end": 12.6,
+   "line": "Anh rể tớ hỏi: Ghế của ai đấy con?",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "BO",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.6,
+   "end": 16.113,
+   "line": "Na trả lời tỉnh bơ: Của thiên thần của con.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "NA",
+    "expr": "proud",
+    "talk": true,
+    "bubble": "Của thiên thần của con."
+   }
+  },
+  {
+   "id": "s05",
+   "start": 16.113,
+   "end": 21.95,
+   "line": "Cả bàn phá lên cười. Anh rể cười to nhất: Thiên thần ăn cơm à con?",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "wide": true,
+    "chars": [
+     {
+      "c": "BO",
+      "pose": "sit",
+      "expr": "laugh"
+     },
+     {
+      "c": "ME",
+      "pose": "sit",
+      "expr": "laugh"
+     },
+     {
+      "c": "NA",
+      "pose": "sit",
+      "expr": "pout",
+      "f": -1
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "music"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 21.95,
+   "end": 26.35,
+   "line": "Chị tớ liếc sang tớ, kiểu, cậu dạy cháu cái gì thế.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "ME",
+    "expr": "annoyed",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 26.35,
+   "end": 33.575,
+   "line": "Tớ đã soạn sẵn trong đầu một bài giải thích, rằng thiên thần không phải em bé có cánh bay quanh nhà, và định bảo Na cất ghế đi.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "thinking",
+    "emote": "idea"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 33.575,
+   "end": 38.188,
+   "line": "Nhưng Na nói tiếp, mắt rất nghiêm: Con biết thiên thần không ăn mà.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "NA",
+    "expr": "determined",
+    "talk": true
+   }
+  },
+  {
+   "id": "s09",
+   "start": 38.188,
+   "end": 49.512,
+   "line": "Bạn ấy không có thân mình như mình. Nhưng bạn ấy đi với con từ sáng tới tối. Con ngủ, bạn ấy thức. Mà bạn ấy còn nhìn thấy mặt Chúa nữa.",
+   "scene": "scene",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "dream",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "stand",
+      "expr": "peaceful",
+      "talk": true
+     }
+    ],
+    "items": [
+     {
+      "item": "dove",
+      "x": 160,
+      "y": -480,
+      "s": 0.0
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "sparkle"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 49.512,
+   "end": 52.913,
+   "line": "Con chỉ muốn bạn ấy biết là con nhớ bạn ấy.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "NA",
+    "expr": "love",
+    "talk": true,
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 52.913,
+   "end": 59.425,
+   "line": "Cả bàn im. Bài giải thích của tớ vừa bị con bé sáu tuổi làm thay, mà làm đúng hơn.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "freeze": "IM LẶNG",
+    "chars": [
+     {
+      "c": "BO",
+      "pose": "sit",
+      "expr": "awe"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "awe",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 59.425,
+   "end": 66.2,
+   "line": "Giáo lý Công giáo dạy thiên thần có thật, là những thụ tạo thiêng liêng, không có thân xác, phục vụ Thiên Chúa.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Thiên thần",
+    "body": [
+     "Có thật: thụ tạo thiêng liêng,",
+     "không thân xác, phục vụ Thiên Chúa."
+    ],
+    "src": "GLHTCG 328–330",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 66.2,
+   "end": 72.75,
+   "line": "Và từ khi sinh ra cho tới lúc chết, đời mỗi người được bao bọc bởi sự che chở và lời chuyển cầu của các thiên thần.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Thiên thần bản mệnh",
+    "body": [
+     "Đời mỗi người được bao bọc bởi",
+     "sự che chở và chuyển cầu của các ngài."
+    ],
+    "src": "GLHTCG 336",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 72.75,
+   "end": 79.25,
+   "line": "Chúa Giêsu từng nói, đừng khinh một em bé nào, vì thiên thần của các em trên trời luôn được chiêm ngưỡng nhan Cha.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Mt 18,10",
+    "body": [
+     "Thiên thần của các em trên trời",
+     "luôn được chiêm ngưỡng nhan Cha."
+    ],
+    "src": "Mt 18,10",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 79.25,
+   "end": 85.437,
+   "line": "Cái ghế hồng thì không có trong sách Giáo lý. Đôi cánh cũng chỉ là cách họa sĩ vẽ.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "ĐÔI CÁNH?",
+    "lines": [
+     "Chỉ là cách",
+     "họa sĩ vẽ"
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 85.437,
+   "end": 91.687,
+   "line": "Nhưng điều Na hiểu, rằng mình không bao giờ thật sự một mình, thì đúng hơn cái cười của người lớn bọn tớ.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "NA",
+    "expr": "peaceful",
+    "lines": [
+     "Mình không bao giờ",
+     "thật sự một mình."
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 91.687,
+   "end": 97.05,
+   "line": "Tối đó tớ nghe anh rể lẩm bẩm đọc theo kinh Thiên thần Bản mệnh mà Na đọc trước khi ngủ.",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "cam": "push",
+    "fg": "plant",
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "kneelPray",
+      "expr": "pray"
+     },
+     {
+      "c": "BO",
+      "pose": "kneelPray",
+      "expr": "pray",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 97.05,
+   "end": 106.372,
+   "line": "Tuần này, mỗi sáng trước khi ra khỏi nhà, bạn thử nói một câu với thiên thần bản mệnh của mình, rồi kể tớ nghe bạn đã nói gì nhé?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Tuần này, mỗi sáng trước khi ra khỏi nhà, bạn thử nói một câu với thiên thần bản mệnh của mình, rồi kể tớ nghe bạn đã nói gì nhé?",
+    "cast": [
+     "PHAOLO",
+     "NA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 33.73
+  },
+  {
+   "start": 33.73,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 59.58
+  },
+  {
+   "start": 59.58,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 91.84
+  },
+  {
+   "start": 91.84,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 106.37
+  }
+ ],
+ "sfx": []
+}

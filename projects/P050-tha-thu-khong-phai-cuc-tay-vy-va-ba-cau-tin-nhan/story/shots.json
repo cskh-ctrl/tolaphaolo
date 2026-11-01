@@ -1,0 +1,584 @@
+{
+ "title": "Tha thứ không phải cục tẩy: Vy và ba câu tin nhắn",
+ "duration": 124.684,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 6.212,
+   "line": "Vy từ chối lời mời quay lại công ty cũ vào một tối thứ Ba, rồi ngồi khóc vì sợ mình chưa tha thứ.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "hook": {
+     "kicker": "THA THỨ",
+     "lines": [
+      "Không phải",
+      "cục tẩy"
+     ]
+    },
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "cry"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 6.212,
+   "end": 11.2,
+   "line": "Lương mới cao gấp rưỡi. Người mời là anh trưởng phòng cũ.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Lương x1,5"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 11.2,
+   "end": 18.662,
+   "line": "Người từng ném xấp hồ sơ xuống bàn em trước cả phòng. Người từng nhắn nửa đêm những chữ em không dám đọc to.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "timeTag": "Ngày trước",
+    "shake": 6,
+    "chars": [
+     {
+      "c": "BOSS",
+      "pose": "point",
+      "expr": "angry"
+     },
+     {
+      "c": "GIRL",
+      "pose": "stand",
+      "expr": "scared",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 18.662,
+   "end": 23.075,
+   "line": "Giờ anh ấy nhắn: Chuyện cũ bỏ qua đi, em có đạo mà.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Chuyện cũ bỏ qua đi, em có đạo mà"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 23.075,
+   "end": 28.9,
+   "line": "Vy hỏi tớ, giọng rất nhỏ: Nếu em không quay lại, có phải em chưa tha thứ không?",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "GIRL",
+    "expr": "worried",
+    "talk": true,
+    "bubble": "Không quay lại là chưa tha thứ?"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 28.9,
+   "end": 37.063,
+   "line": "Hồi nhỏ, tớ nghĩ tha thứ là một cục tẩy. Tha rồi thì phải quên. Quên rồi thì phải như chưa có gì.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "HIỂU LẦM",
+    "lines": [
+     "Tha thứ",
+     "là cục tẩy"
+    ],
+    "strike": 2
+   }
+  },
+  {
+   "id": "s07",
+   "start": 37.063,
+   "end": 40.575,
+   "line": "Nhưng Vy vẫn giật mình mỗi khi nghe tiếng cửa đóng mạnh.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "shake": 5,
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "scared"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "shock"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 40.575,
+   "end": 54.975,
+   "line": "Sách Giáo lý có một ý tớ thấy rất thật. Mình không có khả năng làm cho mình hết cảm thấy, hay quên đi, một sự xúc phạm. Nhưng trái tim mở ra cho Chúa Thánh Thần có thể biến vết thương thành lòng cảm thông, và thanh tẩy ký ức.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Thanh tẩy ký ức",
+    "body": [
+     "Không thể tự hết cảm thấy hay quên;",
+     "Chúa Thánh Thần biến vết thương thành cảm thông."
+    ],
+    "src": "GLHTCG 2843",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 54.975,
+   "end": 58.45,
+   "line": "Thanh tẩy. Không phải xoá.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "lines": [
+     "Thanh tẩy.",
+     "Không phải xóa."
+    ],
+    "item": "heart"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 58.45,
+   "end": 63.95,
+   "line": "Kinh Lạy Cha mình đọc nói tha nợ. Tha thứ giống như thôi đòi một món nợ.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Tha nợ",
+    "body": [
+     "Xin tha nợ chúng con,",
+     "như chúng con cũng tha."
+    ],
+    "src": "Mt 6,12; GLHTCG 2838–2845",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 63.95,
+   "end": 72.387,
+   "line": "Em có thể xé tờ giấy nợ. Thôi mong người ấy phải trả giá. Nhưng xé giấy nợ không có nghĩa là phải cho mượn thêm.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Tha thứ là...",
+    "steps": [
+     "Xé giấy nợ",
+     "Thôi mong họ trả giá",
+     "Không buộc cho mượn thêm"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 72.387,
+   "end": 78.7,
+   "line": "Tha thứ là chuyện của trái tim. Quay lại hay không, là chuyện của khôn ngoan và an toàn.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Tha thứ: chuyện của trái tim.",
+     "Quay lại: chuyện khôn ngoan."
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 78.7,
+   "end": 87.687,
+   "line": "Không ai bị buộc phải ở lại nơi đang làm mình tổn thương. Ai đang bị đe doạ hay bạo hành, việc đầu tiên là tìm người giúp và giữ mình an toàn.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "AN TOÀN TRƯỚC HẾT",
+    "lines": [
+     "Bị đe dọa, bạo hành:",
+     "tìm người giúp ngay"
+    ],
+    "color": "#e8584a"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 87.687,
+   "end": 94.062,
+   "line": "Vy ngồi im rất lâu, rồi viết một tin nhắn. Xoá. Viết lại.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 94.062,
+   "end": 103.2,
+   "line": "Cuối cùng chỉ còn ba câu. Em cảm ơn anh đã nghĩ tới em. Em không quay lại. Em chúc anh bình an.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Ba câu",
+    "steps": [
+     "Em cảm ơn anh đã nghĩ tới em",
+     "Em không quay lại",
+     "Em chúc anh bình an"
+    ],
+    "c": "GIRL"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 103.2,
+   "end": 106.088,
+   "line": "Em bấm gửi, rồi tắt máy.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Đã gửi"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 106.088,
+   "end": 110.738,
+   "line": "Tối đó, đọc kinh trước khi ngủ, lần đầu em nhắc tên anh ấy.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "kneelPray",
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 110.738,
+   "end": 116.925,
+   "line": "Không phải để xin quên. Mà để xin cho mình thôi bị ký ức ấy giữ làm con tin.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "GIRL",
+    "expr": "peaceful",
+    "lines": [
+     "Thôi bị ký ức",
+     "giữ làm con tin."
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 116.925,
+   "end": 124.684,
+   "line": "Ba câu Vy gửi đi, nếu là bạn, bạn sẽ giữ nguyên, bỏ bớt, hay thêm một câu nào?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Ba câu Vy gửi đi, nếu là bạn, bạn sẽ giữ nguyên, bỏ bớt, hay thêm một câu nào?",
+    "cast": [
+     "PHAOLO",
+     "GIRL"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 40.73
+  },
+  {
+   "start": 40.73,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 87.84
+  },
+  {
+   "start": 87.84,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 124.68
+  }
+ ],
+ "sfx": []
+}

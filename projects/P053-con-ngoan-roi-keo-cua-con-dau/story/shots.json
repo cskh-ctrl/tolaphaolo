@@ -1,0 +1,568 @@
+{
+ "title": "\"Con ngoan rồi, kẹo của con đâu?\"",
+ "duration": 107.74,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.262,
+   "line": "Bé Na chìa tay ra trước mặt tớ: Con dọn đồ chơi rồi, kẹo đâu cậu?",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "cam": "push",
+    "hook": {
+     "kicker": "CON NGOAN RỒI",
+     "lines": [
+      "Kẹo của con",
+      "đâu?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "reach",
+      "expr": "smirk",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.262,
+   "end": 8.444,
+   "line": "Tớ đưa một viên. Na hỏi tiếp:",
+   "scene": "insert",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "livingRoom",
+    "item": "gift",
+    "label": "Một viên kẹo"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 8.444,
+   "end": 12.225,
+   "line": "Thế con ngoan cả tuần thì Chúa cho con lên Thiên Đàng đúng không?",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "NA",
+    "expr": "confused",
+    "talk": true,
+    "bubble": "Chúa cho con lên Thiên Đàng?",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.225,
+   "end": 16.5,
+   "line": "Thiên Đàng không phải viên kẹo đâu. Thế là cái gì?",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s05",
+   "start": 16.5,
+   "end": 19.162,
+   "line": "Là được ở với Chúa mãi mãi.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "lines": [
+     "Được ở với Chúa",
+     "mãi mãi"
+    ],
+    "item": "heart"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 19.162,
+   "end": 22.975,
+   "line": "Na nhíu mày: Thế con ngoan để được kẹo là sai à?",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "NA",
+    "expr": "annoyed",
+    "talk": true
+   }
+  },
+  {
+   "id": "s07",
+   "start": 22.975,
+   "end": 30.375,
+   "line": "Không sai. Nhưng cậu hỏi Na nhé. Nếu mai mẹ hết kẹo, Na có còn thương mẹ không?",
+   "scene": "ots",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "livingRoom",
+    "fg": "NA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "smile",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s08",
+   "start": 30.375,
+   "end": 34.2,
+   "line": "Còn chứ. Vì mẹ là mẹ con mà.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "NA",
+    "expr": "love",
+    "talk": true,
+    "bubble": "Vì mẹ là mẹ con mà!",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 34.2,
+   "end": 49.425,
+   "line": "Đó, Na vừa nói đúng sách Giáo lý. Sách nói có ba kiểu làm điều tốt. Kiểu sợ bị phạt, như đầy tớ sợ chủ. Kiểu muốn được thưởng, như người làm thuê đợi lương. Và kiểu con cái thương cha mẹ.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Ba kiểu làm điều tốt",
+    "steps": [
+     "Sợ bị phạt",
+     "Muốn được thưởng",
+     "Con cái thương cha mẹ"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 49.425,
+   "end": 56.075,
+   "line": "Hai kiểu đầu có sao không? Không sao, đó là bậc thang, Chúa muốn mình đi lên kiểu thứ ba.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Bậc thang",
+    "body": [
+     "Từ sợ hãi, mong thưởng,",
+     "đến tình yêu con thảo."
+    ],
+    "src": "GLHTCG 1828",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 56.075,
+   "end": 61.688,
+   "line": "Cậu hồi bé đi lễ vì sợ bà mắng. Thật hả? Thật.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "timeTag": "Hồi bé",
+    "chars": [
+     {
+      "c": "BIN",
+      "walk": 30,
+      "expr": "pout"
+     },
+     {
+      "c": "BA",
+      "pose": "handsHips",
+      "expr": "annoyed",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 61.688,
+   "end": 65.962,
+   "line": "Giờ thì sao? Giờ cậu đi vì nhớ Chúa.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "peaceful",
+    "talk": true,
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 65.962,
+   "end": 69.825,
+   "line": "Na nghiêm túc: Thế cậu ngoan có được Chúa trả công không?",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "NA",
+    "expr": "thinking",
+    "talk": true
+   }
+  },
+  {
+   "id": "s14",
+   "start": 69.825,
+   "end": 76.113,
+   "line": "Có, Chúa thưởng thật. Nhưng ngay cả cái việc tốt cậu làm được cũng là nhờ Chúa giúp trước.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Công phúc",
+    "body": [
+     "Việc tốt mình làm được",
+     "cũng là nhờ ơn Chúa trước."
+    ],
+    "src": "GLHTCG 2006–2011",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 76.113,
+   "end": 80.175,
+   "line": "Giống như Na vẽ tranh tặng mẹ, mà giấy bút là mẹ mua.",
+   "scene": "insert",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "kitchen",
+    "item": "card",
+    "label": "Tranh tặng mẹ"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 80.175,
+   "end": 85.462,
+   "line": "Vậy mẹ vẫn khen con chứ? Khen, còn treo lên tủ lạnh nữa.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "NA",
+    "expr": "happy",
+    "talk": true
+   }
+  },
+  {
+   "id": "s17",
+   "start": 85.462,
+   "end": 91.575,
+   "line": "Na cất viên kẹo vào túi: Thế con để dành viên này cho mẹ. Sao không ăn?",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "freeze": "ĐỂ DÀNH",
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "holdFront",
+      "expr": "proud"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 91.575,
+   "end": 94.788,
+   "line": "Vì con thương mẹ, không phải vì kẹo.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "NA",
+    "expr": "love",
+    "lines": [
+     "Vì con thương mẹ,",
+     "không phải vì kẹo."
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 94.788,
+   "end": 99.875,
+   "line": "Tối đó, viên kẹo nằm trên gối của chị tớ, kèm một trái tim vẽ méo.",
+   "scene": "insert",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "item": "heart",
+    "label": "Trên gối của mẹ"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 99.875,
+   "end": 107.74,
+   "line": "Hồi bé bạn làm việc tốt vì sợ bị đòn hay vì muốn được quà, và từ bao giờ thì lý do đó thay đổi?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Hồi bé bạn làm việc tốt vì sợ bị đòn hay vì muốn được quà, và từ bao giờ thì lý do đó thay đổi?",
+    "cast": [
+     "PHAOLO",
+     "NA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 34.35
+  },
+  {
+   "start": 34.35,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 85.61
+  },
+  {
+   "start": 85.61,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 107.74
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,36 @@
+{
+ "title": "Tin nhắn lúc gần nửa đêm của em họ 17 tuổi: \"Em muốn theo đạo\"",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 108.844,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "night",
+  "c": "GIRL",
+  "expr": "nervous",
+  "item": "phone",
+  "kicker": "17 TUỔI",
+  "lines": [
+   "\"Em muốn",
+   "theo đạo\""
+  ]
+ },
+ "episode": "P034"
+}

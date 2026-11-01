@@ -1,0 +1,758 @@
+{
+ "title": "Ba lần chối, ba lần thưa yêu mến: hai đống lửa của Phêrô",
+ "duration": 142.18,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.45,
+   "line": "Đống lửa giữa sân kêu lách tách, và một cô đầy tớ cứ nhìn chằm chằm vào mặt ông.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "cam": "push",
+    "fg": "candle",
+    "hook": {
+     "kicker": "HAI ĐỐNG LỬA",
+     "lines": [
+      "Ba lần chối,",
+      "ba lần yêu mến"
+     ]
+    },
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "crouch",
+      "expr": "nervous"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "point",
+      "expr": "annoyed",
+      "f": -1
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Phêrô"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.45,
+   "end": 14.6,
+   "line": "Bên trong dinh thượng tế, người ta đang giữ Thầy của ông. Ngoài sân, Phêrô ngồi chen giữa đám người hơ tay, cố làm như người qua đường.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "wide": true,
+    "cam": "panR",
+    "items": [
+     {
+      "item": "candles",
+      "x": 0,
+      "y": -30,
+      "s": 0.3
+     }
+    ],
+    "chars": [
+     {
+      "c": "MAN2",
+      "pose": "sit",
+      "expr": "neutral"
+     },
+     {
+      "c": "MAN",
+      "pose": "crouch",
+      "expr": "nervous"
+     },
+     {
+      "c": "BAY",
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "timeTag": "Sân dinh thượng tế"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 14.6,
+   "end": 18.287,
+   "line": "Cô gái lên tiếng: Cả ông này cũng ở với người ấy.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "WOMAN",
+    "expr": "surprised",
+    "talk": true,
+    "bubble": "Ông này cũng ở với người ấy!"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 18.287,
+   "end": 21.388,
+   "line": "Phêrô chối: Tôi không biết người ấy.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "MAN",
+    "expr": "scared",
+    "talk": true,
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 21.388,
+   "end": 35.55,
+   "line": "Một lúc sau, người khác chỉ ông: Anh cũng là người trong bọn họ. Không phải tôi. Khoảng một giờ sau, có người quả quyết: Ông này cũng là dân Galilê. Phêrô gắt: Tôi không biết anh nói gì.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Ba lần chối",
+    "steps": [
+     "Tôi không biết người ấy",
+     "Không phải tôi",
+     "Tôi không biết anh nói gì"
+    ],
+    "c": "MAN"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 35.55,
+   "end": 38.112,
+   "line": "Ông chưa dứt lời thì gà gáy.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "freeze": "GÀ GÁY",
+    "shake": 6,
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "handsOnHead",
+      "expr": "shocked"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 38.112,
+   "end": 45.163,
+   "line": "Tin Mừng Luca kể một chi tiết làm tớ nổi da gà: Chúa quay lại nhìn Phêrô. Chỉ một ánh nhìn.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "kicker": "LC 22,61",
+    "lines": [
+     "Chúa quay lại",
+     "nhìn Phêrô"
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 45.163,
+   "end": 49.3,
+   "line": "Ông nhớ lời Thầy đã báo, đi ra ngoài và khóc lóc thảm thiết.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "MAN",
+    "expr": "cry"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 49.3,
+   "end": 56.038,
+   "line": "Rồi sau Phục Sinh, bên bờ hồ Tibêria. Các môn đệ đánh cá suốt đêm không được gì.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pmorning",
+     "bench": false
+    },
+    "wide": true,
+    "items": [
+     {
+      "item": "water",
+      "x": 0,
+      "y": 140,
+      "s": 0.7
+     }
+    ],
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "sit",
+      "expr": "sleepy"
+     },
+     {
+      "c": "BAY",
+      "pose": "sit",
+      "expr": "sad"
+     }
+    ],
+    "timeTag": "Hồ Tibêria, rạng sáng"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 56.038,
+   "end": 61.425,
+   "line": "Trời vừa sáng, một người trên bờ bảo thả lưới bên phải thuyền, và lưới đầy cá.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pmorning",
+     "bench": false
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "cheer",
+      "expr": "shocked"
+     },
+     {
+      "c": "BAY",
+      "pose": "jump",
+      "expr": "joy"
+     }
+    ],
+    "tag": "Lưới đầy cá"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 61.425,
+   "end": 67.762,
+   "line": "Lên bờ, họ thấy một đống lửa than, trên có cá và bánh. Lại là lửa.",
+   "scene": "insert",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "park",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "item": "candles",
+    "label": "Lửa than, cá và bánh"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 67.762,
+   "end": 73.113,
+   "line": "Ăn xong, Chúa hỏi Phêrô: Anh có mến Thầy không? Ba lần.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Ga 21,15-17",
+    "body": [
+     "\"Anh có mến Thầy không?\"",
+     "Ba lần."
+    ],
+    "src": "Ga 21,15-17",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 73.113,
+   "end": 83.225,
+   "line": "Đến lần thứ ba, Phêrô buồn, thưa đại ý: Thầy biết hết mọi sự, Thầy biết con yêu mến Thầy. Mỗi lần, Chúa giao cho ông chăm sóc đàn chiên.",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "c": "MAN",
+    "expr": "sad",
+    "talk": true,
+    "bubble": "Thầy biết con yêu mến Thầy."
+   }
+  },
+  {
+   "id": "s14",
+   "start": 83.225,
+   "end": 86.512,
+   "line": "Ba lần chối, ba lần thưa yêu mến.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "MAN",
+    "expr": "peaceful",
+    "lines": [
+     "Ba lần chối,",
+     "ba lần thưa yêu mến."
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 86.512,
+   "end": 94.687,
+   "line": "Tớ hiểu đoạn này vào năm thứ hai đi làm. Tiệc tất niên, anh trưởng phòng hỏi: Thằng Phaolo theo đạo gì mà tên lạ vậy?",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "wide": true,
+    "timeTag": "Tiệc tất niên",
+    "chars": [
+     {
+      "c": "BOSS",
+      "pose": "talk",
+      "expr": "laugh",
+      "talk": true
+     },
+     {
+      "c": "HANG",
+      "pose": "cheer",
+      "expr": "happy"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "prop": "cup",
+      "expr": "nervous",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 94.687,
+   "end": 99.75,
+   "line": "Tớ nâng ly: Đạo bia anh ơi. Mọi người cười to.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "PHAOLO",
+    "expr": "embarrassed",
+    "talk": true,
+    "bubble": "Đạo bia anh ơi!"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 99.75,
+   "end": 104.0,
+   "line": "Về nhà tớ không ngủ được, cứ thấy mình ngồi bên đống lửa ấy.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "sad"
+     }
+    ],
+    "fg": "candle"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 104.0,
+   "end": 111.25,
+   "line": "Sách Giáo lý nói ánh nhìn thương xót của Chúa đã khiến Phêrô khóc ăn năn, và sau Phục Sinh là ba lần khẳng định tình yêu.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Ánh nhìn thương xót",
+    "body": [
+     "Khiến Phêrô khóc ăn năn;",
+     "rồi ba lần khẳng định tình yêu."
+    ],
+    "src": "GLHTCG 1429",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 111.25,
+   "end": 118.637,
+   "line": "Ông được tha không phải vì lỗi nhẹ, mà vì dám để Chúa nhìn mình, dám quay về, và Chúa không rút lại lòng tin nơi ông.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Dám để Chúa nhìn mình,",
+     "dám quay về."
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 118.637,
+   "end": 127.525,
+   "line": "Tuần sau tớ đi xưng tội. Rồi mời anh trưởng phòng ly cà phê, nói thật: Em là người Công giáo, hôm đó em đùa vì ngại.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "talk",
+      "expr": "determined",
+      "talk": true
+     },
+     {
+      "c": "BOSS",
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 127.525,
+   "end": 131.125,
+   "line": "Anh cười: Biết lâu rồi, tên Phaolo mà.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "BOSS",
+    "expr": "laugh",
+    "talk": true,
+    "bubble": "Biết lâu rồi, tên Phaolo mà!"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 131.125,
+   "end": 135.55,
+   "line": "Chúa cũng biết lâu rồi, nhưng Ngài vẫn muốn nghe Phêrô tự nói ra.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "peaceful",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s23",
+   "start": 135.55,
+   "end": 142.18,
+   "line": "Có ánh mắt của ai từng khiến bạn muốn quay về, sau một lần lỡ quay lưng không?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Có ánh mắt của ai từng khiến bạn muốn quay về, sau một lần lỡ quay lưng không?",
+    "cast": [
+     "PHAOLO",
+     "BOSS"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 49.45
+  },
+  {
+   "start": 49.45,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 86.66
+  },
+  {
+   "start": 86.66,
+   "mood": "cute",
+   "intensity": 0.45,
+   "end": 104.15
+  },
+  {
+   "start": 104.15,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 142.18
+  }
+ ],
+ "sfx": []
+}

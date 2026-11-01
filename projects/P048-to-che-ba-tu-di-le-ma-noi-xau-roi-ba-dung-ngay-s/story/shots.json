@@ -1,0 +1,689 @@
+{
+ "title": "Tớ chê bà Tư đi lễ mà nói xấu, rồi bà đứng ngay sau cổng",
+ "duration": 111.556,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.363,
+   "line": "Tớ từng khó chịu với một bà cụ chỉ vì bà đi lễ quá siêng.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "cam": "push",
+    "hook": {
+     "kicker": "ĐI LỄ",
+     "lines": [
+      "Mà vẫn",
+      "nói xấu?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "crossArms",
+      "expr": "annoyed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.363,
+   "end": 10.175,
+   "line": "Bà Tư nhà kế bên, bảy mươi hai tuổi, sáng nào cũng khoác áo dài tím đi lễ năm giờ.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "timeTag": "5 giờ sáng",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "walk": 30,
+      "expr": "peaceful"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Bà Tư, 72 tuổi"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 10.175,
+   "end": 15.275,
+   "line": "Đi lễ về, bà ghé sạp rau đầu hẻm, và bắt đầu bản tin buổi sáng.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "fg": "flowers",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "pose": "talk",
+      "expr": "smirk",
+      "talk": true
+     },
+     {
+      "c": "WOMAN",
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "music"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 15.275,
+   "end": 20.763,
+   "line": "Con dâu ông Sáu lười. Con nhỏ ở trọ cuối hẻm đi khuya về sớm.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "WOMAN2",
+    "expr": "smirk",
+    "talk": true,
+    "emote": "!"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 20.763,
+   "end": 24.962,
+   "line": "Đi lễ mỗi ngày làm gì, nếu bước ra là nói xấu cả xóm?",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "PHAOLO",
+    "expr": "annoyed",
+    "emote": "anger"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 24.962,
+   "end": 31.0,
+   "line": "Chúa Giêsu chẳng đã nói, không phải ai cứ kêu Lạy Chúa, Lạy Chúa là được vào Nước Trời đó sao.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Mt 7,21",
+    "body": [
+     "Không phải ai cứ kêu Lạy Chúa,",
+     "Lạy Chúa là được vào Nước Trời."
+    ],
+    "src": "Mt 7,21",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 31.0,
+   "end": 39.462,
+   "line": "Tối thứ Bảy, mẹ tớ bị cảm. Đang bóp vai cho mẹ, tớ kể: Bà Tư lại nói con nhỏ ở trọ chắc có vấn đề.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight",
+     "noSofa": true
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "sit",
+      "expr": "sleepy"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "reach",
+      "expr": "smirk",
+      "talk": true,
+      "f": -1
+     }
+    ],
+    "timeTag": "Mẹ bị cảm"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 39.462,
+   "end": 44.4,
+   "line": "Con nói thiệt, bà đi lễ để khoe áo dài thôi, chứ lòng dạ chẳng ra gì.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "PHAOLO",
+    "expr": "smirk",
+    "talk": true,
+    "bubble": "Bà đi lễ để khoe áo dài thôi."
+   }
+  },
+  {
+   "id": "s09",
+   "start": 44.4,
+   "end": 51.338,
+   "line": "Chưa dứt câu thì cổng kêu kẹt một tiếng. Bà Tư đứng đó, tay bưng nồi cháo hành cho mẹ tớ.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight",
+     "noSofa": true
+    },
+    "freeze": "KẸT...",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "pose": "holdFront",
+      "expr": "neutral"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "shocked",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 51.338,
+   "end": 52.987,
+   "line": "Bà nghe hết.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "PHAOLO",
+    "expr": "guilty",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 52.987,
+   "end": 57.413,
+   "line": "Bà đặt nồi cháo xuống, chậm rãi: Con nói đúng một nửa.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "WOMAN2",
+    "expr": "gentle",
+    "talk": true,
+    "bubble": "Con nói đúng một nửa."
+   }
+  },
+  {
+   "id": "s12",
+   "start": 57.413,
+   "end": 64.613,
+   "line": "Cái miệng bà hư thiệt. Sáng nào đầu lễ bà cũng đấm ngực, lỗi tại tôi, rồi ra chợ lại quên.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "WOMAN2",
+    "expr": "embarrassed",
+    "talk": true
+   }
+  },
+  {
+   "id": "s13",
+   "start": 64.613,
+   "end": 66.863,
+   "line": "Nên mai bà lại đi.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "WOMAN2",
+    "expr": "peaceful",
+    "talk": true,
+    "bubble": "Nên mai bà lại đi."
+   }
+  },
+  {
+   "id": "s14",
+   "start": 66.863,
+   "end": 72.613,
+   "line": "Bà về rồi. Người vừa nói xấu sau lưng người khác tối đó, là tớ.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight",
+     "noSofa": true
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sad",
+      "expr": "guilty"
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 220,
+      "y": -160,
+      "s": 0.16
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 72.613,
+   "end": 75.5,
+   "line": "Thánh lễ không phải huy chương cho người tốt.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "KHÔNG PHẢI",
+    "lines": [
+     "Huy chương",
+     "cho người tốt"
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 75.5,
+   "end": 81.812,
+   "line": "Đầu lễ, cả nhà thờ thường cùng thú nhận mình đã phạm tội trong tư tưởng, lời nói, việc làm.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "pose": "pray",
+      "expr": "pray"
+     },
+     {
+      "c": "MAN",
+      "pose": "pray",
+      "expr": "pray"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "pray",
+      "expr": "pray",
+      "f": -1
+     }
+    ],
+    "tag": "Lỗi tại tôi"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 81.812,
+   "end": 87.462,
+   "line": "Người Công giáo tin Thánh Thể là sức sống để mình được biến đổi dần, không phải giấy chứng nhận đạo đức.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Thánh Thể",
+    "body": [
+     "Sức sống để được biến đổi dần,",
+     "không phải giấy chứng nhận đạo đức."
+    ],
+    "src": "GLHTCG 1324, 1393–1395",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 87.462,
+   "end": 94.525,
+   "line": "Đi lễ mà không để lễ chạm vào đời là thiếu. Chê người đi lễ để thấy mình hơn cũng là một kiểu thiếu.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Chê người đi lễ để thấy mình hơn",
+     "cũng là một kiểu thiếu."
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 94.525,
+   "end": 100.887,
+   "line": "Sáng hôm sau tớ đi lễ năm giờ. Bà Tư ngồi hàng ghế thứ hai, quay xuống gật đầu.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "cam": "push",
+    "fg": "pew",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "pose": "sit",
+      "expr": "smile"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "gentle",
+      "f": -1
+     }
+    ],
+    "timeTag": "Lễ 5 giờ sáng"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 100.887,
+   "end": 104.7,
+   "line": "Ra về, bà ghé sạp rau, và chỉ mua rau.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "pose": "holdFront",
+      "expr": "smile"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "tag": "Chỉ mua rau"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 104.7,
+   "end": 111.556,
+   "line": "Nếu bạn là tớ lúc cánh cổng kêu kẹt, bạn sẽ nói gì đầu tiên với bà Tư?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu bạn là tớ lúc cánh cổng kêu kẹt, bạn sẽ nói gì đầu tiên với bà Tư?",
+    "cast": [
+     "PHAOLO",
+     "WOMAN2"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 31.15
+  },
+  {
+   "start": 31.15,
+   "mood": "reflect",
+   "intensity": 0.45,
+   "end": 72.76
+  },
+  {
+   "start": 72.76,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 94.67
+  },
+  {
+   "start": 94.67,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 111.56
+  }
+ ],
+ "sfx": []
+}

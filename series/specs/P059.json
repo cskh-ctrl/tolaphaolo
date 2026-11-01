@@ -1,0 +1,21 @@
+{"id":"P059",
+ "cover":{"set":"office","c":"LONG","expr":"worried","item":"holyWater","kicker":"5 LÍT NƯỚC THÁNH","lines":["Có trừ được","tiếng động lạ?"]},
+ "music":[[0,"cute",0.55],["Hiểu lầm thứ nhất","sacred",0.45],["Vậy anh làm sao","gentle",0.55],["Hai tuần sau","cute",0.6]],
+ "beats":[
+ {"type":"scene","set":"office","cam":"push","hook":{"kicker":"5 LÍT NƯỚC THÁNH","lines":["Có trừ được","tiếng động lạ?"]},"chars":[{"c":"LONG","pose":"holdFront","expr":"worried","talk":true},{"c":"PHAOLO","pose":"sit","expr":"surprised","f":-1}],"sfx":[{"at":0.3,"name":"pop","gain":-12}]},
+ {"at":"Căn hộ anh mới thuê","type":"scene","set":"night","shake":5,"chars":[{"c":"LONG","pose":"handsOnHead","expr":"scared"}],"emotes":[{"who":0,"type":"?!"}],"sfx":[{"at":0.6,"name":"boing","gain":-14}]},
+ {"at":"Anh ơi, mình nói ba điều","type":"close","set":"office","c":"PHAOLO","expr":"gentle","talk":true},
+ {"at":"Hiểu lầm thứ nhất","type":"text","set":"churchInside","kicker":"HIỂU LẦM 1","lines":["Nước thánh","là bùa"],"strike":1.4,"item":"holyWater"},
+ {"at":"Nước thánh là một á bí tích","type":"fact","symbol":"dove","title":"Á bí tích","body":["Dấu chỉ thánh, có hiệu quả","nhờ lời cầu của Giáo hội."],"src":"GLHTCG 1667–1668","icon":"dove"},
+ {"at":"Nó như cái nhẫn cưới","type":"insert","set":"home","item":"ring","label":"Nhắc ngày rửa tội"},
+ {"at":"Hiểu lầm thứ hai","type":"text","set":"churchInside","kicker":"HIỂU LẦM 2","lines":["Càng nhiều","càng mạnh"],"strike":1.4},
+ {"at":"Năm lít không mạnh hơn","type":"fact","symbol":"cross","title":"Mê tín","body":["Gán hiệu quả cho dấu bề ngoài,","bỏ quên tâm hồn."],"src":"GLHTCG 2111","icon":"cross"},
+ {"at":"Hiểu lầm thứ ba","type":"text","set":"churchInside","kicker":"HIỂU LẦM 3","lines":["Tự có phép,","không cần tin"],"strike":1.6},
+ {"at":"Á bí tích không phải công tắc","type":"fact","symbol":"heart","title":"Cộng tác với ơn","body":["Chuẩn bị lòng đón ơn Chúa,","cần đức tin và cầu nguyện."],"src":"GLHTCG 1670","icon":"heart"},
+ {"at":"Vậy anh làm sao","type":"close","set":"office","c":"LONG","expr":"confused","talk":true,"emote":"?"},
+ {"at":"Em nhờ cha Tâm","type":"scene","set":"livingRoom","wide":true,"cam":"push","chars":[{"c":"CHA","pose":"bless","expr":"gentle"},{"c":"LONG","pose":"pray","expr":"pray","f":-1},{"c":"MAI","pose":"pray","expr":"pray","f":-1}],"tag":"Làm phép nhà"},
+ {"at":"Còn tiếng động lạ","type":"scene","set":"kitchen","cam":"push","chars":[{"c":"BAY","pose":"crouch","expr":"determined"}],"tag":"Gọi thợ kiểm tra ống nước"},
+ {"at":"Hai tuần sau","type":"insert","set":"office","item":"phone","label":"Thợ bảo do ống nước"},
+ {"at":"Mà cha làm phép nhà xong","type":"scene","set":"bedroom","setOpt":{"night":true,"mood":"pnight"},"cam":"push","chars":[{"c":"MAI","pose":"sleep","expr":"asleep"}],"emotes":[{"who":0,"type":"zzz"}]},
+ {"at":"Theo bạn, điều gì","type":"end","question":"Theo bạn, điều gì giúp vợ anh Long ngủ ngon, cái ống nước được sửa hay buổi cả nhà cùng cầu nguyện?","cast":["PHAOLO","LONG"]}
+]}

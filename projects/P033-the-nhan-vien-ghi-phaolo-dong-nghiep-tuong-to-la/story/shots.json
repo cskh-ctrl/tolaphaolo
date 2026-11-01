@@ -1,0 +1,667 @@
+{
+ "title": "Thẻ nhân viên ghi \"Phaolo\", đồng nghiệp tưởng tớ là Việt kiều",
+ "duration": 111.484,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 7.937,
+   "line": "Ngày đầu tiên Quỳnh vào phòng kế toán, em nhìn thẻ nhân viên của tớ rồi hỏi bằng tiếng Anh: Anh ơi, anh từ nước nào về ạ?",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "hook": {
+     "kicker": "TÊN THÁNH",
+     "lines": [
+      "Bắt buộc",
+      "phải có không?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "talk",
+      "expr": "surprised",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Quỳnh"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 7.937,
+   "end": 9.838,
+   "line": "Cả phòng cười rần.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "boing",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "wide": true,
+    "chars": [
+     {
+      "c": "HANG",
+      "pose": "cheer",
+      "expr": "laugh"
+     },
+     {
+      "c": "LONG",
+      "pose": "relaxed",
+      "expr": "laugh"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "facepalm",
+      "expr": "embarrassed",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 9.838,
+   "end": 12.65,
+   "line": "Trên thẻ ghi Phaolo Nguyễn Văn Đức.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "card",
+    "label": "Phaolo Nguyễn Văn Đức"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.65,
+   "end": 19.787,
+   "line": "Tớ phải giải thích ngay cạnh máy pha cà phê rằng tớ sinh ra ở Hố Nai, chưa từng ra nước ngoài, và Phaolo là tên thánh.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "smile",
+      "talk": true
+     },
+     {
+      "c": "GIRL",
+      "pose": "stand",
+      "expr": "thinking",
+      "f": -1
+     }
+    ],
+    "timeTag": "Sinh ra ở Hố Nai"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 19.787,
+   "end": 25.25,
+   "line": "Quỳnh tròn mắt: Tên thánh là tên gì ạ? Bắt buộc phải có hả anh?",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "GIRL",
+    "expr": "surprised",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 25.25,
+   "end": 33.788,
+   "line": "Ở Việt Nam, gần như người Công giáo nào cũng có một tên thánh, nhận lúc được rửa tội. Đó là một truyền thống rất đẹp và rất phổ biến.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "x": -90,
+      "pose": "bless",
+      "expr": "gentle"
+     },
+     {
+      "c": "ME_AODAI",
+      "x": 150,
+      "pose": "hold",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "tag": "Nhận tên lúc rửa tội"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 33.788,
+   "end": 44.075,
+   "line": "Nhưng nói cho đúng thì luật Giáo hội không bắt buộc phải lấy tên một vị thánh. Giáo luật chỉ dặn cha mẹ và người đỡ đầu đừng đặt cho em bé cái tên xa lạ với cảm thức Kitô giáo.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Giáo luật 855",
+    "body": [
+     "Đừng đặt tên xa lạ",
+     "với cảm thức Kitô giáo."
+    ],
+    "src": "Giáo luật 855",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 44.075,
+   "end": 50.275,
+   "line": "Giáo lý còn nói tên đó có thể là tên một vị thánh, hoặc tên diễn tả một mầu nhiệm, một nhân đức.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Tên Kitô hữu",
+    "body": [
+     "Tên một vị thánh, hoặc tên diễn tả",
+     "một mầu nhiệm, một nhân đức."
+    ],
+    "src": "GLHTCG 2156",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 50.275,
+   "end": 56.65,
+   "line": "Chọn tên thánh là chọn cho mình một người anh đi trước, một gương sống, một người bạn cầu thay ở trên trời.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Một người anh đi trước,",
+     "một người bạn cầu thay."
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 56.65,
+   "end": 63.313,
+   "line": "Tên tớ là bố mẹ chọn, vì tớ chào đời đúng ngày hai mươi chín tháng sáu, lễ hai thánh Phêrô và Phaolô.",
+   "scene": "insert",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "livingRoom",
+    "item": "calendar",
+    "label": "29/6: Lễ thánh Phêrô và Phaolô"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 63.313,
+   "end": 68.869,
+   "line": "Hồi nhỏ tớ chẳng thích tên này. Bạn bè có tên thánh Giuse, Đaminh nghe hiền khô,",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "timeTag": "Hồi nhỏ",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "crossArms",
+      "expr": "pout"
+     },
+     {
+      "c": "TY",
+      "pose": "cheer",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 68.869,
+   "end": 73.95,
+   "line": "còn tớ nghe ông nội kể thánh Phaolo từng đi bắt bớ người theo Chúa, tớ đâm ngượng.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "BIN",
+    "expr": "embarrassed",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 73.95,
+   "end": 79.212,
+   "line": "Đến năm học lớp mười, có một đợt tớ cãi bố mẹ rất dữ, bỏ cả đi lễ.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "shake": 5,
+    "timeTag": "Lớp 10",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "crossArms",
+      "expr": "angry"
+     },
+     {
+      "c": "ME",
+      "pose": "handsHips",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "anger"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 79.212,
+   "end": 81.3,
+   "line": "Một tối tớ mở Kinh Thánh đọc lại chuyện",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "prop": "bible",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 81.3,
+   "end": 86.838,
+   "line": "ông Saolô ngã ngựa trên đường Đamát, bị mù ba ngày, rồi đứng dậy thành một con người khác.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Đường Đamát",
+    "body": [
+     "Saolô ngã ngựa, mù ba ngày,",
+     "rồi thành con người khác."
+    ],
+    "src": "Cv 9,1-19",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 86.838,
+   "end": 90.556,
+   "line": "Tớ nhận ra, vị thánh mình mang tên không phải người hoàn hảo từ đầu,",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "freeze": "QUAY ĐẦU",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "prop": "bible",
+      "expr": "awe"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 90.556,
+   "end": 92.65,
+   "line": "mà là người dám quay đầu.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Không hoàn hảo từ đầu,",
+     "mà dám quay đầu."
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 92.65,
+   "end": 96.338,
+   "line": "Từ đó tớ tự chọn lại cái tên bố mẹ đặt cho mình.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "proud",
+    "emote": "sparkle"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 96.338,
+   "end": 102.125,
+   "line": "Chiều hôm ấy, Quỳnh nhắn Zalo: Vậy nếu em có tên thánh thì em nên chọn ai ạ?",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "phone",
+    "label": "Em nên chọn ai ạ?"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 102.125,
+   "end": 104.113,
+   "line": "Tớ chưa trả lời.",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "PHAOLO",
+    "expr": "thinking",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 104.113,
+   "end": 111.484,
+   "line": "Kể tớ nghe vị thánh bổn mạng của bạn bằng đúng một câu thôi, chuyện nào của vị ấy làm bạn nhớ nhất?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Kể tớ nghe vị thánh bổn mạng của bạn bằng đúng một câu thôi, chuyện nào của vị ấy làm bạn nhớ nhất?",
+    "cast": [
+     "PHAOLO",
+     "GIRL"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 25.4
+  },
+  {
+   "start": 25.4,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 74.1
+  },
+  {
+   "start": 74.1,
+   "mood": "reflect",
+   "intensity": 0.45,
+   "end": 86.99
+  },
+  {
+   "start": 86.99,
+   "mood": "sacred",
+   "intensity": 0.5,
+   "end": 111.48
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,609 @@
+{
+ "title": "Không ai đợi con 18 tuổi mới dạy tiếng mẹ đẻ",
+ "duration": 83.524,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 6.975,
+   "line": "Bé Bin, con chị Hạnh nhà tớ, mới hai tháng tuổi, vậy mà đã có lịch hẹn ở nhà thờ sáng Chủ nhật này.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "cam": "push",
+    "hook": {
+     "kicker": "RỬA TỘI",
+     "lines": [
+      "Sao không đợi",
+      "con lớn tự chọn?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "hold",
+      "expr": "gentle"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Chị Hạnh"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 6.975,
+   "end": 13.912,
+   "line": "Anh Quốc, đồng nghiệp của chị, nhắn Zalo: Con nít chưa biết gì, sao không đợi lớn cho nó tự chọn?",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "phonebuzz",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN2",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "confused"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Anh Quốc"
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Sao không đợi lớn cho nó tự chọn?",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 13.912,
+   "end": 16.95,
+   "line": "Tối đó tớ thấy chị vừa thay tã vừa nói chuyện với bé:",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "fg": "plant",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "talk",
+      "expr": "happy",
+      "talk": [
+       1.5,
+       9
+      ]
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 16.95,
+   "end": 21.737,
+   "line": "Bin ơi, hôm nay trời mưa, ba về trễ, Bin nhớ ba không?",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "ME",
+    "expr": "love",
+    "talk": true,
+    "bubble": "Bin nhớ ba không?"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 21.737,
+   "end": 25.15,
+   "line": "Bé chỉ ọ ẹ. Vậy mà ngày nào chị cũng nói.",
+   "scene": "insert",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "bedroom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "item": "heart",
+    "label": "Ọ ẹ..."
+   }
+  },
+  {
+   "id": "s06",
+   "start": 25.15,
+   "end": 31.212,
+   "line": "Tớ chợt nghĩ, có cha mẹ nào đợi con mười tám tuổi rồi mới hỏi con muốn tiếng mẹ đẻ là tiếng gì đâu.",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "freeze": "À!",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "think",
+      "expr": "awe"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 31.212,
+   "end": 35.45,
+   "line": "Cha mẹ trao điều tốt nhất mình có, ngay khi con chưa biết xin.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Trao điều tốt nhất,",
+     "ngay khi con chưa biết xin."
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 35.45,
+   "end": 39.563,
+   "line": "Với người Công giáo, Rửa Tội là món quà đầu đời như thế.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "x": -90,
+      "pose": "bless",
+      "expr": "gentle"
+     },
+     {
+      "c": "ME_AODAI",
+      "x": 150,
+      "pose": "hold",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "items": [
+     {
+      "item": "water",
+      "x": -10,
+      "y": -40,
+      "s": 0.35
+     }
+    ],
+    "timeTag": "Món quà đầu đời"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 39.563,
+   "end": 46.663,
+   "line": "Qua phép Rửa, em bé được xoá tội nguyên tổ, được làm con Thiên Chúa, nhận một ân sủng em không tự kiếm được.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Phép Rửa Tội",
+    "body": [
+     "Xóa tội nguyên tổ,",
+     "được làm con Thiên Chúa."
+    ],
+    "src": "GLHTCG 1250, 1263",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 46.663,
+   "end": 49.712,
+   "line": "Việc này đã có từ thời Giáo hội sơ khai.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Từ thuở ban đầu",
+    "body": [
+     "Rửa tội trẻ em là truyền thống",
+     "từ thời Giáo hội sơ khai."
+    ],
+    "src": "GLHTCG 1252",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 49.712,
+   "end": 52.663,
+   "line": "Nhưng tiếng mẹ đẻ có một điều thú vị.",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "c": "PHAOLO",
+    "expr": "thinking",
+    "emote": "idea"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 52.663,
+   "end": 56.788,
+   "line": "Trao rồi mà không nói với con mỗi ngày thì con cũng chẳng nói được.",
+   "scene": "text",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "bedroom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "lines": [
+     "Không nói mỗi ngày",
+     "thì con chẳng nói được"
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 56.788,
+   "end": 61.556,
+   "line": "Rửa Tội cũng vậy, cần cha mẹ và người đỡ đầu nuôi bằng lời kinh, bằng cách sống,",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight",
+     "noSofa": true
+    },
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "sitPray",
+      "expr": "pray"
+     },
+     {
+      "c": "BIN",
+      "pose": "kneelPray",
+      "expr": "pray",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 61.556,
+   "end": 64.1,
+   "line": "để lớn lên con tự mình thưa vâng.",
+   "scene": "fact",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "livingRoom",
+    "title": "Đức tin lớn lên",
+    "body": [
+     "Cha mẹ và người đỡ đầu",
+     "giúp con tự mình thưa vâng."
+    ],
+    "src": "GLHTCG 1253–1255",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 64.1,
+   "end": 66.45,
+   "line": "Tớ không nhớ gì về ngày mình được rửa tội,",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "peaceful",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 66.45,
+   "end": 70.525,
+   "line": "nhưng tớ biết mình đã được thương trước khi kịp làm gì để đáng được thương.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Được thương trước",
+     "khi kịp làm gì."
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 70.525,
+   "end": 74.075,
+   "line": "Chủ nhật này, chị Hạnh mời luôn anh Quốc đi dự.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "churchbell",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ME_AODAI",
+      "pose": "wave",
+      "expr": "happy"
+     },
+     {
+      "c": "MAN2",
+      "pose": "wave",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 74.075,
+   "end": 83.524,
+   "line": "Bạn có biết mình được rửa tội ngày nào, ai đã bế bạn hôm ấy không? Tuần này thử hỏi bố mẹ rồi kể tớ nghe nhé.",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Bạn có biết mình được rửa tội ngày nào, ai đã bế bạn hôm ấy không? Tuần này thử hỏi bố mẹ rồi kể tớ nghe nhé.",
+    "cast": [
+     "PHAOLO",
+     "ME"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 35.6
+  },
+  {
+   "start": 35.6,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 64.25
+  },
+  {
+   "start": 64.25,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 83.52
+  }
+ ],
+ "sfx": []
+}

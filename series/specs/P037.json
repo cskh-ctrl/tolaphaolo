@@ -1,0 +1,22 @@
+{"id":"P037",
+ "cover":{"set":"churchOutside","c":"CHA","expr":"gentle","item":"calendar","kicker":"VÌ SAO","lines":["Linh mục","không lập gia đình?"]},
+ "music":[[0,"gentle",0.55],["Nhìn cuốn lịch ấy","sacred",0.45],["Tớ thì thú thật","gentle",0.6]],
+ "beats":[
+ {"type":"insert","set":"churchInside","item":"calendar","hook":{"kicker":"365 Ô VUÔNG","lines":["Vì sao linh mục","không lập gia đình?"],"y":0.12}},
+ {"at":"Đó là cuốn lịch treo","type":"scene","set":"home","cam":"push","chars":[{"c":"CHA","pose":"point","expr":"smile"}],"labels":[{"who":0,"str":"Cha Tâm"}]},
+ {"at":"Thứ Hai, xức dầu","type":"steps","title":"Lịch tuần của cha","steps":["T2: Xức dầu bà Sáu","T3: Giải tội trường tiểu học","T4: Hòa giải vợ chồng anh Thịnh"],"c":"CHA"},
+ {"at":"Có ô ghi đúng một chữ","type":"insert","set":"home","item":"calendar","label":"Đám tang"},
+ {"at":"Tớ hỏi cha","type":"ots","set":"home","fg":"CHA","who":{"c":"PHAOLO","pose":"talk","expr":"confused","talk":true}},
+ {"at":"Cha cười, chỉ vào ô","type":"close","set":"home","c":"CHA","expr":"laugh","talk":[1,9],"bubble":"Ngủ trưa, nếu không ai gọi.","captions":false},
+ {"at":"Nhìn cuốn lịch ấy","type":"close","set":"home","c":"PHAOLO","expr":"awe","emote":"idea"},
+ {"at":"Không phải vì Giáo hội coi thường","type":"scene","set":"wedding","wide":true,"cam":"pull","chars":[{"c":"GROOM","pose":"stand","expr":"happy"},{"c":"BRIDE","pose":"stand","expr":"happy","f":-1}],"tag":"Hôn nhân là bí tích"},
+ {"at":"Một người chồng tốt","type":"scene","set":"livingRoom","cam":"push","chars":[{"c":"BO","pose":"hug","expr":"happy"},{"c":"BIN","pose":"cheer","expr":"joy","f":-1}]},
+ {"at":"Còn linh mục chọn để trống","type":"scene","set":"churchOutside","wide":true,"cam":"push","chars":[{"c":"CHA","pose":"openArms","expr":"happy"},{"c":"OLDLADY","pose":"wave","expr":"smile","f":-1},{"c":"TY","pose":"wave","expr":"happy","f":-1}]},
+ {"at":"Giáo hội gọi đó là trái tim","type":"fact","symbol":"heart","title":"Trái tim không chia","body":["Độc thân vì Nước Trời, dễ gắn bó","với Chúa Kitô."],"src":"Giáo luật 277 §1; 1 Cr 7,32-34","icon":"heart"},
+ {"at":"Nhưng đây là kỷ luật","type":"text","set":"churchInside","kicker":"KỶ LUẬT","lines":["Không phải","tín điều"]},
+ {"at":"Ở các Giáo hội Công giáo Đông phương","type":"fact","symbol":"church","title":"Đông phương","body":["Có linh mục đã lập gia đình","từ trước khi chịu chức."],"src":"CCEO 373","icon":"church"},
+ {"at":"Nghĩa là Giáo hội có thể","type":"lesson","c":"CHA","expr":"gentle","lines":["Có thể đổi luật,","nhưng giữ như một món quà."]},
+ {"at":"Tớ thì thú thật","type":"scene","set":"night","cam":"push","chars":[{"c":"PHAOLO","pose":"phone","prop":"phone","expr":"sad"}],"tag":"Một tuần không có Vy"},
+ {"at":"Vậy mà có người chọn","type":"close","set":"churchOutside","c":"PHAOLO","expr":"peaceful","emote":"heart"},
+ {"at":"Mở lịch tuần này","type":"end","question":"Mở lịch tuần này của bạn ra xem, có ô nào đang để dành cho người cần bạn nhất không?","cast":["PHAOLO","CHA"]}
+]}

@@ -1,0 +1,23 @@
+{"id":"P035",
+ "cover":{"set":"street","c":"ME","expr":"smile","item":"water","kicker":"3 HIỂU LẦM","lines":["Về ăn chay","Công giáo"]},
+ "music":[[0,"cute",0.6],["Hiểu lầm thứ hai","sacred",0.45],["Hiểu lầm thứ ba","cute",0.6]],
+ "beats":[
+ {"type":"scene","set":"street","cam":"push","hook":{"kicker":"3 HIỂU LẦM","lines":["Về ăn chay","Công giáo"]},"chars":[{"c":"ME","pose":"holdFront","expr":"smile"},{"c":"WOMAN","pose":"talk","expr":"confused","talk":[3,9],"f":-1}],"timeTag":"Thứ Tư Lễ Tro","amb":{"name":"city","gain":-30}},
+ {"at":"Đạo chị ăn chay","type":"close","set":"street","c":"WOMAN","expr":"confused","talk":true,"bubble":"Sao không ăn hẳn rau như bên chùa?","captions":false},
+ {"at":"Hoá ra nhiều người","type":"close","set":"street","c":"PHAOLO","expr":"thinking","emote":"?"},
+ {"at":"Hiểu lầm thứ nhất","type":"text","set":"kitchen","kicker":"HIỂU LẦM 1","lines":["Ăn chay là","nhịn đói hành xác"],"strike":1.6},
+ {"at":"Với người Công giáo, ăn chay","type":"steps","title":"Giữ chay","steps":["No một bữa","Hai bữa còn lại ăn ít","Từ 18 đến 59 tuổi"],"c":"PHAOLO"},
+ {"at":"và chỉ vào hai ngày","type":"fact","symbol":"cross","title":"Hai ngày giữ chay","body":["Thứ Tư Lễ Tro","và Thứ Sáu Tuần Thánh."],"src":"Giáo luật 1251–1252","icon":"cross"},
+ {"at":"Người ốm, phụ nữ mang thai","type":"scene","set":"livingRoom","chars":[{"c":"OLDLADY","pose":"sit","expr":"gentle"},{"c":"MAI","pose":"stand","expr":"smile","f":-1}],"tag":"Không buộc"},
+ {"at":"Cái bụng hơi đói","type":"lesson","c":"PHAOLO","lines":["Hơi đói một chút","để nhớ Chúa."]},
+ {"at":"Hiểu lầm thứ hai","type":"text","set":"kitchen","kicker":"HIỂU LẦM 2","lines":["Thịt là","đồ ô uế"],"strike":1.4},
+ {"at":"Chính Chúa Giêsu đã nói","type":"fact","symbol":"dove","title":"Mọi thức ăn đều sạch","body":["Đồ ăn vào miệng không làm","con người ra ô uế."],"src":"Mc 7,18-19","icon":"dove"},
+ {"at":"Kiêng thịt là hy sinh","type":"insert","set":"kitchen","item":"rice","label":"Hy sinh nhỏ, nhớ ngày Chúa chịu chết"},
+ {"at":"Người từ mười bốn tuổi","type":"fact","set":"kitchen","title":"Kiêng thịt","body":["Buộc người từ","14 tuổi trở lên."],"src":"Giáo luật 1252","icon":"cross"},
+ {"at":"Hiểu lầm thứ ba","type":"text","set":"kitchen","kicker":"HIỂU LẦM 3","lines":["Cứ ăn chay","là đủ"],"strike":1.3},
+ {"at":"Mẹ tớ bảo","type":"close","set":"kitchen","c":"ME","expr":"smirk","talk":true,"bubble":"Nhịn thịt mà cằn nhằn thì nhịn uổng!","captions":false},
+ {"at":"Đi kèm ăn chay luôn có","type":"steps","title":"Ba việc đi cùng","steps":["Ăn chay","Cầu nguyện","Chia sẻ"],"c":"ME"},
+ {"at":"Tiền không mua cá","type":"insert","set":"kitchen","item":"money","label":"Ống heo Mùa Chay"},
+ {"at":"Còn cô bán cá thì dúi","type":"scene","set":"street","cam":"push","chars":[{"c":"WOMAN","pose":"reach","expr":"laugh","talk":[1.5,9]},{"c":"ME","pose":"holdFront","expr":"happy","f":-1}],"say":[{"who":0,"str":"Nhịn ăn thì cũng phải ngon chứ!","at":1.8}],"captions":false},
+ {"at":"Món nào bạn thấy","type":"end","question":"Món nào bạn thấy khó nhịn nhất nếu phải bỏ trong một ngày?","cast":["PHAOLO","ME"]}
+]}

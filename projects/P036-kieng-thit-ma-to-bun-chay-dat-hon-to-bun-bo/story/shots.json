@@ -1,0 +1,601 @@
+{
+ "title": "Kiêng thịt mà tô bún chay đắt hơn tô bún bò",
+ "duration": 115.228,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 7.588,
+   "line": "Tớ đứng trước quán bún bò Huế cô Mận đúng mười hai giờ trưa Thứ Sáu Tuần Thánh, và mùi sả ớt đang đánh bại đức tin của tớ.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "cam": "push",
+    "hook": {
+     "kicker": "KIÊNG THỊT",
+     "lines": [
+      "Có xuống",
+      "địa ngục không?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "nervous"
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 260,
+      "y": -200,
+      "s": 0.2
+     }
+    ],
+    "timeTag": "12 giờ trưa Thứ Sáu Tuần Thánh"
+   }
+  },
+  {
+   "id": "s02",
+   "start": 7.588,
+   "end": 11.175,
+   "line": "Khoa kéo ghế: Ngồi đi, tớ bao.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "wave",
+      "expr": "happy",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "worried",
+      "f": -1
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Ngồi đi, tớ bao.",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 11.175,
+   "end": 12.888,
+   "line": "Tớ ngập ngừng.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "nervous",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.888,
+   "end": 18.025,
+   "line": "Khoa nheo mắt: Đừng nói với tớ là ăn một tô bún bò thì cậu xuống địa ngục nhé.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true,
+    "bubble": "Ăn bún bò là xuống địa ngục à?"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 18.025,
+   "end": 24.563,
+   "line": "Tớ bảo không đơn giản thế. Hôm nay cả Giáo hội cùng kiêng thịt để nhớ Chúa Giêsu chịu chết.",
+   "scene": "ots",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "cafe",
+    "fg": "KHOA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "explain",
+     "expr": "gentle",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s06",
+   "start": 24.563,
+   "end": 28.537,
+   "line": "Miếng thịt bò không có tội gì cả, thịt không ô uế.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Thịt không ô uế",
+    "body": [
+     "Mọi thức ăn",
+     "đều sạch."
+    ],
+    "src": "Mc 7,18-19",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 28.537,
+   "end": 40.2,
+   "line": "Nhưng nếu tớ biết rõ hôm nay là ngày đó, mà vẫn cố tình gọi tô đặc biệt, thì đó là thiếu sót nghiêm trọng. Không phải vì con bò, mà vì tớ cố ý gạt đi điều nhỏ cả Giáo hội cùng làm.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Cố ý hay không?",
+    "body": [
+     "Biết rõ mà vẫn cố tình",
+     "là thiếu sót nghiêm trọng."
+    ],
+    "src": "GLHTCG 1857–1860; GLHTCG 2043",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 40.2,
+   "end": 43.262,
+   "line": "Khoa hỏi: Lỡ quên thì sao?",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 43.262,
+   "end": 51.563,
+   "line": "Quên thì không có lỗi. Ốm cần bồi dưỡng thì được miễn. Còn trẻ con dưới mười bốn tuổi thì không buộc kiêng thịt.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Không có lỗi / được miễn",
+    "steps": [
+     "Lỡ quên",
+     "Ốm cần bồi dưỡng",
+     "Dưới 14 tuổi"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 51.563,
+   "end": 57.375,
+   "line": "Đúng lúc đó con trai cô Mận, đeo cây Thánh Giá nhỏ, đang húp tô bún có cả giò heo.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "sit",
+      "expr": "happy"
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 160,
+      "y": -170,
+      "s": 0.15
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 57.375,
+   "end": 63.288,
+   "line": "Khoa chỉ: Thằng bé kìa. Tớ cười: Nó mới mười tuổi.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "point",
+      "expr": "smirk",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1,
+      "talk": [
+       1,
+       9
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 63.288,
+   "end": 66.85,
+   "line": "Tớ gọi một tô bún chay, thấy mình thật đạo đức.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "proud",
+    "emote": "sparkle"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 66.85,
+   "end": 74.863,
+   "line": "Rồi bát của tớ ra. Nấm đông cô, đậu hũ ky, chả chay, rau rừng, thêm ly sữa đậu nành.",
+   "scene": "insert",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "cafe",
+    "item": "rice",
+    "label": "Nấm, đậu hũ ky, chả chay, sữa đậu nành"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 74.863,
+   "end": 80.413,
+   "line": "Lúc tính tiền, cô Mận nói: Tô chay năm lăm, tô bò bốn lăm nha.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "WOMAN2",
+    "expr": "smile",
+    "talk": true,
+    "bubble": "Tô chay 55, tô bò 45 nha!"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 80.413,
+   "end": 84.788,
+   "line": "Khoa nhìn tớ, chậm rãi: Vậy cậu hy sinh cái gì?",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true,
+    "bubble": "Vậy cậu hy sinh cái gì?"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 84.788,
+   "end": 86.488,
+   "line": "Tớ đứng hình.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "freeze": "ĐỨNG HÌNH",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "shocked"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 86.488,
+   "end": 91.988,
+   "line": "Tớ giữ đúng luật, không đụng một sợi thịt, nhưng thứ đáng kiêng thì tớ chưa kiêng chút nào.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "embarrassed",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 91.988,
+   "end": 99.062,
+   "line": "Luật kiêng thịt là cái hàng rào giúp mình nhớ, còn điều Chúa nhìn là trái tim có chịu bớt đi một chút cho Ngài và cho người khác không.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Luật là hàng rào,",
+     "Chúa nhìn trái tim."
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 99.062,
+   "end": 106.937,
+   "line": "Chiều đó tớ bỏ trận bóng đã hẹn, đi viếng Đàng Thánh Giá. Khoa đi theo, bảo là để xem cậu có ăn vụng không.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "push",
+    "timeTag": "Đàng Thánh Giá",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "pray",
+      "expr": "pray"
+     },
+     {
+      "c": "KHOA",
+      "pose": "stand",
+      "expr": "smirk",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 106.937,
+   "end": 115.228,
+   "line": "Thứ Sáu tới, thử kiêng một thứ khó hơn miếng thịt xem. Với bạn, đó sẽ là thứ gì?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Thứ Sáu tới, thử kiêng một thứ khó hơn miếng thịt xem. Với bạn, đó sẽ là thứ gì?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 18.18
+  },
+  {
+   "start": 18.18,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 51.71
+  },
+  {
+   "start": 51.71,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 84.94
+  },
+  {
+   "start": 84.94,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 115.23
+  }
+ ],
+ "sfx": []
+}

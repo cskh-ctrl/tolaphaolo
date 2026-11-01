@@ -1,0 +1,501 @@
+{
+ "title": "Luyện ngục không phải phòng chờ địa ngục: 3 hiểu lầm",
+ "duration": 86.14,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.937,
+   "line": "Khoa gửi cho tớ một cái meme: Luyện ngục, phòng chờ của địa ngục, giá vé rẻ hơn.",
+   "scene": "insert",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "cafe",
+    "item": "phone",
+    "hook": {
+     "kicker": "3 HIỂU LẦM",
+     "lines": [
+      "Luyện ngục là",
+      "phòng chờ địa ngục?"
+     ],
+     "y": 0.12
+    },
+    "label": "Meme của Khoa"
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.937,
+   "end": 9.363,
+   "line": "Kèm câu hỏi: Đạo cậu có cái này thật hả?",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 9.363,
+   "end": 12.35,
+   "line": "Có, nhưng meme sai cả ba chỗ.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "smirk",
+    "talk": true
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.35,
+   "end": 17.888,
+   "line": "Hiểu lầm thứ nhất, luyện ngục là địa ngục bản dùng thử. Không phải.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "HIỂU LẦM 1",
+    "lines": [
+     "Địa ngục",
+     "bản dùng thử"
+    ],
+    "strike": 1.6
+   }
+  },
+  {
+   "id": "s05",
+   "start": 17.888,
+   "end": 21.375,
+   "line": "Địa ngục là tự mình chọn tách khỏi Chúa vĩnh viễn.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Địa ngục",
+    "body": [
+     "Tự ý tách khỏi hiệp thông",
+     "với Thiên Chúa vĩnh viễn."
+    ],
+    "src": "GLHTCG 1033–1037",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 21.375,
+   "end": 26.575,
+   "line": "Luyện ngục chỉ dành cho những người đã chết trong ơn nghĩa Chúa, đã chắc chắn được cứu độ.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Luyện ngục",
+    "body": [
+     "Cho người chết trong ơn nghĩa Chúa,",
+     "chắc chắn được cứu độ."
+    ],
+    "src": "GLHTCG 1030",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 26.575,
+   "end": 32.7,
+   "line": "Giống như khác nhau giữa người không có vé và người đã có vé, chỉ đang chỉnh lại áo trước khi vào tiệc cưới.",
+   "scene": "scene",
+   "set": "wedding",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "wedding",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN2",
+      "pose": "holdFront",
+      "expr": "happy"
+     }
+    ],
+    "tag": "Đã có vé, chỉnh áo trước khi vào tiệc"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 32.7,
+   "end": 36.3,
+   "line": "Hiểu lầm thứ hai, luyện ngục là nơi tra tấn.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "HIỂU LẦM 2",
+    "lines": [
+     "Nơi",
+     "tra tấn"
+    ],
+    "strike": 1.3
+   }
+  },
+  {
+   "id": "s09",
+   "start": 36.3,
+   "end": 41.838,
+   "line": "Giáo hội gọi đó là sự thanh luyện cuối cùng, hoàn toàn khác với hình phạt của người bị luận phạt.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Thanh luyện cuối cùng",
+    "body": [
+     "Hoàn toàn khác hình phạt",
+     "của người bị luận phạt."
+    ],
+    "src": "GLHTCG 1031",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 41.838,
+   "end": 49.275,
+   "line": "Như ở phòng tối cả đêm rồi bước ra nắng. Mắt chói thật, nhưng cái làm chói lại là ánh sáng tốt lành.",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "freeze": "CHÓI MẮT",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "facepalm",
+      "expr": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 49.275,
+   "end": 56.112,
+   "line": "Truyền thống có nói đến lửa thanh luyện, nhưng Giáo hội không mô tả chi tiết, nên đừng tin mấy tranh vẽ quỷ cầm chĩa.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "candle",
+    "label": "1 Cr 3,15"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 56.112,
+   "end": 61.987,
+   "line": "Hiểu lầm thứ ba, luyện ngục là cơ hội thứ hai, sống sao cũng được, chết rồi sửa sau.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "HIỂU LẦM 3",
+    "lines": [
+     "Cơ hội",
+     "thứ hai"
+    ],
+    "strike": 1.6
+   }
+  },
+  {
+   "id": "s13",
+   "start": 61.987,
+   "end": 65.288,
+   "line": "Lựa chọn yêu hay từ chối Chúa là ở đời này.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Lựa chọn yêu Chúa",
+     "là ở đời này."
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 65.288,
+   "end": 72.5,
+   "line": "Luyện ngục không phải thi lại. Nó giống bài thi đã đậu rồi, chỉ còn sửa vài lỗi chính tả trước khi in.",
+   "scene": "insert",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "classroom",
+    "item": "card",
+    "label": "Đã đậu, sửa lỗi chính tả"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 72.5,
+   "end": 77.062,
+   "line": "Khoa đọc xong nhắn lại: Vậy là phải sống tử tế từ bây giờ chứ gì.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "thinking",
+    "talk": true,
+    "bubble": "Phải sống tử tế từ bây giờ chứ gì."
+   }
+  },
+  {
+   "id": "s16",
+   "start": 77.062,
+   "end": 79.4,
+   "line": "Ừ, tớ cũng đang tập.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "embarrassed",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 79.4,
+   "end": 86.14,
+   "line": "Trong ba hiểu lầm này, cái nào bạn từng nghe nhiều nhất, một, hai hay ba?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Trong ba hiểu lầm này, cái nào bạn từng nghe nhiều nhất, một, hai hay ba?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 12.5
+  },
+  {
+   "start": 12.5,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 72.65
+  },
+  {
+   "start": 72.65,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 86.14
+  }
+ ],
+ "sfx": []
+}

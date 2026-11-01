@@ -1,0 +1,790 @@
+{
+ "title": "Mười bốn khách sạn từ chối tớ đêm 29 Tết, và tớ hiểu máng cỏ Bêlem",
+ "duration": 133.78,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.988,
+   "line": "Mười bốn cuộc gọi, mười bốn lần nghe cùng một câu: Hết phòng rồi anh ơi, Tết mà.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "phonering",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "cam": "push",
+    "hook": {
+     "kicker": "14 LẦN",
+     "lines": [
+      "\"Hết phòng rồi",
+      "anh ơi!\""
+     ]
+    },
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "worried"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.988,
+   "end": 12.725,
+   "line": "Chiều hai mươi chín Tết năm đó, tớ với ba đứa bạn kẹt lại Đà Lạt vì xe khách hỏng, điện thoại sắp hết pin.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pevening",
+     "bikes": false
+    },
+    "wide": true,
+    "timeTag": "Đà Lạt, 29 Tết",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "handsOnHead",
+      "expr": "worried"
+     },
+     {
+      "c": "KHOA",
+      "pose": "crossArms",
+      "expr": "annoyed"
+     },
+     {
+      "c": "LONG",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "sad"
+     },
+     {
+      "c": "HUY",
+      "pose": "sad",
+      "expr": "sleepy",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s03",
+   "start": 12.725,
+   "end": 19.125,
+   "line": "Đứng giữa con dốc lạnh buốt, tớ chợt nhớ một đêm khác, cũng chật cứng người, hơn hai ngàn năm trước.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "PHAOLO",
+    "expr": "thinking",
+    "emote": "idea"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 19.125,
+   "end": 32.6,
+   "line": "Bêlem. Hoàng đế ra lệnh kiểm tra dân số, ai về nguyên quán nấy mà khai tên. Thị trấn nhỏ bỗng đông như bến xe ngày Tết. Tiếng người gọi nhau, mùi khói bếp, mùi rơm ẩm.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pevening",
+     "bikes": false
+    },
+    "wide": true,
+    "cam": "panR",
+    "timeTag": "Bêlem, hơn 2000 năm trước",
+    "chars": [
+     {
+      "c": "MAN",
+      "walk": 40,
+      "expr": "neutral"
+     },
+     {
+      "c": "WOMAN",
+      "walk": 40,
+      "expr": "neutral"
+     },
+     {
+      "c": "OLDMAN",
+      "walk": 40,
+      "expr": "neutral"
+     },
+     {
+      "c": "MAN2",
+      "walk": 40,
+      "expr": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 32.6,
+   "end": 37.35,
+   "line": "Giữa dòng người ấy có ông Giuse và Đức Maria, đã đến ngày sinh nở.",
+   "scene": "insert",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "star",
+    "label": "Ông Giuse và Đức Maria"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 37.35,
+   "end": 45.775,
+   "line": "Tin Mừng Luca kể rất ngắn, rằng bà sinh con trai, lấy tã bọc con, đặt nằm trong máng cỏ, vì không tìm được chỗ trong nhà trọ.",
+   "scene": "insert",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "manger",
+    "label": "Lc 2,7"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 45.775,
+   "end": 52.163,
+   "line": "Máng cỏ là cái máng đựng thức ăn cho gia súc. Con Thiên Chúa nằm ở chỗ con vật ăn.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "lines": [
+     "Con Thiên Chúa",
+     "nằm ở chỗ con vật ăn"
+    ],
+    "item": "manger"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 52.163,
+   "end": 56.637,
+   "line": "Cũng đêm ấy, ngoài đồng, mấy người chăn chiên đang thức canh đàn vật.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pnight",
+     "bench": false
+    },
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "OLDMAN",
+      "pose": "sit",
+      "expr": "sleepy"
+     },
+     {
+      "c": "TY",
+      "pose": "sit",
+      "expr": "sleepy"
+     },
+     {
+      "c": "MAN",
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "timeTag": "Người chăn chiên"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 56.637,
+   "end": 63.925,
+   "line": "Thiên thần báo tin cho họ, kèm một dấu hiệu rất lạ: các anh sẽ gặp một trẻ sơ sinh bọc tã, nằm trong máng cỏ.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pnight",
+     "bench": false
+    },
+    "freeze": "TIN VUI",
+    "items": [
+     {
+      "item": "star",
+      "x": 0,
+      "y": -500,
+      "s": 0.4
+     }
+    ],
+    "chars": [
+     {
+      "c": "OLDMAN",
+      "pose": "kneel",
+      "expr": "awe",
+      "look": [
+       0,
+       -1
+      ]
+     },
+     {
+      "c": "TY",
+      "pose": "stand",
+      "expr": "shocked",
+      "look": [
+       0,
+       -1
+      ],
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 63.925,
+   "end": 68.863,
+   "line": "Không phải cung điện, không phải lính gác. Là máng cỏ.",
+   "scene": "text",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "park",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "kicker": "DẤU HIỆU",
+    "lines": [
+     "Không cung điện,",
+     "là máng cỏ"
+    ],
+    "item": "manger"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 68.863,
+   "end": 72.488,
+   "line": "Họ vội vã đi, và gặp đúng như lời đã báo.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pnight",
+     "bench": false
+    },
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "OLDMAN",
+      "walk": 80,
+      "expr": "joy"
+     },
+     {
+      "c": "TY",
+      "walk": 80,
+      "expr": "joy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 72.488,
+   "end": 77.85,
+   "line": "Hồi trước tớ nghĩ chuyện hết phòng chỉ là xui. Đêm đó tớ hiểu khác.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "PHAOLO",
+    "expr": "sad"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 77.85,
+   "end": 83.275,
+   "line": "Một bà cụ bán bánh căn đầu dốc nghe tụi tớ năn nỉ qua điện thoại, vẫy tay gọi vào.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "OLDLADY",
+      "pose": "wave",
+      "expr": "gentle"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 83.275,
+   "end": 89.775,
+   "line": "Bà dọn cho bốn đứa cái chỗ cạnh bếp than, trải hai cái chiếu, đưa thêm cái chăn bông thơm mùi long não.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pnight",
+     "noTable": true
+    },
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "peaceful"
+     },
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "happy"
+     },
+     {
+      "c": "LONG",
+      "pose": "sit",
+      "expr": "sleepy"
+     },
+     {
+      "c": "OLDLADY",
+      "pose": "holdFront",
+      "expr": "gentle",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 89.775,
+   "end": 93.488,
+   "line": "Bà bảo: Nhà nghèo, chật, nhưng ấm.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "OLDLADY",
+    "expr": "gentle",
+    "talk": true,
+    "bubble": "Nhà nghèo, chật, nhưng ấm."
+   }
+  },
+  {
+   "id": "s16",
+   "start": 93.488,
+   "end": 100.85,
+   "line": "Nằm đó, tớ nghĩ, nếu Chúa sinh ra trong biệt thự có bảo vệ, mấy người chăn chiên lấm lem kia có dám bước vào không?",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "PHAOLO",
+    "expr": "thinking"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 100.85,
+   "end": 104.512,
+   "line": "Ngài chọn chỗ thấp nhất để không ai phải đứng ngoài cổng.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Chọn chỗ thấp nhất",
+     "để không ai đứng ngoài."
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 104.512,
+   "end": 111.962,
+   "line": "Sách Giáo lý cũng nói Chúa Giêsu sinh ra trong khiêm hạ, trong một gia đình nghèo, và những người chăn chiên đơn sơ là chứng nhân đầu tiên.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Sinh ra trong khiêm hạ",
+    "body": [
+     "Trong một gia đình nghèo; người chăn chiên",
+     "đơn sơ là chứng nhân đầu tiên."
+    ],
+    "src": "GLHTCG 525–526",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 111.962,
+   "end": 116.275,
+   "line": "Ngài không cần chỗ sang. Ngài cần chỗ gần.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "lines": [
+     "Không cần chỗ sang,",
+     "cần chỗ gần."
+    ],
+    "item": "heart"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 116.275,
+   "end": 123.175,
+   "line": "Sáng mùng một, tụi tớ nhét bao lì xì dưới cái chăn, bà cụ chạy theo trả lại, chỉ chịu lấy tiền mấy dĩa bánh.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pmorning",
+     "bikes": false
+    },
+    "cam": "push",
+    "timeTag": "Sáng mùng một",
+    "chars": [
+     {
+      "c": "OLDLADY",
+      "walk": -30,
+      "f": -1,
+      "expr": "laugh"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "shrug",
+      "expr": "embarrassed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 123.175,
+   "end": 127.875,
+   "line": "Đến giờ, mỗi lần dựng hang đá, tớ vẫn nhớ mùi than nhà bà.",
+   "scene": "insert",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "livingRoom",
+    "item": "manger",
+    "label": "Hang đá"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 127.875,
+   "end": 133.78,
+   "line": "Đã có người lạ nào mở cửa cho bạn đúng lúc bạn hết chỗ đi chưa?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Đã có người lạ nào mở cửa cho bạn đúng lúc bạn hết chỗ đi chưa?",
+    "cast": [
+     "PHAOLO",
+     "OLDLADY"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 19.27
+  },
+  {
+   "start": 19.27,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 72.64
+  },
+  {
+   "start": 72.64,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 116.42
+  },
+  {
+   "start": 116.42,
+   "mood": "cute",
+   "intensity": 0.5,
+   "end": 133.78
+  }
+ ],
+ "sfx": []
+}

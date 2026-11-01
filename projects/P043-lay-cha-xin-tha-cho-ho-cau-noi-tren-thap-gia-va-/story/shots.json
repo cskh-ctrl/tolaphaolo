@@ -1,0 +1,657 @@
+{
+ "title": "Lạy Cha, xin tha cho họ: câu nói trên thập giá và chuyện dì Sáu",
+ "duration": 139.588,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 3.288,
+   "line": "Cái búa giơ lên, rồi nện xuống.",
+   "scene": "scene",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "dream",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "shake": 7,
+    "hook": {
+     "kicker": "ĐỒI SỌ",
+     "lines": [
+      "\"Lạy Cha,",
+      "xin tha cho họ\""
+     ]
+    },
+    "chars": []
+   }
+  },
+  {
+   "id": "s02",
+   "start": 3.288,
+   "end": 13.55,
+   "line": "Ngoài thành Giêrusalem, trên ngọn đồi người ta gọi là Đồi Sọ, mấy người lính đang làm cái việc quen tay của họ. Bụi bay, mùi mồ hôi, mùi máu.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening",
+     "bench": false
+    },
+    "wide": true,
+    "cam": "pull",
+    "items": [
+     {
+      "item": "woodCross",
+      "x": -280,
+      "y": -60,
+      "s": 0.2
+     },
+     {
+      "item": "woodCross",
+      "x": 0,
+      "y": -90,
+      "s": 0.26
+     },
+     {
+      "item": "woodCross",
+      "x": 280,
+      "y": -60,
+      "s": 0.2
+     }
+    ],
+    "chars": [],
+    "timeTag": "Đồi Sọ"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 13.55,
+   "end": 23.862,
+   "line": "Hai tên gian phi bị đóng đinh hai bên, một bên phải, một bên trái. Ở giữa là người thợ làng Nadarét, mới đêm qua còn bị đánh, bị chế giễu.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "item": "crucifix",
+    "label": "Người thợ làng Nadarét"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 23.862,
+   "end": 35.512,
+   "line": "Và giữa những âm thanh ấy, Người lên tiếng. Không phải để nguyền rủa. Tin Mừng Luca ghi lại: Lạy Cha, xin tha cho họ, vì họ không biết việc họ làm.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Lc 23,34",
+    "body": [
+     "Lạy Cha, xin tha cho họ,",
+     "vì họ không biết việc họ làm."
+    ],
+    "src": "Lc 23,34",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 35.512,
+   "end": 44.838,
+   "line": "Rồi người ta bắt thăm chia nhau áo của Người. Dân chúng đứng nhìn. Các thủ lãnh buông lời cười nhạo, như chưa hề nghe thấy gì.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening",
+     "bench": false
+    },
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "crouch",
+      "expr": "smirk"
+     },
+     {
+      "c": "MAN2",
+      "pose": "point",
+      "expr": "laugh"
+     },
+     {
+      "c": "BOSS",
+      "pose": "crossArms",
+      "expr": "smirk",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 44.838,
+   "end": 50.637,
+   "line": "Tớ đọc đoạn này cả trăm lần, nhưng chỉ thật sự nghe nó vào một tối ở quán chè đầu hẻm nhà Vy.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "fg": "cup",
+    "timeTag": "Quán chè đầu hẻm",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "sad"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "gentle",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 50.637,
+   "end": 61.35,
+   "line": "Vy kể chuyện dì Sáu. Ba năm trước, ở đám giỗ ông ngoại, dì nói trước cả họ rằng mẹ Vy không biết lo cho cha mẹ. Mẹ Vy về khóc cả đêm.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "timeTag": "Ba năm trước",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "pose": "point",
+      "expr": "angry",
+      "talk": true
+     },
+     {
+      "c": "ME",
+      "pose": "sad",
+      "expr": "cry",
+      "f": -1
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Dì Sáu"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 61.35,
+   "end": 65.113,
+   "line": "Từ đó Vy chặn Zalo dì, Tết cũng không qua.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Đã chặn: Dì Sáu"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 65.113,
+   "end": 73.887,
+   "line": "Tuần sau lại tới đám giỗ. Vy khuấy ly chè đậu trắng mãi không ăn: Anh đừng bảo em tha. Dì sai rành rành.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "GIRL",
+    "expr": "annoyed",
+    "talk": [
+     2,
+     9
+    ],
+    "bubble": "Anh đừng bảo em tha."
+   }
+  },
+  {
+   "id": "s10",
+   "start": 73.887,
+   "end": 78.25,
+   "line": "Tớ không bảo. Tớ chỉ kể lại cảnh trên đồi.",
+   "scene": "ots",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "fg": "GIRL",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "gentle",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s11",
+   "start": 78.25,
+   "end": 86.925,
+   "line": "Chúa Giêsu không nói họ không sai. Ngài cũng không đợi họ xin lỗi. Ngài nói với Cha, chứ không nói với lính.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Trên Đồi Sọ",
+    "steps": [
+     "Không nói họ không sai",
+     "Không đợi họ xin lỗi",
+     "Nói với Cha, không với lính"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 86.925,
+   "end": 91.387,
+   "line": "Ngài trao họ cho lòng thương xót của Cha, khi vết thương còn đang mới.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Trao họ cho lòng thương xót",
+     "khi vết thương còn mới."
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 91.387,
+   "end": 98.05,
+   "line": "Giáo lý dạy chính tội lỗi của mọi người đã đưa Ngài lên thập giá, nên tớ tin lời cầu ấy có cả phần của tớ.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Mọi tội nhân",
+    "body": [
+     "Tội lỗi của mọi người",
+     "đưa Ngài lên thập giá."
+    ],
+    "src": "GLHTCG 597–598",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 98.05,
+   "end": 101.6,
+   "line": "Vy hỏi: Vậy em phải chạy tới ôm dì hả?",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "GIRL",
+    "expr": "confused",
+    "talk": true,
+    "bubble": "Em phải chạy tới ôm dì hả?"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 101.6,
+   "end": 109.262,
+   "line": "Tớ nói: Chắc chưa cần. Có khi chỉ bắt đầu bằng việc nói với Chúa về dì, thay vì nói về dì với cả nhà.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s16",
+   "start": 109.262,
+   "end": 113.525,
+   "line": "Tối đó, Vy bỏ chặn dì Sáu, nhưng chưa nhắn gì.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Bỏ chặn"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 113.525,
+   "end": 117.288,
+   "line": "Em bảo: Phần khó, em gửi Chúa giữ trước.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "GIRL",
+    "expr": "peaceful",
+    "talk": true,
+    "bubble": "Phần khó, em gửi Chúa giữ trước."
+   }
+  },
+  {
+   "id": "s18",
+   "start": 117.288,
+   "end": 124.387,
+   "line": "Đám giỗ tuần đó, dì Sáu là người gắp cho mẹ Vy miếng thịt kho đầu tiên. Không ai nhắc chuyện cũ.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "pose": "reach",
+      "expr": "gentle"
+     },
+     {
+      "c": "ME",
+      "pose": "sit",
+      "expr": "surprised",
+      "f": -1
+     },
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "awe",
+      "f": -1
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 0,
+      "y": -180,
+      "s": 0.18
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 124.387,
+   "end": 129.95,
+   "line": "Tớ không biết đó có phải phép lạ không, nhưng tớ biết lời cầu trên Đồi Sọ vẫn đang làm việc.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "peaceful",
+    "emote": "sparkle"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 129.95,
+   "end": 139.588,
+   "line": "Tuần này, thử thầm thưa câu ấy với Chúa cho một người mà bạn vẫn còn giận. Người đó là gì của bạn, chỉ cần kể vậy thôi?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Tuần này, thử thầm thưa câu ấy với Chúa cho một người mà bạn vẫn còn giận. Người đó là gì của bạn, chỉ cần kể vậy thôi?",
+    "cast": [
+     "PHAOLO",
+     "GIRL"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.45,
+   "end": 44.99
+  },
+  {
+   "start": 44.99,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 74.04
+  },
+  {
+   "start": 74.04,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 117.44
+  },
+  {
+   "start": 117.44,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 139.59
+  }
+ ],
+ "sfx": []
+}

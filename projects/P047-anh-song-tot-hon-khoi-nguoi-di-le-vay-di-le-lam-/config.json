@@ -1,0 +1,35 @@
+{
+ "title": "Anh sống tốt hơn khối người đi lễ, vậy đi lễ làm gì?",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 106.924,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "cafe",
+  "c": "LONG",
+  "expr": "smirk",
+  "kicker": "SỐNG TỐT RỒI",
+  "lines": [
+   "Đi lễ",
+   "làm gì?"
+  ]
+ },
+ "episode": "P047"
+}

@@ -1,0 +1,36 @@
+{
+ "title": "3 hiểu lầm về ăn chay Công giáo, cái thứ hai sai nhiều nhất",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 84.268,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "street",
+  "c": "ME",
+  "expr": "smile",
+  "item": "water",
+  "kicker": "3 HIỂU LẦM",
+  "lines": [
+   "Về ăn chay",
+   "Công giáo"
+  ]
+ },
+ "episode": "P035"
+}

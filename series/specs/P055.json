@@ -1,0 +1,22 @@
+{"id":"P055",
+ "cover":{"set":"dream","c":"KHOA","expr":"smirk","item":"phone","kicker":"LUYỆN NGỤC","lines":["Phòng chờ","địa ngục?"]},
+ "music":[[0,"cute",0.55],["Hiểu lầm thứ nhất","sacred",0.45],["Khoa đọc xong","cute",0.6]],
+ "beats":[
+ {"type":"insert","set":"cafe","item":"phone","hook":{"kicker":"3 HIỂU LẦM","lines":["Luyện ngục là","phòng chờ địa ngục?"],"y":0.12},"label":"Meme của Khoa"},
+ {"at":"Kèm câu hỏi","type":"close","set":"cafe","c":"KHOA","expr":"smirk","talk":true,"emote":"?"},
+ {"at":"Có, nhưng meme sai","type":"close","set":"night","c":"PHAOLO","expr":"smirk","talk":true},
+ {"at":"Hiểu lầm thứ nhất","type":"text","set":"dream","kicker":"HIỂU LẦM 1","lines":["Địa ngục","bản dùng thử"],"strike":1.6},
+ {"at":"Địa ngục là tự mình chọn","type":"fact","symbol":"cross","title":"Địa ngục","body":["Tự ý tách khỏi hiệp thông","với Thiên Chúa vĩnh viễn."],"src":"GLHTCG 1033–1037","icon":"cross"},
+ {"at":"Luyện ngục chỉ dành cho","type":"fact","symbol":"dove","title":"Luyện ngục","body":["Cho người chết trong ơn nghĩa Chúa,","chắc chắn được cứu độ."],"src":"GLHTCG 1030","icon":"dove"},
+ {"at":"Giống như khác nhau giữa","type":"scene","set":"wedding","wide":true,"cam":"push","chars":[{"c":"MAN2","pose":"holdFront","expr":"happy"}],"tag":"Đã có vé, chỉnh áo trước khi vào tiệc"},
+ {"at":"Hiểu lầm thứ hai","type":"text","set":"dream","kicker":"HIỂU LẦM 2","lines":["Nơi","tra tấn"],"strike":1.3},
+ {"at":"Giáo hội gọi đó là","type":"fact","symbol":"heart","title":"Thanh luyện cuối cùng","body":["Hoàn toàn khác hình phạt","của người bị luận phạt."],"src":"GLHTCG 1031","icon":"heart"},
+ {"at":"Như ở phòng tối cả đêm","type":"scene","set":"bedroom","setOpt":{"mood":"pmorning"},"freeze":"CHÓI MẮT","chars":[{"c":"PHAOLO","pose":"facepalm","expr":"happy"}]},
+ {"at":"Truyền thống có nói đến lửa","type":"insert","set":"dream","item":"candle","label":"1 Cr 3,15"},
+ {"at":"Hiểu lầm thứ ba","type":"text","set":"dream","kicker":"HIỂU LẦM 3","lines":["Cơ hội","thứ hai"],"strike":1.6},
+ {"at":"Lựa chọn yêu hay từ chối","type":"lesson","c":"PHAOLO","lines":["Lựa chọn yêu Chúa","là ở đời này."]},
+ {"at":"Luyện ngục không phải thi lại","type":"insert","set":"classroom","item":"card","label":"Đã đậu, sửa lỗi chính tả"},
+ {"at":"Khoa đọc xong nhắn lại","type":"close","set":"cafe","c":"KHOA","expr":"thinking","talk":true,"bubble":"Phải sống tử tế từ bây giờ chứ gì.","captions":false},
+ {"at":"Ừ, tớ cũng đang tập","type":"close","set":"night","c":"PHAOLO","expr":"embarrassed","emote":"sweat"},
+ {"at":"Trong ba hiểu lầm này","type":"end","question":"Trong ba hiểu lầm này, cái nào bạn từng nghe nhiều nhất, một, hai hay ba?","cast":["PHAOLO","KHOA"]}
+]}

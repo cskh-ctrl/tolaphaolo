@@ -1,0 +1,702 @@
+{
+ "title": "Sự thật về vị linh mục bị ném xuống sông Vltava năm 1393",
+ "duration": 124.828,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 7.925,
+   "line": "Đêm hai mươi tháng ba năm một ngàn ba trăm chín mươi ba, trên cây cầu đá bắc qua sông Vltava ở Praha, gió lạnh thổi rát mặt.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "cam": "push",
+    "hook": {
+     "kicker": "PRAHA, 1393",
+     "lines": [
+      "Bị ném xuống sông",
+      "vì giữ im lặng"
+     ]
+    },
+    "timeTag": "Đêm 20/3/1393",
+    "chars": []
+   },
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s02",
+   "start": 7.925,
+   "end": 13.425,
+   "line": "Mấy người lính kéo lê một linh mục bị trói tay, người đầy vết đòn, ra giữa cầu.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "wide": true,
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "reach",
+      "expr": "angry"
+     },
+     {
+      "c": "CHA",
+      "pose": "sad",
+      "expr": "peaceful"
+     },
+     {
+      "c": "MAN2",
+      "pose": "reach",
+      "expr": "angry",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 13.425,
+   "end": 16.013,
+   "line": "Dưới cầu, nước đen ngòm.",
+   "scene": "insert",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "water",
+    "label": "Sông Vltava"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 16.013,
+   "end": 21.838,
+   "line": "Vị linh mục ấy tên là Gioan, quê ở Nêpômúc, cha tổng đại diện của Tổng giáo phận.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "CHA",
+    "expr": "peaceful",
+    "rimSide": 1
+   }
+  },
+  {
+   "id": "s05",
+   "start": 21.838,
+   "end": 25.35,
+   "line": "Người ra lệnh là chính nhà vua Venceslao đệ tứ.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening",
+     "pews": false
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "BOSS",
+      "pose": "point",
+      "expr": "angry"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Vua Venceslao IV"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 25.35,
+   "end": 31.975,
+   "line": "Theo truyền thống được kể lại suốt nhiều thế kỷ, vua nghi hoàng hậu, đòi cha Gioan nói ra bà đã xưng những tội gì.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening",
+     "pews": false
+    },
+    "chars": [
+     {
+      "c": "BOSS",
+      "pose": "point",
+      "expr": "angry",
+      "talk": true
+     },
+     {
+      "c": "CHA",
+      "pose": "stand",
+      "expr": "peaceful",
+      "f": -1
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Hoàng hậu đã xưng tội gì?",
+      "at": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 31.975,
+   "end": 36.813,
+   "line": "Cha im lặng. Bị tra tấn, cha vẫn im lặng.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening",
+     "pews": false
+    },
+    "freeze": "IM LẶNG",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "pray",
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 36.813,
+   "end": 39.575,
+   "line": "Một tiếng tõm vang lên giữa đêm.",
+   "scene": "insert",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "water",
+    "shake": 6
+   }
+  },
+  {
+   "id": "s09",
+   "start": 39.575,
+   "end": 45.95,
+   "line": "Người ta kể rằng sau đó trên mặt sông hiện ra năm ngôi sao, nên tượng của ngài ngày nay có vòng sao trên đầu.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "cam": "up",
+    "chars": [],
+    "tag": "Năm ngôi sao trên mặt sông",
+    "items": [
+     {
+      "item": "heart",
+      "x": 0,
+      "y": -600,
+      "s": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 45.95,
+   "end": 60.1,
+   "line": "Phải nói cho thật: các sử gia xác nhận ngài bị vua cho ném xuống sông năm đó, trong một cuộc tranh chấp gay gắt giữa nhà vua và Tổng giám mục. Còn chuyện hoàng hậu xưng tội thì chỉ xuất hiện trong sử liệu mấy chục năm sau, nhiều nhà nghiên cứu cho là truyền thuyết.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Sử liệu nói gì?",
+    "steps": [
+     "Có thật: bị ném xuống sông",
+     "Tranh chấp vua và Tổng GM",
+     "Chuyện xưng tội: có thể là truyền thuyết"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 60.1,
+   "end": 64.825,
+   "line": "Nhưng truyền thống ấy sống mãi vì nó nói đúng một điều Giáo hội giữ đến hôm nay.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "thinking"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 64.825,
+   "end": 70.725,
+   "line": "Tuần trước tớ hỏi cha Tâm: Nếu có người xưng một tội rất nặng, cha có được báo công an không?",
+   "scene": "ots",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "ots",
+    "set": "home",
+    "fg": "PHAOLO",
+    "who": {
+     "c": "CHA",
+     "pose": "stand",
+     "expr": "thinking"
+    },
+    "say": [
+     {
+      "str": "Cha có được báo công an không?",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 70.725,
+   "end": 73.312,
+   "line": "Cha lắc đầu, chậm rãi.",
+   "scene": "close",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "home",
+    "c": "CHA",
+    "expr": "gentle"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 73.312,
+   "end": 84.538,
+   "line": "Luật Giáo hội gọi là ấn tòa giải tội, tuyệt đối bất khả xâm phạm. Linh mục không được tiết lộ bằng lời nói hay bất cứ cách nào, vì bất cứ lý do gì, kể cả để cứu mạng mình.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Ấn tòa giải tội",
+    "body": [
+     "Tuyệt đối bất khả xâm phạm,",
+     "vì bất cứ lý do gì."
+    ],
+    "src": "Giáo luật 983 §1",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 84.538,
+   "end": 88.45,
+   "line": "Cha cũng không được dùng điều đã nghe để gây bất lợi cho hối nhân.",
+   "scene": "fact",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "churchInside",
+    "title": "Không gây bất lợi",
+    "body": [
+     "Không dùng điều đã nghe",
+     "để gây bất lợi cho hối nhân."
+    ],
+    "src": "Giáo luật 984 §1",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 88.45,
+   "end": 94.113,
+   "line": "Linh mục nào cố ý tiết lộ trực tiếp sẽ bị vạ tuyệt thông tức khắc, chỉ Toà Thánh mới tha được.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "VẠ TUYỆT THÔNG",
+    "lines": [
+     "Chỉ Tòa Thánh",
+     "mới tha được"
+    ],
+    "color": "#e8584a"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 94.113,
+   "end": 98.975,
+   "line": "Có lần cha gặp một người vừa xưng tội với cha ngoài chợ, người đó ngượng chín mặt.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "talk",
+      "expr": "smile"
+     },
+     {
+      "c": "MAN",
+      "pose": "stand",
+      "expr": "embarrassed",
+      "f": -1
+     }
+    ],
+    "timeTag": "Ngoài chợ",
+    "emotes": [
+     {
+      "who": 1,
+      "type": "sweat"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 98.975,
+   "end": 102.85,
+   "line": "Cha chỉ hỏi giá bó cải, như chưa từng biết gì.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "CHA",
+    "expr": "smile",
+    "talk": true,
+    "bubble": "Bó cải bao nhiêu vậy?"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 102.85,
+   "end": 109.413,
+   "line": "Cha bảo, cha có thể phải khuyên người ta tự sửa sai, tự ra đầu thú, nhưng không bao giờ được nói thay.",
+   "scene": "close",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "home",
+    "c": "CHA",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s20",
+   "start": 109.413,
+   "end": 114.413,
+   "line": "Có lẽ vì thế mà người ta dám nói thật trong toà giải tội điều không dám nói với ai.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "pews": false
+    },
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "kneelPray",
+      "expr": "pray"
+     }
+    ],
+    "tag": "Tòa giải tội"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 114.413,
+   "end": 117.863,
+   "line": "Có những im lặng còn lớn tiếng hơn mọi lời nói.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Có những im lặng",
+     "lớn tiếng hơn lời nói."
+    ]
+   }
+  },
+  {
+   "id": "s22",
+   "start": 117.863,
+   "end": 124.828,
+   "line": "Đã bao giờ có người giữ kín cho bạn một chuyện, và bạn vẫn biết ơn họ đến giờ chưa?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Đã bao giờ có người giữ kín cho bạn một chuyện, và bạn vẫn biết ơn họ đến giờ chưa?",
+    "cast": [
+     "PHAOLO",
+     "CHA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 46.1
+  },
+  {
+   "start": 46.1,
+   "mood": "gentle",
+   "intensity": 0.45,
+   "end": 64.97
+  },
+  {
+   "start": 64.97,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 94.26
+  },
+  {
+   "start": 94.26,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 124.83
+  }
+ ],
+ "sfx": []
+}

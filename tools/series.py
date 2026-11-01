@@ -107,6 +107,42 @@ def split(a):
     json.dump(eps, open(os.path.join(SER, "episodes.json"), "w"), ensure_ascii=False, indent=1)
 
 
+def ingest_tts(a):
+    rows = json.load(open(os.path.join(SER, "rows_31_60.json"), encoding="utf-8"))
+    epf = os.path.join(SER, "episodes.json")
+    eps = json.load(open(epf, encoding="utf-8")) if os.path.exists(epf) else []
+    have = {e["id"]: e for e in eps}
+    os.makedirs(os.path.join(SER, "audio"), exist_ok=True)
+    for r in rows:
+        i = r["Video_ID"]; mp3 = os.path.join(SER, "tts", f"{i}.mp3"); wj = os.path.join(SER, "tts", f"{i}.words.json")
+        if not (os.path.exists(mp3) and os.path.exists(wj)): continue
+        W = json.load(open(wj, encoding="utf-8"))
+        tt = toks(r["TTS_Full_Script"])
+        sm = difflib.SequenceMatcher(a=[nw(x) for x in tt], b=[nw(w["word"]) for w in W], autojunk=False)
+        tm = [None] * len(tt)
+        for blk in sm.get_matching_blocks():
+            for k in range(blk.size):
+                tm[blk.a + k] = (W[blk.b + k]["start"], W[blk.b + k]["end"])
+        m = sum(1 for x in tm if x); k0 = 0
+        while k0 < len(tt):
+            if tm[k0]: k0 += 1; continue
+            j = k0
+            while j < len(tt) and not tm[j]: j += 1
+            t0 = tm[k0 - 1][1] if k0 else 0.0
+            t1 = tm[j][0] if j < len(tt) else W[-1]["end"]
+            sp = max(0.05, t1 - t0) / (j - k0)
+            for q in range(k0, j): tm[q] = (t0 + sp * (q - k0), t0 + sp * (q - k0 + 1))
+            k0 = j
+        pre, post = 0.3, 1.6
+        wav = os.path.join(SER, "audio", f"{i}.wav")
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", mp3, "-af", f"adelay={int(pre*1000)},apad=pad_dur={post}", "-ac", "1", "-ar", "44100", wav], check=True)
+        dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", wav]).decode())
+        words = [{"word": tt[q].replace('"', '').replace('“', '').replace('”', ''), "start": round(tm[q][0] + pre, 3), "end": round(tm[q][1] + pre, 3)} for q in range(len(tt))]
+        have[i] = {"id": i, "row": {k: v for k, v in r.items() if k}, "start": 0, "end": dur, "dur": round(dur, 3), "words": words, "match": round(m / len(tt), 3)}
+        print(f"{i}: {dur:.1f}s, match {100*m/len(tt):.0f}%")
+    json.dump(sorted(have.values(), key=lambda e: e["id"]), open(epf, "w"), ensure_ascii=False, indent=1)
+
+
 def slugify(s):
     s = unicodedata.normalize("NFD", s.replace("đ", "d").replace("Đ", "D"))
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
@@ -266,5 +302,6 @@ if __name__ == "__main__":
     sp = ap.add_subparsers(dest="cmd")
     s1 = sp.add_parser("split"); s1.add_argument("--xlsx"); s1.add_argument("--words"); s1.add_argument("--audio"); s1.add_argument("--n", type=int, default=30); s1.add_argument("--total-eps", type=int, default=30)
     s2 = sp.add_parser("build"); s2.add_argument("--spec")
+    sp.add_parser("ingest-tts")
     a = ap.parse_args()
-    {"split": split, "build": build}[a.cmd](a)
+    {"split": split, "build": build, "ingest-tts": ingest_tts}[a.cmd](a)

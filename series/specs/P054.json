@@ -1,0 +1,23 @@
+{"id":"P054",
+ "cover":{"set":"park","c":"ME","expr":"peaceful","item":"grave","kicker":"THÁNG CẦU HỒN","lines":["Lau mộ","người không quen"]},
+ "music":[[0,"gentle",0.5],["Tối đó tớ đọc lại","sacred",0.45],["Riêng tớ thì hiểu ra","gentle",0.6]],
+ "beats":[
+ {"type":"insert","set":"park","setOpt":{"mood":"pevening"},"item":"grave","hook":{"kicker":"THÁNG CẦU HỒN","lines":["Lau mộ","người không quen"],"y":0.12}},
+ {"at":"Hai mẹ con đi viếng","type":"scene","set":"park","setOpt":{"mood":"pevening","bench":false},"wide":true,"timeTag":"Chiều 2/11","items":[{"item":"grave","x":-260,"y":-10,"s":0.3},{"item":"grave","x":260,"y":-10,"s":0.3}],"chars":[{"c":"ME","pose":"holdFront","expr":"gentle"},{"c":"PHAOLO","pose":"holdFront","expr":"neutral","f":-1}]},
+ {"at":"Lau mộ ông ngoại xong","type":"scene","set":"park","setOpt":{"mood":"pevening","bench":false},"cam":"push","items":[{"item":"grave","x":220,"y":-10,"s":0.35}],"chars":[{"c":"ME","x":-120,"walk":30,"expr":"neutral"}]},
+ {"at":"Tớ hỏi","type":"close","set":"park","setOpt":{"mood":"pevening"},"c":"PHAOLO","expr":"confused","talk":true,"emote":"?"},
+ {"at":"Mẹ bảo","type":"close","set":"park","setOpt":{"mood":"pevening"},"c":"ME","expr":"gentle","talk":true,"bubble":"Mười năm rồi chưa thấy ai tới thắp nhang.","captions":false},
+ {"at":"Mẹ lau, cắm hai bông cúc","type":"scene","set":"park","setOpt":{"mood":"pevening","bench":false},"cam":"push","fg":"flowers","items":[{"item":"grave","x":200,"y":-10,"s":0.35}],"chars":[{"c":"ME","x":-140,"pose":"pray","expr":"pray","prop":"rosary"}]},
+ {"at":"Tớ thấy hơi kỳ","type":"close","set":"park","setOpt":{"mood":"pevening"},"c":"PHAOLO","expr":"thinking"},
+ {"at":"Trên đường về","type":"scene","set":"street","setOpt":{"mood":"pevening"},"freeze":true,"chars":[{"c":"ME","pose":"talk","expr":"gentle","talk":true},{"c":"PHAOLO","pose":"stand","expr":"awe","f":-1}],"say":[{"who":0,"str":"Người chết đâu có hết là người nhà mình.","at":0.6}],"captions":false},
+ {"at":"Tối đó tớ đọc lại","type":"fact","symbol":"dove","title":"Thanh luyện","body":["Chết trong ơn nghĩa Chúa thì chắc chắn được cứu độ,","chỉ còn cần được tinh luyện."],"src":"GLHTCG 1030–1031","icon":"dove"},
+ {"at":"Và từ những thế kỷ đầu","type":"fact","symbol":"church","title":"Cầu cho người đã khuất","body":["Nhất là dâng Thánh lễ,","làm việc bác ái."],"src":"GLHTCG 1032","icon":"church"},
+ {"at":"Ngay trong Cựu Ước","type":"insert","set":"dream","item":"bible","label":"2 Mcb 12,43-46"},
+ {"at":"Giáo lý còn nói một điều","type":"fact","symbol":"heart","title":"Hiệp thông","body":["Cái chết không cắt đứt","sự hiệp nhất trong Chúa."],"src":"GLHTCG 954–958","icon":"heart"},
+ {"at":"Cả Hội thánh như một đại gia đình","type":"steps","title":"Một đại gia đình","steps":["Người đang đi đường","Người đang được thanh luyện","Người đã tới nơi"],"c":"PHAOLO"},
+ {"at":"Lời cầu của mẹ không phải","type":"lesson","c":"PHAOLO","lines":["Tình thân vẫn chảy","qua bên kia bức tường."]},
+ {"at":"Còn những người không cùng đạo","type":"scene","set":"park","setOpt":{"bench":false},"cam":"push","timeTag":"Tiết Thanh minh","chars":[{"c":"MAN","pose":"pray","expr":"peaceful"},{"c":"OLDLADY","pose":"pray","expr":"peaceful","f":-1}]},
+ {"at":"Riêng tớ thì hiểu ra","type":"close","set":"park","setOpt":{"mood":"pevening"},"c":"PHAOLO","expr":"gentle","emote":"heart"},
+ {"at":"Năm nay tớ sẽ mang","type":"insert","set":"park","setOpt":{"mood":"pevening"},"item":"grave","label":"Thêm một cái khăn"},
+ {"at":"Có ngôi mộ nào","type":"end","question":"Có ngôi mộ nào bạn từng ghé thăm dù không phải người nhà mình không, và vì sao bạn dừng lại?","cast":["PHAOLO","ME"]}
+]}

@@ -1,0 +1,21 @@
+{"id":"P052",
+ "cover":{"set":"livingRoom","c":"PHAOLO","expr":"thinking","item":"money","kicker":"XIN CHÚA","lines":["Cho giàu","được không?"]},
+ "music":[[0,"gentle",0.5],["Vì thật ra xin Chúa","sacred",0.45],["Giờ mỗi lần xin","gentle",0.6]],
+ "beats":[
+ {"type":"insert","set":"livingRoom","item":"money","hook":{"kicker":"XIN CHÚA","lines":["Cho giàu","được không?"],"y":0.12},"label":"15 triệu"},
+ {"at":"Đó là số tiền năm lớp","type":"scene","set":"livingRoom","timeTag":"Năm lớp 12","chars":[{"c":"BIN","pose":"reach","expr":"nervous"},{"c":"BO","pose":"sit","expr":"gentle","f":-1}]},
+ {"at":"Nhưng năm sau","type":"scene","set":"livingRoom","setOpt":{"mood":"pevening"},"timeTag":"Năm sau","chars":[{"c":"PHAOLO","pose":"explain","expr":"determined","talk":true},{"c":"BO","pose":"sit","expr":"thinking","f":-1}]},
+ {"at":"Bố nhìn tớ rất lâu","type":"close","set":"livingRoom","setOpt":{"mood":"pevening"},"c":"BO","expr":"sad","talk":[1.5,9],"bubble":"Xin để đi xa bố thì bố cho làm gì?","captions":false},
+ {"at":"Câu đó tớ nhớ","type":"close","set":"night","c":"PHAOLO","expr":"thinking"},
+ {"at":"Vì thật ra xin Chúa","type":"fact","symbol":"bible","title":"Xin bánh hằng ngày","body":["Chúa Giêsu dạy ta xin","những gì cần cho đời sống."],"src":"Mt 6,11; GLHTCG 2830","icon":"bible"},
+ {"at":"Lo cho gia đình, trả nợ","type":"steps","title":"Đáng đem vào lời cầu","steps":["Cơm ăn, áo mặc","Việc làm","Lo gia đình, trả nợ"],"c":"PHAOLO"},
+ {"at":"Cái sai nằm ở chỗ","type":"text","set":"livingRoom","kicker":"XIN ĐỂ LÀM GÌ?","lines":["Gần Cha hơn","hay khỏi cần Cha?"]},
+ {"at":"Có kiểu xin như xin tiền học","type":"scene","set":"classroom","cam":"push","chars":[{"c":"BIN","pose":"sit","prop":"book","expr":"determined"}],"tag":"Để lớn lên"},
+ {"at":"Có kiểu xin như năm tớ","type":"scene","set":"street","cam":"panR","chars":[{"c":"PHAOLO","walk":80,"expr":"smirk"}],"tag":"Để khỏi cần bố"},
+ {"at":"Thánh Phaolô cảnh báo","type":"fact","symbol":"cross","title":"1 Tm 6,10","body":["Lòng ham tiền là cội rễ","sinh ra mọi điều ác."],"src":"1 Tm 6,9-10","icon":"cross"},
+ {"at":"Và cũng phải nói rõ","type":"text","set":"dream","kicker":"KHÔNG PHẢI","lines":["Công thức","làm giàu"],"strike":1.3},
+ {"at":"Chúa Giêsu bảo trước hết","type":"fact","symbol":"dove","title":"Mt 6,33","body":["Trước hết hãy tìm Nước Thiên Chúa,","những thứ khác Người sẽ lo."],"src":"Mt 6,33","icon":"dove"},
+ {"at":"Giờ mỗi lần xin","type":"scene","set":"night","cam":"push","fg":"candle","chars":[{"c":"PHAOLO","pose":"kneelPray","expr":"pray"}]},
+ {"at":"tiền này làm con gần Cha hơn","type":"lesson","c":"PHAOLO","lines":["Tiền này làm con gần Cha hơn,","hay quên Cha đi?"]},
+ {"at":"Lời xin gần nhất","type":"end","question":"Lời xin gần nhất của bạn về tiền, nó giống tiền học phí hay giống chiếc xe để đi xa nhà?","cast":["PHAOLO","BO"]}
+]}

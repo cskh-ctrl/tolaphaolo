@@ -1,0 +1,35 @@
+{
+ "title": "Bé 6 tuổi kê thêm ghế cho thiên thần",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 106.372,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "kitchen",
+  "c": "NA",
+  "expr": "proud",
+  "kicker": "THIÊN THẦN",
+  "lines": [
+   "Có thật",
+   "không?"
+  ]
+ },
+ "episode": "P057"
+}

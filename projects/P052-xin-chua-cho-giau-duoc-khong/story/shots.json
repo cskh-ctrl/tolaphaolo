@@ -1,0 +1,497 @@
+{
+ "title": "Xin Chúa cho giàu: được không?",
+ "duration": 85.228,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 2.112,
+   "line": "Mười lăm triệu.",
+   "scene": "insert",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "livingRoom",
+    "item": "money",
+    "hook": {
+     "kicker": "XIN CHÚA",
+     "lines": [
+      "Cho giàu",
+      "được không?"
+     ],
+     "y": 0.12
+    },
+    "label": "15 triệu"
+   }
+  },
+  {
+   "id": "s02",
+   "start": 2.112,
+   "end": 6.75,
+   "line": "Đó là số tiền năm lớp mười hai tớ ngửa tay xin bố để đóng học luyện thi.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "timeTag": "Năm lớp 12",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "reach",
+      "expr": "nervous"
+     },
+     {
+      "c": "BO",
+      "pose": "sit",
+      "expr": "gentle",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 6.75,
+   "end": 14.25,
+   "line": "Nhưng năm sau, tớ xin bố một khoản lớn hơn, để mua xe, đi làm thêm, khỏi phải ở nhà nghe bố mẹ nhắc nữa.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "timeTag": "Năm sau",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "determined",
+      "talk": true
+     },
+     {
+      "c": "BO",
+      "pose": "sit",
+      "expr": "thinking",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 14.25,
+   "end": 19.25,
+   "line": "Bố nhìn tớ rất lâu rồi nói: Xin để đi xa bố thì bố cho làm gì con.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "BO",
+    "expr": "sad",
+    "talk": [
+     1.5,
+     9
+    ],
+    "bubble": "Xin để đi xa bố thì bố cho làm gì?"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 19.25,
+   "end": 23.2,
+   "line": "Câu đó tớ nhớ tới giờ, mỗi lần cầu nguyện về tiền.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "thinking"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 23.2,
+   "end": 36.362,
+   "line": "Vì thật ra xin Chúa cho có tiền không sai. Chính Chúa Giêsu dạy mình xin bánh ăn hằng ngày. Giáo lý nói Cha trên trời biết con cái cần cơm ăn, áo mặc, việc làm, và muốn mình xin như con xin bố.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Xin bánh hằng ngày",
+    "body": [
+     "Chúa Giêsu dạy ta xin",
+     "những gì cần cho đời sống."
+    ],
+    "src": "Mt 6,11; GLHTCG 2830",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 36.362,
+   "end": 40.625,
+   "line": "Lo cho gia đình, trả nợ, đều đáng đem vào lời cầu.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Đáng đem vào lời cầu",
+    "steps": [
+     "Cơm ăn, áo mặc",
+     "Việc làm",
+     "Lo gia đình, trả nợ"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 40.625,
+   "end": 44.487,
+   "line": "Cái sai nằm ở chỗ tờ giấy xin tiền ấy viết để làm gì.",
+   "scene": "text",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "livingRoom",
+    "kicker": "XIN ĐỂ LÀM GÌ?",
+    "lines": [
+     "Gần Cha hơn",
+     "hay khỏi cần Cha?"
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 44.487,
+   "end": 49.05,
+   "line": "Có kiểu xin như xin tiền học, để lớn lên, để gần bố hơn.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "sit",
+      "prop": "book",
+      "expr": "determined"
+     }
+    ],
+    "tag": "Để lớn lên"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 49.05,
+   "end": 53.612,
+   "line": "Có kiểu xin như năm tớ mười chín tuổi, xin để khỏi cần bố nữa.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "walk": 80,
+      "expr": "smirk"
+     }
+    ],
+    "tag": "Để khỏi cần bố"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 53.612,
+   "end": 58.313,
+   "line": "Thánh Phaolô cảnh báo, lòng ham tiền là cội rễ sinh ra mọi điều ác.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "1 Tm 6,10",
+    "body": [
+     "Lòng ham tiền là cội rễ",
+     "sinh ra mọi điều ác."
+    ],
+    "src": "1 Tm 6,9-10",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 58.313,
+   "end": 65.525,
+   "line": "Và cũng phải nói rõ, Chúa không hứa ai cầu đủ nhiều thì sẽ giàu. Đạo không phải công thức làm giàu.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "KHÔNG PHẢI",
+    "lines": [
+     "Công thức",
+     "làm giàu"
+    ],
+    "strike": 1.3
+   }
+  },
+  {
+   "id": "s13",
+   "start": 65.525,
+   "end": 70.363,
+   "line": "Chúa Giêsu bảo trước hết hãy tìm Nước Thiên Chúa, những thứ khác Người sẽ lo.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Mt 6,33",
+    "body": [
+     "Trước hết hãy tìm Nước Thiên Chúa,",
+     "những thứ khác Người sẽ lo."
+    ],
+    "src": "Mt 6,33",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 70.363,
+   "end": 74.169,
+   "line": "Giờ mỗi lần xin cho công việc làm ăn, tớ tự hỏi một câu của bố:",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "kneelPray",
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 74.169,
+   "end": 77.962,
+   "line": "tiền này làm con gần Cha hơn, hay giúp con quên Cha đi?",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Tiền này làm con gần Cha hơn,",
+     "hay quên Cha đi?"
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 77.962,
+   "end": 85.228,
+   "line": "Lời xin gần nhất của bạn về tiền, nó giống tiền học phí hay giống chiếc xe để đi xa nhà?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Lời xin gần nhất của bạn về tiền, nó giống tiền học phí hay giống chiếc xe để đi xa nhà?",
+    "cast": [
+     "PHAOLO",
+     "BO"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 23.35
+  },
+  {
+   "start": 23.35,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 70.51
+  },
+  {
+   "start": 70.51,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 85.23
+  }
+ ],
+ "sfx": []
+}

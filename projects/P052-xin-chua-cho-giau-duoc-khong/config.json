@@ -1,0 +1,36 @@
+{
+ "title": "Xin Chúa cho giàu: được không?",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 85.228,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "livingRoom",
+  "c": "PHAOLO",
+  "expr": "thinking",
+  "item": "money",
+  "kicker": "XIN CHÚA",
+  "lines": [
+   "Cho giàu",
+   "được không?"
+  ]
+ },
+ "episode": "P052"
+}

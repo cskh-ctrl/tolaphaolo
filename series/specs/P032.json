@@ -1,0 +1,343 @@
+{
+"id": "P032",
+"cover": {
+"set": "cafe",
+"c": "KHOA",
+"expr": "angry",
+"kicker": "TỘI NGUYÊN TỔ",
+"lines": [
+"Em bé mới đẻ",
+"mà có tội?"
+]
+},
+"music": [
+[
+0,
+"cute",
+0.6
+],
+[
+"Tội nguyên tổ giống vậy",
+"sacred",
+0.45
+],
+[
+"Khoa nheo mắt",
+"cute",
+0.6
+]
+],
+"beats": [
+{
+"type": "scene",
+"set": "cafe",
+"cam": "push",
+"shake": 5,
+"hook": {
+"kicker": "TỘI NGUYÊN TỔ",
+"lines": [
+"Em bé mới đẻ",
+"mà có tội?"
+]
+},
+"chars": [
+{
+"c": "KHOA",
+"pose": "talk",
+"expr": "angry",
+"talk": true
+},
+{
+"c": "PHAOLO",
+"pose": "sit",
+"expr": "surprised",
+"f": -1
+}
+],
+"sfx": [
+{
+"at": 0.2,
+"name": "pop",
+"gain": -10
+}
+]
+},
+{
+"at": "Tớ cười",
+"type": "ots",
+"set": "cafe",
+"fg": "KHOA",
+"who": {
+"c": "PHAOLO",
+"pose": "talk",
+"expr": "smile",
+"talk": true
+}
+},
+{
+"at": "Nó chưa ăn vụng",
+"type": "steps",
+"title": "Em bé chưa hề...",
+"steps": [
+"Ăn vụng",
+"Nói dối",
+"Giành đồ chơi"
+],
+"c": "KHOA"
+},
+{
+"at": "Không phải tội nó làm",
+"type": "close",
+"set": "cafe",
+"c": "PHAOLO",
+"expr": "gentle",
+"talk": true
+},
+{
+"at": "Chuyện ông bà Ađam",
+"type": "insert",
+"set": "park",
+"item": "heart",
+"label": "Ađam và Evà (St 3)"
+},
+{
+"at": "Nhưng nơi em bé",
+"type": "fact",
+"symbol": "heart",
+"title": "Không phải lỗi cá nhân",
+"body": [
+"Nơi em bé, tội nguyên tổ",
+"không mang tính lỗi cá nhân."
+],
+"src": "GLHTCG 405",
+"icon": "heart"
+},
+{
+"at": "Không phải lỗi mà vẫn",
+"type": "close",
+"set": "cafe",
+"c": "KHOA",
+"expr": "annoyed",
+"talk": true,
+"emote": "anger"
+},
+{
+"at": "Người Công giáo nói em bé mắc",
+"type": "text",
+"set": "cafe",
+"kicker": "MẮC ≠ PHẠM",
+"lines": [
+"Mắc tội nguyên tổ,",
+"không phải phạm"
+]
+},
+{
+"at": "Mắc với phạm khác nhau",
+"type": "close",
+"set": "cafe",
+"c": "KHOA",
+"expr": "confused",
+"talk": true,
+"emote": "?"
+},
+{
+"at": "Khác chứ",
+"type": "fact",
+"symbol": "bible",
+"title": "Mắc và phạm",
+"body": [
+"Phạm là mình làm. Mắc là tình trạng",
+"mình sinh ra đã ở trong."
+],
+"src": "GLHTCG 404",
+"icon": "bible"
+},
+{
+"at": "Ông cố cậu có ruộng",
+"type": "scene",
+"set": "park",
+"setOpt": {
+"bench": false
+},
+"timeTag": "Ông cố của Khoa",
+"chars": [
+{
+"c": "OLDMAN",
+"pose": "openArms",
+"expr": "happy"
+}
+]
+},
+{
+"at": "Vậy cậu sinh ra không",
+"type": "ots",
+"set": "cafe",
+"fg": "KHOA",
+"who": {
+"c": "PHAOLO",
+"pose": "explain",
+"expr": "smirk",
+"talk": true
+}
+},
+{
+"at": "Tớ còn chưa ra đời",
+"type": "close",
+"set": "cafe",
+"c": "KHOA",
+"expr": "surprised",
+"talk": true
+},
+{
+"at": "Khoa gãi đầu",
+"type": "scene",
+"set": "cafe",
+"freeze": "ỜM...",
+"chars": [
+{
+"c": "KHOA",
+"pose": "handsOnHead",
+"expr": "embarrassed"
+}
+],
+"emotes": [
+{
+"who": 0,
+"type": "sweat"
+}
+]
+},
+{
+"at": "Tội nguyên tổ giống vậy",
+"type": "lesson",
+"c": "PHAOLO",
+"lines": [
+"Không phải món nợ,",
+"mà là sự thiếu vắng."
+]
+},
+{
+"at": "Con người sinh ra thiếu",
+"type": "fact",
+"symbol": "dove",
+"title": "Thiếu điều gì?",
+"body": [
+"Tình thân nguyên thủy với Chúa;",
+"bản tính dễ nghiêng về điều xấu."
+],
+"src": "GLHTCG 405",
+"icon": "dove"
+},
+{
+"at": "Thế rửa tội để làm gì",
+"type": "close",
+"set": "cafe",
+"c": "KHOA",
+"expr": "thinking",
+"talk": true
+},
+{
+"at": "Để Chúa trả lại cho em bé",
+"type": "scene",
+"set": "churchInside",
+"wide": true,
+"cam": "push",
+"chars": [
+{
+"c": "CHA_LE",
+"x": -90,
+"pose": "bless",
+"expr": "gentle"
+},
+{
+"c": "ME_AODAI",
+"x": 150,
+"pose": "hold",
+"expr": "happy",
+"f": -1
+}
+],
+"items": [
+{
+"item": "water",
+"x": -10,
+"y": -40,
+"s": 0.35
+}
+],
+"tag": "Được làm con Chúa"
+},
+{
+"at": "Còn tính dễ yếu lòng",
+"type": "fact",
+"set": "churchInside",
+"title": "Chiến đấu cả đời",
+"body": [
+"Hậu quả nơi bản tính vẫn còn,",
+"phải tập luyện mỗi ngày."
+],
+"src": "GLHTCG 405, 1264",
+"icon": "cross"
+},
+{
+"at": "Khoa nheo mắt",
+"type": "close",
+"set": "cafe",
+"c": "KHOA",
+"expr": "smirk",
+"talk": true,
+"bubble": "Vậy là cậu cũng yếu lòng?",
+"captions": false
+},
+{
+"at": "Có. Ví dụ bây giờ",
+"type": "insert",
+"set": "cafe",
+"item": "rice",
+"label": "Đĩa hướng dương"
+},
+{
+"at": "Đấy là tham ăn",
+"type": "close",
+"set": "cafe",
+"c": "KHOA",
+"expr": "laugh",
+"talk": true
+},
+{
+"at": "Thì tớ đang tập đây",
+"type": "scene",
+"set": "cafe",
+"cam": "push",
+"chars": [
+{
+"c": "PHAOLO",
+"pose": "reach",
+"expr": "embarrassed"
+},
+{
+"c": "KHOA",
+"pose": "holdFront",
+"expr": "smirk",
+"f": -1
+}
+],
+"sfx": [
+{
+"at": 1.4,
+"name": "boing",
+"gain": -12
+}
+]
+},
+{
+"at": "Theo bạn, chữ nào",
+"type": "end",
+"question": "Theo bạn, chữ nào dễ hiểu hơn để giải thích chuyện này: \"mắc\" hay \"thiếu\"?",
+"cast": [
+"PHAOLO",
+"KHOA"
+]
+}
+]
+}

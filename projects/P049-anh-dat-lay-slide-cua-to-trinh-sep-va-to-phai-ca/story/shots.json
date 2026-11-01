@@ -1,0 +1,654 @@
+{
+ "title": "Anh Đạt lấy slide của tớ trình sếp, và tớ phải cầu cho anh ấy",
+ "duration": 122.116,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 6.038,
+   "line": "Slide số bảy là của tớ, từ cái biểu đồ màu cam đến câu khẩu hiệu Ba phút, đủ ấm.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "phone",
+    "hook": {
+     "kicker": "SLIDE SỐ 7",
+     "lines": [
+      "Bị lấy ý tưởng,",
+      "phải cầu cho họ?"
+     ],
+     "y": 0.12
+    },
+    "label": "Ba phút, đủ ấm"
+   }
+  },
+  {
+   "id": "s02",
+   "start": 6.038,
+   "end": 10.825,
+   "line": "Vậy mà sáng thứ Hai, người trình bày nó trước sếp lại là anh Đạt bàn bên.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN2",
+      "pose": "explain",
+      "expr": "proud",
+      "talk": true
+     },
+     {
+      "c": "BOSS",
+      "pose": "stand",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Anh Đạt"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 10.825,
+   "end": 14.763,
+   "line": "Tớ đã gửi bản nháp nhờ anh góp ý từ tối thứ Sáu.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "phone",
+    "label": "Đã gửi: tối thứ Sáu"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 14.763,
+   "end": 17.813,
+   "line": "Sếp vỗ tay: Ý tưởng hay lắm Đạt.",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "BOSS",
+    "expr": "happy",
+    "talk": true,
+    "bubble": "Ý tưởng hay lắm Đạt!"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 17.813,
+   "end": 20.912,
+   "line": "Anh Đạt cười, không nhìn về phía tớ.",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "PHAOLO",
+    "expr": "angry",
+    "emote": "anger"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 20.912,
+   "end": 25.462,
+   "line": "Cả tuần đó, tớ thú thật, tớ mong anh trình bày hỏng ở vòng sau.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "crossArms",
+      "expr": "annoyed"
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Mong anh ta trình bày hỏng...",
+      "think": true,
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 25.462,
+   "end": 30.487,
+   "line": "Tối nào cầu nguyện, tớ cũng cầu cho đủ người trong phòng, trừ một cái tên.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Danh sách cầu nguyện",
+    "steps": [
+     "Mẹ, Vy, sếp...",
+     "Cả phòng...",
+     "Trừ anh Đạt"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 30.487,
+   "end": 40.588,
+   "line": "Rồi Chúa nhật, bài Tin Mừng trúng ngay lời Chúa Giêsu: hãy yêu kẻ thù và cầu nguyện cho những ai ngược đãi anh em, vì Cha trên trời cho mặt trời mọc lên trên cả người xấu lẫn người tốt.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Mt 5,44-45",
+    "body": [
+     "Hãy yêu kẻ thù và cầu nguyện cho",
+     "những ai ngược đãi anh em."
+    ],
+    "src": "Mt 5,43-48",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 40.588,
+   "end": 44.875,
+   "line": "Sau lễ, tớ hỏi cha Tâm: Con phải thích anh Đạt hả cha?",
+   "scene": "ots",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "churchOutside",
+    "fg": "CHA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "worried",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s10",
+   "start": 44.875,
+   "end": 49.663,
+   "line": "Cha cười: Chúa đâu bảo con thích. Chúa bảo con yêu.",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "CHA",
+    "expr": "laugh",
+    "talk": true,
+    "bubble": "Chúa bảo con yêu, không bảo thích."
+   }
+  },
+  {
+   "id": "s11",
+   "start": 49.663,
+   "end": 57.15,
+   "line": "Thích là cảm xúc, con không ra lệnh cho nó được. Yêu là muốn điều tốt cho người ta, kể cả khi không ưa họ.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Thích ≠ Yêu",
+    "steps": [
+     "Thích: cảm xúc",
+     "Yêu: muốn điều tốt cho họ"
+    ],
+    "c": "CHA"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 57.15,
+   "end": 66.45,
+   "line": "Mình được ghét điều xấu người ta làm, nhưng không được ghét chính con người ấy. Cố tình mong người khác gặp điều dữ, đó mới là đi ngược đức ái.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Ghét điều xấu, không ghét người",
+    "body": [
+     "Cố tình mong người khác gặp điều dữ",
+     "là đi ngược đức ái."
+    ],
+    "src": "GLHTCG 1933; 2302–2303",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 66.45,
+   "end": 68.825,
+   "line": "Vậy con cứ im hả cha?",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "PHAOLO",
+    "expr": "confused",
+    "talk": true
+   }
+  },
+  {
+   "id": "s14",
+   "start": 68.825,
+   "end": 77.025,
+   "line": "Không. Yêu không có nghĩa là để bất công trôi qua. Con nói sự thật để sửa, không phải để trả đũa.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "CHA",
+    "expr": "gentle",
+    "lines": [
+     "Nói sự thật để sửa,",
+     "không để trả đũa."
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 77.025,
+   "end": 83.488,
+   "line": "Hôm sau tớ gặp riêng sếp, đưa cái email có giờ gửi tối thứ Sáu, nói ngắn, không bêu ai.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "fg": "plant",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "prop": "phone",
+      "expr": "determined",
+      "talk": true
+     },
+     {
+      "c": "BOSS",
+      "pose": "stand",
+      "expr": "thinking",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 83.488,
+   "end": 87.994,
+   "line": "Tối đó, lần đầu tớ cầu cho anh Đạt có tên đàng hoàng, nghiến răng mà vẫn nói:",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "kneelPray",
+      "expr": "determined"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 87.994,
+   "end": 92.375,
+   "line": "Xin cho anh ấy làm việc tử tế, và cho con thôi mong anh ấy ngã.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "pray",
+    "bubble": "Cho con thôi mong anh ấy ngã."
+   }
+  },
+  {
+   "id": "s18",
+   "start": 92.375,
+   "end": 97.6,
+   "line": "Cái khó không phải tha cho anh Đạt, mà là thôi cho anh ấy ở trọ miễn phí trong đầu mình.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "lines": [
+     "Thôi cho anh ấy ở trọ",
+     "miễn phí trong đầu mình"
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 97.6,
+   "end": 101.675,
+   "line": "Tuần sau, sếp ghi tên cả hai đứa trong báo cáo dự án.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "card",
+    "label": "Báo cáo dự án: cả hai tên"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 101.675,
+   "end": 107.363,
+   "line": "Anh Đạt đi ngang, đặt lên bàn tớ một ly mì, gõ nhẹ hai cái, không nói gì.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN2",
+      "pose": "reach",
+      "expr": "embarrassed"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 0,
+      "y": -200,
+      "s": 0.15
+     }
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 107.363,
+   "end": 111.95,
+   "line": "Tớ vẫn chưa thích anh. Nhưng tớ hết mong anh ngã.",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "PHAOLO",
+    "expr": "smirk",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 111.95,
+   "end": 122.116,
+   "line": "Trong lời cầu nguyện của bạn, có cái tên nào đang lặng lẽ bị bỏ ra ngoài không? Chỉ cần trả lời một chữ, còn, hoặc hết.",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Trong lời cầu nguyện của bạn, có cái tên nào đang lặng lẽ bị bỏ ra ngoài không? Chỉ cần trả lời một chữ, còn, hoặc hết.",
+    "cast": [
+     "PHAOLO",
+     "MAN2"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.5,
+   "end": 21.06
+  },
+  {
+   "start": 21.06,
+   "mood": "reflect",
+   "intensity": 0.45,
+   "end": 30.64
+  },
+  {
+   "start": 30.64,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 77.17
+  },
+  {
+   "start": 77.17,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 122.12
+  }
+ ],
+ "sfx": []
+}

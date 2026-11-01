@@ -1,0 +1,23 @@
+{"id":"P044",
+ "cover":{"set":"street","c":"KHOA","expr":"happy","item":"sandals","kicker":"KHÔNG TỘI","lines":["Sao lại xếp hàng","xuống sông?"]},
+ "music":[[0,"cute",0.55],["Tớ kể theo Tin Mừng","sacred",0.45],["Hai tuần sau","gentle",0.55],["Đúng vậy. Sách Giáo lý","sacred",0.45]],
+ "beats":[
+ {"type":"close","set":"cafe","c":"KHOA","expr":"smirk","talk":true,"hook":{"kicker":"PHÉP RỬA SÔNG GIOĐAN","lines":["Không tội sao","phải xuống sông?"]}},
+ {"at":"Khoa hỏi, tay chìa","type":"insert","set":"cafe","item":"phone","label":"Sông Giođan"},
+ {"at":"Tớ đáp theo bài giáo lý","type":"close","set":"cafe","c":"PHAOLO","expr":"proud","talk":true,"bubble":"Để làm gương!"},
+ {"at":"Khoa cười khẩy","type":"close","set":"cafe","c":"KHOA","expr":"smirk","talk":true,"bubble":"Đứng trên bờ chỉ tay cũng được!","captions":false},
+ {"at":"Tớ kể theo Tin Mừng","type":"scene","set":"park","setOpt":{"bench":false},"wide":true,"cam":"push","items":[{"item":"water","x":0,"y":120,"s":0.6}],"chars":[{"c":"MAN","pose":"bless","expr":"gentle"},{"c":"WOMAN","pose":"kneel","expr":"pray","f":-1}],"timeTag":"Ông Gioan bên sông","labels":[{"who":0,"str":"Ông Gioan"}]},
+ {"at":"Khi Chúa Giêsu đến","type":"fact","symbol":"dove","title":"Mt 3,14-15","body":["Gioan can: \"Tôi mới cần được Ngài rửa.\"","\"Cứ để vậy, để giữ trọn đức công chính.\""],"src":"Mt 3,13-17","icon":"dove"},
+ {"at":"Khoa nhún vai","type":"close","set":"cafe","c":"KHOA","expr":"annoyed","talk":true},
+ {"at":"Tối đó tớ thua","type":"scene","set":"cafe","freeze":"THUA","chars":[{"c":"PHAOLO","pose":"facepalm","expr":"embarrassed"}]},
+ {"at":"Hai tuần sau","type":"scene","set":"street","setOpt":{"mood":"pday"},"wide":true,"timeTag":"Miền Trung sau lũ","items":[{"item":"water","x":0,"y":160,"s":0.6}],"chars":[{"c":"KHOA","pose":"holdFront","expr":"determined"},{"c":"OLDLADY","pose":"stand","expr":"worried","f":-1}]},
+ {"at":"Tớ nhắn trêu","type":"insert","set":"office","item":"phone","label":"Sao không đứng trên bờ?"},
+ {"at":"Khoa gọi lại, giọng khàn","type":"close","set":"street","c":"KHOA","expr":"gentle","talk":true,"bubble":"Lội xuống thì bà kể cả đời cho tớ nghe.","captions":false},
+ {"at":"Im một chút","type":"close","set":"street","c":"KHOA","expr":"thinking","talk":true,"emote":"idea"},
+ {"at":"Đúng vậy. Sách Giáo lý","type":"fact","symbol":"cross","title":"Kể vào hàng tội nhân","body":["Không cần sám hối, Ngài chịu kể vào","hàng tội nhân, đón sứ mạng Người Tôi Trung."],"src":"GLHTCG 536","icon":"cross"},
+ {"at":"Vừa lên khỏi nước","type":"insert","set":"dream","item":"dove","label":"Đây là Con yêu dấu của Ta"},
+ {"at":"Thiên Chúa xác nhận Ngài","type":"text","set":"dream","lines":["Đúng lúc Ngài đứng","chung hàng với mọi người"]},
+ {"at":"Ngài không xuống nước để","type":"lesson","c":"PHAOLO","lines":["Để chúng ta không đứng","dưới đó một mình."]},
+ {"at":"Khoa về, mang theo","type":"insert","set":"street","item":"sandals","label":"Treo ngoài ban công"},
+ {"at":"Nếu được chọn","type":"end","question":"Nếu được chọn, bạn đứng trên bờ cho sạch, hay lội xuống cùng người ta?","cast":["PHAOLO","KHOA"]}
+]}

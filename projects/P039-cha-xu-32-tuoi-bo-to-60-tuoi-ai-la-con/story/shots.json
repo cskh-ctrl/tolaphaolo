@@ -1,0 +1,585 @@
+{
+ "title": "Cha xứ 32 tuổi, bố tớ 60 tuổi, ai là \"con\"?",
+ "duration": 109.972,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.975,
+   "line": "Bố tớ sáu mươi tuổi, khoanh tay chào một người ba mươi hai tuổi: Con chào cha ạ.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "push",
+    "hook": {
+     "kicker": "AI LÀ \"CON\"?",
+     "lines": [
+      "Bố 60 tuổi,",
+      "cha xứ 32 tuổi"
+     ]
+    },
+    "chars": [
+     {
+      "c": "BO",
+      "pose": "holdFront",
+      "expr": "smile",
+      "talk": true
+     },
+     {
+      "c": "CHA",
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.975,
+   "end": 9.138,
+   "line": "Khoa đứng bên cạnh, suýt sặc nước mía.",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "boing",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "KHOA",
+    "expr": "shocked",
+    "emote": "?!"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 9.138,
+   "end": 18.275,
+   "line": "Ra cổng, nó hỏi liền: Ông ấy trẻ hơn bố cậu gần ba chục tuổi mà bố cậu xưng con? Ừ. Thế có ngược không?",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "fg": "plant",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "talk",
+      "expr": "confused",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 18.275,
+   "end": 24.45,
+   "line": "Không ngược. Chữ cha ở đây không tính bằng tuổi. Tính bằng gì?",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s05",
+   "start": 24.45,
+   "end": 30.412,
+   "line": "Bằng việc làm. Cậu gọi thầy giáo cấp ba là gì? Thầy.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "timeTag": "Thầy giáo cấp ba",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "explain",
+      "expr": "smile"
+     },
+     {
+      "c": "KHOA",
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 30.412,
+   "end": 34.362,
+   "line": "Giờ cậu làm sếp rồi? Vẫn thầy.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "KHOA",
+    "expr": "smile",
+    "talk": true,
+    "bubble": "Vẫn gọi thầy."
+   }
+  },
+  {
+   "id": "s07",
+   "start": 34.362,
+   "end": 43.012,
+   "line": "Vì thầy dạy cậu nên người. Linh mục được gọi là cha vì cha sinh ra đời sống đức tin cho người ta qua Rửa Tội, nuôi bằng Thánh Thể.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Vì sao gọi là cha?",
+    "body": [
+     "Sinh ra đời sống đức tin qua Rửa Tội,",
+     "nuôi bằng Thánh Thể."
+    ],
+    "src": "GLHTCG 1548–1549",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 43.012,
+   "end": 49.237,
+   "line": "Nhưng tớ đọc trên mạng, Chúa Giêsu dặn đừng gọi ai dưới đất là cha, vì chỉ có một Cha trên trời.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 49.237,
+   "end": 52.362,
+   "line": "Có thật, Mátthêu chương hai mươi ba.",
+   "scene": "insert",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "street",
+    "item": "bible",
+    "label": "Mt 23,9"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 52.362,
+   "end": 54.475,
+   "line": "Thế là cãi Chúa à?",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true
+   }
+  },
+  {
+   "id": "s11",
+   "start": 54.475,
+   "end": 61.438,
+   "line": "Cậu còn gọi bố cậu là bố không? Gọi chứ. Vậy cậu cũng cãi Chúa à?",
+   "scene": "ots",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "street",
+    "fg": "KHOA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "smirk",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s12",
+   "start": 61.438,
+   "end": 63.038,
+   "line": "Khoa nghẹn.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "freeze": "NGHẸN",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "facepalm",
+      "expr": "embarrassed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 63.038,
+   "end": 69.137,
+   "line": "Chúa không cấm từ ngữ. Ngài cảnh báo kiểu người thích được tôn lên thay chỗ Thiên Chúa.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "KHÔNG CẤM TỪ NGỮ",
+    "lines": [
+     "Cảnh báo kẻ thích",
+     "được tôn thay chỗ Chúa"
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 69.137,
+   "end": 79.1,
+   "line": "Chính thánh Phaolo viết cho người Côrintô rằng anh em có thể có cả vạn người dạy dỗ, nhưng không có nhiều cha, vì chính tôi đã sinh ra anh em trong Chúa Kitô nhờ Tin Mừng.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Thánh Phaolô",
+    "body": [
+     "Cả vạn người dạy dỗ, nhưng không có",
+     "nhiều cha: tôi đã sinh ra anh em."
+    ],
+    "src": "1 Cr 4,15",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 79.1,
+   "end": 81.825,
+   "line": "Vậy cha xứ là cha thay Chúa?",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "KHOA",
+    "expr": "thinking",
+    "talk": true
+   }
+  },
+  {
+   "id": "s16",
+   "start": 81.825,
+   "end": 90.375,
+   "line": "Không thay. Cha xứ chỉ là cái bóng nhỏ của người Cha thật. Người cha tốt là người làm con thấy được Cha trên trời.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Người cha tốt làm con",
+     "thấy được Cha trên trời."
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 90.375,
+   "end": 94.988,
+   "line": "Khoa gật gù, rồi hỏi: Thế cha xứ gọi bố cậu là gì?",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 94.988,
+   "end": 100.288,
+   "line": "Anh Tư. Còn gọi cậu? Thằng Phaolo.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "point",
+      "expr": "laugh"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "facepalm",
+      "expr": "embarrassed",
+      "f": -1
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Thằng Phaolo!",
+      "at": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 100.288,
+   "end": 103.225,
+   "line": "Ờ, cái đó thì đúng là cha thật.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "KHOA",
+    "expr": "laugh",
+    "talk": true
+   }
+  },
+  {
+   "id": "s20",
+   "start": 103.225,
+   "end": 109.972,
+   "line": "Ở xứ bạn, giáo dân thường gọi linh mục là cha, là ông cha hay là thầy?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Ở xứ bạn, giáo dân thường gọi linh mục là cha, là ông cha hay là thầy?",
+    "cast": [
+     "PHAOLO",
+     "KHOA",
+     "CHA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 24.6
+  },
+  {
+   "start": 24.6,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 63.19
+  },
+  {
+   "start": 63.19,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 90.53
+  },
+  {
+   "start": 90.53,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 109.97
+  }
+ ],
+ "sfx": []
+}

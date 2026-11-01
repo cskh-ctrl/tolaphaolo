@@ -1,0 +1,624 @@
+{
+ "title": "\"Xem phim trừ tà xong, tớ không dám tắt đèn\"",
+ "duration": 112.372,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.825,
+   "line": "Hai giờ sáng, Khoa gọi video cho tớ, đèn bật sáng trưng.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "phonering",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "hook": {
+     "kicker": "2 GIỜ SÁNG",
+     "lines": [
+      "Ma quỷ có thật",
+      "như trong phim?"
+     ],
+     "y": 0.12
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.825,
+   "end": 11.75,
+   "line": "Cậu ơi, tớ vừa xem xong phim trừ tà. Rồi sao? Không dám tắt đèn.",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "c": "KHOA",
+    "expr": "scared",
+    "talk": true,
+    "emote": "shock"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 11.75,
+   "end": 14.013,
+   "line": "Cậu ba mươi tuổi rồi đấy.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "sleepy",
+    "talk": true
+   }
+  },
+  {
+   "id": "s04",
+   "start": 14.013,
+   "end": 18.175,
+   "line": "Kệ tớ. đạo cậu tin ma quỷ có thật không?",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "c": "KHOA",
+    "expr": "pout",
+    "talk": true,
+    "bubble": "Ma quỷ có thật không?"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 18.175,
+   "end": 23.125,
+   "line": "Có. Nhưng không giống phim. Khác chỗ nào?",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s06",
+   "start": 23.125,
+   "end": 28.588,
+   "line": "Phim cho quỷ ngang ngửa với Chúa. Còn mình tin quỷ chỉ là thụ tạo.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "PHIM",
+    "lines": [
+     "Quỷ ngang ngửa",
+     "với Chúa"
+    ],
+    "strike": 1.6
+   }
+  },
+  {
+   "id": "s07",
+   "start": 28.588,
+   "end": 34.55,
+   "line": "Tức là cũng do Chúa dựng nên, rồi tự chọn chống lại Chúa. Mạnh không?",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Ma quỷ là thụ tạo",
+    "body": [
+     "Được dựng nên tốt lành,",
+     "tự chọn khước từ Thiên Chúa."
+    ],
+    "src": "GLHTCG 391–392",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 34.55,
+   "end": 40.775,
+   "line": "Mạnh, nhưng không vô hạn. Nó không làm được gì vượt quá điều Chúa cho phép.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Không vô hạn",
+    "body": [
+     "Không làm được gì vượt quá",
+     "điều Chúa cho phép."
+    ],
+    "src": "GLHTCG 395",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 40.775,
+   "end": 45.725,
+   "line": "Thế người Công giáo có bị nhập không? Có thể, nhưng hiếm.",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "c": "KHOA",
+    "expr": "worried",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 45.725,
+   "end": 53.237,
+   "line": "Hiếm tới mức trước khi trừ quỷ, Giáo hội bắt kiểm tra kỹ xem có phải bệnh không, nhất là bệnh tâm lý, việc của bác sĩ.",
+   "scene": "scene",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "hospital",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN2",
+      "pose": "explain",
+      "expr": "gentle"
+     }
+    ],
+    "tag": "Kiểm tra bệnh trước, việc của bác sĩ"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 53.237,
+   "end": 55.413,
+   "line": "Ai cũng trừ tà được à?",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "c": "KHOA",
+    "expr": "confused",
+    "talk": true
+   }
+  },
+  {
+   "id": "s12",
+   "start": 55.413,
+   "end": 60.813,
+   "line": "Không. Nghi thức trừ quỷ lớn chỉ linh mục được giám mục cho phép mới làm.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Trừ quỷ trọng thể",
+    "body": [
+     "Chỉ linh mục được",
+     "giám mục cho phép."
+    ],
+    "src": "GLHTCG 1673",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 60.813,
+   "end": 63.15,
+   "line": "Thế quỷ hại cậu kiểu gì?",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "c": "KHOA",
+    "expr": "thinking",
+    "talk": true
+   }
+  },
+  {
+   "id": "s14",
+   "start": 63.15,
+   "end": 70.4,
+   "line": "Kiểu chán hơn phim nhiều. Nó thì thầm cho tớ lười cầu nguyện, cho tớ giận mẹ ba ngày không nói chuyện.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "freeze": "CÁM DỖ",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "crossArms",
+      "expr": "annoyed"
+     },
+     {
+      "c": "ME",
+      "pose": "sad",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Lười cầu nguyện... giận mẹ...",
+      "think": true,
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 70.4,
+   "end": 73.025,
+   "line": "Đó mới là cái tớ cần sợ.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "determined"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 73.025,
+   "end": 83.988,
+   "line": "Thế cậu chống bằng gì? Cầu nguyện, xưng tội, đi lễ, sống gần Chúa. Với tránh mấy trò bói toán, bùa ngải, cầu cơ cho vui.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Vũ khí của tớ",
+    "steps": [
+     "Cầu nguyện, xưng tội, đi lễ",
+     "Sống gần Chúa",
+     "Tránh bói toán, bùa ngải, cầu cơ"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 83.988,
+   "end": 86.775,
+   "line": "Khoa ngáp: Nghe cũng bớt sợ.",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "c": "KHOA",
+    "expr": "yawn",
+    "talk": [
+     0.5,
+     9
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 86.775,
+   "end": 93.712,
+   "line": "Vì Chúa thắng rồi, Khoa ạ. Phim cần quỷ thắng tới phút chín mươi cho kịch tính. Đời thật thì không.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Chúa thắng rồi.",
+     "Đời thật không cần kịch tính."
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 93.712,
+   "end": 99.55,
+   "line": "Giờ tắt đèn được chưa? Được, nhưng đừng mơ thấy con búp bê trong phim nhé.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "smirk",
+    "talk": true
+   }
+  },
+  {
+   "id": "s20",
+   "start": 99.55,
+   "end": 104.413,
+   "line": "Khoa cúp máy cái rụp. Tớ đoán đêm nay cái đèn thắng.",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "sleep",
+      "expr": "asleep"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "zzz"
+     }
+    ],
+    "tag": "Cái đèn thắng"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 104.413,
+   "end": 112.372,
+   "line": "Nếu đứa bạn thân gọi bạn lúc hai giờ sáng vì sợ như Khoa, bạn sẽ nói câu gì để nó dám tắt đèn?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu đứa bạn thân gọi bạn lúc hai giờ sáng vì sợ như Khoa, bạn sẽ nói câu gì để nó dám tắt đèn?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.5,
+   "end": 21.64
+  },
+  {
+   "start": 21.64,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 60.96
+  },
+  {
+   "start": 60.96,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 84.14
+  },
+  {
+   "start": 84.14,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 112.37
+  }
+ ],
+ "sfx": []
+}

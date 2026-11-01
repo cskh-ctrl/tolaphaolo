@@ -1,0 +1,664 @@
+{
+ "title": "Cha ơi, Chúa có chọn nhầm Giuđa không?",
+ "duration": 106.708,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 3.237,
+   "line": "Cha ơi, Chúa có chọn nhầm người không?",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "push",
+    "hook": {
+     "kicker": "GIUĐA",
+     "lines": [
+      "Chúa có",
+      "chọn nhầm người?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "talk",
+      "expr": "confused",
+      "talk": true
+     },
+     {
+      "c": "CHA",
+      "pose": "crouch",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 3.237,
+   "end": 7.425,
+   "line": "Cha Tâm đang xếp ghế nhựa sau lễ tối, ngẩng lên: Ai?",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "CHA",
+    "expr": "surprised",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 7.425,
+   "end": 11.575,
+   "line": "Giuđa. Biết trước bị phản bội mà vẫn chọn.",
+   "scene": "ots",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "fg": "CHA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "explain",
+     "expr": "worried",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s04",
+   "start": 11.575,
+   "end": 15.125,
+   "line": "Tin Mừng Gioan ghi Chúa biết từ đầu ai sẽ nộp Người.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Ga 6,64",
+    "body": [
+     "Chúa biết từ đầu",
+     "ai sẽ nộp Người."
+    ],
+    "src": "Ga 6,64.70-71",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 15.125,
+   "end": 17.412,
+   "line": "Vậy là Chúa gài sẵn?",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "annoyed",
+    "talk": true
+   }
+  },
+  {
+   "id": "s06",
+   "start": 17.412,
+   "end": 23.388,
+   "line": "Biết trước không phải là bắt buộc. Con biết trời sắp mưa, đâu phải con làm mưa.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "up",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "pointUp",
+      "expr": "gentle",
+      "talk": true
+     }
+    ],
+    "tag": "Biết trời mưa ≠ làm mưa"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 23.388,
+   "end": 26.125,
+   "line": "Nhưng chọn ổng là chọn rủi ro.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "thinking",
+    "talk": true
+   }
+  },
+  {
+   "id": "s08",
+   "start": 26.125,
+   "end": 30.05,
+   "line": "Rủi ro mà Chúa vẫn giao túi tiền chung cho ổng giữ đó.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "item": "money",
+    "label": "Túi tiền chung (Ga 12,6)"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 30.05,
+   "end": 36.625,
+   "line": "Thật hả cha? Gioan kể vậy. Ổng còn ngồi chung bàn, ăn chung bánh.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "CHA",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s10",
+   "start": 36.625,
+   "end": 38.762,
+   "line": "Vậy sao ông vẫn làm?",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 38.762,
+   "end": 44.325,
+   "line": "Cha dừng tay: Câu đó cha không biết. Tớ suýt làm rớt chồng ghế.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "boing",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "freeze": "CHA KHÔNG BIẾT",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "shrug",
+      "expr": "gentle"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "expr": "shocked",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 44.325,
+   "end": 48.612,
+   "line": "Kinh Thánh kể ông lấy tiền trong túi chung, nhận ba mươi đồng bạc.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "coins",
+    "label": "Mt 26,14-15"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 48.612,
+   "end": 56.712,
+   "line": "Còn sâu trong lòng vì sao, người ta có nhiều suy niệm. Vì tiền, vì thất vọng, vì muốn một Đấng Mêsia khác.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Những suy niệm",
+    "steps": [
+     "Vì tiền?",
+     "Vì thất vọng?",
+     "Muốn một Mêsia khác?"
+    ],
+    "c": "CHA"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 56.712,
+   "end": 63.063,
+   "line": "Đó là suy niệm để xét mình, không phải tín điều. Tận cùng vẫn là mầu nhiệm tự do.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "MẦU NHIỆM",
+    "lines": [
+     "Tự do",
+     "của con người"
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 63.063,
+   "end": 66.95,
+   "line": "Vậy Chúa thua tự do của Giuđa? Không.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "worried",
+    "talk": true
+   }
+  },
+  {
+   "id": "s16",
+   "start": 66.95,
+   "end": 79.712,
+   "line": "Sách Giáo lý nói kế hoạch của Thiên Chúa bao gồm cả câu trả lời tự do của mỗi người. Ngài không giật dây ai, nhưng không để sự dữ nói lời cuối. Chính đêm bị nộp dẫn tới thập giá cứu muôn người.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Kế hoạch của Thiên Chúa",
+    "body": [
+     "Bao gồm câu trả lời tự do của mỗi người;",
+     "không để sự dữ nói lời cuối."
+    ],
+    "src": "GLHTCG 600; 311–312",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 79.712,
+   "end": 81.962,
+   "line": "Vậy sao Chúa vẫn chọn?",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "confused",
+    "talk": true
+   }
+  },
+  {
+   "id": "s18",
+   "start": 81.962,
+   "end": 86.913,
+   "line": "Cha cười: Sao Chúa chọn con, dù biết con sẽ ngủ gật lễ sáng Chúa nhật?",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "CHA",
+    "expr": "laugh",
+    "talk": true,
+    "bubble": "Sao Chúa chọn con, dù con ngủ gật?"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 86.913,
+   "end": 89.062,
+   "line": "Con đâu có nộp Chúa.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "embarrassed",
+    "talk": true,
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 89.062,
+   "end": 97.25,
+   "line": "Mỗi lần mình chọn điều khác thay vì Chúa, mình có chút Giuđa, chút Phêrô. Điều quan trọng là mình có dám quay về không.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "CHA",
+    "expr": "gentle",
+    "lines": [
+     "Chút Giuđa, chút Phêrô:",
+     "dám quay về không?"
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 97.25,
+   "end": 99.762,
+   "line": "Rồi cha đưa thêm chồng ghế.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "holdFront",
+      "expr": "smile"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "reach",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s22",
+   "start": 99.762,
+   "end": 106.708,
+   "line": "Nếu tối đó bạn là người phụ cha xếp ghế, câu tiếp theo bạn sẽ hỏi cha là gì?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu tối đó bạn là người phụ cha xếp ghế, câu tiếp theo bạn sẽ hỏi cha là gì?",
+    "cast": [
+     "PHAOLO",
+     "CHA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 17.56
+  },
+  {
+   "start": 17.56,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 67.1
+  },
+  {
+   "start": 67.1,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 82.11
+  },
+  {
+   "start": 82.11,
+   "mood": "cute",
+   "intensity": 0.5,
+   "end": 106.71
+  }
+ ],
+ "sfx": []
+}

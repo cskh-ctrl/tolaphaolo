@@ -1,0 +1,547 @@
+{
+ "title": "Người không tội mà xếp hàng xuống sông: Khoa và đôi dép tổ ong đầy bùn",
+ "duration": 113.308,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.325,
+   "line": "Người sạch sẽ thì xếp hàng vô nhà tắm chung với người dơ làm gì?",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true,
+    "hook": {
+     "kicker": "PHÉP RỬA SÔNG GIOĐAN",
+     "lines": [
+      "Không tội sao",
+      "phải xuống sông?"
+     ]
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.325,
+   "end": 9.338,
+   "line": "Khoa hỏi, tay chìa điện thoại đang mở bức tranh Chúa Giêsu đứng dưới sông Giođan.",
+   "scene": "insert",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "cafe",
+    "item": "phone",
+    "label": "Sông Giođan"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 9.338,
+   "end": 13.263,
+   "line": "Tớ đáp theo bài giáo lý hồi lớp năm: Để làm gương.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "proud",
+    "talk": true,
+    "bubble": "Để làm gương!"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 13.263,
+   "end": 18.263,
+   "line": "Khoa cười khẩy: Làm gương thì đứng trên bờ chỉ tay cũng được, cần gì ướt.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true,
+    "bubble": "Đứng trên bờ chỉ tay cũng được!"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 18.263,
+   "end": 23.975,
+   "line": "Tớ kể theo Tin Mừng Mátthêu. Ông Gioan làm phép rửa sám hối bên sông.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false
+    },
+    "wide": true,
+    "cam": "push",
+    "items": [
+     {
+      "item": "water",
+      "x": 0,
+      "y": 120,
+      "s": 0.6
+     }
+    ],
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "bless",
+      "expr": "gentle"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "kneel",
+      "expr": "pray",
+      "f": -1
+     }
+    ],
+    "timeTag": "Ông Gioan bên sông",
+    "labels": [
+     {
+      "who": 0,
+      "str": "Ông Gioan"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 23.975,
+   "end": 35.712,
+   "line": "Khi Chúa Giêsu đến, chính ông Gioan can, đại ý: Tôi mới cần được Ngài rửa, sao Ngài lại đến với tôi? Chúa Giêsu đáp đại ý: Cứ để vậy, để giữ trọn đức công chính.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Mt 3,14-15",
+    "body": [
+     "Gioan can: \"Tôi mới cần được Ngài rửa.\"",
+     "\"Cứ để vậy, để giữ trọn đức công chính.\""
+    ],
+    "src": "Mt 3,13-17",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 35.712,
+   "end": 38.925,
+   "line": "Khoa nhún vai: Nghe như né câu hỏi.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "annoyed",
+    "talk": true
+   }
+  },
+  {
+   "id": "s08",
+   "start": 38.925,
+   "end": 40.925,
+   "line": "Tối đó tớ thua.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "freeze": "THUA",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "facepalm",
+      "expr": "embarrassed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 40.925,
+   "end": 53.85,
+   "line": "Hai tuần sau, Khoa theo nhóm thiện nguyện công ty ra miền Trung sau lũ. Một tấm ảnh gửi về nhóm Zalo: Khoa, dân văn phòng chính hiệu, ngập bùn tới đầu gối, đang khiêng cái tủ gỗ cho một bà cụ.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pday"
+    },
+    "wide": true,
+    "timeTag": "Miền Trung sau lũ",
+    "items": [
+     {
+      "item": "water",
+      "x": 0,
+      "y": 160,
+      "s": 0.6
+     }
+    ],
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "holdFront",
+      "expr": "determined"
+     },
+     {
+      "c": "OLDLADY",
+      "pose": "stand",
+      "expr": "worried",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 53.85,
+   "end": 57.75,
+   "line": "Tớ nhắn trêu: Sao không đứng trên bờ chỉ tay cho sạch?",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "phone",
+    "label": "Sao không đứng trên bờ?"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 57.75,
+   "end": 65.288,
+   "line": "Khoa gọi lại, giọng khàn: Đứng trên bờ thì bà cảm ơn. Lội xuống thì bà kể cả đời bà cho tớ nghe.",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "KHOA",
+    "expr": "gentle",
+    "talk": true,
+    "bubble": "Lội xuống thì bà kể cả đời cho tớ nghe."
+   }
+  },
+  {
+   "id": "s12",
+   "start": 65.288,
+   "end": 68.913,
+   "line": "Im một chút: Hay đó là điều cậu muốn nói hôm bữa?",
+   "scene": "close",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "street",
+    "c": "KHOA",
+    "expr": "thinking",
+    "talk": true,
+    "emote": "idea"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 68.913,
+   "end": 82.575,
+   "line": "Đúng vậy. Sách Giáo lý giải thích, Chúa Giêsu không có tội nên không cần sám hối. Ngài xuống nước để chịu cho mình bị kể vào hàng tội nhân, đón nhận sứ mạng Người Tôi Trung đau khổ, con đường sẽ dẫn tới thập giá.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Kể vào hàng tội nhân",
+    "body": [
+     "Không cần sám hối, Ngài chịu kể vào",
+     "hàng tội nhân, đón sứ mạng Người Tôi Trung."
+    ],
+    "src": "GLHTCG 536",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 82.575,
+   "end": 90.45,
+   "line": "Vừa lên khỏi nước, trời mở ra, Thánh Thần ngự xuống như chim bồ câu, và có tiếng từ trời: Đây là Con yêu dấu của Ta.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "dove",
+    "label": "Đây là Con yêu dấu của Ta"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 90.45,
+   "end": 94.4,
+   "line": "Thiên Chúa xác nhận Ngài đúng lúc Ngài đứng chung hàng với mọi người.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "lines": [
+     "Đúng lúc Ngài đứng",
+     "chung hàng với mọi người"
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 94.4,
+   "end": 100.5,
+   "line": "Ngài không xuống nước để được sạch. Ngài xuống để chúng ta không phải đứng dưới đó một mình.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Để chúng ta không đứng",
+     "dưới đó một mình."
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 100.5,
+   "end": 106.762,
+   "line": "Khoa về, mang theo đôi dép tổ ong đầy bùn, nhất quyết không giặt, treo ngoài ban công làm kỷ niệm.",
+   "scene": "insert",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "street",
+    "item": "sandals",
+    "label": "Treo ngoài ban công"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 106.762,
+   "end": 113.308,
+   "line": "Nếu được chọn, bạn đứng trên bờ cho sạch, hay lội xuống cùng người ta?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu được chọn, bạn đứng trên bờ cho sạch, hay lội xuống cùng người ta?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 18.41
+  },
+  {
+   "start": 18.41,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 41.08
+  },
+  {
+   "start": 41.08,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 69.06
+  },
+  {
+   "start": 69.06,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 113.31
+  }
+ ],
+ "sfx": []
+}

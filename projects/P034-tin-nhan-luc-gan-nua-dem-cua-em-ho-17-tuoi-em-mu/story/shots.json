@@ -1,0 +1,597 @@
+{
+ "title": "Tin nhắn lúc gần nửa đêm của em họ 17 tuổi: \"Em muốn theo đạo\"",
+ "duration": 108.844,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 3.95,
+   "line": "Đang tắt đèn đi ngủ thì điện thoại tớ rung ba lần liền.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "phonebuzz",
+     "gain": -12
+    },
+    {
+     "at": 0.9,
+     "name": "phonebuzz",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "hook": {
+     "kicker": "17 TUỔI",
+     "lines": [
+      "Muốn theo đạo,",
+      "ba mẹ thì không?"
+     ],
+     "y": 0.12
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 3.95,
+   "end": 8.925,
+   "line": "Nhi, em họ bên ngoại, mười bảy tuổi, nhà không ai theo đạo.",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "nervous"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Nhi, 17 tuổi"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 8.925,
+   "end": 13.662,
+   "line": "Tin thứ nhất: Anh ơi, em hỏi cái này anh đừng kể ai nha.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Anh đừng kể ai nha"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 13.662,
+   "end": 19.075,
+   "line": "Tin thứ hai: Em đi lễ Giáng sinh với nhỏ bạn, xong em cứ muốn quay lại.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "wide": true,
+    "timeTag": "Đêm Giáng sinh",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "stand",
+      "expr": "awe"
+     },
+     {
+      "c": "MAI",
+      "pose": "stand",
+      "expr": "happy"
+     }
+    ],
+    "items": [
+     {
+      "item": "candles",
+      "x": 0,
+      "y": -60,
+      "s": 0.25
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 19.075,
+   "end": 31.438,
+   "line": "Tin thứ ba dài nhất: Em muốn theo đạo. Nhưng ba mẹ em không theo, chắc chắn sẽ không chịu. Em có được tự đi rửa tội không anh? Hay phải đợi đủ mười tám?",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "c": "GIRL",
+    "expr": "worried",
+    "bubble": "Em có được tự đi rửa tội không?"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 31.438,
+   "end": 34.275,
+   "line": "Tớ nằm nghĩ khá lâu rồi mới gõ.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 34.275,
+   "end": 39.012,
+   "line": "Nhi ơi, anh vui lắm. Anh nói thật mấy điều nha.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "happy",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 39.012,
+   "end": 42.975,
+   "line": "Thứ nhất, cha mẹ không theo đạo thì con vẫn có thể theo đạo.",
+   "scene": "text",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchOutside",
+    "kicker": "THỨ NHẤT",
+    "lines": [
+     "Cha mẹ không theo đạo,",
+     "con vẫn có thể theo"
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 42.975,
+   "end": 52.375,
+   "line": "Với em bé thì cần ít nhất ba hoặc mẹ đồng ý mới rửa tội, còn người đã đủ trí khôn như em thì có thể tự xin, bằng cách đi học giáo lý dự tòng ở một giáo xứ.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Trẻ em và người lớn",
+    "body": [
+     "Em bé: cần ba hoặc mẹ đồng ý.",
+     "Người đủ trí khôn: tự xin, học dự tòng."
+    ],
+    "src": "Giáo luật 851, 865, 868",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 52.375,
+   "end": 59.387,
+   "line": "Thứ hai, học dự tòng không phải vài buổi là xong. Thường cả năm, để em hiểu mình đang chọn gì.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "timeTag": "Lớp dự tòng: thường cả năm",
+    "chars": [
+     {
+      "c": "SO",
+      "pose": "explain",
+      "expr": "gentle",
+      "talk": true
+     },
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "prop": "book",
+      "expr": "thinking",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 59.387,
+   "end": 66.225,
+   "line": "Thứ ba, em nghe kỹ nha. Em chưa đủ mười tám, nên ở mình, các cha thường muốn có ba mẹ em đồng ý.",
+   "scene": "text",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "livingRoom",
+    "kicker": "THỨ BA",
+    "lines": [
+     "Chưa đủ 18,",
+     "các cha muốn ba mẹ đồng ý"
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 66.225,
+   "end": 71.85,
+   "line": "Không phải vì đức tin của em không quan trọng, mà vì Chúa không muốn em phải chọn giữa Ngài và gia đình.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Chúa không muốn em chọn",
+     "giữa Ngài và gia đình."
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 71.85,
+   "end": 76.762,
+   "line": "Theo Chúa mà giấu ba mẹ, cãi ba mẹ, thì chẳng giống Chúa chút nào.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Thảo kính cha mẹ",
+    "body": [
+     "Điều răn thứ Tư."
+    ],
+    "src": "GLHTCG 2214–2217",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 76.762,
+   "end": 84.712,
+   "line": "Anh nghĩ em cứ bắt đầu từ việc kể cho mẹ nghe em đã thấy gì trong đêm Giáng sinh đó. Không cần thuyết phục, chỉ kể thôi.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "push",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "talk",
+      "expr": "gentle",
+      "talk": true
+     },
+     {
+      "c": "WOMAN",
+      "pose": "stand",
+      "expr": "thinking",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 84.712,
+   "end": 87.075,
+   "line": "Cần thì anh qua nói cùng.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "gentle"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 87.075,
+   "end": 91.8,
+   "line": "Và em cứ đi lễ, cứ hỏi, đức tin không chạy đi đâu mất.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "GIRL",
+      "walk": 30,
+      "expr": "peaceful"
+     }
+    ],
+    "tag": "Đức tin không chạy đi đâu"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 91.8,
+   "end": 96.3,
+   "line": "Gửi xong, dòng đang soạn tin hiện lên rồi tắt, rồi lại hiện.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Đang soạn tin..."
+   }
+  },
+  {
+   "id": "s18",
+   "start": 96.3,
+   "end": 102.4,
+   "line": "Cuối cùng Nhi gửi một tin rất ngắn: Dạ. Mai em thử nói với mẹ.",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "c": "GIRL",
+    "expr": "determined",
+    "bubble": "Dạ. Mai em thử nói với mẹ."
+   }
+  },
+  {
+   "id": "s19",
+   "start": 102.4,
+   "end": 108.844,
+   "line": "Nếu bạn là Nhi, bạn sẽ mở lời với ba mẹ bằng câu đầu tiên nào?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu bạn là Nhi, bạn sẽ mở lời với ba mẹ bằng câu đầu tiên nào?",
+    "cast": [
+     "PHAOLO",
+     "GIRL"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 31.59
+  },
+  {
+   "start": 31.59,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 62.04
+  },
+  {
+   "start": 62.04,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 91.95
+  },
+  {
+   "start": 91.95,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 108.84
+  }
+ ],
+ "sfx": []
+}

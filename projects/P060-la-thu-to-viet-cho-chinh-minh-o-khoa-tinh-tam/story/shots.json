@@ -1,0 +1,606 @@
+{
+ "title": "Lá thư tớ viết cho chính mình ở khóa tĩnh tâm",
+ "duration": 114.628,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.075,
+   "line": "Cha Tâm phát cho mỗi người một tờ giấy A5 màu vàng nhạt và đúng mười lăm phút.",
+   "scene": "insert",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "churchOutside",
+    "item": "card",
+    "hook": {
+     "kicker": "15 PHÚT",
+     "lines": [
+      "Nếu hôm nay là",
+      "ngày cuối cùng?"
+     ],
+     "y": 0.12
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.075,
+   "end": 16.412,
+   "line": "Bài tập cuối khóa tĩnh tâm ở nhà dòng trên Đà Lạt. Cha Tâm nói: Mỗi người viết vài dòng cho chính mình. Nếu hôm nay là ngày cuối cùng, con muốn sống hôm nay thế nào.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "timeTag": "Tĩnh tâm, Đà Lạt",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "holdFront",
+      "prop": "paper",
+      "expr": "gentle",
+      "talk": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 16.412,
+   "end": 20.412,
+   "line": "Không phải để buồn, mà để biết mình đang sống vì cái gì.",
+   "scene": "close",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "classroom",
+    "c": "CHA",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s04",
+   "start": 20.412,
+   "end": 24.05,
+   "line": "Tớ ngồi ngoài hiên, năm phút không viết được chữ nào.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "prop": "paper",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 24.05,
+   "end": 29.044,
+   "line": "Rồi tớ viết. Phaolo ơi. Nếu hôm nay là ngày cuối,",
+   "scene": "insert",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "park",
+    "item": "card",
+    "label": "Phaolo ơi."
+   }
+  },
+  {
+   "id": "s06",
+   "start": 29.044,
+   "end": 32.325,
+   "line": "mày đừng ngồi lướt điện thoại tới mười hai giờ đêm nữa.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "sleepy"
+     }
+    ],
+    "tag": "12 giờ đêm"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 32.325,
+   "end": 38.125,
+   "line": "Sáng nay uống cà phê với mẹ, đừng vừa uống vừa trả lời email. Nhìn mẹ.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "sit",
+      "expr": "gentle"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "awe",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 38.125,
+   "end": 41.425,
+   "line": "Tóc mai mẹ bạc rồi, mày để ý chưa.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "c": "ME",
+    "expr": "smile"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 41.425,
+   "end": 48.0,
+   "line": "Mày nợ thằng Khoa một lời xin lỗi vì vụ nói nặng hôm sinh nhật nó. Đừng nhắn, gọi.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Gọi Khoa"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 48.0,
+   "end": 54.012,
+   "line": "Chiều nay đi ngang ông bán vé số ở ngã tư, mua cho ông ổ bánh mì, ngồi nói chuyện năm phút.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "expr": "smile"
+     },
+     {
+      "c": "OLDMAN",
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "items": [
+     {
+      "item": "bread",
+      "x": 0,
+      "y": -220,
+      "s": 0.12
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 54.012,
+   "end": 63.125,
+   "line": "Chúa Giêsu bảo, cuối đời mình sẽ được hỏi về những người đói, người khát, người cô đơn mà mình đã gặp. Người không hỏi mày kiếm được bao nhiêu.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Mt 25,40",
+    "body": [
+     "Làm cho một anh em bé nhỏ nhất",
+     "là làm cho chính Ta."
+    ],
+    "src": "Mt 25,31-46",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 63.125,
+   "end": 70.675,
+   "line": "Tối nay đi xưng tội, cái điều mày cứ hẹn lần sau. Trước khi ngủ, nói với Chúa một câu cảm ơn thật lòng.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening",
+     "pews": false
+    },
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "kneelPray",
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 70.675,
+   "end": 77.038,
+   "line": "Mày không cần làm gì vĩ đại. Chỉ cần yêu cho trọn những người Chúa đặt cạnh mày hôm nay.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Yêu cho trọn những người",
+     "Chúa đặt cạnh mình hôm nay."
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 77.038,
+   "end": 84.075,
+   "line": "Đọc lại, tớ bật cười. Toàn những việc làm được ngay, mà tớ cứ để dành cho một ngày nào đó.",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "c": "PHAOLO",
+    "expr": "laugh",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 84.075,
+   "end": 88.538,
+   "line": "Giáo hội dạy mỗi người chỉ sống một đời, và cuối đời sẽ gặp Chúa.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Chỉ sống một lần",
+    "body": [
+     "Cuối đời gặp Chúa; ta sẽ bị",
+     "phán xét về tình yêu."
+    ],
+    "src": "GLHTCG 1007, 1013, 1022",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 88.538,
+   "end": 95.038,
+   "line": "Tớ từng thấy điều đó đáng sợ. Giờ tớ thấy nó là lời nhắc, đừng để dành tình thương.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "lines": [
+     "Đừng để dành",
+     "tình thương"
+    ],
+    "item": "heart"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 95.038,
+   "end": 100.7,
+   "line": "Tối hôm ấy tớ gọi cho mẹ. Mẹ hỏi: Có chuyện gì không con?",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "gentle",
+      "talk": [
+       2,
+       9
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 100.7,
+   "end": 104.338,
+   "line": "Tớ bảo: Không có gì, con nhớ mẹ thôi.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "love",
+    "talk": true,
+    "bubble": "Không có gì, con nhớ mẹ thôi."
+   }
+  },
+  {
+   "id": "s19",
+   "start": 104.338,
+   "end": 108.65,
+   "line": "Mẹ im một chút, rồi kể tớ nghe nồi thịt kho mẹ vừa nấu.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "ME",
+    "expr": "cry",
+    "talk": [
+     1.2,
+     9
+    ],
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 108.65,
+   "end": 114.628,
+   "line": "Dòng đầu tiên bạn muốn viết lên tờ giấy vàng ấy cho hôm nay là gì?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Dòng đầu tiên bạn muốn viết lên tờ giấy vàng ấy cho hôm nay là gì?",
+    "cast": [
+     "PHAOLO",
+     "ME"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 24.2
+  },
+  {
+   "start": 24.2,
+   "mood": "reflect",
+   "intensity": 0.45,
+   "end": 54.16
+  },
+  {
+   "start": 54.16,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 95.19
+  },
+  {
+   "start": 95.19,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 114.63
+  }
+ ],
+ "sfx": []
+}

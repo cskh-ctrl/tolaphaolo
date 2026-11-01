@@ -1,0 +1,649 @@
+{
+ "title": "Cha xứ thú nhận: \"Cha cũng từng rung động\"",
+ "duration": 123.868,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 2.525,
+   "line": "Cha từng thương một người.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "CHA",
+    "expr": "gentle",
+    "talk": true,
+    "hook": {
+     "kicker": "CHA THÚ NHẬN",
+     "lines": [
+      "\"Cha cũng từng",
+      "rung động\""
+     ]
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 2.525,
+   "end": 8.7,
+   "line": "Cha Tâm nói câu đó rất nhẹ, trong lúc hai cha con ngồi rửa chén sau bữa cơm mừng bổn mạng giáo xứ.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening",
+     "noTable": true
+    },
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "holdFront",
+      "expr": "gentle",
+      "talk": [
+       2.5,
+       9
+      ]
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "timeTag": "Sau bữa mừng bổn mạng"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 8.7,
+   "end": 11.937,
+   "line": "Tớ đứng yên, tay còn cầm cái muôi.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "shocked",
+    "emote": "!"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 11.937,
+   "end": 20.775,
+   "line": "Cha kể, năm thứ hai đại chủng viện, cha về quê nghỉ hè. Có một cô giáo dạy giáo lý, giọng hát rất hay, hay cười.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pmorning"
+    },
+    "timeTag": "Năm 2 đại chủng viện",
+    "chars": [
+     {
+      "c": "CO",
+      "pose": "openArms",
+      "expr": "happy",
+      "talk": true
+     },
+     {
+      "c": "CHA",
+      "pose": "stand",
+      "expr": "awe",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "music"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 20.775,
+   "end": 25.612,
+   "line": "Cha bảo, cha nhớ cả cái khăn len màu xanh cô quàng mỗi lễ sáng mùa đông.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "heart",
+    "label": "Khăn len màu xanh"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 25.612,
+   "end": 30.212,
+   "line": "Tớ hỏi, vậy cha có sai không. Cha lắc đầu.",
+   "scene": "ots",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "fg": "CHA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "worried",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s07",
+   "start": 30.212,
+   "end": 41.45,
+   "line": "Rung động không phải là tội. Linh mục vẫn là một người đàn ông, có trái tim, biết quý mến, biết nhớ nhung. Điều quan trọng là mình làm gì với cảm xúc ấy.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Cảm xúc",
+    "body": [
+     "Tự nó không tốt không xấu;",
+     "quan trọng là mình làm gì."
+    ],
+    "src": "GLHTCG 1767–1768",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 41.45,
+   "end": 45.487,
+   "line": "Cha nói, hôm đó cha về nhà thờ, quỳ rất lâu.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight",
+     "pews": false
+    },
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "kneelPray",
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 45.487,
+   "end": 51.288,
+   "line": "Rồi cha kể hết với cha linh hướng. Cha không giấu, cũng không chiều theo.",
+   "scene": "scene",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "home",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "talk",
+      "expr": "worried",
+      "talk": true
+     },
+     {
+      "c": "ONG",
+      "pose": "sit",
+      "expr": "gentle",
+      "f": -1
+     }
+    ],
+    "labels": [
+     {
+      "who": 1,
+      "str": "Cha linh hướng"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 51.288,
+   "end": 61.438,
+   "line": "Cha nhận ra mình phải chọn. Một là con đường gia đình, cũng đẹp, cũng thánh. Hai là lời hứa sống độc thân mà cha sắp tuyên khi chịu chức.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Hai con đường",
+    "steps": [
+     "Gia đình: đẹp và thánh",
+     "Độc thân khi chịu chức"
+    ],
+    "c": "CHA"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 61.438,
+   "end": 63.85,
+   "line": "Cha chọn con đường thứ hai.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "freeze": "LỜI HỨA",
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "pose": "kneelPray",
+      "expr": "peaceful"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 63.85,
+   "end": 67.55,
+   "line": "Tớ hỏi, từ đó cha hết rung động luôn hả cha.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 67.55,
+   "end": 73.075,
+   "line": "Cha bật cười. Không đâu con. Có những ngày cô đơn.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "CHA",
+    "expr": "laugh",
+    "talk": true
+   }
+  },
+  {
+   "id": "s14",
+   "start": 73.075,
+   "end": 77.413,
+   "line": "Có những lúc gặp gia đình trẻ dắt con đi lễ, cha thấy chạnh lòng.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "BO",
+      "walk": 30,
+      "expr": "happy"
+     },
+     {
+      "c": "BIN",
+      "walk": 30,
+      "expr": "joy"
+     },
+     {
+      "c": "CHA",
+      "pose": "wave",
+      "expr": "gentle",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 77.413,
+   "end": 89.425,
+   "line": "Nhưng con thấy đó, vợ chồng chung thủy cũng đâu phải là cả đời không bao giờ thấy ai dễ thương. Chung thủy là mỗi lần như thế, mình lại chọn giữ lời hứa thêm một lần nữa. Cha cũng vậy.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "CHA",
+    "expr": "gentle",
+    "lines": [
+     "Chung thủy là mỗi lần,",
+     "lại chọn giữ lời hứa."
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 89.425,
+   "end": 96.55,
+   "line": "Cha giữ khoảng cách đúng mực. Cha cầu nguyện. Cha có bạn bè linh mục để tâm sự.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Cách cha giữ lời hứa",
+    "steps": [
+     "Giữ khoảng cách đúng mực",
+     "Cầu nguyện",
+     "Bạn bè linh mục"
+    ],
+    "c": "CHA"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 96.55,
+   "end": 101.225,
+   "line": "Và cha yêu, theo một cách khác, những người cha được sai đến phục vụ.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Khiết tịnh",
+    "body": [
+     "Mọi người được mời sống khiết tịnh",
+     "theo bậc sống của mình."
+    ],
+    "src": "GLHTCG 2348–2349",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 101.225,
+   "end": 109.163,
+   "line": "Tớ rửa xong cái chén cuối cùng mà không nói gì. Tớ nghĩ tới Vy, tới những lời hứa tớ sẽ nói vào một ngày nào đó.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening",
+     "noTable": true
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 109.163,
+   "end": 116.1,
+   "line": "Hoá ra giữ một lời hứa không phải là không bao giờ chao đảo. Mà là chao đảo rồi, vẫn quay về.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Chao đảo rồi,",
+     "vẫn quay về."
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 116.1,
+   "end": 123.868,
+   "line": "Bạn đã từng giữ một lời hứa nào ngay cả khi lòng mình rất muốn buông chưa, và điều gì đã giữ bạn lại?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Bạn đã từng giữ một lời hứa nào ngay cả khi lòng mình rất muốn buông chưa, và điều gì đã giữ bạn lại?",
+    "cast": [
+     "PHAOLO",
+     "CHA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 30.36
+  },
+  {
+   "start": 30.36,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 64.0
+  },
+  {
+   "start": 64.0,
+   "mood": "reflect",
+   "intensity": 0.45,
+   "end": 101.38
+  },
+  {
+   "start": 101.38,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 123.87
+  }
+ ],
+ "sfx": []
+}

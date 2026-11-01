@@ -1,0 +1,666 @@
+{
+ "title": "Chiều Thứ Sáu Tuần Thánh, tớ thôi sợ Chúa của mình thua",
+ "duration": 128.14,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 9.212,
+   "line": "Chiều Thứ Sáu Tuần Thánh, nhà thờ không có tiếng chuông. Bàn thờ trống trơn. Không khăn, không nến, không hoa.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening",
+     "flowers": false
+    },
+    "wide": true,
+    "cam": "push",
+    "hook": {
+     "kicker": "THỨ SÁU TUẦN THÁNH",
+     "lines": [
+      "Chúa của tớ",
+      "có thua không?"
+     ]
+    },
+    "chars": []
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s02",
+   "start": 9.212,
+   "end": 12.537,
+   "line": "Cửa nhà tạm mở, bên trong không có gì.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "item": "tabernacle",
+    "label": "Bên trong trống"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 12.537,
+   "end": 17.525,
+   "line": "Tớ ngồi hàng ghế thứ ba từ cuối, chỗ hồi nhỏ tớ hay chọn cho dễ về sớm.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "push",
+    "fg": "pew",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "peaceful"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 17.525,
+   "end": 25.612,
+   "line": "Hồi đó tớ giấu một thắc mắc. Nếu Chúa Giêsu là Thiên Chúa, sao Ngài để người ta bắt, đánh, rồi đóng đinh?",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "BIN",
+    "expr": "confused",
+    "emote": "?",
+    "bubble": "Sao Chúa để người ta đóng đinh?"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 25.612,
+   "end": 32.2,
+   "line": "Tớ mê phim kiếm hiệp. Trong phim, cao thủ không ra tay thì chỉ có thể là mất võ công.",
+   "scene": "scene",
+   "set": "dream",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "dream",
+    "freeze": "MẤT VÕ CÔNG?",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "kick",
+      "expr": "determined"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 32.2,
+   "end": 34.712,
+   "line": "Tớ sợ Chúa của tớ thua.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "BIN",
+    "expr": "worried",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 34.712,
+   "end": 38.5,
+   "line": "Hôm nay nghe bài Thương Khó, tớ để ý một chi tiết.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA_TIM",
+      "pose": "holdFront",
+      "prop": "bible",
+      "expr": "peaceful"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 38.5,
+   "end": 46.1,
+   "line": "Khi lính kéo đến khu vườn bên kia suối Kítrôn, Chúa Giêsu không trốn. Ngài bước ra, hỏi họ tìm ai.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Vườn bên kia suối Kítrôn",
+    "body": [
+     "Chúa Giêsu không trốn,",
+     "Ngài bước ra hỏi họ tìm ai."
+    ],
+    "src": "Ga 18,1-8",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 46.1,
+   "end": 51.75,
+   "line": "Trước đó Ngài từng nói, không ai lấy được mạng sống của Ngài, chính Ngài tự ý trao ban.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Tự ý trao ban",
+    "body": [
+     "Không ai lấy được mạng sống của Ngài,",
+     "chính Ngài tự ý trao ban."
+    ],
+    "src": "Ga 10,17-18",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 51.75,
+   "end": 55.663,
+   "line": "Vậy là không phải thua. Là chọn.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "KHÔNG PHẢI THUA",
+    "lines": [
+     "Là",
+     "chọn."
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 55.663,
+   "end": 65.988,
+   "line": "Sách Giáo lý nói cái chết ấy không phải tai nạn, không do tình cờ. Nó nằm trong kế hoạch yêu thương của Thiên Chúa, để giải thoát con người khỏi tội lỗi và sự chết.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Không phải tình cờ",
+    "body": [
+     "Nằm trong kế hoạch yêu thương",
+     "để giải thoát con người."
+    ],
+    "src": "GLHTCG 599–600",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 65.988,
+   "end": 74.187,
+   "line": "Và Ngài đi vào đó cách tự do, yêu cho đến cùng. Chính tình yêu đến cùng ấy làm cho hy lễ của Ngài có sức cứu chuộc.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Yêu đến cùng",
+    "body": [
+     "Tình yêu đến cùng làm cho hy lễ",
+     "có sức cứu chuộc."
+    ],
+    "src": "Ga 13,1; GLHTCG 606–618",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 74.187,
+   "end": 81.012,
+   "line": "Phía trên, một ông cụ chống gậy lom khom lên hôn Thánh Giá. Ông mất rất lâu để quỳ xuống.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "push",
+    "items": [
+     {
+      "item": "woodCross",
+      "x": 120,
+      "y": -60,
+      "s": 0.25
+     }
+    ],
+    "chars": [
+     {
+      "c": "OLDMAN",
+      "x": -120,
+      "pose": [
+       [
+        0,
+        "stand"
+       ],
+       [
+        2.5,
+        "kneel"
+       ]
+      ],
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 81.012,
+   "end": 85.25,
+   "line": "Rồi lâu hơn nữa để đứng dậy. Không ai giục.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "awe"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 85.25,
+   "end": 93.475,
+   "line": "Tớ nghĩ, người mạnh nhất không phải người đánh thắng tất cả. Người mạnh nhất là người có thể bỏ đi, mà vẫn ở lại.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Có thể bỏ đi,",
+     "mà vẫn ở lại."
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 93.475,
+   "end": 101.275,
+   "line": "Ngài ở lại trên thập giá, giữa tiếng chế nhạo, đến hơi thở cuối. Ở lại cho cả những người đang làm Ngài đau.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "crucifix"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 101.275,
+   "end": 104.738,
+   "line": "Ở lại cho cả một thằng nhóc từng sợ Chúa mình thua.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "BIN",
+    "expr": "peaceful",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 104.738,
+   "end": 108.062,
+   "line": "Đến lượt tớ. Gỗ lạnh.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "item": "woodCross",
+    "label": "Gỗ lạnh"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 108.062,
+   "end": 111.413,
+   "line": "Tớ thì thầm: Cảm ơn Chúa đã không bỏ đi.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "pray",
+    "bubble": "Cảm ơn Chúa đã không bỏ đi."
+   }
+  },
+  {
+   "id": "s20",
+   "start": 111.413,
+   "end": 117.413,
+   "line": "Câu chuyện không dừng ở chiều thứ Sáu. Sáng ngày thứ ba, ngôi mộ sẽ trống.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "NGÀY THỨ BA",
+    "lines": [
+     "Ngôi mộ",
+     "sẽ trống"
+    ],
+    "item": "dove"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 117.413,
+   "end": 120.937,
+   "line": "Nhưng chiều nay, tớ muốn ngồi lại thêm chút nữa.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "pull",
+    "fg": "pew",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sitPray",
+      "expr": "peaceful"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s22",
+   "start": 120.937,
+   "end": 128.14,
+   "line": "Bạn có một thắc mắc nào về Chúa giấu từ hồi nhỏ, đến giờ vẫn chưa dám hỏi ai không?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Bạn có một thắc mắc nào về Chúa giấu từ hồi nhỏ, đến giờ vẫn chưa dám hỏi ai không?",
+    "cast": [
+     "PHAOLO",
+     "BIN"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.45,
+   "end": 34.86
+  },
+  {
+   "start": 34.86,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 104.89
+  },
+  {
+   "start": 104.89,
+   "mood": "sacred",
+   "intensity": 0.5,
+   "end": 128.14
+  }
+ ],
+ "sfx": []
+}

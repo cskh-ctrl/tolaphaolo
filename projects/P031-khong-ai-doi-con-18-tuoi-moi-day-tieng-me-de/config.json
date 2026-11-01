@@ -1,0 +1,36 @@
+{
+ "title": "Không ai đợi con 18 tuổi mới dạy tiếng mẹ đẻ",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 83.524,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "churchInside",
+  "c": "ME",
+  "expr": "gentle",
+  "item": "water",
+  "kicker": "RỬA TỘI",
+  "lines": [
+   "Sao không đợi",
+   "con lớn tự chọn?"
+  ]
+ },
+ "episode": "P031"
+}

@@ -1,0 +1,604 @@
+{
+ "title": "Khen canh mặn là ngon: tử tế hay nói dối?",
+ "duration": 110.788,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.825,
+   "line": "Tớ đã ăn hết hai bát canh chua mặn nhất đời mình, và còn khen ngon.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "hook": {
+     "kicker": "KHEN CANH MẶN",
+     "lines": [
+      "Tử tế",
+      "hay nói dối?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "nervous"
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 160,
+      "y": -170,
+      "s": 0.18
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.825,
+   "end": 8.437,
+   "line": "Bữa cơm thứ ba ở nhà Vy, bạn gái tớ.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "wide": true,
+    "timeTag": "Bữa cơm thứ ba nhà Vy",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "sit",
+      "expr": "smile"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "sit",
+      "expr": "happy"
+     },
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "nervous",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 8.437,
+   "end": 15.338,
+   "line": "Trước khi đi, thằng Bin em họ tớ nhắn Zalo dặn: Mẹ người yêu nấu gì cũng phải khen, nói dối vô hại thôi.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Bin: Khen hết, nói dối vô hại thôi!"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 15.338,
+   "end": 20.1,
+   "line": "Mẹ Vy múc cho tớ bát canh chua cá lóc đầy ắp, nhìn tớ chờ đợi.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "WOMAN",
+    "expr": "happy",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 20.1,
+   "end": 23.712,
+   "line": "Muỗng đầu tiên, tớ thấy như đang uống nước biển.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "freeze": "NƯỚC BIỂN!",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "shocked"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 23.712,
+   "end": 26.375,
+   "line": "Tớ nuốt, cười: Canh ngon quá bác ạ.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "smile",
+    "talk": true,
+    "bubble": "Canh ngon quá bác ạ!",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 26.375,
+   "end": 31.175,
+   "line": "Bác vui lắm, múc thêm bát nữa. Cả bàn ai cũng khen.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "WOMAN",
+      "pose": "reach",
+      "expr": "joy"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "nervous",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 31.175,
+   "end": 41.938,
+   "line": "Rửa bát xong, bố Vy kéo tớ ra hiên, nói nhỏ: Bác gái bị cảm mấy hôm nay, mất vị giác, nêm gì cũng không biết. Cả nhà sợ bác buồn nên cứ khen.",
+   "scene": "ots",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "fg": "PHAOLO",
+    "who": {
+     "c": "MAN",
+     "pose": "talk",
+     "expr": "worried",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s09",
+   "start": 41.938,
+   "end": 44.45,
+   "line": "Mà bác ấy huyết áp cao.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "MAN",
+    "expr": "worried",
+    "talk": true,
+    "emote": "!"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 44.45,
+   "end": 49.563,
+   "line": "Hoá ra câu khen tử tế của cả nhà đang để một người ăn mặn một mình, mỗi ngày.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "guilty"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 49.563,
+   "end": 52.875,
+   "line": "Lời nói dối nhỏ của tớ không vô hại chút nào.",
+   "scene": "text",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "kitchen",
+    "kicker": "VÔ HẠI?",
+    "lines": [
+     "Không vô hại",
+     "chút nào"
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 52.875,
+   "end": 59.637,
+   "line": "Tớ quay vào bếp, ngồi cạnh bác: Bác ơi, con thấy canh hôm nay đậm hơn mọi khi, bác còn mệt phải không?",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "setOpt": {
+     "noTable": true
+    },
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "talk",
+      "expr": "gentle",
+      "talk": true
+     },
+     {
+      "c": "WOMAN",
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 59.637,
+   "end": 63.425,
+   "line": "Mai con qua nấu nồi cháo, bác chỉ con nêm nhé.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "smile",
+    "talk": true
+   }
+  },
+  {
+   "id": "s14",
+   "start": 63.425,
+   "end": 68.775,
+   "line": "Bác nếm lại, nhăn mặt, rồi bật cười: Trời đất, mặn thế này mà cả nhà khen ngon à.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "WOMAN",
+    "expr": "laugh",
+    "talk": true,
+    "bubble": "Mặn thế này mà khen ngon à!"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 68.775,
+   "end": 76.538,
+   "line": "Sau hôm đó tớ đọc lại sách Giáo lý. Nói dối là nói điều sai với ý định lừa người khác, và nó làm mòn lòng tin.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Nói dối",
+    "body": [
+     "Nói sai sự thật với ý lừa dối;",
+     "làm mòn lòng tin."
+    ],
+    "src": "GLHTCG 2482, 2485–2486",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 76.538,
+   "end": 84.35,
+   "line": "Nhưng Giáo lý cũng dạy, không phải điều gì mình cũng buộc phải nói ra, và lòng bác ái cùng sự tôn trọng sự thật phải dẫn lối cho câu trả lời.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Bác ái và sự thật",
+    "body": [
+     "Không phải điều gì cũng buộc nói ra;",
+     "bác ái dẫn lối câu trả lời."
+    ],
+    "src": "GLHTCG 2488–2489",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 84.35,
+   "end": 92.575,
+   "line": "Tớ không cần chê thẳng mặt, cũng không cần bịa. Tớ có thể cảm ơn công bác nấu, khen con cá tươi, đều là thật.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Nói thật mà thương",
+    "steps": [
+     "Cảm ơn công bác nấu",
+     "Khen con cá tươi",
+     "Lo cho sức khỏe bác"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 92.575,
+   "end": 97.35,
+   "line": "Còn khi cái thật ấy chạm đến sức khoẻ của bác, khen bừa mới là thiếu thương.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "determined"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 97.35,
+   "end": 103.925,
+   "line": "Tử tế không phải là nói cho người ta vui. Tử tế là nói thật bằng giọng của người thương họ.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Nói thật bằng giọng",
+     "của người thương họ."
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 103.925,
+   "end": 110.788,
+   "line": "Nếu là bạn ngồi ở bàn cơm đó, bạn sẽ nói câu gì ngay sau muỗng canh đầu tiên?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu là bạn ngồi ở bàn cơm đó, bạn sẽ nói câu gì ngay sau muỗng canh đầu tiên?",
+    "cast": [
+     "PHAOLO",
+     "WOMAN"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 31.32
+  },
+  {
+   "start": 31.32,
+   "mood": "reflect",
+   "intensity": 0.45,
+   "end": 53.02
+  },
+  {
+   "start": 53.02,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 68.78
+  },
+  {
+   "start": 68.78,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 110.79
+  }
+ ],
+ "sfx": []
+}

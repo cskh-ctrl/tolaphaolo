@@ -1,0 +1,39 @@
+{
+ "title": "Mười bốn khách sạn từ chối tớ đêm 29 Tết, và tớ hiểu máng cỏ Bêlem",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 133.78,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "street",
+  "setOpt": {
+   "mood": "pnight"
+  },
+  "c": "PHAOLO",
+  "expr": "worried",
+  "item": "manger",
+  "kicker": "HẾT PHÒNG",
+  "lines": [
+   "Và tớ hiểu",
+   "máng cỏ Bêlem"
+  ]
+ },
+ "episode": "P041"
+}

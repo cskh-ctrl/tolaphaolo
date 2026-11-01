@@ -1,0 +1,521 @@
+{
+ "title": "Cuốn lịch treo tường kín chữ của cha xứ",
+ "duration": 87.532,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.212,
+   "line": "Ba trăm sáu mươi lăm ô vuông, ô nào cũng có chữ.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "calendar",
+    "hook": {
+     "kicker": "365 Ô VUÔNG",
+     "lines": [
+      "Vì sao linh mục",
+      "không lập gia đình?"
+     ],
+     "y": 0.12
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.212,
+   "end": 7.3,
+   "line": "Đó là cuốn lịch treo sau cửa phòng cha Tâm.",
+   "scene": "scene",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "home",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "point",
+      "expr": "smile"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Cha Tâm"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 7.3,
+   "end": 16.7,
+   "line": "Thứ Hai, xức dầu bà Sáu xóm Ba. Thứ Ba, giải tội trường tiểu học. Thứ Tư, hoà giải hai vợ chồng nhà anh Thịnh.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Lịch tuần của cha",
+    "steps": [
+     "T2: Xức dầu bà Sáu",
+     "T3: Giải tội trường tiểu học",
+     "T4: Hòa giải vợ chồng anh Thịnh"
+    ],
+    "c": "CHA"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 16.7,
+   "end": 20.987,
+   "line": "Có ô ghi đúng một chữ, đám tang, rồi số điện thoại.",
+   "scene": "insert",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "home",
+    "item": "calendar",
+    "label": "Đám tang"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 20.987,
+   "end": 24.862,
+   "line": "Tớ hỏi cha: Cha có ô nào cho riêng cha không?",
+   "scene": "ots",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "home",
+    "fg": "CHA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "confused",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s06",
+   "start": 24.862,
+   "end": 29.888,
+   "line": "Cha cười, chỉ vào ô Chủ nhật: Ngủ trưa, nếu không ai gọi.",
+   "scene": "close",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "home",
+    "c": "CHA",
+    "expr": "laugh",
+    "talk": [
+     1,
+     9
+    ],
+    "bubble": "Ngủ trưa, nếu không ai gọi."
+   }
+  },
+  {
+   "id": "s07",
+   "start": 29.888,
+   "end": 36.688,
+   "line": "Nhìn cuốn lịch ấy tớ hiểu vì sao linh mục Công giáo, ở Giáo hội Latinh như ở Việt Nam mình, không lập gia đình.",
+   "scene": "close",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "home",
+    "c": "PHAOLO",
+    "expr": "awe",
+    "emote": "idea"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 36.688,
+   "end": 43.262,
+   "line": "Không phải vì Giáo hội coi thường hôn nhân. Hôn nhân là một bí tích, thánh thiêng chẳng kém.",
+   "scene": "scene",
+   "set": "wedding",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "wedding",
+    "wide": true,
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "GROOM",
+      "pose": "stand",
+      "expr": "happy"
+     },
+     {
+      "c": "BRIDE",
+      "pose": "stand",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "tag": "Hôn nhân là bí tích"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 43.262,
+   "end": 48.625,
+   "line": "Một người chồng tốt phải dành cho vợ con những ô đẹp nhất trên lịch, và như vậy là đúng.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "BO",
+      "pose": "hug",
+      "expr": "happy"
+     },
+     {
+      "c": "BIN",
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 48.625,
+   "end": 54.163,
+   "line": "Còn linh mục chọn để trống ô ấy, để cả xóm đạo có thể ghi tên mình vào bất cứ lúc nào.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "openArms",
+      "expr": "happy"
+     },
+     {
+      "c": "OLDLADY",
+      "pose": "wave",
+      "expr": "smile",
+      "f": -1
+     },
+     {
+      "c": "TY",
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 54.163,
+   "end": 57.25,
+   "line": "Giáo hội gọi đó là trái tim không chia.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Trái tim không chia",
+    "body": [
+     "Độc thân vì Nước Trời, dễ gắn bó",
+     "với Chúa Kitô."
+    ],
+    "src": "Giáo luật 277 §1; 1 Cr 7,32-34",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 57.25,
+   "end": 61.288,
+   "line": "Nhưng đây là kỷ luật của Giáo hội Latinh, không phải tín điều.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "KỶ LUẬT",
+    "lines": [
+     "Không phải",
+     "tín điều"
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 61.288,
+   "end": 66.937,
+   "line": "Ở các Giáo hội Công giáo Đông phương, vẫn có những linh mục đã lập gia đình từ trước khi được truyền chức.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Đông phương",
+    "body": [
+     "Có linh mục đã lập gia đình",
+     "từ trước khi chịu chức."
+    ],
+    "src": "CCEO 373",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 66.937,
+   "end": 71.712,
+   "line": "Nghĩa là Giáo hội có thể đổi luật này, nhưng vẫn giữ nó như một món quà.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "CHA",
+    "expr": "gentle",
+    "lines": [
+     "Có thể đổi luật,",
+     "nhưng giữ như một món quà."
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 71.712,
+   "end": 76.613,
+   "line": "Tớ thì thú thật, lịch của tớ chỉ cần một tuần không có Vy là thấy trống trơn.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "sad"
+     }
+    ],
+    "tag": "Một tuần không có Vy"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 76.613,
+   "end": 80.55,
+   "line": "Vậy mà có người chọn cả đời để lịch mình kín tên người khác.",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "PHAOLO",
+    "expr": "peaceful",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 80.55,
+   "end": 87.532,
+   "line": "Mở lịch tuần này của bạn ra xem, có ô nào đang để dành cho người cần bạn nhất không?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Mở lịch tuần này của bạn ra xem, có ô nào đang để dành cho người cần bạn nhất không?",
+    "cast": [
+     "PHAOLO",
+     "CHA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 30.04
+  },
+  {
+   "start": 30.04,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 71.86
+  },
+  {
+   "start": 71.86,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 87.53
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,38 @@
+{
+ "title": "Sự thật về vị linh mục bị ném xuống sông Vltava năm 1393",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 124.828,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "street",
+  "setOpt": {
+   "mood": "pnight"
+  },
+  "c": "CHA",
+  "expr": "peaceful",
+  "kicker": "ẤN TÒA GIẢI TỘI",
+  "lines": [
+   "Cha có được",
+   "báo công an?"
+  ]
+ },
+ "episode": "P040"
+}

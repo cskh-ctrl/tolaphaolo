@@ -1,0 +1,35 @@
+{
+ "title": "Cha xứ 32 tuổi, bố tớ 60 tuổi, ai là \"con\"?",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 109.972,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "churchOutside",
+  "c": "KHOA",
+  "expr": "confused",
+  "kicker": "CHA 32 TUỔI",
+  "lines": [
+   "Bố 60 tuổi",
+   "xưng \"con\"?"
+  ]
+ },
+ "episode": "P039"
+}

@@ -1,0 +1,23 @@
+{"id":"P031",
+ "cover":{"set":"churchInside","c":"ME","expr":"gentle","item":"water","kicker":"RỬA TỘI","lines":["Sao không đợi","con lớn tự chọn?"]},
+ "music":[[0,"cute",0.55],["Với người Công giáo, Rửa Tội","sacred",0.45],["Tớ không nhớ gì","gentle",0.6]],
+ "beats":[
+ {"type":"scene","set":"livingRoom","cam":"push","hook":{"kicker":"RỬA TỘI","lines":["Sao không đợi","con lớn tự chọn?"]},"chars":[{"c":"ME","pose":"hold","expr":"gentle"}],"labels":[{"who":0,"str":"Chị Hạnh"}]},
+ {"at":"Anh Quốc, đồng nghiệp","type":"scene","set":"office","cam":"push","chars":[{"c":"MAN2","pose":"phone","prop":"phone","expr":"confused"}],"labels":[{"who":0,"str":"Anh Quốc"}],"say":[{"who":0,"str":"Sao không đợi lớn cho nó tự chọn?","at":1.2}],"sfx":[{"at":0.2,"name":"phonebuzz","gain":-12}]},
+ {"at":"Tối đó tớ thấy chị","type":"scene","set":"bedroom","setOpt":{"mood":"pevening"},"fg":"plant","chars":[{"c":"ME","pose":"talk","expr":"happy","talk":[1.5,9]},{"c":"PHAOLO","pose":"relaxed","expr":"smile","f":-1}]},
+ {"at":"Bin ơi, hôm nay trời mưa","type":"close","set":"bedroom","setOpt":{"mood":"pevening"},"c":"ME","expr":"love","talk":true,"bubble":"Bin nhớ ba không?","captions":false},
+ {"at":"Bé chỉ ọ ẹ","type":"insert","set":"bedroom","setOpt":{"mood":"pevening"},"item":"heart","label":"Ọ ẹ..."},
+ {"at":"Tớ chợt nghĩ","type":"scene","set":"bedroom","setOpt":{"mood":"pevening"},"freeze":"À!","chars":[{"c":"PHAOLO","pose":"think","expr":"awe"}]},
+ {"at":"Cha mẹ trao điều tốt nhất","type":"lesson","c":"PHAOLO","lines":["Trao điều tốt nhất,","ngay khi con chưa biết xin."]},
+ {"at":"Với người Công giáo, Rửa Tội","type":"scene","set":"churchInside","wide":true,"cam":"push","chars":[{"c":"CHA_LE","x":-90,"pose":"bless","expr":"gentle"},{"c":"ME_AODAI","x":150,"pose":"hold","expr":"happy","f":-1}],"items":[{"item":"water","x":-10,"y":-40,"s":0.35}],"timeTag":"Món quà đầu đời"},
+ {"at":"Qua phép Rửa","type":"fact","symbol":"dove","title":"Phép Rửa Tội","body":["Xóa tội nguyên tổ,","được làm con Thiên Chúa."],"src":"GLHTCG 1250, 1263","icon":"dove"},
+ {"at":"Việc này đã có từ thời","type":"fact","symbol":"church","title":"Từ thuở ban đầu","body":["Rửa tội trẻ em là truyền thống","từ thời Giáo hội sơ khai."],"src":"GLHTCG 1252","icon":"church"},
+ {"at":"Nhưng tiếng mẹ đẻ","type":"close","set":"bedroom","c":"PHAOLO","expr":"thinking","emote":"idea"},
+ {"at":"Trao rồi mà không nói","type":"text","set":"bedroom","setOpt":{"mood":"pevening"},"lines":["Không nói mỗi ngày","thì con chẳng nói được"]},
+ {"at":"Rửa Tội cũng vậy","type":"scene","set":"livingRoom","setOpt":{"mood":"pnight","noSofa":true},"cam":"push","fg":"candle","chars":[{"c":"ME","pose":"sitPray","expr":"pray"},{"c":"BIN","pose":"kneelPray","expr":"pray","f":-1}]},
+ {"at":"để lớn lên con tự mình","type":"fact","set":"livingRoom","title":"Đức tin lớn lên","body":["Cha mẹ và người đỡ đầu","giúp con tự mình thưa vâng."],"src":"GLHTCG 1253–1255","icon":"heart"},
+ {"at":"Tớ không nhớ gì","type":"close","set":"churchInside","c":"PHAOLO","expr":"peaceful","emote":"heart"},
+ {"at":"nhưng tớ biết mình đã được","type":"lesson","c":"PHAOLO","lines":["Được thương trước","khi kịp làm gì."]},
+ {"at":"Chủ nhật này, chị Hạnh","type":"scene","set":"churchOutside","cam":"push","chars":[{"c":"ME_AODAI","pose":"wave","expr":"happy"},{"c":"MAN2","pose":"wave","expr":"smile","f":-1}],"sfx":[{"at":0.3,"name":"churchbell","gain":-14}]},
+ {"at":"Bạn có biết mình được","type":"end","question":"Bạn có biết mình được rửa tội ngày nào, ai đã bế bạn hôm ấy không? Tuần này thử hỏi bố mẹ rồi kể tớ nghe nhé.","cast":["PHAOLO","ME"]}
+]}

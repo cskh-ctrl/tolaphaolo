@@ -1,0 +1,610 @@
+{
+ "title": "Mẹ tớ lau mộ một người không quen",
+ "duration": 116.5,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.488,
+   "line": "Chiều mùng hai tháng mười một năm ngoái, mẹ tớ lau sạch một ngôi mộ không phải của nhà mình.",
+   "scene": "insert",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "item": "grave",
+    "hook": {
+     "kicker": "THÁNG CẦU HỒN",
+     "lines": [
+      "Lau mộ",
+      "người không quen"
+     ],
+     "y": 0.12
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.488,
+   "end": 13.712,
+   "line": "Hai mẹ con đi viếng nghĩa trang giáo xứ, tay xách một túi cúc vàng mua ở chợ Bà Chiểu, một xô nước, và cái khăn lau cũ đã sờn mép.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening",
+     "bench": false
+    },
+    "wide": true,
+    "timeTag": "Chiều 2/11",
+    "items": [
+     {
+      "item": "grave",
+      "x": -260,
+      "y": -10,
+      "s": 0.3
+     },
+     {
+      "item": "grave",
+      "x": 260,
+      "y": -10,
+      "s": 0.3
+     }
+    ],
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "holdFront",
+      "expr": "gentle"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 13.712,
+   "end": 20.287,
+   "line": "Lau mộ ông ngoại xong, mẹ đi thẳng sang ngôi mộ bên cạnh, rêu bám đầy, chữ trên bia mờ gần hết.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening",
+     "bench": false
+    },
+    "cam": "push",
+    "items": [
+     {
+      "item": "grave",
+      "x": 220,
+      "y": -10,
+      "s": 0.35
+     }
+    ],
+    "chars": [
+     {
+      "c": "ME",
+      "x": -120,
+      "walk": 30,
+      "expr": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 20.287,
+   "end": 23.025,
+   "line": "Tớ hỏi: Mộ ai vậy mẹ?",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 23.025,
+   "end": 29.05,
+   "line": "Mẹ bảo: Mẹ không biết. Nhưng mười năm rồi mẹ chưa thấy ai tới thắp nhang.",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "ME",
+    "expr": "gentle",
+    "talk": true,
+    "bubble": "Mười năm rồi chưa thấy ai tới thắp nhang."
+   }
+  },
+  {
+   "id": "s06",
+   "start": 29.05,
+   "end": 33.313,
+   "line": "Mẹ lau, cắm hai bông cúc, rồi đứng lần một chục kinh.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening",
+     "bench": false
+    },
+    "cam": "push",
+    "fg": "flowers",
+    "items": [
+     {
+      "item": "grave",
+      "x": 200,
+      "y": -10,
+      "s": 0.35
+     }
+    ],
+    "chars": [
+     {
+      "c": "ME",
+      "x": -140,
+      "pose": "pray",
+      "expr": "pray",
+      "prop": "rosary"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 33.313,
+   "end": 38.2,
+   "line": "Tớ thấy hơi kỳ. Cầu cho người mình không biết tên để làm gì?",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "thinking"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 38.2,
+   "end": 45.4,
+   "line": "Trên đường về, mẹ nói một câu mà tớ nghĩ mãi. Con ơi, người chết đâu có hết là người nhà mình.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "freeze": true,
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "talk",
+      "expr": "gentle",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "awe",
+      "f": -1
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Người chết đâu có hết là người nhà mình.",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 45.4,
+   "end": 57.612,
+   "line": "Tối đó tớ đọc lại Giáo lý. Giáo hội tin rằng những ai chết trong ơn nghĩa Chúa nhưng chưa được thanh luyện trọn vẹn, vẫn chắc chắn được cứu độ, chỉ là còn cần được tinh luyện để đủ thánh thiện mà vào hưởng nhan Chúa.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Thanh luyện",
+    "body": [
+     "Chết trong ơn nghĩa Chúa thì chắc chắn được cứu độ,",
+     "chỉ còn cần được tinh luyện."
+    ],
+    "src": "GLHTCG 1030–1031",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 57.612,
+   "end": 64.175,
+   "line": "Và từ những thế kỷ đầu, Hội thánh đã cầu nguyện cho họ, nhất là dâng Thánh lễ, làm việc bác ái.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Cầu cho người đã khuất",
+    "body": [
+     "Nhất là dâng Thánh lễ,",
+     "làm việc bác ái."
+    ],
+    "src": "GLHTCG 1032",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 64.175,
+   "end": 69.775,
+   "line": "Ngay trong Cựu Ước, sách Macabê đã kể chuyện người ta dâng lễ đền tội cho những người đã khuất.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "bible",
+    "label": "2 Mcb 12,43-46"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 69.775,
+   "end": 78.238,
+   "line": "Giáo lý còn nói một điều làm tớ nổi da gà. Sự hiệp nhất giữa người còn sống và người đã ngủ yên trong Chúa không bị cái chết cắt đứt.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Hiệp thông",
+    "body": [
+     "Cái chết không cắt đứt",
+     "sự hiệp nhất trong Chúa."
+    ],
+    "src": "GLHTCG 954–958",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 78.238,
+   "end": 84.3,
+   "line": "Cả Hội thánh như một đại gia đình, người đang đi đường, người đang được thanh luyện, người đã tới nơi.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Một đại gia đình",
+    "steps": [
+     "Người đang đi đường",
+     "Người đang được thanh luyện",
+     "Người đã tới nơi"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 84.3,
+   "end": 90.95,
+   "line": "Lời cầu của mẹ không phải mê tín. Nó là tình thân vẫn tiếp tục chảy qua bên kia bức tường.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Tình thân vẫn chảy",
+     "qua bên kia bức tường."
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 90.95,
+   "end": 99.788,
+   "line": "Còn những người không cùng đạo đi tảo mộ ngày Thanh minh, thắp nhang cho ông bà, tớ thấy đó cũng là lòng hiếu thảo, nhớ ơn, đẹp theo cách riêng của họ.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false
+    },
+    "cam": "push",
+    "timeTag": "Tiết Thanh minh",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "pray",
+      "expr": "peaceful"
+     },
+     {
+      "c": "OLDLADY",
+      "pose": "pray",
+      "expr": "peaceful",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 99.788,
+   "end": 106.4,
+   "line": "Riêng tớ thì hiểu ra, tháng mười một không phải tháng buồn. Nó là tháng nhà mình mở rộng ra.",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 106.4,
+   "end": 109.4,
+   "line": "Năm nay tớ sẽ mang thêm một cái khăn.",
+   "scene": "insert",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "item": "grave",
+    "label": "Thêm một cái khăn"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 109.4,
+   "end": 116.5,
+   "line": "Có ngôi mộ nào bạn từng ghé thăm dù không phải người nhà mình không, và vì sao bạn dừng lại?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Có ngôi mộ nào bạn từng ghé thăm dù không phải người nhà mình không, và vì sao bạn dừng lại?",
+    "cast": [
+     "PHAOLO",
+     "ME"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 45.55
+  },
+  {
+   "start": 45.55,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 99.94
+  },
+  {
+   "start": 99.94,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 116.5
+  }
+ ],
+ "sfx": []
+}

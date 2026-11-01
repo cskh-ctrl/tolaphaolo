@@ -1,0 +1,39 @@
+{
+ "title": "Lạy Cha, xin tha cho họ: câu nói trên thập giá và chuyện dì Sáu",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 139.588,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "cafe",
+  "setOpt": {
+   "mood": "pevening"
+  },
+  "c": "GIRL",
+  "expr": "annoyed",
+  "item": "crucifix",
+  "kicker": "LẠY CHA",
+  "lines": [
+   "Xin tha",
+   "cho họ"
+  ]
+ },
+ "episode": "P043"
+}

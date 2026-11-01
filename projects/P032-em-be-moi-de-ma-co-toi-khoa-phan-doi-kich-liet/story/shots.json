@@ -1,0 +1,714 @@
+{
+ "title": "\"Em bé mới đẻ mà có tội?\" Khoa phản đối kịch liệt",
+ "duration": 113.332,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 7.937,
+   "line": "Khoa đặt ly trà đá xuống cái cộp: Tớ vừa nghe đạo cậu bảo em bé mới đẻ cũng có tội. Tớ phản đối.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "cam": "push",
+    "shake": 5,
+    "hook": {
+     "kicker": "TỘI NGUYÊN TỔ",
+     "lines": [
+      "Em bé mới đẻ",
+      "mà có tội?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "talk",
+      "expr": "angry",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "surprised",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 7.937,
+   "end": 10.65,
+   "line": "Tớ cười: Phản đối gì?",
+   "scene": "ots",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "cafe",
+    "fg": "KHOA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "smile",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s03",
+   "start": 10.65,
+   "end": 16.563,
+   "line": "Nó chưa ăn vụng, chưa nói dối, chưa giành đồ chơi. Tội gì?",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Em bé chưa hề...",
+    "steps": [
+     "Ăn vụng",
+     "Nói dối",
+     "Giành đồ chơi"
+    ],
+    "c": "KHOA"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 16.563,
+   "end": 20.588,
+   "line": "Không phải tội nó làm. Thế tội ai?",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s05",
+   "start": 20.588,
+   "end": 23.712,
+   "line": "Chuyện ông bà Ađam Evà ăn trái cấm ấy.",
+   "scene": "insert",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "park",
+    "item": "heart",
+    "label": "Ađam và Evà (St 3)"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 23.712,
+   "end": 27.688,
+   "line": "Nhưng nơi em bé, tội nguyên tổ không phải lỗi cá nhân.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Không phải lỗi cá nhân",
+    "body": [
+     "Nơi em bé, tội nguyên tổ",
+     "không mang tính lỗi cá nhân."
+    ],
+    "src": "GLHTCG 405",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 27.688,
+   "end": 32.575,
+   "line": "Không phải lỗi mà vẫn gọi là tội? Nghe như ăn vạ.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "annoyed",
+    "talk": true,
+    "emote": "anger"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 32.575,
+   "end": 37.4,
+   "line": "Người Công giáo nói em bé mắc tội nguyên tổ, chứ không nói em phạm.",
+   "scene": "text",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "cafe",
+    "kicker": "MẮC ≠ PHẠM",
+    "lines": [
+     "Mắc tội nguyên tổ,",
+     "không phải phạm"
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 37.4,
+   "end": 39.95,
+   "line": "Mắc với phạm khác nhau à?",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 39.95,
+   "end": 48.387,
+   "line": "Khác chứ. Phạm là mình làm. Mắc là một tình trạng mình sinh ra đã ở trong. Ví dụ?",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Mắc và phạm",
+    "body": [
+     "Phạm là mình làm. Mắc là tình trạng",
+     "mình sinh ra đã ở trong."
+    ],
+    "src": "GLHTCG 404",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 48.387,
+   "end": 53.212,
+   "line": "Ông cố cậu có ruộng không? Có, sau bán sạch.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false
+    },
+    "timeTag": "Ông cố của Khoa",
+    "chars": [
+     {
+      "c": "OLDMAN",
+      "pose": "openArms",
+      "expr": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 53.212,
+   "end": 57.95,
+   "line": "Vậy cậu sinh ra không có ruộng. Có phải lỗi cậu không?",
+   "scene": "ots",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "cafe",
+    "fg": "KHOA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "explain",
+     "expr": "smirk",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s13",
+   "start": 57.95,
+   "end": 63.637,
+   "line": "Tớ còn chưa ra đời. Nhưng cậu vẫn thiếu mảnh ruộng ấy, đúng không?",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "surprised",
+    "talk": true
+   }
+  },
+  {
+   "id": "s14",
+   "start": 63.637,
+   "end": 66.838,
+   "line": "Khoa gãi đầu: Ờ, thiếu thật.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "freeze": "ỜM...",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "handsOnHead",
+      "expr": "embarrassed"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "sweat"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 66.838,
+   "end": 73.312,
+   "line": "Tội nguyên tổ giống vậy. Không phải món nợ đổ lên đầu em bé, mà là sự thiếu vắng.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Không phải món nợ,",
+     "mà là sự thiếu vắng."
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 73.312,
+   "end": 79.588,
+   "line": "Con người sinh ra thiếu đi tình thân nguyên thủy với Thiên Chúa, và mang theo một bản tính dễ nghiêng về điều xấu.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Thiếu điều gì?",
+    "body": [
+     "Tình thân nguyên thủy với Chúa;",
+     "bản tính dễ nghiêng về điều xấu."
+    ],
+    "src": "GLHTCG 405",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 79.588,
+   "end": 81.925,
+   "line": "Thế rửa tội để làm gì?",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "thinking",
+    "talk": true
+   }
+  },
+  {
+   "id": "s18",
+   "start": 81.925,
+   "end": 86.525,
+   "line": "Để Chúa trả lại cho em bé điều đã mất, cho em được làm con Chúa.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "x": -90,
+      "pose": "bless",
+      "expr": "gentle"
+     },
+     {
+      "c": "ME_AODAI",
+      "x": 150,
+      "pose": "hold",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "items": [
+     {
+      "item": "water",
+      "x": -10,
+      "y": -40,
+      "s": 0.35
+     }
+    ],
+    "tag": "Được làm con Chúa"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 86.525,
+   "end": 89.725,
+   "line": "Còn tính dễ yếu lòng thì phải tập cả đời.",
+   "scene": "fact",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "churchInside",
+    "title": "Chiến đấu cả đời",
+    "body": [
+     "Hậu quả nơi bản tính vẫn còn,",
+     "phải tập luyện mỗi ngày."
+    ],
+    "src": "GLHTCG 405, 1264",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 89.725,
+   "end": 93.212,
+   "line": "Khoa nheo mắt: Vậy là cậu cũng yếu lòng?",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true,
+    "bubble": "Vậy là cậu cũng yếu lòng?"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 93.212,
+   "end": 98.363,
+   "line": "Có. Ví dụ bây giờ tớ đang muốn ăn hết đĩa hướng dương của cậu.",
+   "scene": "insert",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "cafe",
+    "item": "rice",
+    "label": "Đĩa hướng dương"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 98.363,
+   "end": 101.75,
+   "line": "Đấy là tham ăn, không phải tội tổ tiên.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "laugh",
+    "talk": true
+   }
+  },
+  {
+   "id": "s23",
+   "start": 101.75,
+   "end": 106.363,
+   "line": "Thì tớ đang tập đây. Khoa kéo đĩa về phía mình.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "boing",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "reach",
+      "expr": "embarrassed"
+     },
+     {
+      "c": "KHOA",
+      "pose": "holdFront",
+      "expr": "smirk",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s24",
+   "start": 106.363,
+   "end": 113.332,
+   "line": "Theo bạn, chữ nào dễ hiểu hơn để giải thích chuyện này: mắc hay thiếu?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Theo bạn, chữ nào dễ hiểu hơn để giải thích chuyện này: \"mắc\" hay \"thiếu\"?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 66.99
+  },
+  {
+   "start": 66.99,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 89.88
+  },
+  {
+   "start": 89.88,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 113.33
+  }
+ ],
+ "sfx": []
+}

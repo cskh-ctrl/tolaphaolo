@@ -1,0 +1,527 @@
+{
+ "title": "Anh đồng nghiệp xin tớ một can nước thánh năm lít",
+ "duration": 90.028,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 8.012,
+   "line": "Anh Long đặt lên bàn làm việc của tớ một cái can nhựa năm lít. Phaolo, xin cha xứ cho anh đầy can này nước thánh.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "hook": {
+     "kicker": "5 LÍT NƯỚC THÁNH",
+     "lines": [
+      "Có trừ được",
+      "tiếng động lạ?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "holdFront",
+      "expr": "worried",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "surprised",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 8.012,
+   "end": 11.925,
+   "line": "Căn hộ anh mới thuê, đêm nào cũng có tiếng động lạ.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "boing",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "shake": 5,
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "handsOnHead",
+      "expr": "scared"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "?!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 11.925,
+   "end": 14.975,
+   "line": "Anh ơi, mình nói ba điều trước đã.",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s04",
+   "start": 14.975,
+   "end": 19.588,
+   "line": "Hiểu lầm thứ nhất, nước thánh là bùa. Không phải.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "HIỂU LẦM 1",
+    "lines": [
+     "Nước thánh",
+     "là bùa"
+    ],
+    "strike": 1.4,
+    "item": "holyWater"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 19.588,
+   "end": 29.675,
+   "line": "Nước thánh là một á bí tích, tức là dấu chỉ thánh được Giáo hội chúc lành bằng lời cầu nguyện. Sức mạnh không nằm trong nước, mà ở Chúa và lời cầu của Giáo hội.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Á bí tích",
+    "body": [
+     "Dấu chỉ thánh, có hiệu quả",
+     "nhờ lời cầu của Giáo hội."
+    ],
+    "src": "GLHTCG 1667–1668",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 29.675,
+   "end": 37.762,
+   "line": "Nó như cái nhẫn cưới, quý không vì vàng, mà vì lời hứa nó gợi nhắc. Nước thánh gợi nhắc ngày mình được rửa tội.",
+   "scene": "insert",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "home",
+    "item": "ring",
+    "label": "Nhắc ngày rửa tội"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 37.762,
+   "end": 40.887,
+   "line": "Hiểu lầm thứ hai, càng nhiều càng mạnh.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "HIỂU LẦM 2",
+    "lines": [
+     "Càng nhiều",
+     "càng mạnh"
+    ],
+    "strike": 1.4
+   }
+  },
+  {
+   "id": "s08",
+   "start": 40.887,
+   "end": 51.838,
+   "line": "Năm lít không mạnh hơn năm giọt. Tưới cả căn hộ mà lòng vẫn đầy sợ hãi thì gần mê tín hơn là đức tin, vì mê tín là gán hiệu quả cho dấu bề ngoài mà bỏ quên tâm hồn.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Mê tín",
+    "body": [
+     "Gán hiệu quả cho dấu bề ngoài,",
+     "bỏ quên tâm hồn."
+    ],
+    "src": "GLHTCG 2111",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 51.838,
+   "end": 56.175,
+   "line": "Hiểu lầm thứ ba, nước thánh tự có phép, không cần ai tin.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "HIỂU LẦM 3",
+    "lines": [
+     "Tự có phép,",
+     "không cần tin"
+    ],
+    "strike": 1.6
+   }
+  },
+  {
+   "id": "s10",
+   "start": 56.175,
+   "end": 64.65,
+   "line": "Á bí tích không phải công tắc điện. Nó chuẩn bị lòng mình đón ơn Chúa, và cần mình cộng tác bằng đức tin, cầu nguyện.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Cộng tác với ơn",
+    "body": [
+     "Chuẩn bị lòng đón ơn Chúa,",
+     "cần đức tin và cầu nguyện."
+    ],
+    "src": "GLHTCG 1670",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 64.65,
+   "end": 66.613,
+   "line": "Vậy anh làm sao?",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "LONG",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 66.613,
+   "end": 70.825,
+   "line": "Em nhờ cha Tâm đến làm phép nhà, đọc kinh cùng gia đình anh.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "bless",
+      "expr": "gentle"
+     },
+     {
+      "c": "LONG",
+      "pose": "pray",
+      "expr": "pray",
+      "f": -1
+     },
+     {
+      "c": "MAI",
+      "pose": "pray",
+      "expr": "pray",
+      "f": -1
+     }
+    ],
+    "tag": "Làm phép nhà"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 70.825,
+   "end": 74.875,
+   "line": "Còn tiếng động lạ, gọi thợ kiểm tra đường ống trước đã.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "BAY",
+      "pose": "crouch",
+      "expr": "determined"
+     }
+    ],
+    "tag": "Gọi thợ kiểm tra ống nước"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 74.875,
+   "end": 78.525,
+   "line": "Hai tuần sau anh Long nhắn: Thợ bảo do ống nước.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "phone",
+    "label": "Thợ bảo do ống nước"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 78.525,
+   "end": 82.375,
+   "line": "Mà cha làm phép nhà xong, vợ anh ngủ ngon hẳn.",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAI",
+      "pose": "sleep",
+      "expr": "asleep"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "zzz"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 82.375,
+   "end": 90.028,
+   "line": "Theo bạn, điều gì giúp vợ anh Long ngủ ngon, cái ống nước được sửa hay buổi cả nhà cùng cầu nguyện?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Theo bạn, điều gì giúp vợ anh Long ngủ ngon, cái ống nước được sửa hay buổi cả nhà cùng cầu nguyện?",
+    "cast": [
+     "PHAOLO",
+     "LONG"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 15.12
+  },
+  {
+   "start": 15.12,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 64.8
+  },
+  {
+   "start": 64.8,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 75.03
+  },
+  {
+   "start": 75.03,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 90.03
+  }
+ ],
+ "sfx": []
+}
