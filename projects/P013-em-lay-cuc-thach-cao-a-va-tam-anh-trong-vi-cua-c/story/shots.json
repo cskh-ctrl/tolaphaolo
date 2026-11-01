@@ -1,0 +1,655 @@
+{
+ "title": "\"Em lạy cục thạch cao à?\" và tấm ảnh trong ví của chị Hằng",
+ "duration": 88.3,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 6.08,
+   "line": "Chị hỏi thật nhé, em lạy cục thạch cao à? Chị Hằng hỏi tớ ngay máy pha cà phê.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "hook": {
+     "kicker": "HỎI THẬT",
+     "lines": [
+      "Em lạy",
+      "cục thạch cao à?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "HANG",
+      "pose": "point",
+      "expr": "smirk",
+      "prop": "cup"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 6.08,
+   "end": 7.68,
+   "line": "\"Cục thạch cao nào chị?\"",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "PHAOLO",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 7.68,
+   "end": 11.62,
+   "line": "\"Cái tượng Đức Mẹ trên bàn em. Sáng nào em cũng cúi đầu.\"",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "statue",
+    "s": 0.9
+   }
+  },
+  {
+   "id": "s04",
+   "start": 11.62,
+   "end": 14.82,
+   "line": "\"Em cúi đầu chào Mẹ.\" \"Tượng chứ đâu phải mẹ.\"",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "talk",
+      "expr": "gentle",
+      "talk": [
+       0,
+       1.8
+      ]
+     },
+     {
+      "c": "HANG",
+      "pose": "crossArms",
+      "expr": "annoyed",
+      "talk": [
+       1.8,
+       9
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 14.82,
+   "end": 19.13,
+   "line": "\"Chị có giữ ảnh ai trong ví không?\" \"Có. Thằng Tũn hồi ba tuổi.\"",
+   "scene": "ots",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "office",
+    "fg": "HANG",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "explain",
+     "expr": "smirk",
+     "talk": [
+      0,
+      1.6
+     ]
+    }
+   }
+  },
+  {
+   "id": "s06",
+   "start": 19.13,
+   "end": 23.74,
+   "line": "Chị mở ví. Tấm ảnh mòn góc, chỗ má thằng bé bóng lên.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "photo",
+    "label": "Thằng Tũn, 3 tuổi"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 23.74,
+   "end": 28.31,
+   "line": "\"Sao chỗ này bóng vậy chị?\" \"Nhớ nó, chị hay lấy ngón tay xoa.\"",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "HANG",
+    "expr": "gentle",
+    "talk": [
+     1.3,
+     9
+    ],
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 28.31,
+   "end": 29.57,
+   "line": "\"Vậy chị thờ tờ giấy à?\"",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "PHAOLO",
+    "expr": "smirk",
+    "talk": true
+   }
+  },
+  {
+   "id": "s09",
+   "start": 29.57,
+   "end": 32.6,
+   "line": "\"Khùng hả, chị thương thằng Tũn chứ.\"",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "HANG",
+    "expr": "annoyed",
+    "talk": true,
+    "bubble": "Chị thương thằng Tũn chứ!"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 32.6,
+   "end": 37.1,
+   "line": "\"Đó. Em không thương thạch cao, em thương người bức tượng gợi nhớ.\"",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Em thương người",
+     "bức tượng gợi nhớ."
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 37.1,
+   "end": 39.74,
+   "line": "\"Nhưng người ta quỳ, người ta thắp nến.\"",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "items": [
+     {
+      "item": "statue",
+      "x": -260,
+      "y": -120,
+      "s": 0.3
+     },
+     {
+      "item": "candles",
+      "x": -60,
+      "y": -60,
+      "s": 0.25
+     }
+    ],
+    "chars": [
+     {
+      "c": "OLDLADY",
+      "x": 200,
+      "pose": "kneelPray",
+      "expr": "pray",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 39.74,
+   "end": 46.36,
+   "line": "\"Quỳ là tỏ lòng kính. Còn thờ phượng, tôn thờ như Đấng tạo dựng mình, người Công giáo chỉ dành cho Thiên Chúa.\"",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Thờ phượng",
+    "body": [
+     "Chỉ dành cho Thiên Chúa,",
+     "Đấng tạo dựng mình."
+    ],
+    "src": "GLHTCG 2132",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 46.36,
+   "end": 48.26,
+   "line": "\"Đức Mẹ không phải Chúa?\"",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "HANG",
+    "expr": "surprised",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 48.26,
+   "end": 56.36,
+   "line": "\"Không. Mẹ là người, là mẹ của Chúa Giêsu. Tụi em kính Mẹ, xin Mẹ cầu thay, không thờ Mẹ như thờ Chúa.\"",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Kính Mẹ",
+    "body": [
+     "Xin Mẹ cầu thay,",
+     "không thờ Mẹ như thờ Chúa."
+    ],
+    "src": "GLHTCG 971",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 56.36,
+   "end": 61.7,
+   "line": "\"Còn tượng Chúa?\" \"Cũng chỉ là tượng. Lòng kính đi qua bức tượng, đến chính Chúa.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "camZ": 1.15,
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "pointUp",
+      "expr": "gentle"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 61.7,
+   "end": 67.5,
+   "line": "Ai tin bức tượng tự nó có phép rồi lạy nó như thần, Giáo hội gọi là thờ ngẫu tượng, và cấm.\"",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "BỊ CẤM",
+    "lines": [
+     "Thờ ngẫu tượng"
+    ],
+    "color": "#e8584a"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 67.5,
+   "end": 69.28,
+   "line": "\"Thế tượng vỡ thì sao?\"",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "HANG",
+    "expr": "smirk",
+    "talk": true
+   }
+  },
+  {
+   "id": "s18",
+   "start": 69.28,
+   "end": 73.44,
+   "line": "\"Thì em buồn, rồi mua tượng mới. Đức Mẹ đâu có vỡ theo.\"",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "freeze": "VỠ!",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "shrug",
+      "expr": "smile"
+     }
+    ],
+    "items": [
+     {
+      "item": "statue",
+      "x": 220,
+      "y": -140,
+      "s": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 73.44,
+   "end": 75.62,
+   "line": "Chị bật cười, cất ví.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "HANG",
+      "pose": "relaxed",
+      "expr": "laugh"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "relaxed",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 75.62,
+   "end": 79.1,
+   "line": "Chiều đó tớ thấy chị dựng ảnh thằng Tũn cạnh màn hình máy tính.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "photo",
+    "label": "Cạnh màn hình"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 79.1,
+   "end": 83.46,
+   "line": "Chị liếc tớ: \"Để nhìn cho đỡ nhớ, chứ chị không thờ nó nhé.\"",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "HANG",
+    "expr": "embarrassed",
+    "talk": true,
+    "bubble": "Chị không thờ nó nhé!"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 83.46,
+   "end": 88.3,
+   "line": "Trên bàn làm việc của bạn có tấm ảnh hay món đồ nào đặt ở đó chỉ để nhớ một người không?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Trên bàn làm việc của bạn có tấm ảnh hay món đồ nào đặt ở đó chỉ để nhớ một người không?",
+    "cast": [
+     "PHAOLO",
+     "HANG"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 39.89
+  },
+  {
+   "start": 39.89,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 73.59
+  },
+  {
+   "start": 73.59,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 88.3
+  }
+ ],
+ "sfx": []
+}

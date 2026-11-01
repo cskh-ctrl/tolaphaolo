@@ -1,0 +1,818 @@
+{
+ "title": "Đám cưới hết rượu giữa chừng và câu nói nhỏ của bà Maria",
+ "duration": 117.87,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.7,
+   "line": "Có một đám cưới suýt thành chuyện cười cả làng, chỉ vì chủ nhà tính thiếu rượu.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false,
+     "mood": "pevening"
+    },
+    "cam": "push",
+    "hook": {
+     "kicker": "TIỆC CƯỚI",
+     "lines": [
+      "Hết rượu",
+      "giữa chừng!"
+     ]
+    },
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "handsOnHead",
+      "expr": "shocked"
+     }
+    ],
+    "items": [
+     {
+      "item": "jars",
+      "x": 220,
+      "y": -10,
+      "s": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.7,
+   "end": 11.42,
+   "line": "Hãy hình dung Cana, một làng nhỏ miền Galilê. Sân nhà rộn tiếng hát, mùi thịt nướng quyện mùi bánh nóng.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false,
+     "mood": "pevening"
+    },
+    "wide": true,
+    "cam": "panR",
+    "timeTag": "Cana, Galilê",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "cheer",
+      "expr": "joy"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "wave",
+      "expr": "happy"
+     },
+     {
+      "c": "MAN2",
+      "pose": "talk",
+      "expr": "laugh"
+     },
+     {
+      "c": "GIRL",
+      "pose": "cheer",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "music"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 11.42,
+   "end": 16.44,
+   "line": "Trong đám khách có bà Maria, con bà là Giêsu cùng các môn đệ cũng được mời.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false,
+     "mood": "pevening"
+    },
+    "cam": "push",
+    "items": [
+     {
+      "item": "dove",
+      "x": 0,
+      "y": -420,
+      "s": 0.3
+     }
+    ],
+    "chars": [],
+    "tag": "Bà Maria, Chúa Giêsu và các môn đệ"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 16.44,
+   "end": 19.26,
+   "line": "Giữa lúc vui nhất, mấy người giúp việc nhìn nhau.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false,
+     "mood": "pevening"
+    },
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "holdFront",
+      "expr": "worried"
+     },
+     {
+      "c": "MAN2",
+      "pose": "think",
+      "expr": "nervous",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 19.26,
+   "end": 22.12,
+   "line": "Họ nghiêng vò, lắc lắc. Cạn.",
+   "scene": "insert",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "park",
+    "item": "jars",
+    "label": "Cạn!",
+    "shake": 6
+   }
+  },
+  {
+   "id": "s06",
+   "start": 22.12,
+   "end": 26.88,
+   "line": "Hết rượu giữa tiệc không chỉ là thiếu đồ uống, mà là mất mặt cho đôi vợ chồng mới.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false,
+     "mood": "pevening"
+    },
+    "freeze": "MẤT MẶT",
+    "chars": [
+     {
+      "c": "GROOM",
+      "pose": "handsOnHead",
+      "expr": "scared"
+     },
+     {
+      "c": "BRIDE",
+      "pose": "sad",
+      "expr": "worried",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 26.88,
+   "end": 32.88,
+   "line": "Maria nhận ra trước. Bà không làm ầm ĩ, chỉ đến bên con mình: \"Họ hết rượu rồi.\"",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "GA 2,3",
+    "lines": [
+     "\"Họ hết",
+     "rượu rồi.\""
+    ],
+    "item": "heart"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 32.88,
+   "end": 38.98,
+   "line": "Chúa Giêsu đáp: \"Thưa bà, chuyện đó can gì đến bà và con? Giờ của con chưa đến.\"",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "GA 2,4",
+    "lines": [
+     "\"Giờ của con",
+     "chưa đến.\""
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 38.98,
+   "end": 40.48,
+   "line": "Nghe như từ chối.",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "MAN",
+    "expr": "sad",
+    "emote": "gloom"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 40.48,
+   "end": 46.42,
+   "line": "Nhưng Maria quay sang gia nhân, bình thản: \"Người bảo gì, các anh cứ việc làm theo.\"",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "GA 2,5",
+    "lines": [
+     "\"Người bảo gì,",
+     "cứ việc làm theo.\""
+    ],
+    "item": "dove"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 46.42,
+   "end": 53.17,
+   "line": "Bà không ra lệnh cho con. Bà chỉ đặt cái thiếu của người khác vào tay con mình, và chỉ người ta hướng về Ngài.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "expr": "thinking",
+    "lines": [
+     "Đặt cái thiếu của người khác",
+     "vào tay Con mình."
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 53.17,
+   "end": 55.44,
+   "line": "Sáu chum đá được đổ đầy nước tới miệng.",
+   "scene": "insert",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "park",
+    "item": "jars",
+    "label": "Sáu chum nước"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 55.44,
+   "end": 59.58,
+   "line": "Người quản tiệc nếm thử, ngạc nhiên vì rượu ngon lại để đến giờ.",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "MAN2",
+    "expr": "awe",
+    "emote": "sparkle"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 59.58,
+   "end": 63.68,
+   "line": "Đó là dấu lạ đầu tiên của Chúa Giêsu, và các môn đệ tin vào Người.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Dấu lạ đầu tiên",
+    "body": [
+     "Nước hóa rượu ở Cana,",
+     "các môn đệ tin vào Người."
+    ],
+    "src": "Ga 2,1-11",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 63.68,
+   "end": 71.82,
+   "line": "Tớ nhớ cảnh này mỗi lần nhớ đám cưới anh họ tớ ở Bến Tre. Chín giờ tối, bia hết sạch, góc sân chỉ còn bốn két vỏ không.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pnight",
+     "bench": false
+    },
+    "wide": true,
+    "cam": "push",
+    "timeTag": "Bến Tre, 9 giờ tối",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "cheer",
+      "expr": "laugh"
+     },
+     {
+      "c": "BO",
+      "pose": "talk",
+      "expr": "happy"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 71.82,
+   "end": 73.53,
+   "line": "Bác tớ mặt tái mét.",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "BO",
+    "expr": "scared",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 73.53,
+   "end": 75.77,
+   "line": "Mẹ tớ lặng lẽ gọi chú Tư tiệm tạp hóa đầu ngõ.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pnight",
+     "bench": false
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "determined"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 75.77,
+   "end": 81.0,
+   "line": "Mười lăm phút sau, xe ba gác chở bia vào cổng sau, bàn khách không ai hay.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "cam": "panR",
+    "timeTag": "15 phút sau",
+    "chars": [
+     {
+      "c": "BAY",
+      "walk": 60,
+      "expr": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 81.0,
+   "end": 86.96,
+   "line": "Mẹ không có bia. Mẹ chỉ biết ai có, và thấy cái thiếu trước khi người ta kịp xấu hổ.",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "ME",
+    "expr": "gentle",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 86.96,
+   "end": 91.31,
+   "line": "Hồi trước tớ nghĩ, cầu với Đức Mẹ là đi cửa sau. Giờ tớ hiểu khác.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "thinking"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 91.31,
+   "end": 97.11,
+   "line": "Người Công giáo không thờ Đức Mẹ như thờ Chúa. Phép lạ ở Cana là của Chúa Giêsu.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Mẹ chuyển cầu",
+    "body": [
+     "Không làm lu mờ Chúa Kitô,",
+     "Đấng trung gian duy nhất."
+    ],
+    "src": "GLHTCG 969–971",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 97.11,
+   "end": 102.72,
+   "line": "Nhưng tụi tớ tin Mẹ vẫn làm điều Mẹ đã làm hôm đó, thấy cái thiếu của con cái và thưa với Con mình.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "items": [
+     {
+      "item": "statue",
+      "x": -200,
+      "y": -120,
+      "s": 0.3
+     }
+    ],
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "x": 150,
+      "pose": "pray",
+      "expr": "pray",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s23",
+   "start": 102.72,
+   "end": 107.66,
+   "line": "Vì thế mới có câu kinh, Thánh Maria Đức Mẹ Chúa Trời, cầu cho chúng con.",
+   "scene": "fact",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "churchInside",
+    "title": "Kinh Kính Mừng",
+    "body": [
+     "Thánh Maria Đức Mẹ Chúa Trời,",
+     "cầu cho chúng con."
+    ],
+    "src": "GLHTCG 2677",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s24",
+   "start": 107.66,
+   "end": 112.86,
+   "line": "Và câu cuối Mẹ nói ở Cana không phải cứ để Mẹ lo, mà là Người bảo gì thì làm theo.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "\"Người bảo gì",
+     "thì làm theo.\""
+    ]
+   }
+  },
+  {
+   "id": "s25",
+   "start": 112.86,
+   "end": 117.87,
+   "line": "Nếu hôm nay có người thưa nhỏ với Chúa về cái thiếu của bạn, bạn mong người đó nói câu gì?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu hôm nay có người thưa nhỏ với Chúa về cái thiếu của bạn, bạn mong người đó nói câu gì?",
+    "cast": [
+     "PHAOLO",
+     "ME"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.5,
+   "end": 27.03
+  },
+  {
+   "start": 27.03,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 63.91
+  },
+  {
+   "start": 63.91,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 87.11
+  },
+  {
+   "start": 87.11,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 117.87
+  }
+ ],
+ "sfx": []
+}

@@ -10,7 +10,7 @@ concurrency:
   group: render-${{ github.sha }}
 jobs:
   setup:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       matrix: ${{ steps.q.outputs.matrix }}
     steps:
@@ -22,7 +22,10 @@ jobs:
         run: gh release view videos >/dev/null 2>&1 || gh release create videos --title "Video Tớ là Phaolo" --notes "Video đã render. Tải các file Dot_*.zip (mỗi file 10 video)." || true
   render:
     needs: setup
-    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    runs-on: ubuntu-24.04
     timeout-minutes: 150
     strategy:
       fail-fast: false
@@ -35,16 +38,19 @@ jobs:
         with: { node-version: 22 }
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - name: deps
-        run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
-          python -m pip install -q numpy scipy
-          npm install --no-audit --no-fund
-          npx playwright install --with-deps chromium >/dev/null
+      - name: apt
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /tmp/log_apt.txt 2>&1 || (tail -50 /tmp/log_apt.txt; exit 1)
+      - name: pip
+        run: python -m pip install -q numpy scipy > /tmp/log_pip.txt 2>&1 || (tail -50 /tmp/log_pip.txt; exit 1)
+      - name: npm
+        run: npm install --no-audit --no-fund > /tmp/log_npm.txt 2>&1 || (tail -50 /tmp/log_npm.txt; exit 1)
+      - name: chromium
+        run: npx playwright install --with-deps chromium > /tmp/log_pw.txt 2>&1 || (tail -50 /tmp/log_pw.txt; exit 1)
       - name: render frames
-        run: node render.mjs --project projects/${{ matrix.project }} --format jpeg --workers 4 --preset veryfast
+        run: node render.mjs --project projects/${{ matrix.project }} --format jpeg --workers 4 --preset veryfast 2>&1 | tee /tmp/log_render.txt
       - name: mix + cover
         run: |
+          set -o pipefail
           python audio/mix.py --project projects/${{ matrix.project }} --out projects/${{ matrix.project }}/out/video.mp4
           python tools/make_cover.py --project projects/${{ matrix.project }}
       - name: package
@@ -52,6 +58,13 @@ jobs:
       - name: upload to release
         env: { GH_TOKEN: '${{ github.token }}' }
         run: gh release upload videos dist/*.zip --clobber
+      - name: logs on failure
+        if: failure()
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          P=$(echo "${{ matrix.project }}" | cut -c1-4)
+          (for f in /tmp/log_*.txt; do echo "== $f"; tail -80 $f; done) > log-$P.txt 2>&1 || true
+          gh release upload videos log-$P.txt --clobber || true
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.project }}
