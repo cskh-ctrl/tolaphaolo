@@ -1,0 +1,21 @@
+name: tts
+on:
+  push:
+    branches: [main]
+    paths: ['series/rows_31_60.json', 'tts.trigger']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python -m pip install -q edge-tts
+      - run: python tools/tts_series.py --rows series/rows_31_60.json --out series/tts --voice vi-VN-NamMinhNeural
+      - name: commit
+        run: |
+          git config user.name "github-actions" && git config user.email "actions@github.com"
+          git add series/tts && git commit -m "TTS voice 31-60" && git pull --rebase && git push
