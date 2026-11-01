@@ -1,0 +1,618 @@
+{
+ "title": "Khóa giáo lý hôn nhân làm tụi tớ cãi nhau lần đầu",
+ "duration": 100.597,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 3.25,
+   "line": "Tớ đã chuẩn bị sẵn tai nghe để ngủ gật ở khóa giáo lý hôn nhân.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "cam": "push",
+    "hook": {
+     "kicker": "GIÁO LÝ HÔN NHÂN",
+     "lines": [
+      "Học để làm gì?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "sleepy"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "zzz"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 3.25,
+   "end": 10.15,
+   "line": "Tớ nghĩ nó giống tiết sinh hoạt lớp hồi cấp ba. Ngồi nghe, ký tên, nhận giấy chứng nhận rồi về chọn áo cưới.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "prop": "paper",
+      "expr": "smirk"
+     }
+    ],
+    "tag": "Nghe, ký tên, nhận giấy"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 10.15,
+   "end": 15.03,
+   "line": "Vy còn tệ hơn tớ. Vy tải sẵn ba tập phim, tính ngồi bàn cuối.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "smirk"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Vy"
+     }
+    ],
+    "timeTag": "3 tập phim tải sẵn"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 15.03,
+   "end": 20.44,
+   "line": "Yêu nhau bốn năm, chưa cãi nhau trận nào ra hồn, tớ nghĩ còn học gì nữa.",
+   "scene": "close",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "classroom",
+    "c": "PHAOLO",
+    "expr": "proud",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 20.44,
+   "end": 26.46,
+   "line": "Buổi đầu đúng như dự đoán. Một đôi vợ chồng lớn tuổi kể chuyện bốn mươi năm sống chung, tớ gật gù.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "OLDMAN",
+      "pose": "talk",
+      "expr": "happy",
+      "talk": true
+     },
+     {
+      "c": "OLDLADY",
+      "pose": "stand",
+      "expr": "gentle"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 26.46,
+   "end": 32.92,
+   "line": "Rồi tới buổi thứ ba. Cha phát cho mỗi cặp một tờ giấy, bảo mỗi người tự viết, không được nhìn bài nhau.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "timeTag": "Buổi thứ ba",
+    "chars": [
+     {
+      "c": "CHA",
+      "pose": "holdFront",
+      "prop": "paper",
+      "expr": "smile"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 32.92,
+   "end": 42.51,
+   "line": "Câu một: lương mỗi tháng, bạn muốn đưa bao nhiêu cho gia đình bên mình. Câu hai: ai giữ tiền. Câu ba: một khoản chi bao nhiêu thì phải hỏi ý người kia.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Tờ giấy của cha",
+    "steps": [
+     "Gửi gia đình bao nhiêu?",
+     "Ai giữ tiền?",
+     "Chi bao nhiêu phải hỏi?"
+    ],
+    "c": "CHA"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 42.51,
+   "end": 44.4,
+   "line": "Tớ viết vèo vèo.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "prop": "paper",
+      "expr": "proud"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 44.4,
+   "end": 47.32,
+   "line": "Đổi giấy. Vy nhìn tớ như nhìn người lạ.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "freeze": "ĐỔI GIẤY",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "holdFront",
+      "prop": "paper",
+      "expr": "shocked"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 47.32,
+   "end": 57.8,
+   "line": "Tớ ghi mỗi tháng gửi mẹ năm triệu, không cần bàn. Vy ghi: mọi khoản gửi về hai bên đều phải bàn. Tớ ghi chi trên mười triệu thì hỏi. Vy ghi trên một triệu.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Anh vs. Vy",
+    "steps": [
+     "Gửi mẹ 5 triệu / Phải bàn",
+     "Trên 10 triệu / Trên 1 triệu"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 57.8,
+   "end": 61.43,
+   "line": "Trên đường về, hai đứa cãi nhau thật, lần đầu tiên trong bốn năm.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "shake": 6,
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "point",
+      "expr": "angry",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "handsOnHead",
+      "expr": "annoyed",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "anger"
+     },
+     {
+      "who": 1,
+      "type": "anger"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 61.43,
+   "end": 63.64,
+   "line": "Vy đòi xuống xe đi bộ.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "GIRL",
+      "walk": -50,
+      "f": -1,
+      "expr": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 63.64,
+   "end": 66.28,
+   "line": "Tối đó tớ mới hiểu cái khóa ấy để làm gì.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "thinking"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 66.28,
+   "end": 73.0,
+   "line": "Giáo luật bảo các mục tử phải giúp người sắp cưới chuẩn bị, để bước vào hôn nhân với ý thức về bổn phận và sự thánh thiện của nó.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Chuẩn bị hôn nhân",
+    "body": [
+     "Giúp người sắp cưới ý thức",
+     "bổn phận và sự thánh thiện."
+    ],
+    "src": "Giáo luật 1063",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 73.0,
+   "end": 82.25,
+   "line": "Đức Giáo hoàng Phanxicô còn viết, chuẩn bị hôn nhân không phải để biết mọi điều, mà để học yêu chính con người cụ thể này, và để nhận ra những điểm có thể thành vấn đề sau này.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Amoris Laetitia",
+    "body": [
+     "Học yêu chính con người cụ thể này,",
+     "nhận ra điều có thể thành vấn đề."
+    ],
+    "src": "Amoris Laetitia 205–211",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 82.25,
+   "end": 89.09,
+   "line": "Bốn năm yêu nhau, tụi tớ chưa từng nói chuyện tiền. Không phải vì hợp nhau, mà vì né.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Không phải vì hợp nhau,",
+     "mà vì né."
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 89.09,
+   "end": 91.62,
+   "line": "Buổi thứ tư, tụi tớ ngồi bàn đầu.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "cam": "push",
+    "timeTag": "Buổi thứ tư",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "prop": "book",
+      "expr": "determined"
+     },
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 91.62,
+   "end": 94.78,
+   "line": "Bài về cách xin lỗi, tớ chép kín hai trang.",
+   "scene": "insert",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "classroom",
+    "item": "book",
+    "label": "Cách xin lỗi: 2 trang"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 94.78,
+   "end": 100.597,
+   "line": "Nếu phải điền tờ giấy đó cùng người thương của bạn tối nay, bạn đoán câu nào hai người sẽ viết khác nhau nhất?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu phải điền tờ giấy đó cùng người thương của bạn tối nay, bạn đoán câu nào hai người sẽ viết khác nhau nhất?",
+    "cast": [
+     "PHAOLO",
+     "GIRL"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 63.79
+  },
+  {
+   "start": 63.79,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 89.09
+  },
+  {
+   "start": 89.09,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 100.6
+  }
+ ],
+ "sfx": []
+}

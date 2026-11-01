@@ -1,0 +1,669 @@
+{
+ "title": "Tớ từng hứa thay Chúa một điều Chúa chưa từng hứa",
+ "duration": 106.52,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 3.7,
+   "line": "Tớ từng nói với Vy một câu mà đến giờ vẫn muốn rút lại.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "PHAOLO",
+    "expr": "guilty",
+    "hook": {
+     "kicker": "VÌ SAO",
+     "lines": [
+      "Cầu mãi mà",
+      "Chúa không trả lời?"
+     ]
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 3.7,
+   "end": 6.25,
+   "line": "Em cứ cầu đi, chắc chắn Chúa cho em đậu.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "talk",
+      "expr": "happy",
+      "talk": true
+     },
+     {
+      "c": "GIRL",
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Chắc chắn Chúa cho em đậu!",
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 6.25,
+   "end": 12.19,
+   "line": "Vy thi tuyển viên chức giáo viên. Chín tháng ôn, hai đứa ăn tối toàn bánh tráng trộn để em kịp học.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "timeTag": "9 tháng ôn thi",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "prop": "book",
+      "expr": "determined"
+     }
+    ],
+    "fg": "cup"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.19,
+   "end": 15.88,
+   "line": "Trong cuốn sổ kinh của Vy kẹp một mảnh giấy ghi số báo danh.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "book",
+    "label": "Số báo danh"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 15.88,
+   "end": 18.64,
+   "line": "Tối nào em cũng đặt tay lên đó mà cầu.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "kneelPray",
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 18.64,
+   "end": 21.22,
+   "line": "Ngày có kết quả, Vy thiếu nửa điểm.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "freeze": "THIẾU 0,5",
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "shocked"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 21.22,
+   "end": 25.2,
+   "line": "Em không khóc. Em chỉ hỏi nhỏ. Anh nói chắc chắn mà.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "GIRL",
+    "expr": "sad",
+    "talk": [
+     1.5,
+     9
+    ],
+    "bubble": "Anh nói chắc chắn mà."
+   }
+  },
+  {
+   "id": "s08",
+   "start": 25.2,
+   "end": 26.73,
+   "line": "Tớ không có câu trả lời.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "PHAOLO",
+    "expr": "guilty",
+    "emote": "gloom"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 26.73,
+   "end": 31.04,
+   "line": "Và tớ nhận ra, tớ đã hứa thay Chúa một điều Chúa chưa từng hứa.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "lines": [
+     "Hứa thay Chúa",
+     "điều Chúa chưa hứa"
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 31.04,
+   "end": 37.16,
+   "line": "Mấy tuần sau, tớ đọc lại phần về cầu nguyện trong sách Giáo lý. Có một đoạn làm tớ dừng rất lâu.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "prop": "book",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 37.16,
+   "end": 44.6,
+   "line": "Sách nói, mình hay đòi phải thấy kết quả của lời xin. Như thể Chúa là một dụng cụ để dùng, chứ không phải là Cha.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Dụng cụ hay là Cha?",
+    "body": [
+     "Ta hay đòi thấy kết quả,",
+     "như thể Chúa là dụng cụ."
+    ],
+    "src": "GLHTCG 2735",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 44.6,
+   "end": 46.62,
+   "line": "Tớ thấy mình trong câu đó.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "embarrassed",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 46.62,
+   "end": 49.16,
+   "line": "Lời cầu không phải đồng xu bỏ vào máy bán nước.",
+   "scene": "text",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "street",
+    "kicker": "KHÔNG PHẢI",
+    "lines": [
+     "Máy bán",
+     "nước tự động"
+    ],
+    "strike": 1.4
+   }
+  },
+  {
+   "id": "s14",
+   "start": 49.16,
+   "end": 57.06,
+   "line": "Có lần, câu trả lời là có. Có lần là chưa, phải chờ. Có lần là không, và mình chỉ hiểu rất lâu về sau.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Câu trả lời của Chúa",
+    "steps": [
+     "Có",
+     "Chưa, phải chờ",
+     "Không, hiểu về sau"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 57.06,
+   "end": 64.17,
+   "line": "Sách còn nói, Chúa muốn nỗi khao khát của mình được tập luyện trong lời cầu, để lòng mình đủ rộng đón điều Ngài muốn ban.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Tập luyện khao khát",
+    "body": [
+     "Để lòng đủ rộng đón",
+     "điều Ngài muốn ban."
+    ],
+    "src": "GLHTCG 2737",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 64.17,
+   "end": 66.72,
+   "line": "Nghe thì đẹp. Sống trong nó thì đau.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "sad"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 66.72,
+   "end": 71.26,
+   "line": "Tớ không dám nói với Vy rằng rớt là ý Chúa. Tớ chỉ ngồi cạnh em.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "cam": "push",
+    "fg": "plant",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "gentle"
+     },
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 71.26,
+   "end": 75.5,
+   "line": "Có tối, hai đứa ngồi ở bậc thềm nhà thờ, không nói gì cả.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pevening",
+     "bikes": false
+    },
+    "wide": true,
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "peaceful"
+     },
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "peaceful",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 75.5,
+   "end": 83.62,
+   "line": "Em vẫn cầu. Nhưng lời cầu đổi khác. Không còn là xin cho con đậu. Mà là, xin cho con đừng ghét cái nghề con thương.",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "GIRL",
+    "expr": "pray",
+    "bubble": "Xin cho con đừng ghét cái nghề con thương."
+   }
+  },
+  {
+   "id": "s20",
+   "start": 83.62,
+   "end": 89.5,
+   "line": "Năm nay Vy thi lại. Mảnh giấy số báo danh mới lại kẹp trong sổ kinh. Kết quả chưa có.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "book",
+    "label": "Số báo danh mới"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 89.5,
+   "end": 94.88,
+   "line": "Lần này tớ không hứa gì. Tớ chỉ nói, dù thế nào, anh vẫn ngồi đây.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "bubble": "Dù thế nào, anh vẫn ngồi đây."
+   }
+  },
+  {
+   "id": "s22",
+   "start": 94.88,
+   "end": 99.86,
+   "line": "Và tớ nghĩ, có lẽ Chúa cũng đang nói với em đúng câu đó, theo cách của Ngài.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Có lẽ Chúa cũng nói",
+     "đúng câu đó."
+    ]
+   }
+  },
+  {
+   "id": "s23",
+   "start": 99.86,
+   "end": 106.52,
+   "line": "Nếu người bạn thương đang chờ một tin chưa đến, bạn sẽ nói gì với họ, thay cho câu chắc chắn được mà tớ từng nói?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu người bạn thương đang chờ một tin chưa đến, bạn sẽ nói gì với họ, thay cho câu chắc chắn được mà tớ từng nói?",
+    "cast": [
+     "PHAOLO",
+     "GIRL"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 31.19
+  },
+  {
+   "start": 31.19,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 83.77
+  },
+  {
+   "start": 83.77,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 106.52
+  }
+ ],
+ "sfx": []
+}

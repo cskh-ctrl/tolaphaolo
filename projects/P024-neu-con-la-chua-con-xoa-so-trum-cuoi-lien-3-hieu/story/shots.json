@@ -1,0 +1,599 @@
+{
+ "title": "\"Nếu con là Chúa, con xóa sổ trùm cuối liền!\" - 3 hiểu lầm về ma quỷ",
+ "duration": 93.16,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.28,
+   "line": "Nếu con là Chúa, con bấm một nút là xóa sổ trùm cuối liền.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "boing",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "cam": "push",
+    "hook": {
+     "kicker": "3 HIỂU LẦM",
+     "lines": [
+      "Sao Chúa không",
+      "xóa sổ ma quỷ?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "TY",
+      "pose": "cheer",
+      "expr": "angry"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.28,
+   "end": 9.43,
+   "line": "Thằng Tí, cháu tớ, mười tuổi, vừa thua con boss trong game lần thứ bảy.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "timeTag": "Thua boss lần thứ 7",
+    "chars": [
+     {
+      "c": "TY",
+      "pose": "handsOnHead",
+      "expr": "annoyed"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Tí, 10 tuổi"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 9.43,
+   "end": 14.98,
+   "line": "Rồi nó quay sang hỏi thật: Chúa làm được mọi thứ, sao không xóa luôn ma quỷ cho đỡ mệt?",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "TY",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 14.98,
+   "end": 20.84,
+   "line": "Tớ định nói đại cho xong, nhưng câu này đáng được trả lời tử tế. Nó dựa trên ba hiểu lầm.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "PHAOLO",
+    "expr": "thinking"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 20.84,
+   "end": 23.81,
+   "line": "Hiểu lầm thứ nhất, Chúa không đủ sức. Không đâu.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "HIỂU LẦM 1",
+    "lines": [
+     "Chúa",
+     "không đủ sức"
+    ],
+    "strike": 1.3
+   }
+  },
+  {
+   "id": "s06",
+   "start": 23.81,
+   "end": 33.76,
+   "line": "Giáo lý Công giáo dạy ma quỷ chỉ là thụ tạo, một thiên thần đã tự chọn chống lại Chúa. Quyền lực của nó có thật nhưng có giới hạn, và nó không thể ngăn Nước Thiên Chúa.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Ma quỷ là thụ tạo",
+    "body": [
+     "Quyền lực có thật nhưng giới hạn,",
+     "không ngăn được Nước Thiên Chúa."
+    ],
+    "src": "GLHTCG 391–395",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 33.76,
+   "end": 38.6,
+   "line": "Hiểu lầm thứ hai, Chúa để quỷ tồn tại vì muốn mình khổ. Cũng không.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "HIỂU LẦM 2",
+    "lines": [
+     "Chúa muốn",
+     "mình khổ"
+    ],
+    "strike": 1.3
+   }
+  },
+  {
+   "id": "s08",
+   "start": 38.6,
+   "end": 47.26,
+   "line": "Chúa không muốn điều dữ. Ngài tôn trọng tự do Ngài đã ban, kể cả tự do của những thụ tạo chọn sai, và Ngài có thể rút ra điều tốt từ đó.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Tôn trọng tự do",
+    "body": [
+     "Và rút ra điều tốt",
+     "từ điều dữ."
+    ],
+    "src": "GLHTCG 311",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 47.26,
+   "end": 52.92,
+   "line": "Còn vì sao Ngài cho phép mọi sự diễn ra như vậy, Giáo hội thành thật gọi đó là một mầu nhiệm lớn.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "MẦU NHIỆM LỚN",
+    "lines": [
+     "Giáo hội thành thật",
+     "thừa nhận"
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 52.92,
+   "end": 57.6,
+   "line": "Hiểu lầm thứ ba, cái này tớ thích nhất, cứ diệt quỷ là thế giới hết chuyện xấu.",
+   "scene": "text",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "livingRoom",
+    "kicker": "HIỂU LẦM 3",
+    "lines": [
+     "Diệt quỷ là",
+     "hết chuyện xấu"
+    ],
+    "strike": 2.5
+   }
+  },
+  {
+   "id": "s11",
+   "start": 57.6,
+   "end": 61.41,
+   "line": "Tớ hỏi Tí: hôm qua ai giành cái điều khiển rồi đẩy em ngã?",
+   "scene": "ots",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "livingRoom",
+    "fg": "TY",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "smirk",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s12",
+   "start": 61.41,
+   "end": 64.39,
+   "line": "Tí gãi đầu: có quỷ nào đâu, con tự làm.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "TY",
+    "expr": "embarrassed",
+    "talk": true,
+    "bubble": "Có quỷ nào đâu, con tự làm.",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 64.39,
+   "end": 68.84,
+   "line": "Đúng vậy. Ma quỷ chỉ cám dỗ, còn lựa chọn là của mình.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "freeze": "LỰA CHỌN",
+    "chars": [
+     {
+      "c": "TY",
+      "pose": "think",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 68.84,
+   "end": 72.2,
+   "line": "Xóa trùm cuối mà lòng người không đổi thì game vẫn chưa hết.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Lòng người không đổi",
+     "thì game chưa hết."
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 72.2,
+   "end": 77.53,
+   "line": "Người Công giáo tin trận quyết định đã có kết quả, nhờ cái chết và sự phục sinh của Chúa Giêsu,",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "crucifix",
+    "label": "Trận quyết định đã có kết quả"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 77.53,
+   "end": 80.48,
+   "line": "và đến ngày sau hết, sự dữ sẽ không còn chỗ.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Trời mới đất mới",
+    "body": [
+     "Sự dữ sẽ",
+     "không còn chỗ."
+    ],
+    "src": "GLHTCG 1042–1047; Kh 21,4",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 80.48,
+   "end": 83.88,
+   "line": "Còn bây giờ, mỗi ngày mình được chọn đứng về phía nào.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "PHAOLO",
+    "expr": "determined"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 83.88,
+   "end": 87.98,
+   "line": "Tí nghe xong, cầm tay cầm lên, rồi đưa cho em nó chơi trước.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "TY",
+      "pose": "holdFront",
+      "expr": "smile"
+     },
+     {
+      "c": "BIN",
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 87.98,
+   "end": 89.85,
+   "line": "Tớ đứng hình mất ba giây.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "PHAOLO",
+    "expr": "shocked",
+    "emote": "?!"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 89.85,
+   "end": 93.16,
+   "line": "Trong ba hiểu lầm đó, hiểu lầm nào bạn từng tin lâu nhất?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Trong ba hiểu lầm đó, hiểu lầm nào bạn từng tin lâu nhất?",
+    "cast": [
+     "PHAOLO",
+     "TY"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 20.99
+  },
+  {
+   "start": 20.99,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 53.07
+  },
+  {
+   "start": 53.07,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 72.35
+  },
+  {
+   "start": 72.35,
+   "mood": "sacred",
+   "intensity": 0.5,
+   "end": 93.16
+  }
+ ],
+ "sfx": []
+}

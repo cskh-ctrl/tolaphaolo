@@ -1,0 +1,39 @@
+{
+ "title": "Năm mươi ba kinh Kính Mừng và cuốn album cũ của bà nội",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 108.86,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "livingRoom",
+  "setOpt": {
+   "mood": "pnight"
+  },
+  "c": "BA",
+  "expr": "peaceful",
+  "item": "rosary",
+  "kicker": "VÌ SAO",
+  "lines": [
+   "Lần chuỗi",
+   "Mân Côi?"
+  ]
+ },
+ "episode": "P015"
+}

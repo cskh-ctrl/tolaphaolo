@@ -1,0 +1,597 @@
+{
+ "title": "\"Chắc chị lấy nhầm người rồi em ạ\"",
+ "duration": 85.95,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 1.93,
+   "line": "Chắc chị lấy nhầm người rồi em ạ.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "hook": {
+     "kicker": "LẤY NHẦM NGƯỜI?",
+     "lines": [
+      "Người Công giáo",
+      "phải làm sao?"
+     ],
+     "y": 0.12
+    },
+    "label": "Tin nhắn thoại 0:00"
+   }
+  },
+  {
+   "id": "s02",
+   "start": 1.93,
+   "end": 6.36,
+   "line": "Tin nhắn thoại của chị Thảo, chị họ tớ, đến lúc nửa đêm.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "WOMAN",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "cry"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Chị Thảo"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 6.36,
+   "end": 12.06,
+   "line": "Sáng ra, ở quán bánh cuốn, tớ hỏi ngay: anh ấy có đánh chị không. Không.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "fg": "cup",
+    "timeTag": "Quán bánh cuốn",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "talk",
+      "expr": "worried",
+      "talk": true
+     },
+     {
+      "c": "WOMAN",
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.06,
+   "end": 15.8,
+   "line": "Có dọa nạt, có làm chị sợ cho mình hay cho bé Su không.",
+   "scene": "ots",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "cafe",
+    "fg": "WOMAN",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "worried",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s05",
+   "start": 15.8,
+   "end": 17.45,
+   "line": "Không, chỉ là hết nói chuyện.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "WOMAN",
+    "expr": "sad",
+    "talk": true,
+    "emote": "gloom"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 17.45,
+   "end": 26.6,
+   "line": "Tớ thở ra. Vì nếu có, việc đầu tiên là tìm chỗ an toàn, không ai được bắt chị chịu đựng. Giáo hội cho phép ly thân khi có nguy hiểm.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "AN TOÀN TRƯỚC HẾT",
+    "lines": [
+     "Không ai được bắt",
+     "chị chịu đựng"
+    ],
+    "color": "#e8584a"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 26.6,
+   "end": 29.96,
+   "line": "Chị cười buồn: bên mình làm gì có ly hôn.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "WOMAN",
+    "expr": "sad",
+    "talk": true,
+    "bubble": "Bên mình làm gì có ly hôn."
+   }
+  },
+  {
+   "id": "s08",
+   "start": 29.96,
+   "end": 32.36,
+   "line": "Không có ly hôn kiểu tháo một hôn nhân thật.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s09",
+   "start": 32.36,
+   "end": 36.09,
+   "line": "Nhưng có ba chuyện khác nhau, đừng gộp làm một. Ba chuyện gì.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Ba chuyện khác nhau",
+    "steps": [
+     "Khủng hoảng",
+     "Ly thân",
+     "Tòa án hôn phối"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 36.09,
+   "end": 42.55,
+   "line": "Một, khủng hoảng. Nhà nào cũng có mùa đông, cần người tư vấn, cần hai người chịu ngồi xuống.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "sit",
+      "expr": "sad"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "tag": "Nhà nào cũng có mùa đông"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 42.55,
+   "end": 46.81,
+   "line": "Hai, ly thân, khi sống chung gây nguy hiểm nghiêm trọng hay quá khó.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Ly thân",
+    "body": [
+     "Khi sống chung gây nguy hiểm",
+     "nghiêm trọng hay quá khó."
+    ],
+    "src": "GLHTCG 1649",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 46.81,
+   "end": 51.26,
+   "line": "Ba, tòa án hôn phối. Là ly hôn Công giáo à.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "WOMAN",
+    "expr": "confused",
+    "emote": "?",
+    "bubble": "Là ly hôn Công giáo à?"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 51.26,
+   "end": 56.3,
+   "line": "Không. Tòa xem xét ngay từ ngày cưới, hôn nhân đó có thật sự thành sự không.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Tòa án hôn phối",
+    "body": [
+     "Xem xét hôn nhân có thật sự",
+     "thành sự ngay từ đầu không."
+    ],
+    "src": "GLHTCG 1629",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 56.3,
+   "end": 59.73,
+   "line": "Ví dụ có người bị ép cưới, hay giấu một điều hệ trọng.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Ví dụ",
+    "steps": [
+     "Bị ép cưới",
+     "Giấu điều hệ trọng"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 59.73,
+   "end": 64.34,
+   "line": "Nếu có, tòa tuyên bố hôn nhân vô hiệu, nghĩa là ngay từ đầu chưa thành.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "VÔ HIỆU",
+    "lines": [
+     "Ngay từ đầu",
+     "chưa thành"
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 64.34,
+   "end": 69.2,
+   "line": "Còn nếu đã thật thì sao. Thì nó vẫn là thật, kể cả khi đang khó.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "talk": [
+     1,
+     9
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 69.2,
+   "end": 72.41,
+   "line": "Chị Thảo im lặng, chấm bánh cuốn vào chén nước mắm.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "WOMAN",
+      "pose": "sit",
+      "expr": "thinking"
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 0,
+      "y": -170,
+      "s": 0.15
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 72.41,
+   "end": 73.81,
+   "line": "Vậy chị nên làm gì trước.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "WOMAN",
+    "expr": "worried",
+    "talk": true
+   }
+  },
+  {
+   "id": "s19",
+   "start": 73.81,
+   "end": 79.78,
+   "line": "Nói thật với anh ấy câu chị nói với em lúc nửa đêm. Rồi tìm cha xứ hay chuyên viên tư vấn đồng hành.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Nói thật với nhau,",
+     "rồi tìm người đồng hành."
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 79.78,
+   "end": 85.95,
+   "line": "Có những câu nói lúc nửa đêm chỉ cần một người nghe mà không phán xét. Bạn đã từng là người đó cho ai chưa?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Có những câu nói lúc nửa đêm chỉ cần một người nghe mà không phán xét. Bạn đã từng là người đó cho ai chưa?",
+    "cast": [
+     "PHAOLO",
+     "WOMAN"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 30.11
+  },
+  {
+   "start": 30.11,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 46.81
+  },
+  {
+   "start": 46.81,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 69.35
+  },
+  {
+   "start": 69.35,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 85.95
+  }
+ ],
+ "sfx": []
+}

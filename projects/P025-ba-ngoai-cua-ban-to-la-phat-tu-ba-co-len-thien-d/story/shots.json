@@ -1,0 +1,669 @@
+{
+ "title": "Bà ngoại của bạn tớ là Phật tử. Bà có lên Thiên Đàng không?",
+ "duration": 107.0,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 6.9,
+   "line": "Tớ thú thật, có một câu hỏi tớ đã trả lời sai suốt mười năm, cho tới đêm thứ hai của đám tang bà ngoại Khoa.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "guilty",
+    "hook": {
+     "kicker": "KHÔNG THEO ĐẠO",
+     "lines": [
+      "Có lên",
+      "Thiên Đàng không?"
+     ]
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 6.9,
+   "end": 11.4,
+   "line": "Bà là Phật tử, sáng nào cũng tụng kinh, rằm nào cũng ăn chay.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "noSofa": true
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "BAN",
+      "pose": "pray",
+      "expr": "peaceful"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Bà ngoại Khoa"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 11.4,
+   "end": 20.3,
+   "line": "Hồi cấp hai, chiều nào tớ qua học bài, bà cũng để dành cho tớ một chén chè đậu đen, bảo: thằng Phaolo ốm nhom, ăn thêm đi con.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "timeTag": "Hồi cấp hai",
+    "chars": [
+     {
+      "c": "BAN",
+      "pose": "holdFront",
+      "expr": "gentle",
+      "talk": [
+       3,
+       9
+      ]
+     },
+     {
+      "c": "BIN",
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Ăn thêm đi con.",
+      "at": 3.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 20.3,
+   "end": 24.78,
+   "line": "Đêm đó, tớ với Khoa ngồi ở bậc thềm, mùi nhang trầm còn thoang thoảng.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "sad"
+     },
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s05",
+   "start": 24.78,
+   "end": 28.73,
+   "line": "Khoa hỏi rất nhỏ: theo đạo cậu, bà tớ có được lên Thiên Đàng không.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "KHOA",
+    "expr": "cry",
+    "talk": true,
+    "bubble": "Bà tớ có được lên Thiên Đàng không?"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 28.73,
+   "end": 35.96,
+   "line": "Hồi lớp chín Khoa từng hỏi y vậy về ông nội. Thằng nhóc Phaolo ngày đó đáp tỉnh bơ: không theo đạo thì khó lắm.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "timeTag": "Lớp 9",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "shrug",
+      "expr": "smirk",
+      "talk": [
+       2,
+       9
+      ]
+     },
+     {
+      "c": "TY",
+      "pose": "stand",
+      "expr": "angry",
+      "f": -1
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Không theo đạo thì khó lắm.",
+      "at": 2.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 35.96,
+   "end": 40.62,
+   "line": "Khoa giận tớ cả tuần. Tớ sai thật, cả về giáo lý lẫn lòng tốt.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "guilty",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 40.62,
+   "end": 48.46,
+   "line": "Lần này tớ trả lời khác. Tớ nói: Giáo hội Công giáo không bao giờ tuyên bố một người cụ thể nào đang ở đâu, kể cả người Công giáo.",
+   "scene": "ots",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "night",
+    "fg": "KHOA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "gentle",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s09",
+   "start": 48.46,
+   "end": 51.8,
+   "line": "Việc phán xét là của Chúa, không phải của tớ.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "lines": [
+     "Phán xét là của Chúa,",
+     "không phải của tớ."
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 51.8,
+   "end": 55.33,
+   "line": "Người Công giáo tin mọi ơn cứu độ đều đến từ Chúa Kitô.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Ơn cứu độ",
+    "body": [
+     "Mọi ơn cứu độ",
+     "đều đến từ Chúa Kitô."
+    ],
+    "src": "GLHTCG 846",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 55.33,
+   "end": 66.58,
+   "line": "Nhưng Giáo hội cũng dạy rằng những ai không biết Tin Mừng mà không do lỗi của mình, vẫn thành tâm tìm kiếm Thiên Chúa, và nhờ ơn Ngài nâng đỡ, cố gắng sống theo lương tâm, thì cũng có thể đạt tới ơn cứu độ.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Lumen Gentium 16",
+    "body": [
+     "Ai không biết Tin Mừng không do lỗi mình,",
+     "thành tâm tìm Chúa, sống theo lương tâm..."
+    ],
+    "src": "LG 16; GLHTCG 847",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 66.58,
+   "end": 68.84,
+   "line": "Bằng những con đường chỉ mình Chúa biết.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Bằng những con đường",
+     "chỉ mình Chúa biết."
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 68.84,
+   "end": 71.44,
+   "line": "Khoa hỏi: vậy là chắc được à.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "KHOA",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 71.44,
+   "end": 77.32,
+   "line": "Tớ lắc đầu. Tớ không dám nói chắc là được, cũng không dám nói chắc là không, với bất kỳ ai.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "gentle",
+      "talk": true
+     },
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 77.32,
+   "end": 81.75,
+   "line": "Nhưng tớ có quyền hy vọng. Và tớ tin Chúa biết rõ bà hơn cả tớ với cậu.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "HY VỌNG",
+    "lines": [
+     "Chúa biết rõ bà",
+     "hơn cả tụi mình"
+    ],
+    "item": "heart"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 81.75,
+   "end": 85.8,
+   "line": "Ngài thấy từng chén chè bà để dành cho một thằng nhóc không phải cháu ruột.",
+   "scene": "insert",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "kitchen",
+    "item": "rice",
+    "label": "Chén chè đậu đen"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 85.8,
+   "end": 88.64,
+   "line": "Khoa im một lúc: nghe vậy tớ nhẹ lòng hơn.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "KHOA",
+    "expr": "peaceful",
+    "talk": [
+     1.0,
+     9
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 88.64,
+   "end": 94.56,
+   "line": "Tớ nói thêm: tối nay tớ sẽ cầu nguyện cho bà, theo cách của tớ, nếu cậu thấy không phiền.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sitPray",
+      "expr": "pray"
+     },
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "gentle",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 94.56,
+   "end": 95.52,
+   "line": "Khoa gật.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pnight",
+     "bikes": false
+    },
+    "freeze": true,
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "smile"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 95.52,
+   "end": 101.63,
+   "line": "Từ hôm đó tớ hiểu ra, giữ đúng đức tin của mình không có nghĩa là tự cho mình cầm sổ điểm danh Thiên Đàng.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Không ai cầm sổ",
+     "điểm danh Thiên Đàng."
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 101.63,
+   "end": 107.0,
+   "line": "Có một món ăn nào của ông bà người bạn thân mà đến giờ bạn vẫn nhớ vị không? Kể tớ nghe với.",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Có một món ăn nào của ông bà người bạn thân mà đến giờ bạn vẫn nhớ vị không? Kể tớ nghe với.",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 40.77
+  },
+  {
+   "start": 40.77,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 85.95
+  },
+  {
+   "start": 85.95,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 107.0
+  }
+ ],
+ "sfx": []
+}

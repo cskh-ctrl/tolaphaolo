@@ -2,7 +2,9 @@
 // Every shot in story/shots.json carries params.type + params; autoRegister() turns them into draw functions,
 // so an episode is written as data (shots.json) instead of one JS file per shot.
 import { E, V, registerShot, layer, blurLayer, veil, ease, prog, key, talkAmount, shake, glow, circle, ring, rr, seg, poly, text, measure, FONTS, alpha, shade, mix, linGrad, radGrad, S } from './core.js';
-import { POSES, posesAt, breathe, walkPose } from './rig2d.js';
+import { POSES, posesAt, breathe, walkPose, EXPR } from './rig2d.js';
+EXPR.down = { eyes: 'dot', brows: null, mouth: 'frown', look: [0, 0.4] };
+EXPR.downTears = { eyes: 'closed', brows: null, mouth: 'frown', tears: true };
 import { drawChibi, chibiClose, chibiHead, blinkAt, signCross } from './stick.js';
 import { BIN, NA, ME, ME_AODAI, BO, CHA, CHA_LE, LITURGICAL, EXTRA } from './cg-cast.js';
 import * as SETLIB from './cg-sets.js';
@@ -115,7 +117,7 @@ function placeChars(p, GY, CX, t, info) {
     const facing = c.f ?? (n === 1 ? 1 : (i < n / 2 ? 1 : -1));
     let pose; if (c.sign != null) pose = signCross(t - c.sign, c.signDur || 2.4); else if (c.walk) pose = breathe(walkPose(t * 7 + i), t, 0.4); else pose = poseAt(c.pose, t, i + 1);
     const tk = c.talk === true ? talkAmount(info.globalT, info.shot.start, info.shot.end) : Array.isArray(c.talk) ? talkAmount(info.globalT, info.shot.start + c.talk[0], info.shot.start + c.talk[1]) : 0;
-    return { spec: c, o: { x, y, s, facing, char: C(c.c), pose, expr: tl(c.expr, t, 'neutral'), talk: tk, blink: c.eyes === 'closed' ? 0 : blinkAt(t, 2.8 + i * 0.4, i), look: c.look, prop: c.prop, alpha: c.alpha, depth: c.depth || 1, rim: { dir: p.rimDir || [-0.75, -0.55] } } }; }); }
+    return { spec: c, o: { x, y, s, facing, char: C(c.c), pose, expr: tl(c.expr, t, 'neutral'), talk: tk, blink: c.eyes === 'closed' ? 0 : blinkAt(t, 2.8 + i * 0.4, i), look: c.look, prop: c.prop, alpha: c.alpha, rot: c.rot, depth: c.depth || 1, rim: { dir: p.rimDir || [-0.75, -0.55] } } }; }); }
 function overlays(g, t, info, p, placed, cam) {
   if (p.timeTag) timeTag(g, t, { str: p.timeTag, dur: info.dur });
   for (const b of p.say || []) { const who = placed[b.who ?? 0]; if (!who) continue; const [hx, hy, hr] = chibiHead(who.o); const sx = clampX(hx + (b.dx ?? 0)), sy = hy - hr - V(150, 200) + (b.dy ?? 0);
@@ -124,6 +126,7 @@ function overlays(g, t, info, p, placed, cam) {
   for (const l of p.labels || []) { const who = placed[l.who ?? 0]; if (!who) continue; const [hx, hy, hr] = chibiHead(who.o); layer(g, cam, 1, g => labelTag(g, { str: l.str, x: hx, y: hy - hr - V(70, 90), a: ease.out(prog(t, l.at ?? 0.2, (l.at ?? 0.2) + 0.4)) })); }
   common(g, t, info, p);
 }
+const closeExpr = (e) => (e === 'sad' ? 'down' : e === 'cry' ? 'downTears' : e);
 const clampX = (x) => Math.max(E.W * 0.3, Math.min(E.W * 0.7, x));
 function common(g, t, info, p) {
   if (p.freeze) freeze(g, t, { x: E.W / 2, y: E.H * 0.5, badge: p.freeze === true ? null : p.freeze });
@@ -151,7 +154,7 @@ const T = {
   close(g, t, info, p) { const cam = camOf({ cam: 'push', ...p }, t, info); blurLayer(g, 10, g => drawSet(g, t, { z: 1.3, x: p.bgX ?? -200 }, p.set, p.setOpt)); veil(g, p.veil || '#ffffff', 0.12);
     const r = V(330, p.r || 350), cx = E.W / 2 + (p.dx || 0), cy = E.H * (p.cy ?? 0.55);
     const tk = p.talk ? talkAmount(info.globalT, info.shot.start, info.shot.end) : 0;
-    layer(g, cam, 1, g => { chibiClose(g, cx, cy, r, { char: C(p.c), expr: tl(p.expr, t, 'neutral'), talk: tk, blink: blinkAt(t, 3.1), look: p.look, tilt: (p.tilt ?? 0) + 0.03 * Math.sin(t * 1.3), rimSide: p.rimSide });
+    layer(g, cam, 1, g => { chibiClose(g, cx, cy, r, { char: C(p.c), expr: closeExpr(tl(p.expr, t, 'neutral')), talk: tk, blink: blinkAt(t, 3.1), look: p.look, tilt: (p.tilt ?? 0) + 0.03 * Math.sin(t * 1.3), rimSide: p.rimSide });
       if (p.emote) emote(g, cx + r * 1.0, cy - r * 1.05, p.emote, t - (p.emoteAt ?? 0.3), 1.2); });
     if (p.bubble) say(g, t, { x: E.W / 2, y: E.H * 0.17, str: p.bubble, start: 0.1, dur: info.dur, tail: [cx, cy - r] });
     common(g, t, info, p); },

@@ -1,0 +1,594 @@
+{
+ "title": "Dắt người yêu khác đạo về ra mắt mẹ, câu mẹ hỏi làm tớ đứng hình",
+ "duration": 96.4,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.69,
+   "line": "Tớ tập trước gương đúng ba tuần, chỉ để trả lời một câu tớ chắc chắn mẹ sẽ hỏi.",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "cam": "push",
+    "hook": {
+     "kicker": "YÊU NGƯỜI",
+     "lines": [
+      "Khác đạo",
+      "có được không?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "nervous",
+      "talk": true
+     }
+    ],
+    "timeTag": "Tập trước gương 3 tuần"
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.69,
+   "end": 9.43,
+   "line": "Vy không theo đạo. Nhà Vy thờ ông bà, Tết nào cũng đi chùa đầu năm.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false
+    },
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "pray",
+      "expr": "peaceful"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Vy"
+     }
+    ],
+    "items": []
+   }
+  },
+  {
+   "id": "s03",
+   "start": 9.43,
+   "end": 12.96,
+   "line": "Còn mẹ tớ là trưởng ca đoàn giáo xứ ba mươi năm.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ME_AODAI",
+      "pose": "openArms",
+      "expr": "happy",
+      "talk": true
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "music"
+     }
+    ],
+    "timeTag": "Trưởng ca đoàn 30 năm"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.96,
+   "end": 19.84,
+   "line": "Trong đầu tớ, mẹ sẽ đặt chén trà xuống, nhìn Vy: con có chịu theo đạo không. Rồi không khí đông cứng.",
+   "scene": "scene",
+   "set": "dream",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "dream",
+    "freeze": "TƯỞNG TƯỢNG",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "crossArms",
+      "expr": "annoyed"
+     },
+     {
+      "c": "GIRL",
+      "pose": "stand",
+      "expr": "scared",
+      "f": -1
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Con có chịu theo đạo không?",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 19.84,
+   "end": 33.64,
+   "line": "Tớ chuẩn bị cả một bài. Rằng Giáo hội không cấm người Công giáo yêu người khác đạo. Rằng hôn nhân với người chưa rửa tội vẫn có thể được cử hành, nếu Đức Giám mục cho phép chuẩn. Rằng không ai được ép Vy theo đạo, vì đức tin phải là tự do.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Bài tớ chuẩn bị",
+    "steps": [
+     "Không cấm yêu người khác đạo",
+     "Có thể cưới nếu được chuẩn",
+     "Không ai ép theo đạo"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 33.64,
+   "end": 34.93,
+   "line": "Tớ còn in hẳn ra giấy.",
+   "scene": "insert",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "bedroom",
+    "item": "card",
+    "label": "In sẵn"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 34.93,
+   "end": 41.63,
+   "line": "Chủ nhật đó, Vy mang đến một hộp bánh bò. Mẹ rót trà, hỏi chuyện công việc, rồi đặt chén xuống.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "sit",
+      "expr": "smile"
+     },
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "nervous",
+      "f": -1
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "nervous",
+      "f": -1
+     }
+    ],
+    "items": [
+     {
+      "item": "gift",
+      "x": 0,
+      "y": -200,
+      "s": 0.12
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 41.63,
+   "end": 43.8,
+   "line": "Tim tớ đập như trống chầu.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "PHAOLO",
+    "expr": "scared",
+    "emote": "shock"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 43.8,
+   "end": 50.12,
+   "line": "Mẹ nhìn tớ, chứ không nhìn Vy, và hỏi: con đã nói cho Vy biết con sẽ phải hứa những gì chưa.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "ME",
+    "expr": "gentle",
+    "talk": [
+     1.5,
+     9
+    ],
+    "bubble": "Con đã nói cho Vy biết con sẽ phải hứa gì chưa?"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 50.12,
+   "end": 51.5,
+   "line": "Tớ đứng hình.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "freeze": "ĐỨNG HÌNH",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "shocked"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 51.5,
+   "end": 55.16,
+   "line": "Mẹ quay sang Vy, cười: nếu hai đứa tính lâu dài,",
+   "scene": "ots",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "livingRoom",
+    "fg": "GIRL",
+    "who": {
+     "c": "ME",
+     "pose": "talk",
+     "expr": "smile",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s12",
+   "start": 55.16,
+   "end": 62.64,
+   "line": "thằng Phaolo phải hứa với Giáo hội là giữ đức tin của nó, và cố gắng hết sức để con cái được rửa tội, được dạy dỗ trong đạo.",
+   "scene": "fact",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "livingRoom",
+    "title": "Lời hứa của bên Công giáo",
+    "body": [
+     "Giữ đức tin, cố gắng hết sức để con cái",
+     "được rửa tội và giáo dục trong đạo."
+    ],
+    "src": "Giáo luật 1125",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 62.64,
+   "end": 68.43,
+   "line": "Con không bị buộc phải hứa gì cả. Nhưng con có quyền được biết trước, để khỏi thấy bị giấu.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "GIRL",
+    "expr": "awe",
+    "emote": "sparkle"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 68.43,
+   "end": 72.78,
+   "line": "Rồi mẹ nhìn tớ: nhiều nhà mình hay đòi người ta theo đạo rồi mới cho cưới.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "ME",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s15",
+   "start": 72.78,
+   "end": 77.84,
+   "line": "Đó là thói quen, có khi là mong muốn của gia đình, chứ không phải luật của Giáo hội.",
+   "scene": "text",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "livingRoom",
+    "kicker": "THÓI QUEN",
+    "lines": [
+     "Không phải",
+     "luật của Giáo hội"
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 77.84,
+   "end": 83.42,
+   "line": "Mẹ chỉ mong con sống đạo cho tử tế, để Vy thấy đạo mình đẹp, chứ không thấy nó như một điều kiện.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "ME",
+    "lines": [
+     "Để Vy thấy đạo mình đẹp,",
+     "không phải một điều kiện."
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 83.42,
+   "end": 86.93,
+   "line": "Hóa ra người cần chuẩn bị không phải Vy, mà là tớ.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "PHAOLO",
+    "expr": "embarrassed",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 86.93,
+   "end": 90.1,
+   "line": "Tờ giấy in sẵn vẫn nằm im trong túi quần.",
+   "scene": "insert",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "livingRoom",
+    "item": "card",
+    "label": "Vẫn nằm im trong túi"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 90.1,
+   "end": 96.4,
+   "line": "Nếu là bạn, bạn muốn được nghe những điều ấy ngay từ buổi ra mắt, hay đợi đến lúc hai người tính chuyện cưới mới nói?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu là bạn, bạn muốn được nghe những điều ấy ngay từ buổi ra mắt, hay đợi đến lúc hai người tính chuyện cưới mới nói?",
+    "cast": [
+     "PHAOLO",
+     "GIRL",
+     "ME"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 43.95
+  },
+  {
+   "start": 43.95,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 83.63
+  },
+  {
+   "start": 83.63,
+   "mood": "cute",
+   "intensity": 0.5,
+   "end": 96.4
+  }
+ ],
+ "sfx": []
+}

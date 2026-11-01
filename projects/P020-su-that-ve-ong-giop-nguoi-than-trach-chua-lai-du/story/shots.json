@@ -1,0 +1,775 @@
+{
+ "title": "Sự thật về ông Gióp: người than trách Chúa lại được khen là nói đúng",
+ "duration": 122.42,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.9,
+   "line": "Một người đàn ông ngồi giữa đống tro, cầm mảnh sành gãi lên những vết lở khắp người.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening",
+     "bench": false
+    },
+    "cam": "push",
+    "hook": {
+     "kicker": "ĐƯỢC KHÔNG?",
+     "lines": [
+      "Giận Chúa",
+      "khi đời bất công"
+     ]
+    },
+    "chars": [
+     {
+      "c": "OLDMAN",
+      "pose": "sit",
+      "expr": "cry"
+     }
+    ]
+   },
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.9,
+   "end": 12.14,
+   "line": "Ông tên là Gióp. Ít lâu trước, ông có đàn gia súc đông, con cái đầy nhà, có tiếng là người ngay lành nhất vùng.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pday",
+     "bench": false
+    },
+    "wide": true,
+    "timeTag": "Ông Gióp, ngày trước",
+    "chars": [
+     {
+      "c": "OLDMAN",
+      "pose": "openArms",
+      "expr": "happy"
+     },
+     {
+      "c": "BIN",
+      "pose": "cheer",
+      "expr": "joy"
+     },
+     {
+      "c": "NA",
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 12.14,
+   "end": 13.46,
+   "line": "Giờ thì mất hết.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening",
+     "bench": false
+    },
+    "freeze": "MẤT HẾT",
+    "chars": [
+     {
+      "c": "OLDMAN",
+      "pose": "sad",
+      "expr": "cry"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 13.46,
+   "end": 20.48,
+   "line": "Ba người bạn từ xa tới thăm. Họ ngồi cạnh ông bảy ngày bảy đêm, không ai nói một lời, vì thấy nỗi đau quá lớn.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening",
+     "bench": false
+    },
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "sit",
+      "expr": "sad"
+     },
+     {
+      "c": "OLDMAN",
+      "pose": "sit",
+      "expr": "cry"
+     },
+     {
+      "c": "MAN2",
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1
+     },
+     {
+      "c": "BAY",
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "timeTag": "Bảy ngày bảy đêm"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 20.48,
+   "end": 22.36,
+   "line": "Đó là lúc họ tử tế nhất.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "lines": [
+     "Im lặng ngồi cạnh",
+     "là lúc tử tế nhất."
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 22.36,
+   "end": 27.32,
+   "line": "Rồi Gióp mở miệng. Ông nguyền rủa ngày mình sinh ra. Ông hỏi tại sao.",
+   "scene": "close",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "OLDMAN",
+    "expr": "angry",
+    "talk": true,
+    "emote": "anger"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 27.32,
+   "end": 30.44,
+   "line": "Ông nói thẳng, ông muốn tranh luận với Đấng Toàn Năng.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "G 13,3",
+    "lines": [
+     "Muốn tranh luận",
+     "với Đấng Toàn Năng"
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 30.44,
+   "end": 36.91,
+   "line": "Ba người bạn hoảng, bắt đầu giải thích. Chắc anh có tội gì đó. Chúa công bằng, không phạt oan ai.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening",
+     "bench": false
+    },
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "point",
+      "expr": "annoyed",
+      "talk": true
+     },
+     {
+      "c": "MAN2",
+      "pose": "explain",
+      "expr": "determined",
+      "talk": true
+     },
+     {
+      "c": "OLDMAN",
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Chắc anh có tội gì đó.",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 36.91,
+   "end": 39.98,
+   "line": "Cứ thế, hết chương này sang chương khác.",
+   "scene": "insert",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "park",
+    "item": "bible",
+    "label": "Hết chương này sang chương khác"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 39.98,
+   "end": 47.74,
+   "line": "Cuối sách, Thiên Chúa lên tiếng. Ngài hỏi lại Gióp về trời đất, biển cả, làm Gióp nhận ra mình đã nói những điều vượt quá hiểu biết.",
+   "scene": "scene",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "dream",
+    "cam": "up",
+    "chars": [
+     {
+      "c": "OLDMAN",
+      "pose": "kneel",
+      "expr": "awe",
+      "look": [
+       0,
+       -1
+      ]
+     }
+    ],
+    "tag": "Trời đất, biển cả"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 47.74,
+   "end": 53.98,
+   "line": "Nhưng rồi Ngài quay sang ba người bạn, nói rằng họ đã không nói về Ngài cho đúng như Gióp, tôi tớ của Ngài.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Gióp 42,7",
+    "body": [
+     "Ba người bạn đã không nói về Ta",
+     "cho đúng như Gióp."
+    ],
+    "src": "G 42,7 (diễn ý)",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 53.98,
+   "end": 59.78,
+   "line": "Lần đầu đọc, tớ sững người. Người than trách lại được nói là đúng hơn những người đứng ra bênh vực Chúa.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "shocked",
+    "emote": "?!"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 59.78,
+   "end": 69.12,
+   "line": "Kinh Thánh còn có những Thánh Vịnh mở đầu bằng tiếng kêu, Thiên Chúa của con, sao Ngài bỏ rơi con. Và chính Chúa Giêsu đã thốt lên lời ấy trên Thánh Giá.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Thánh Vịnh 22",
+    "body": [
+     "Thiên Chúa của con,",
+     "sao Ngài bỏ rơi con?"
+    ],
+    "src": "Tv 22,2; Mt 27,46",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 69.12,
+   "end": 75.24,
+   "line": "Tháng trước, ba của Khoa bị lừa qua điện thoại, mất tám mươi triệu, tiền chạy xe ôm dành dụm mười năm.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "timeTag": "Mất 80 triệu",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "shocked"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 75.24,
+   "end": 80.39,
+   "line": "Khoa ngồi quán nước mía, giọng run: \"Nếu có Chúa thật, tớ muốn chửi ổng một trận.\"",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "angry",
+    "talk": [
+     1.5,
+     9
+    ],
+    "bubble": "Tớ muốn chửi ổng một trận."
+   }
+  },
+  {
+   "id": "s16",
+   "start": 80.39,
+   "end": 86.54,
+   "line": "Tớ suýt nói, chắc có lý do gì đó. Rồi tớ nhớ ba người bạn của Gióp, và ngậm miệng lại.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "freeze": "KHOAN!",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "facepalm",
+      "expr": "guilty"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 86.54,
+   "end": 90.34,
+   "line": "Tớ chỉ nói, nếu cậu giận, cứ nói thẳng với Ngài.",
+   "scene": "ots",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "cafe",
+    "fg": "KHOA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "gentle",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s18",
+   "start": 90.34,
+   "end": 96.86,
+   "line": "Trong đạo của tớ, than thở như vậy vẫn là cầu nguyện, vì mình vẫn hướng về Ngài, vẫn gọi tên Ngài.",
+   "scene": "fact",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "cafe",
+    "title": "Than thở vẫn là cầu nguyện",
+    "body": [
+     "Vì mình vẫn hướng về Ngài,",
+     "vẫn gọi tên Ngài."
+    ],
+    "src": "GLHTCG 2585–2589",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 96.86,
+   "end": 101.52,
+   "line": "Phạm thượng là chuyện khác, là buông lời thù ghét, khinh miệt, thách thức Chúa.",
+   "scene": "fact",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "cafe",
+    "title": "Phạm thượng",
+    "body": [
+     "Lời thù ghét, khinh miệt,",
+     "thách thức Thiên Chúa."
+    ],
+    "src": "GLHTCG 2148",
+    "icon": "cross",
+    "accent": "#ffc8c8"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 101.52,
+   "end": 107.84,
+   "line": "Một bên là đứa con đập cửa phòng cha mà khóc. Một bên là đóng sầm cửa bỏ đi, vừa đi vừa chửi.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Hai kiểu giận",
+    "steps": [
+     "Đập cửa phòng cha mà khóc",
+     "Đóng sầm cửa bỏ đi"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 107.84,
+   "end": 111.77,
+   "line": "Khoa không nói gì, hút hết ly nước mía, đá kêu lọc cọc.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "cam": "push",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s22",
+   "start": 111.77,
+   "end": 117.26,
+   "line": "Tối đó, nó nhắn tớ một dòng: \"Nếu tớ hỏi ổng tại sao, ổng có giận tớ không?\"",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Ổng có giận tớ không?"
+   }
+  },
+  {
+   "id": "s23",
+   "start": 117.26,
+   "end": 119.2,
+   "line": "Tớ vẫn đang nghĩ cách trả lời.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "thinking",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s24",
+   "start": 119.2,
+   "end": 122.42,
+   "line": "Nếu là bạn, bạn sẽ nhắn lại cho Khoa câu gì?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu là bạn, bạn sẽ nhắn lại cho Khoa câu gì?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 40.13
+  },
+  {
+   "start": 40.13,
+   "mood": "sacred",
+   "intensity": 0.5,
+   "end": 69.27
+  },
+  {
+   "start": 69.27,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 101.67
+  },
+  {
+   "start": 101.67,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 122.42
+  }
+ ],
+ "sfx": []
+}

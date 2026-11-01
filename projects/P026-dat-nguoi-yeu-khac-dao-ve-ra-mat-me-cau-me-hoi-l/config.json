@@ -1,0 +1,35 @@
+{
+ "title": "Dắt người yêu khác đạo về ra mắt mẹ, câu mẹ hỏi làm tớ đứng hình",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 96.4,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "livingRoom",
+  "c": "PHAOLO",
+  "expr": "shocked",
+  "kicker": "YÊU NGƯỜI",
+  "lines": [
+   "Khác đạo",
+   "có được không?"
+  ]
+ },
+ "episode": "P026"
+}

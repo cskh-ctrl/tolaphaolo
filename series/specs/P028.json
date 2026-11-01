@@ -1,0 +1,23 @@
+{"id":"P028",
+ "cover":{"set":"office","c":"LONG","expr":"confused","item":"ring","kicker":"HÔN NHÂN","lines":["Không phải","hợp đồng thuê nhà"]},
+ "music":[[0,"cute",0.5],["Người Công giáo tin hôn nhân","sacred",0.45],["Anh Long hỏi: lỡ","reflect",0.45],["Anh Long gõ nhẹ","gentle",0.6]],
+ "beats":[
+ {"type":"insert","set":"office","item":"card","hook":{"kicker":"HÔN NHÂN","lines":["Không phải","hợp đồng thuê nhà"],"y":0.12},"label":"Báo trước 30 ngày"},
+ {"at":"Giờ ăn trưa","type":"scene","set":"office","fg":"cup","chars":[{"c":"LONG","pose":"talk","expr":"smirk","talk":true},{"c":"PHAOLO","pose":"stand","expr":"neutral","f":-1}],"timeTag":"Giờ ăn trưa"},
+ {"at":"sao đạo cậu không cho","type":"close","set":"office","c":"LONG","expr":"confused","talk":true,"emote":"?"},
+ {"at":"Tớ chỉ ra cái lan can","type":"scene","set":"street","cam":"push","chars":[{"c":"PHAOLO","pose":"point","expr":"smile"}],"tag":"Lan can sắt"},
+ {"at":"Người ta không buộc dây","type":"steps","title":"Nối hai thanh sắt","steps":["Buộc dây? Không","Bắt vít? Không","Hàn! Thành một khối"],"c":"PHAOLO"},
+ {"at":"Tại mối hàn","type":"scene","set":"street","freeze":"MỐI HÀN","chars":[{"c":"PHAOLO","pose":"holdFront","expr":"awe"}]},
+ {"at":"Người Công giáo tin hôn nhân","type":"insert","set":"wedding","item":"ring"},
+ {"at":"Hợp đồng là trao đổi","type":"text","set":"office","kicker":"HỢP ĐỒNG","lines":["Ai làm sai","thì hủy"]},
+ {"at":"Hôn nhân là giao ước","type":"fact","symbol":"heart","title":"Giao ước","body":["Hai người tự do trao chính mình,","Thiên Chúa kết hợp họ."],"src":"GLHTCG 1601, 1640","icon":"heart"},
+ {"at":"Chúa Giêsu dạy","type":"fact","symbol":"dove","title":"Lời Chúa Giêsu","body":["Điều Thiên Chúa đã kết hợp,","loài người không được phân ly."],"src":"Mt 19,6; GLHTCG 2382","icon":"dove"},
+ {"at":"Nên khi hôn nhân thành sự","type":"scene","set":"wedding","wide":true,"cam":"pull","chars":[{"c":"GROOM","pose":"stand","expr":"happy"},{"c":"BRIDE","pose":"stand","expr":"happy","f":-1}]},
+ {"at":"Anh Long hỏi: lỡ","type":"close","set":"office","c":"LONG","expr":"worried","talk":true,"bubble":"Lỡ người kia đánh mình thì sao?","captions":false},
+ {"at":"Không. Không ai buộc","type":"text","set":"dream","kicker":"AN TOÀN TRƯỚC HẾT","lines":["Không ai buộc","phải chịu bạo hành"],"color":"#e8584a"},
+ {"at":"Khi có nguy hiểm","type":"fact","symbol":"church","title":"Ly thân","body":["Được phép khi có nguy hiểm","cho mình hay cho con."],"src":"GLHTCG 1649, 2383","icon":"church"},
+ {"at":"Ly dị dân sự cũng có thể","type":"fact","set":"office","title":"Ly dị dân sự","body":["Có thể được chấp nhận để bảo vệ","quyền lợi và con cái."],"src":"GLHTCG 2383","icon":"heart"},
+ {"at":"Chỉ là mối hàn bí tích","type":"lesson","c":"PHAOLO","lines":["Mối hàn bí tích","vẫn còn đó."]},
+ {"at":"Anh Long gõ nhẹ","type":"scene","set":"street","cam":"push","chars":[{"c":"LONG","pose":"reach","expr":"thinking"}],"emotes":[{"who":0,"type":"idea","at":1}]},
+ {"at":"Tối nay, thử đánh bóng","type":"end","question":"Tối nay, thử đánh bóng mối hàn nhà bạn bằng một việc thật nhỏ. Bạn sẽ chọn việc gì?","cast":["PHAOLO","LONG"]}
+]}

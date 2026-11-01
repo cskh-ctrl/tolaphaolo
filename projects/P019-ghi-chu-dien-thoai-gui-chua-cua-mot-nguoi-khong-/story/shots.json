@@ -1,0 +1,668 @@
+{
+ "title": "Ghi chú điện thoại 'Gửi Chúa' của một người không thuộc kinh nào",
+ "duration": 96.22,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.06,
+   "line": "Tuấn gửi tớ một ảnh chụp màn hình, kèm lời dặn: đọc thôi, cấm cười.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "phonebuzz",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "hook": {
+     "kicker": "KHÔNG THUỘC KINH",
+     "lines": [
+      "Có cầu nguyện",
+      "được không?"
+     ],
+     "y": 0.12
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.06,
+   "end": 7.03,
+   "line": "Tuấn học giáo lý dự tòng được bốn tháng.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "timeTag": "Lớp dự tòng, tháng thứ 4",
+    "chars": [
+     {
+      "c": "HUY",
+      "pose": "sit",
+      "expr": "nervous",
+      "prop": "book"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Tuấn"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 7.03,
+   "end": 13.44,
+   "line": "Ảnh chụp là một ghi chú trong điện thoại, tiêu đề viết hoa: GỬI CHÚA. Tớ đọc nguyên văn nhé.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "GỬI CHÚA"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 13.44,
+   "end": 18.76,
+   "line": "Gửi Chúa. Con là Tuấn, chắc Chúa biết rồi. Con không thuộc kinh nào hết.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "HUY",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 18.76,
+   "end": 24.4,
+   "line": "Trong lớp mọi người đọc nhanh quá, con chỉ mấp máy môi cho có, nên con thấy mình như đứa giả bộ.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "chars": [
+     {
+      "c": "WOMAN",
+      "pose": "pray",
+      "expr": "pray",
+      "talk": true
+     },
+     {
+      "c": "HUY",
+      "pose": "pray",
+      "expr": "nervous"
+     },
+     {
+      "c": "MAN",
+      "pose": "pray",
+      "expr": "pray",
+      "talk": true,
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 1,
+      "type": "sweat"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 24.4,
+   "end": 28.46,
+   "line": "Nói thật, lúc đầu con đi học vì bạn gái con là người Công giáo.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "HUY",
+      "pose": "relaxed",
+      "expr": "embarrassed"
+     },
+     {
+      "c": "GIRL",
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "heart"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 28.46,
+   "end": 31.6,
+   "line": "Giờ con không biết con học vì cô ấy hay vì Chúa nữa.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "HUY",
+    "expr": "confused",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 31.6,
+   "end": 33.87,
+   "line": "Hôm nay con nóng với mẹ, con xin lỗi.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "HUY",
+    "expr": "guilty",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 33.87,
+   "end": 40.24,
+   "line": "Con không biết viết kiểu này có tính là cầu nguyện không. Nếu không tính thì Chúa coi như con nhắn tin đi.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "HUY",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "worried"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 40.24,
+   "end": 42.81,
+   "line": "Pin còn mười hai phần trăm nên con dừng.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Pin 12%"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 42.81,
+   "end": 45.68,
+   "line": "Amen, hay là con phải ký tên?",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "HUY",
+    "expr": "confused",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 45.68,
+   "end": 46.9,
+   "line": "Tớ không cười.",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "PHAOLO",
+    "expr": "awe"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 46.9,
+   "end": 50.58,
+   "line": "Tớ thuộc làu kinh Lạy Cha, kinh Kính Mừng từ năm sáu tuổi.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "timeTag": "Năm 6 tuổi",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "pray",
+      "expr": "proud"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 50.58,
+   "end": 55.09,
+   "line": "Nhưng có những tối tớ đọc chúng nhanh như đọc số điện thoại, đầu nghĩ chuyện hạn nộp báo cáo.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "kneelPray",
+      "expr": "sleepy"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "gloom"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 55.09,
+   "end": 59.63,
+   "line": "Còn Tuấn không thuộc câu nào, mà viết ra những dòng thật nhất tớ từng đọc.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Những dòng thật nhất",
+     "tớ từng đọc."
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 59.63,
+   "end": 61.92,
+   "line": "Tớ nhắn lại. Tính chứ.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "phone",
+    "label": "Tính chứ."
+   }
+  },
+  {
+   "id": "s17",
+   "start": 61.92,
+   "end": 68.95,
+   "line": "Cầu nguyện là nâng lòng mình lên với Chúa. Có thể bằng kinh thuộc lòng, bằng câu mình tự nói, có khi chỉ là im lặng.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Cầu nguyện",
+    "body": [
+     "Là nâng tâm hồn",
+     "lên cùng Chúa."
+    ],
+    "src": "GLHTCG 2559",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 68.95,
+   "end": 74.5,
+   "line": "Sách Giáo lý nói, điều quan trọng không phải nhiều chữ, mà là lòng mình có ở trong đó không.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Không tùy số lời",
+    "body": [
+     "Điều quan trọng là",
+     "lòng mình có ở trong đó."
+    ],
+    "src": "GLHTCG 2700",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 74.5,
+   "end": 81.52,
+   "line": "Kinh thuộc lòng là quà Giáo hội trao, như kinh Lạy Cha chính Chúa Giêsu dạy. Nhưng nó không phải mật khẩu để được gặp Chúa.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "KINH LẠY CHA",
+    "lines": [
+     "Là quà,",
+     "không phải mật khẩu"
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 81.52,
+   "end": 86.9,
+   "line": "Thánh Phaolô còn viết, khi mình không biết cầu nguyện thế nào cho phải, chính Thần Khí cầu thay cho mình.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Thần Khí cầu thay",
+    "body": [
+     "Khi mình không biết cầu nguyện",
+     "thế nào cho phải."
+    ],
+    "src": "Rm 8,26",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 86.9,
+   "end": 92.54,
+   "line": "Tuấn trả lời bằng một chữ: dạ. Rồi thêm một dòng: vậy khỏi ký tên hả anh.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Vậy khỏi ký tên hả anh?"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 92.54,
+   "end": 96.22,
+   "line": "Lời cầu nguyện vụng về mà thật nhất bạn từng nói với Chúa là câu gì?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Lời cầu nguyện vụng về mà thật nhất bạn từng nói với Chúa là câu gì?",
+    "cast": [
+     "PHAOLO",
+     "HUY"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 45.83
+  },
+  {
+   "start": 45.83,
+   "mood": "reflect",
+   "intensity": 0.45,
+   "end": 59.81
+  },
+  {
+   "start": 59.81,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 87.11
+  },
+  {
+   "start": 87.11,
+   "mood": "cute",
+   "intensity": 0.5,
+   "end": 96.22
+  }
+ ],
+ "sfx": []
+}

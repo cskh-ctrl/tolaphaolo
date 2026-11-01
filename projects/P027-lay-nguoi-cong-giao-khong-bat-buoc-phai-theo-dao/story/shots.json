@@ -1,0 +1,570 @@
+{
+ "title": "Lấy người Công giáo không bắt buộc phải theo đạo. Thật đấy",
+ "duration": 75.89,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 6.89,
+   "line": "Chị Ngọc, bạn gái anh Minh Quân, anh họ tớ, đã khóc ngay trong quán lẩu dê, chỉ vì một câu của bà cô:",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "push",
+    "hook": {
+     "kicker": "LẤY NGƯỜI CÔNG GIÁO",
+     "lines": [
+      "Bắt buộc",
+      "phải theo đạo?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "MAI",
+      "pose": "sit",
+      "expr": "cry"
+     },
+     {
+      "c": "OLDLADY",
+      "pose": "crossArms",
+      "expr": "annoyed",
+      "f": -1
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Chị Ngọc"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 6.89,
+   "end": 9.56,
+   "line": "muốn làm dâu nhà này thì phải theo đạo.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "OLDLADY",
+    "expr": "annoyed",
+    "talk": true,
+    "bubble": "Muốn làm dâu thì phải theo đạo!"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 9.56,
+   "end": 12.56,
+   "line": "Chị không ghét đạo, chỉ thấy mình bị đặt điều kiện.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "MAI",
+    "expr": "sad",
+    "emote": "gloom"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.56,
+   "end": 14.07,
+   "line": "Tớ gỡ cho anh Quân ba hiểu lầm.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "gentle"
+     },
+     {
+      "c": "MAN2",
+      "pose": "sit",
+      "expr": "worried",
+      "f": -1
+     }
+    ],
+    "labels": [
+     {
+      "who": 1,
+      "str": "Anh Quân"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 14.07,
+   "end": 17.0,
+   "line": "Một, không theo đạo thì không cưới được.",
+   "scene": "text",
+   "set": "wedding",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "wedding",
+    "kicker": "HIỂU LẦM 1",
+    "lines": [
+     "Không theo đạo",
+     "thì không cưới được"
+    ],
+    "strike": 1.8
+   }
+  },
+  {
+   "id": "s06",
+   "start": 17.0,
+   "end": 22.52,
+   "line": "Theo Giáo luật, người Công giáo có thể kết hôn với người chưa rửa tội, nếu Đức Giám mục cho phép chuẩn.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Phép chuẩn",
+    "body": [
+     "Có thể kết hôn với người chưa rửa tội,",
+     "nếu Đức Giám mục cho phép chuẩn."
+    ],
+    "src": "Giáo luật 1086",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 22.52,
+   "end": 26.96,
+   "line": "Đức tin phải tự do, Giáo hội không bắt ai theo đạo để được cưới.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "TỰ DO",
+    "lines": [
+     "Không bắt ai theo đạo",
+     "để được cưới"
+    ],
+    "item": "heart"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 26.96,
+   "end": 35.6,
+   "line": "Nhiều gia đình ở mình hay đòi học đạo, rửa tội rồi mới cưới. Đó là mong muốn của gia đình, có khi thành thói quen cả vùng, không phải luật chung.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "chars": [
+     {
+      "c": "OLDLADY",
+      "pose": "point",
+      "expr": "determined"
+     },
+     {
+      "c": "BA",
+      "pose": "crossArms",
+      "expr": "annoyed"
+     }
+    ],
+    "tag": "Mong muốn gia đình, không phải luật chung"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 35.6,
+   "end": 39.0,
+   "line": "Hai, không theo đạo thì không được làm lễ cưới trong nhà thờ.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "HIỂU LẦM 2",
+    "lines": [
+     "Không được cưới",
+     "trong nhà thờ"
+    ],
+    "strike": 2
+   }
+  },
+  {
+   "id": "s10",
+   "start": 39.0,
+   "end": 42.24,
+   "line": "Vẫn được, trước cha xứ và hai người làm chứng.",
+   "scene": "scene",
+   "set": "wedding",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "wedding",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN2",
+      "pose": "stand",
+      "expr": "happy"
+     },
+     {
+      "c": "CHA",
+      "pose": "bless",
+      "expr": "gentle"
+     },
+     {
+      "c": "MAI",
+      "pose": "stand",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "items": [],
+    "tag": "Cha xứ + hai người làm chứng"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 42.24,
+   "end": 47.42,
+   "line": "Chị Ngọc sẽ được mời học về hôn nhân Công giáo, một vợ một chồng, gắn bó trọn đời.",
+   "scene": "fact",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "classroom",
+    "title": "Hôn nhân Công giáo",
+    "body": [
+     "Một vợ một chồng,",
+     "gắn bó trọn đời."
+    ],
+    "src": "Giáo luật 1125",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 47.42,
+   "end": 50.26,
+   "line": "Học để hiểu, không phải học để bị rửa tội.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "MAI",
+    "expr": "peaceful",
+    "lines": [
+     "Học để hiểu,",
+     "không phải để bị rửa tội."
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 50.26,
+   "end": 52.98,
+   "line": "Ba, con cái chắc chắn phải theo bố.",
+   "scene": "text",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "livingRoom",
+    "kicker": "HIỂU LẦM 3",
+    "lines": [
+     "Con cái",
+     "chắc chắn theo bố"
+    ],
+    "strike": 1.8
+   }
+  },
+  {
+   "id": "s14",
+   "start": 52.98,
+   "end": 63.39,
+   "line": "Chính xác hơn là anh Quân phải hứa giữ đức tin của mình và cố gắng hết sức để con được rửa tội, được dạy dỗ trong đạo. Chị Ngọc không bị buộc phải hứa, nhưng phải được cho biết lời hứa ấy trước khi cưới.",
+   "scene": "fact",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "livingRoom",
+    "title": "Lời hứa",
+    "body": [
+     "Bên Công giáo hứa cố gắng hết sức;",
+     "bên kia được cho biết trước."
+    ],
+    "src": "Giáo luật 1125",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 63.39,
+   "end": 68.66,
+   "line": "Nghĩa là hai người cần nói thật với nhau từ bây giờ, chứ không để bà cô nói thay.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN2",
+      "pose": "talk",
+      "expr": "gentle",
+      "talk": true
+     },
+     {
+      "c": "MAI",
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "fg": "plant"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 68.66,
+   "end": 71.79,
+   "line": "Tuần sau, chị Ngọc tự xin đi gặp cha xứ.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAI",
+      "pose": "wave",
+      "expr": "happy"
+     },
+     {
+      "c": "CHA",
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 71.79,
+   "end": 75.89,
+   "line": "Nếu bạn ngồi trong quán lẩu dê hôm đó, bạn sẽ nói gì với bà cô?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu bạn ngồi trong quán lẩu dê hôm đó, bạn sẽ nói gì với bà cô?",
+    "cast": [
+     "PHAOLO",
+     "MAI",
+     "MAN2"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 12.71
+  },
+  {
+   "start": 12.71,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 68.81
+  },
+  {
+   "start": 68.81,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 75.89
+  }
+ ],
+ "sfx": []
+}

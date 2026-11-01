@@ -1,0 +1,605 @@
+{
+ "title": "Cô giáo tốt nhất đời tớ bị ung thư",
+ "duration": 111.69,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 7.7,
+   "line": "Cô Lan gửi cho tớ một tấm ảnh. Cô cười, đầu không còn sợi tóc nào, kèm một dòng chữ: đẹp không em.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "hook": {
+     "kicker": "VÌ SAO",
+     "lines": [
+      "Người tốt vẫn",
+      "phải đau khổ?"
+     ],
+     "y": 0.12
+    },
+    "label": "Đẹp không em?"
+   }
+  },
+  {
+   "id": "s02",
+   "start": 7.7,
+   "end": 12.94,
+   "line": "Tớ nhìn rất lâu. Gõ, rồi xóa. Gõ, rồi lại xóa.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 12.94,
+   "end": 17.16,
+   "line": "Cô Lan dạy tớ năm lớp bốn, người hay mua xôi cho đứa nào nhịn đói đi học.",
+   "scene": "scene",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "classroom",
+    "timeTag": "Lớp 4",
+    "chars": [
+     {
+      "c": "CO",
+      "pose": "holdFront",
+      "expr": "gentle"
+     },
+     {
+      "c": "BIN",
+      "pose": "reach",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Cô Lan"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 17.16,
+   "end": 23.9,
+   "line": "Cô không bao giờ dùng mực đỏ để gạch bài. Cô chỉ dùng nó để viết thêm một dòng: cố lên, em làm được.",
+   "scene": "insert",
+   "set": "classroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "classroom",
+    "item": "card",
+    "label": "Cố lên, em làm được"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 23.9,
+   "end": 27.25,
+   "line": "Bây giờ cô nằm ở khoa ung bướu, tầng sáu.",
+   "scene": "scene",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "hospital",
+    "wide": true,
+    "cam": "push",
+    "timeTag": "Khoa ung bướu, tầng 6",
+    "chars": [
+     {
+      "c": "CO",
+      "pose": "sitBack",
+      "expr": "peaceful",
+      "x": -120
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s06",
+   "start": 27.25,
+   "end": 33.72,
+   "line": "Trên đường đến thăm, tớ soạn sẵn mấy câu an ủi. Rồi cô sẽ khỏi thôi. Chắc Chúa muốn thử thách cô.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "walk": 50,
+      "expr": "thinking"
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Chắc Chúa muốn thử thách cô...",
+      "think": true,
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 33.72,
+   "end": 36.9,
+   "line": "Nhưng ngồi cạnh giường, tớ không nói được câu nào.",
+   "scene": "scene",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "hospital",
+    "fg": "flowers",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "sad"
+     },
+     {
+      "c": "CO",
+      "pose": "sitBack",
+      "expr": "gentle",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 36.9,
+   "end": 41.9,
+   "line": "Tớ chợt thấy, những câu ấy là để tớ đỡ khó xử, chứ không để cô đỡ đau.",
+   "scene": "text",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "hospital",
+    "lines": [
+     "Để tớ đỡ khó xử,",
+     "không để cô đỡ đau."
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 41.9,
+   "end": 47.24,
+   "line": "Cô hỏi, giọng rất nhẹ: cô sống cũng đâu đến nỗi tệ, sao lại là cô hả em.",
+   "scene": "close",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "hospital",
+    "c": "CO",
+    "expr": "sad",
+    "talk": [
+     1.0,
+     9
+    ],
+    "bubble": "Sao lại là cô hả em?"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 47.24,
+   "end": 49.38,
+   "line": "Tớ thú thật: em không biết.",
+   "scene": "close",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "hospital",
+    "c": "PHAOLO",
+    "expr": "cry",
+    "bubble": "Em không biết."
+   }
+  },
+  {
+   "id": "s11",
+   "start": 49.38,
+   "end": 60.48,
+   "line": "Sách Giáo lý của Giáo hội Công giáo cũng không giả vờ biết hết. Sách viết rằng không có câu trả lời vội vàng nào đủ cho vấn đề sự dữ. Câu trả lời là toàn bộ đức tin, chứ không phải một câu nói.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Vấn đề sự dữ",
+    "body": [
+     "Không câu trả lời vội vàng nào đủ.",
+     "Câu trả lời là toàn bộ đức tin."
+    ],
+    "src": "GLHTCG 309",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 60.48,
+   "end": 67.2,
+   "line": "Đau khổ không phải là hình phạt dành cho người xấu. Chúa Giêsu đã gạt lối nghĩ ấy khi được hỏi về một người mù bẩm sinh.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Người mù bẩm sinh",
+    "body": [
+     "Đau khổ không phải",
+     "hình phạt cho người xấu."
+    ],
+    "src": "Ga 9,1-3",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 67.2,
+   "end": 76.18,
+   "line": "Và Thiên Chúa không đứng ngoài nỗi đau, như người xem từ xa. Ngài đi vào trong đó. Trên Thập giá, Ngài cũng kêu lên như bị bỏ rơi.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "crucifix",
+    "label": "Ngài đi vào trong đó"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 76.18,
+   "end": 84.52,
+   "line": "Giáo hội tin rằng từ điều tệ nhất ấy, Thiên Chúa làm nảy ra ơn cứu độ. Không phải vì đau khổ là tốt. Mà vì tình yêu mạnh hơn nó.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Ơn cứu độ",
+    "body": [
+     "Không phải vì đau khổ là tốt,",
+     "mà vì tình yêu mạnh hơn nó."
+    ],
+    "src": "GLHTCG 312",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 84.52,
+   "end": 87.62,
+   "line": "Tớ không giảng gì. Tớ chỉ nắm tay cô.",
+   "scene": "scene",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "hospital",
+    "cam": "push",
+    "camZ": 1.15,
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "reach",
+      "expr": "gentle"
+     },
+     {
+      "c": "CO",
+      "pose": "sitBack",
+      "expr": "peaceful",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 87.62,
+   "end": 90.43,
+   "line": "Bàn tay từng cầm viên phấn, giờ gầy và lạnh.",
+   "scene": "close",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "hospital",
+    "c": "CO",
+    "expr": "peaceful",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 90.43,
+   "end": 94.86,
+   "line": "Lúc tớ về, cô nói: em ngồi đây, cô thấy đỡ sợ.",
+   "scene": "close",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "hospital",
+    "c": "CO",
+    "expr": "gentle",
+    "talk": [
+     0.8,
+     9
+    ],
+    "bubble": "Em ngồi đây, cô thấy đỡ sợ."
+   }
+  },
+  {
+   "id": "s18",
+   "start": 94.86,
+   "end": 100.37,
+   "line": "Có lẽ Chúa cũng ở bên người đau như thế. Không bằng một lời giải thích. Mà bằng sự hiện diện.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Không bằng lời giải thích,",
+     "mà bằng sự hiện diện."
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 100.37,
+   "end": 106.1,
+   "line": "Tối đó, tớ trả lời tấm ảnh: đẹp lắm cô. Cố lên, cô làm được.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "Đẹp lắm cô. Cố lên, cô làm được."
+   }
+  },
+  {
+   "id": "s20",
+   "start": 106.1,
+   "end": 111.69,
+   "line": "Nếu tuần này bạn nhắn cho một người thầy cũ đúng một dòng, bạn sẽ nhắn cho ai, và viết gì?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu tuần này bạn nhắn cho một người thầy cũ đúng một dòng, bạn sẽ nhắn cho ai, và viết gì?",
+    "cast": [
+     "PHAOLO",
+     "CO"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 49.53
+  },
+  {
+   "start": 49.53,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 84.67
+  },
+  {
+   "start": 84.67,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 111.69
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,36 @@
+{
+ "title": "Ông nội tớ nhặt từng hạt cơm rơi suốt năm mươi năm",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 105.66,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "kitchen",
+  "c": "ONG",
+  "expr": "gentle",
+  "item": "rice",
+  "kicker": "CHÚA YÊU THƯƠNG",
+  "lines": [
+   "Sao vẫn còn",
+   "chiến tranh?"
+  ]
+ },
+ "episode": "P022"
+}

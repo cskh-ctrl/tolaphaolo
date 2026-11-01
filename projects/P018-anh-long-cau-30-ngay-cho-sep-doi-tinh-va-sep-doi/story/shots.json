@@ -1,0 +1,648 @@
+{
+ "title": "Anh Long cầu 30 ngày cho sếp đổi tính, và sếp đổi thật",
+ "duration": 96.72,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.04,
+   "line": "Anh Long là người đầu tiên tớ thấy cầu nguyện với mục tiêu rất rõ: để Chúa sửa sếp.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "hook": {
+     "kicker": "30 NGÀY",
+     "lines": [
+      "Cầu cho sếp",
+      "đổi tính?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "pray",
+      "expr": "determined"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.04,
+   "end": 7.66,
+   "line": "Sếp anh là anh Hưng, trưởng phòng.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "BOSS",
+      "pose": "crossArms",
+      "expr": "annoyed"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Sếp Hưng"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 7.66,
+   "end": 11.29,
+   "line": "Nhắn Zalo lúc mười một giờ đêm, sáng ra hỏi sao chưa trả lời.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "phonebuzz",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "phone",
+    "label": "23:00"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 11.29,
+   "end": 14.18,
+   "line": "Họp thì quăng xấp hồ sơ xuống bàn cái bạch.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "shake": 8,
+    "chars": [
+     {
+      "c": "BOSS",
+      "pose": "point",
+      "expr": "angry"
+     },
+     {
+      "c": "LONG",
+      "pose": "stand",
+      "expr": "scared",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "anger"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 14.18,
+   "end": 18.82,
+   "line": "Một sáng, anh Long khoe cái nhắc việc lúc bảy giờ năm phút: cầu cho sếp Hưng.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "phone",
+    "label": "7:05 Cầu cho sếp Hưng"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 18.82,
+   "end": 22.19,
+   "line": "\"Anh cầu ba mươi ngày. Không đổi thì anh nghỉ.\"",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "LONG",
+    "expr": "determined",
+    "talk": true,
+    "bubble": "Không đổi thì anh nghỉ."
+   }
+  },
+  {
+   "id": "s07",
+   "start": 22.19,
+   "end": 26.01,
+   "line": "Ngày nào đúng giờ đó, anh cũng ra cầu thang thoát hiểm, đứng hai phút.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "push",
+    "fg": "plant",
+    "timeTag": "Cầu thang thoát hiểm",
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "pray",
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 26.01,
+   "end": 30.31,
+   "line": "Tuần thứ ba, chuyện lạ xảy ra. Sếp Hưng không nhắn đêm nữa.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "calendar",
+    "label": "Tuần thứ ba"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 30.31,
+   "end": 35.8,
+   "line": "Họp, sếp hỏi ý anh Long trước tiên. Có hôm còn mua cho anh ly cà phê muối.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "chars": [
+     {
+      "c": "BOSS",
+      "pose": "holdFront",
+      "prop": "cup",
+      "expr": "smile"
+     },
+     {
+      "c": "LONG",
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 1,
+      "type": "?!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 35.8,
+   "end": 39.36,
+   "line": "Anh Long mắt sáng rỡ: \"Thấy chưa, Chúa sửa ổng thật.\"",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "LONG",
+    "expr": "joy",
+    "talk": true,
+    "bubble": "Chúa sửa ổng thật!"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 39.36,
+   "end": 43.91,
+   "line": "Cho đến bữa liên hoan cuối tháng. Chị Mai kế toán ngồi cạnh tớ, kể nhỏ.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "wide": true,
+    "timeTag": "Liên hoan cuối tháng",
+    "chars": [
+     {
+      "c": "MAI",
+      "pose": "talk",
+      "expr": "smile",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 43.91,
+   "end": 49.6,
+   "line": "Sếp Hưng nói với chị: \"Dạo này thằng Long khác hẳn. Nó báo cáo trước khi tao hỏi.",
+   "scene": "ots",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "fg": "MAI",
+    "who": {
+     "c": "BOSS",
+     "pose": "talk",
+     "expr": "gentle",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s13",
+   "start": 49.6,
+   "end": 55.88,
+   "line": "Tao nói gắt, nó không cãi tay đôi nữa, còn hỏi tao có mệt không. Nên tao cũng ngại gắt với nó.\"",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "c": "BOSS",
+    "expr": "embarrassed",
+    "talk": true
+   }
+  },
+  {
+   "id": "s14",
+   "start": 55.88,
+   "end": 59.04,
+   "line": "Tớ quay sang nhìn anh Long. Anh đang gắp mồi.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "reach",
+      "expr": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 59.04,
+   "end": 61.92,
+   "line": "Người thay đổi trước không phải sếp. Là anh.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "freeze": "CÚ LẬT",
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "stand",
+      "expr": "surprised"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 61.92,
+   "end": 66.88,
+   "line": "Sau này anh kể, cầu cho một người lúc bảy giờ thì khó mà chửi người đó lúc tám giờ.",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "LONG",
+    "expr": "thinking",
+    "talk": true
+   }
+  },
+  {
+   "id": "s17",
+   "start": 66.88,
+   "end": 71.08,
+   "line": "Cứ gọi tên họ trước mặt Chúa mãi, tự nhiên mình nhìn họ như một con người.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "LONG",
+    "lines": [
+     "Gọi tên họ trước mặt Chúa,",
+     "mình nhìn họ như con người."
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 71.08,
+   "end": 76.74,
+   "line": "Sách Giáo lý Công giáo nói, đáp trả đầu tiên cho lời cầu xin là chính trái tim người cầu được biến đổi.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Đáp trả đầu tiên",
+    "body": [
+     "Là trái tim người cầu",
+     "được biến đổi."
+    ],
+    "src": "GLHTCG 2739",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 76.74,
+   "end": 83.86,
+   "line": "Nhưng không có nghĩa cầu nguyện chỉ là tự an ủi. Tụi tớ tin Chúa thật sự hành động, và lời cầu là cách mình cộng tác với Ngài.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Cộng tác với Chúa",
+    "body": [
+     "Chúa thật sự hành động;",
+     "lời cầu là cách mình cộng tác."
+    ],
+    "src": "GLHTCG 2738",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 83.86,
+   "end": 89.68,
+   "line": "Anh Long vẫn giữ cái nhắc việc đó, chỉ đổi tên thành: cầu cho sếp Hưng và cho cái miệng của mình.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "phone",
+    "label": "Cầu cho sếp Hưng và cái miệng của mình"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 89.68,
+   "end": 96.72,
+   "line": "Tuần này, thử mỗi sáng cầu một câu cho người làm bạn bực nhất. Bạn sẽ chọn ai, và đoán xem ai sẽ đổi trước?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Tuần này, thử mỗi sáng cầu một câu cho người làm bạn bực nhất. Bạn sẽ chọn ai, và đoán xem ai sẽ đổi trước?",
+    "cast": [
+     "PHAOLO",
+     "LONG"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 39.51
+  },
+  {
+   "start": 39.51,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 71.23
+  },
+  {
+   "start": 71.23,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 84.01
+  },
+  {
+   "start": 84.01,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 96.72
+  }
+ ],
+ "sfx": []
+}

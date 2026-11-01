@@ -1,0 +1,36 @@
+{
+ "title": "Anh Long cầu 30 ngày cho sếp đổi tính, và sếp đổi thật",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 96.72,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "office",
+  "c": "LONG",
+  "expr": "determined",
+  "item": "calendar",
+  "kicker": "30 NGÀY",
+  "lines": [
+   "Cầu cho sếp",
+   "đổi tính?"
+  ]
+ },
+ "episode": "P018"
+}

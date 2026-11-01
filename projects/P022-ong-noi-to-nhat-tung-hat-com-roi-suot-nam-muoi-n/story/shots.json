@@ -1,0 +1,724 @@
+{
+ "title": "Ông nội tớ nhặt từng hạt cơm rơi suốt năm mươi năm",
+ "duration": 105.66,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.82,
+   "line": "Năm mươi năm nay, ông nội tớ chưa để rơi một hạt cơm nào mà không nhặt lên.",
+   "scene": "insert",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "kitchen",
+    "item": "rice",
+    "hook": {
+     "kicker": "CHÚA YÊU THƯƠNG",
+     "lines": [
+      "Sao vẫn còn",
+      "chiến tranh?"
+     ],
+     "y": 0.12
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.82,
+   "end": 12.27,
+   "line": "Đến bữa giỗ năm ngoái tớ mới biết lý do. Hôm đó tớ vừa ăn vừa lướt tin chiến sự ở nơi xa, ảnh trẻ con ngồi giữa đống gạch.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "wide": true,
+    "timeTag": "Bữa giỗ năm ngoái",
+    "chars": [
+     {
+      "c": "ONG",
+      "pose": "sit",
+      "expr": "neutral"
+     },
+     {
+      "c": "BA",
+      "pose": "sit",
+      "expr": "smile"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "sad",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 12.27,
+   "end": 17.48,
+   "line": "Tớ buột miệng: nếu Chúa thương con người, sao Ngài không dẹp hết chiến tranh đi cho rồi.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "annoyed",
+    "talk": true,
+    "bubble": "Sao Chúa không dẹp hết chiến tranh?"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 17.48,
+   "end": 18.9,
+   "line": "Ông đặt đũa xuống.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "ONG",
+    "expr": "sad"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 18.9,
+   "end": 23.26,
+   "line": "Ông kể hồi mười lăm tuổi, cả xóm chui xuống hầm mỗi khi nghe tiếng nổ.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "timeTag": "Ông năm 15 tuổi",
+    "shake": 6,
+    "chars": [
+     {
+      "c": "TY",
+      "pose": "crouch",
+      "expr": "scared"
+     },
+     {
+      "c": "BIN",
+      "pose": "crouch",
+      "expr": "scared",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 23.26,
+   "end": 27.04,
+   "line": "Có lần ba ngày liền chỉ có một nắm cơm nguội chia cho năm đứa trẻ.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "rice",
+    "label": "Một nắm cơm cho năm đứa"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 27.04,
+   "end": 32.72,
+   "line": "Người bạn thân nhất của ông, chú Tư, chạy ra giếng múc nước cho mẹ, rồi không bao giờ về.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "mood": "pevening",
+     "bench": false
+    },
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "TY",
+      "walk": 40,
+      "expr": "neutral"
+     }
+    ],
+    "tag": "Chú Tư"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 32.72,
+   "end": 38.4,
+   "line": "Ông không nói ai đúng ai sai. Ông chỉ nói: chiến tranh nào thì người ta cũng khóc giống nhau.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "ONG",
+    "expr": "sad",
+    "talk": [
+     1.5,
+     9
+    ],
+    "bubble": "Chiến tranh nào người ta cũng khóc giống nhau."
+   }
+  },
+  {
+   "id": "s09",
+   "start": 38.4,
+   "end": 40.96,
+   "line": "Tớ hỏi lại: vậy Chúa ở đâu hả ông.",
+   "scene": "ots",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "kitchen",
+    "fg": "ONG",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "confused",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s10",
+   "start": 40.96,
+   "end": 45.68,
+   "line": "Ông nghĩ lâu rồi bảo: Chúa không bấm nút cho súng nổ. Con người bấm.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "ONG",
+    "expr": "gentle",
+    "talk": true,
+    "bubble": "Chúa không bấm nút. Con người bấm."
+   }
+  },
+  {
+   "id": "s11",
+   "start": 45.68,
+   "end": 50.6,
+   "line": "Ngài dựng nên mình tự do, để mình thương nhau thật, chứ không phải thương như cái máy.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "TỰ DO",
+    "lines": [
+     "Để thương thật,",
+     "không như cái máy"
+    ],
+    "item": "heart"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 50.6,
+   "end": 53.78,
+   "line": "Mà đã tự do thật, thì mình cũng có thể chọn ghét.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "ONG",
+    "expr": "thinking"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 53.78,
+   "end": 62.21,
+   "line": "Sau này tớ đọc Sách Giáo lý, thấy Giáo hội cũng nói vậy. Những bất công, ghen tị, ngờ vực và kiêu ngạo giữa người với người là thứ nuôi chiến tranh.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Gốc của chiến tranh",
+    "body": [
+     "Bất công, ghen tị, ngờ vực,",
+     "kiêu ngạo giữa người với người."
+    ],
+    "src": "GLHTCG 2317",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 62.21,
+   "end": 66.08,
+   "line": "Mọi người đều có bổn phận cầu nguyện và hành động để tránh nó.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Bổn phận",
+    "body": [
+     "Cầu nguyện và hành động",
+     "để tránh chiến tranh."
+    ],
+    "src": "GLHTCG 2307–2308",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 66.08,
+   "end": 68.56,
+   "line": "Rồi ông cười, kể thêm một chuyện.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "ONG",
+    "expr": "laugh",
+    "talk": true
+   }
+  },
+  {
+   "id": "s16",
+   "start": 68.56,
+   "end": 74.48,
+   "line": "Sau chiến tranh, ông giận ông Sáu nhà bên suốt mười năm, chỉ vì một cái hàng rào lấn sang nửa gang tay.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false
+    },
+    "freeze": "NỬA GANG TAY",
+    "chars": [
+     {
+      "c": "ONG",
+      "pose": "crossArms",
+      "expr": "angry"
+     },
+     {
+      "c": "OLDMAN",
+      "pose": "crossArms",
+      "expr": "annoyed",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "anger"
+     },
+     {
+      "who": 1,
+      "type": "anger"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 74.48,
+   "end": 78.41,
+   "line": "Ông bảo: hết bom đạn rồi mà ông vẫn còn đánh nhau trong bụng.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "ONG",
+    "expr": "embarrassed",
+    "talk": true,
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 78.41,
+   "end": 81.78,
+   "line": "Một sáng, ông mang sang nhà ông Sáu một nải chuối.",
+   "scene": "scene",
+   "set": "park",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "park",
+    "setOpt": {
+     "bench": false
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ONG",
+      "pose": "holdFront",
+      "expr": "smile"
+     },
+     {
+      "c": "OLDMAN",
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "timeTag": "Một nải chuối"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 81.78,
+   "end": 84.23,
+   "line": "Hai ông già ngồi uống trà tới trưa.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "ONG",
+      "pose": "sit",
+      "expr": "laugh"
+     },
+     {
+      "c": "OLDMAN",
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 84.23,
+   "end": 88.59,
+   "line": "Ông nói: dẹp chiến tranh thế giới thì ông chịu. Nhưng cái hàng rào thì ông làm được.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "ONG",
+    "expr": "proud",
+    "talk": true,
+    "bubble": "Cái hàng rào thì ông làm được."
+   }
+  },
+  {
+   "id": "s21",
+   "start": 88.59,
+   "end": 92.04,
+   "line": "Chúa Giêsu gọi những người xây dựng hòa bình là người có phúc.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Mối phúc",
+    "body": [
+     "Phúc cho người",
+     "xây dựng hòa bình."
+    ],
+    "src": "Mt 5,9",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 92.04,
+   "end": 98.46,
+   "line": "Tớ ngồi đó, nhớ ra mình đã chặn Zalo thằng em họ ba tháng nay, chỉ vì một trận cãi nhau về bóng đá.",
+   "scene": "insert",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "kitchen",
+    "item": "phone",
+    "label": "Đã chặn: em họ (3 tháng)"
+   }
+  },
+  {
+   "id": "s23",
+   "start": 98.46,
+   "end": 100.16,
+   "line": "Tối đó tớ mở chặn.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Thế giới thì chịu,",
+     "cái hàng rào thì làm được."
+    ]
+   }
+  },
+  {
+   "id": "s24",
+   "start": 100.16,
+   "end": 105.66,
+   "line": "Tuần này, bạn thử gỡ một cái hàng rào nhỏ của riêng mình xem. Đó sẽ là người nào?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Tuần này, bạn thử gỡ một cái hàng rào nhỏ của riêng mình xem. Đó sẽ là người nào?",
+    "cast": [
+     "PHAOLO",
+     "ONG"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 17.63
+  },
+  {
+   "start": 17.63,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 53.93
+  },
+  {
+   "start": 53.93,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 66.23
+  },
+  {
+   "start": 66.23,
+   "mood": "cute",
+   "intensity": 0.5,
+   "end": 105.66
+  }
+ ],
+ "sfx": []
+}

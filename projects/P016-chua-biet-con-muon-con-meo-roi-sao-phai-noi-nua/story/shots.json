@@ -1,0 +1,651 @@
+{
+ "title": "\"Chúa biết con muốn con mèo rồi, sao phải nói nữa?\"",
+ "duration": 87.16,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 3.15,
+   "line": "Chú ơi, Chúa có đọc được suy nghĩ của con không?",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "hook": {
+     "kicker": "CHÚA BIẾT HẾT",
+     "lines": [
+      "Sao còn phải",
+      "cầu nguyện?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "sit",
+      "expr": "confused",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 3.15,
+   "end": 5.92,
+   "line": "Tớ đang gắp trứng chiên: \"Có.\"",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "reach",
+      "expr": "smile",
+      "talk": [
+       1.2,
+       9
+      ]
+     },
+     {
+      "c": "NA",
+      "pose": "sit",
+      "expr": "thinking",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 5.92,
+   "end": 9.09,
+   "line": "\"Vậy Chúa biết con muốn con mèo tam thể rồi.\" \"Chắc biết.\"",
+   "scene": "insert",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "kitchen",
+    "item": "cat",
+    "label": "Mèo tam thể"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 9.09,
+   "end": 12.51,
+   "line": "\"Sao mẹ bắt con đọc kinh xin? Nói nữa là thừa.\"",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "NA",
+    "expr": "pout",
+    "talk": true,
+    "emote": "anger"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 12.51,
+   "end": 15.92,
+   "line": "\"Na, tối qua con có gọi cho ba không?\"",
+   "scene": "ots",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "kitchen",
+    "fg": "NA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "gentle",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s06",
+   "start": 15.92,
+   "end": 18.31,
+   "line": "\"Có. Ba đi Đà Nẵng năm ngày rồi.\"",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "timeTag": "Tối qua",
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "happy",
+      "talk": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 18.31,
+   "end": 24.45,
+   "line": "\"Ba có biết con nhớ ba không?\" \"Biết chứ.\" \"Thế sao con còn nói con nhớ ba?\"",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "smirk",
+    "talk": true
+   }
+  },
+  {
+   "id": "s08",
+   "start": 24.45,
+   "end": 27.03,
+   "line": "Bé Na nghĩ một lúc. \"Tại nói ra thì ba cười.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "think",
+      "expr": "thinking",
+      "talk": [
+       1.5,
+       9
+      ]
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "idea",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 27.03,
+   "end": 29.34,
+   "line": "Ba cười thì con vui.\"",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "NA",
+    "expr": "joy",
+    "talk": true,
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 29.34,
+   "end": 35.43,
+   "line": "\"Đó. Nói với Chúa cũng vậy. Không phải để báo tin cho Chúa biết, mà để con với Chúa thân nhau.\"",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Không phải để báo tin,",
+     "mà để thân nhau."
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 35.43,
+   "end": 38.12,
+   "line": "\"Vậy cầu nguyện không phải là xin hả chú?\"",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "NA",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 38.12,
+   "end": 44.72,
+   "line": "\"Có xin chứ. Nhưng xin như con xin ba, không phải như nộp đơn ở phường.\" \"Nộp đơn là sao?\"",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "freeze": "NỘP ĐƠN?",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "holdFront",
+      "prop": "paper",
+      "expr": "neutral"
+     }
+    ],
+    "tag": "Ô cửa phường"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 44.72,
+   "end": 49.18,
+   "line": "\"Là ghi tên, đưa vô ô cửa rồi về, không cần nói chuyện với ai.\"",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "MAN",
+      "walk": 50,
+      "expr": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 49.18,
+   "end": 51.08,
+   "line": "\"Chán ghê.\" \"Ừ.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "NA",
+    "expr": "annoyed",
+    "talk": true
+   }
+  },
+  {
+   "id": "s15",
+   "start": 51.08,
+   "end": 57.2,
+   "line": "Chúa biết hết, nhưng Chúa vẫn chờ con tự nói, vì con là con của Chúa, đâu phải cái máy.\"",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Chúa chờ con nói",
+    "body": [
+     "Phẩm giá con cái",
+     "nằm ở tự do."
+    ],
+    "src": "GLHTCG 2736; Mt 6,8",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 57.2,
+   "end": 59.17,
+   "line": "\"Nếu Chúa không cho con mèo thì sao?\"",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "NA",
+    "expr": "worried",
+    "talk": true
+   }
+  },
+  {
+   "id": "s17",
+   "start": 59.17,
+   "end": 65.54,
+   "line": "\"Thì con vẫn kể tiếp. Ba đâu phải lúc nào cũng mua đồ chơi, mà con vẫn gọi ba mỗi tối.\"",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "gentle",
+      "talk": true
+     },
+     {
+      "c": "NA",
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 65.54,
+   "end": 72.6,
+   "line": "Tối đó, đi ngang phòng, tớ nghe nó thì thầm: \"Chúa ơi, hôm nay con bị cô cho ngồi riêng vì nói chuyện.",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "cam": "push",
+    "fg": "plant",
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "kneelPray",
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 72.6,
+   "end": 73.7,
+   "line": "Con buồn.",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "c": "NA",
+    "expr": "sad",
+    "talk": true
+   }
+  },
+  {
+   "id": "s20",
+   "start": 73.7,
+   "end": 76.74,
+   "line": "Mà thôi, chuyện con mèo để mai con nói tiếp.\"",
+   "scene": "close",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "c": "NA",
+    "expr": "smile",
+    "talk": true,
+    "emote": "sparkle"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 76.74,
+   "end": 81.38,
+   "line": "Tớ đứng ngoài cửa, cười một mình, vì hình như nó cầu nguyện thật hơn tớ.",
+   "scene": "scene",
+   "set": "bedroom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "bedroom",
+    "setOpt": {
+     "night": true,
+     "mood": "pnight"
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "relaxed",
+      "expr": "gentle"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "heart",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s22",
+   "start": 81.38,
+   "end": 87.16,
+   "line": "Hồi nhỏ, bạn được dạy cầu nguyện bằng cách đọc kinh cho thuộc, hay bằng cách kể chuyện với Chúa như bé Na?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Hồi nhỏ, bạn được dạy cầu nguyện bằng cách đọc kinh cho thuộc, hay bằng cách kể chuyện với Chúa như bé Na?",
+    "cast": [
+     "PHAOLO",
+     "NA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 29.49
+  },
+  {
+   "start": 29.49,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 65.69
+  },
+  {
+   "start": 65.69,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 87.16
+  }
+ ],
+ "sfx": []
+}

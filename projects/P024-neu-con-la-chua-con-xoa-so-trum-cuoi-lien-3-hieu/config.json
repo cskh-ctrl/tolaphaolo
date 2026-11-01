@@ -1,0 +1,35 @@
+{
+ "title": "\"Nếu con là Chúa, con xóa sổ trùm cuối liền!\" - 3 hiểu lầm về ma quỷ",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 93.16,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "livingRoom",
+  "c": "TY",
+  "expr": "determined",
+  "kicker": "3 HIỂU LẦM",
+  "lines": [
+   "Sao Chúa không",
+   "xóa sổ ma quỷ?"
+  ]
+ },
+ "episode": "P024"
+}

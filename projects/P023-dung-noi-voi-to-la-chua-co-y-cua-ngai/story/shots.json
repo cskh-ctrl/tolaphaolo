@@ -1,0 +1,646 @@
+{
+ "title": "\"Đừng nói với tớ là Chúa có ý của Ngài\"",
+ "duration": 87.04,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 3.92,
+   "line": "Khoa úp điện thoại xuống bàn, ly trà đá sóng ra ngoài.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "cam": "push",
+    "shake": 5,
+    "hook": {
+     "kicker": "VÌ SAO",
+     "lines": [
+      "Chúa không ngăn",
+      "điều xấu xảy ra?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "angry"
+     }
+    ],
+    "items": [
+     {
+      "item": "phone",
+      "x": 120,
+      "y": -170,
+      "s": 0.12
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 3.92,
+   "end": 6.66,
+   "line": "Đừng nói với tớ là Chúa có ý của Ngài nhé.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "angry",
+    "talk": true,
+    "bubble": "Đừng nói Chúa có ý của Ngài!"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 6.66,
+   "end": 10.73,
+   "line": "Chuyện gì vậy. Xe tải mất phanh, ba mẹ con đang chờ đèn đỏ.",
+   "scene": "insert",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "street",
+    "item": "phone",
+    "label": "Xe tải mất phanh"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 10.73,
+   "end": 15.06,
+   "line": "Tớ im. Chúa của cậu toàn năng đúng không. Đúng.",
+   "scene": "ots",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "cafe",
+    "fg": "PHAOLO",
+    "who": {
+     "c": "KHOA",
+     "pose": "point",
+     "expr": "annoyed",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s05",
+   "start": 15.06,
+   "end": 16.8,
+   "line": "Sao không chặn chiếc xe.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "angry",
+    "talk": true,
+    "emote": "anger"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 16.8,
+   "end": 19.94,
+   "line": "Tớ không biết. Theo đạo hai mươi năm mà không biết.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "sad",
+    "talk": true
+   }
+  },
+  {
+   "id": "s07",
+   "start": 19.94,
+   "end": 25.75,
+   "line": "Không. Và tớ không bịa lý do cho ba mẹ con đó. Lạ nhỉ, tớ tưởng cậu sẽ giảng.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "gentle",
+      "talk": true
+     },
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "surprised",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 25.75,
+   "end": 29.98,
+   "line": "Sách Giáo lý còn bảo không câu trả lời vội vàng nào đủ cho chuyện này.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Vấn đề sự dữ",
+    "body": [
+     "Không câu trả lời vội vàng",
+     "nào đủ."
+    ],
+    "src": "GLHTCG 309",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 29.98,
+   "end": 33.18,
+   "line": "Vậy đạo cậu nói gì. Vài điều thôi.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "thinking",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 33.18,
+   "end": 43.62,
+   "line": "Một, Chúa không gây ra cái ác. Thế giới còn đang trên đường, chưa hoàn tất, nên có tai nạn, có bệnh. Con người có tự do, nên có bất cẩn, có tội lỗi.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Vì sao có sự dữ",
+    "steps": [
+     "Thế giới đang trên đường",
+     "Con người có tự do"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 43.62,
+   "end": 45.28,
+   "line": "Thế sao Ngài cho phép.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "annoyed",
+    "talk": true
+   }
+  },
+  {
+   "id": "s12",
+   "start": 45.28,
+   "end": 46.39,
+   "line": "Đó là mầu nhiệm.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "MẦU NHIỆM",
+    "lines": [
+     "Biết một phần,",
+     "tin phần còn lại"
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 46.39,
+   "end": 49.26,
+   "line": "Mầu nhiệm là cách nói lịch sự của không biết à.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true
+   }
+  },
+  {
+   "id": "s14",
+   "start": 49.26,
+   "end": 52.96,
+   "line": "Là biết một phần, và tin phần còn lại vào Người mình tin được.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "talk": true
+   }
+  },
+  {
+   "id": "s15",
+   "start": 52.96,
+   "end": 58.77,
+   "line": "Hai, Chúa có thể rút ra điều tốt từ cả điều xấu nhất. Nhưng điều xấu vẫn là xấu.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Điều tốt từ điều xấu",
+    "body": [
+     "Nhưng điều xấu",
+     "vẫn là xấu."
+    ],
+    "src": "GLHTCG 311–312",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 58.77,
+   "end": 60.54,
+   "line": "Điều tốt gì từ một vụ tai nạn.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "angry",
+    "talk": true
+   }
+  },
+  {
+   "id": "s17",
+   "start": 60.54,
+   "end": 66.02,
+   "line": "Tớ kéo xuống cuối bài báo. Một anh xe ôm lao ra kéo được đứa bé út, bị thương ở tay.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "freeze": "LAO RA",
+    "chars": [
+     {
+      "c": "BAY",
+      "pose": "dive",
+      "expr": "determined"
+     },
+     {
+      "c": "BIN",
+      "pose": "fall",
+      "expr": "scared",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 66.02,
+   "end": 67.36,
+   "line": "Khoa lặng đi.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "sad"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 67.36,
+   "end": 73.98,
+   "line": "Không phải vì thế mà tai nạn là đáng. Chỉ là Chúa không đứng nhìn. Ngài hành động qua những người chịu lao ra.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Chúa hành động qua",
+     "những người chịu lao ra."
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 73.98,
+   "end": 77.2,
+   "line": "Vậy giờ mình làm được gì. Cầu nguyện cho họ.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "thinking",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "gentle",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 77.2,
+   "end": 80.32,
+   "line": "Và lần sau thấy người gặp nạn, đừng đứng quay phim.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "neutral"
+     }
+    ],
+    "tag": "Đừng đứng quay phim"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 80.32,
+   "end": 83.36,
+   "line": "Khoa lật điện thoại, tìm bệnh viện của anh xe ôm.",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "determined"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s23",
+   "start": 83.36,
+   "end": 87.04,
+   "line": "Lần gần nhất thấy tai nạn ngoài đường, bạn dừng lại giúp hay đi tiếp?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Lần gần nhất thấy tai nạn ngoài đường, bạn dừng lại giúp hay đi tiếp?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 30.13
+  },
+  {
+   "start": 30.13,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 60.69
+  },
+  {
+   "start": 60.69,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 87.04
+  }
+ ],
+ "sfx": []
+}

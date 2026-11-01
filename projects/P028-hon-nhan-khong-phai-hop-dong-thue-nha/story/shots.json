@@ -1,0 +1,564 @@
+{
+ "title": "Hôn nhân không phải hợp đồng thuê nhà",
+ "duration": 77.13,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.56,
+   "line": "Hợp đồng thuê nhà của bạn anh Long có một điều khoản anh ấy khoái nhất: báo trước ba mươi ngày là đi.",
+   "scene": "insert",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "office",
+    "item": "card",
+    "hook": {
+     "kicker": "HÔN NHÂN",
+     "lines": [
+      "Không phải",
+      "hợp đồng thuê nhà"
+     ],
+     "y": 0.12
+    },
+    "label": "Báo trước 30 ngày"
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.56,
+   "end": 10.93,
+   "line": "Giờ ăn trưa, anh Long hỏi tớ: cưới cũng vậy thôi, hết hợp thì báo trước rồi đi,",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "talk",
+      "expr": "smirk",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "timeTag": "Giờ ăn trưa"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 10.93,
+   "end": 13.26,
+   "line": "sao đạo cậu không cho tự ý ly hôn.",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "LONG",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 13.26,
+   "end": 18.52,
+   "line": "Tớ chỉ ra cái lan can sắt ngoài ban công. Anh thấy chỗ hai thanh sắt nối nhau không.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "point",
+      "expr": "smile"
+     }
+    ],
+    "tag": "Lan can sắt"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 18.52,
+   "end": 22.46,
+   "line": "Người ta không buộc dây, không bắt vít. Người ta hàn.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Nối hai thanh sắt",
+    "steps": [
+     "Buộc dây? Không",
+     "Bắt vít? Không",
+     "Hàn! Thành một khối"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 22.46,
+   "end": 27.52,
+   "line": "Tại mối hàn, hai thanh không còn là hai miếng đặt cạnh nhau, mà thành một khối.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "freeze": "MỐI HÀN",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "expr": "awe"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 27.52,
+   "end": 31.08,
+   "line": "Người Công giáo tin hôn nhân giống mối hàn đó hơn là tờ hợp đồng.",
+   "scene": "insert",
+   "set": "wedding",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "wedding",
+    "item": "ring"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 31.08,
+   "end": 34.04,
+   "line": "Hợp đồng là trao đổi, ai làm sai thì hủy.",
+   "scene": "text",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "office",
+    "kicker": "HỢP ĐỒNG",
+    "lines": [
+     "Ai làm sai",
+     "thì hủy"
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 34.04,
+   "end": 39.13,
+   "line": "Hôn nhân là giao ước, hai người tự do trao chính mình cho nhau, và Thiên Chúa hàn họ lại.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Giao ước",
+    "body": [
+     "Hai người tự do trao chính mình,",
+     "Thiên Chúa kết hợp họ."
+    ],
+    "src": "GLHTCG 1601, 1640",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 39.13,
+   "end": 43.89,
+   "line": "Chúa Giêsu dạy, điều Thiên Chúa đã kết hợp, loài người không được phân ly.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Lời Chúa Giêsu",
+    "body": [
+     "Điều Thiên Chúa đã kết hợp,",
+     "loài người không được phân ly."
+    ],
+    "src": "Mt 19,6; GLHTCG 2382",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 43.89,
+   "end": 50.98,
+   "line": "Nên khi hôn nhân thành sự giữa hai người đã rửa tội và đã hoàn hợp, Giáo hội tin không ai tháo được mối hàn ấy, kể cả Giáo hội.",
+   "scene": "scene",
+   "set": "wedding",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "wedding",
+    "wide": true,
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "GROOM",
+      "pose": "stand",
+      "expr": "happy"
+     },
+     {
+      "c": "BRIDE",
+      "pose": "stand",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 50.98,
+   "end": 55.02,
+   "line": "Anh Long hỏi: lỡ người kia đánh mình thì sao, cứ chịu à.",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "LONG",
+    "expr": "worried",
+    "talk": true,
+    "bubble": "Lỡ người kia đánh mình thì sao?"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 55.02,
+   "end": 57.98,
+   "line": "Không. Không ai buộc phải chịu bạo hành.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "kicker": "AN TOÀN TRƯỚC HẾT",
+    "lines": [
+     "Không ai buộc",
+     "phải chịu bạo hành"
+    ],
+    "color": "#e8584a"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 57.98,
+   "end": 63.18,
+   "line": "Khi có nguy hiểm cho mình hay cho con, Giáo hội cho phép ly thân, an toàn là trên hết.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Ly thân",
+    "body": [
+     "Được phép khi có nguy hiểm",
+     "cho mình hay cho con."
+    ],
+    "src": "GLHTCG 1649, 2383",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 63.18,
+   "end": 67.18,
+   "line": "Ly dị dân sự cũng có thể được chấp nhận để bảo vệ quyền lợi và con cái.",
+   "scene": "fact",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "office",
+    "title": "Ly dị dân sự",
+    "body": [
+     "Có thể được chấp nhận để bảo vệ",
+     "quyền lợi và con cái."
+    ],
+    "src": "GLHTCG 2383",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 67.18,
+   "end": 69.46,
+   "line": "Chỉ là mối hàn bí tích vẫn còn đó.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Mối hàn bí tích",
+     "vẫn còn đó."
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 69.46,
+   "end": 71.64,
+   "line": "Anh Long gõ nhẹ vào lan can.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "reach",
+      "expr": "thinking"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "idea",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 71.64,
+   "end": 77.13,
+   "line": "Tối nay, thử đánh bóng mối hàn nhà bạn bằng một việc thật nhỏ. Bạn sẽ chọn việc gì?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Tối nay, thử đánh bóng mối hàn nhà bạn bằng một việc thật nhỏ. Bạn sẽ chọn việc gì?",
+    "cast": [
+     "PHAOLO",
+     "LONG"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.5,
+   "end": 27.67
+  },
+  {
+   "start": 27.67,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 51.13
+  },
+  {
+   "start": 51.13,
+   "mood": "reflect",
+   "intensity": 0.45,
+   "end": 69.69
+  },
+  {
+   "start": 69.69,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 77.13
+  }
+ ],
+ "sfx": []
+}

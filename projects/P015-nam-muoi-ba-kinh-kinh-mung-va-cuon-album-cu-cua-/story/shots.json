@@ -1,0 +1,707 @@
+{
+ "title": "Năm mươi ba kinh Kính Mừng và cuốn album cũ của bà nội",
+ "duration": 108.86,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.02,
+   "line": "Năm mươi ba kinh Kính Mừng, hồi nhỏ tớ chưa bao giờ thức trọn quá mười kinh.",
+   "scene": "insert",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "rosary",
+    "hook": {
+     "kicker": "53 KINH KÍNH MỪNG",
+     "lines": [
+      "Vì sao lần",
+      "chuỗi Mân Côi?"
+     ],
+     "y": 0.12
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.02,
+   "end": 13.5,
+   "line": "Nhà bà nội tớ ở Hố Nai. Tám giờ tối, cả nhà quỳ trên chiếu trước bàn thờ, bà ngồi giữa, lần chuỗi hạt gỗ mòn bóng.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight",
+     "noSofa": true
+    },
+    "wide": true,
+    "cam": "push",
+    "timeTag": "Hố Nai, 8 giờ tối",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "kneelPray",
+      "expr": "sleepy"
+     },
+     {
+      "c": "BA",
+      "pose": "sitPray",
+      "expr": "pray",
+      "prop": "rosary"
+     },
+     {
+      "c": "TY",
+      "pose": "kneelPray",
+      "expr": "pray",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 13.5,
+   "end": 16.13,
+   "line": "Đến chục thứ hai là tớ gục lên lưng ông anh họ.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "snore",
+     "gain": -16
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight",
+     "noSofa": true
+    },
+    "cam": "push",
+    "camZ": 1.1,
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "sleep",
+      "expr": "asleep"
+     },
+     {
+      "c": "TY",
+      "pose": "kneelPray",
+      "expr": "annoyed",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "zzz"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 16.13,
+   "end": 22.07,
+   "line": "Bà không la. Bà lấy cái quạt nan gõ nhẹ lên đầu tớ, rồi đọc tiếp, không lỡ một nhịp.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "boing",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight",
+     "noSofa": true
+    },
+    "shake": 4,
+    "chars": [
+     {
+      "c": "BA",
+      "pose": "reach",
+      "expr": "gentle"
+     },
+     {
+      "c": "BIN",
+      "pose": "kneel",
+      "expr": "shocked",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 1,
+      "type": "!",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 22.07,
+   "end": 27.99,
+   "line": "Tớ từng thắc mắc rất thật: sao phải lặp một câu năm mươi lần? Chúa nghe một lần chưa đủ hả?",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "BIN",
+    "expr": "confused",
+    "emote": "?",
+    "bubble": "Chúa nghe một lần chưa đủ hả?"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 27.99,
+   "end": 31.94,
+   "line": "Năm tớ hai mươi sáu tuổi, mắt bà mờ vì đục thủy tinh thể.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "timeTag": "Năm tớ 26 tuổi",
+    "chars": [
+     {
+      "c": "BA",
+      "pose": "sit",
+      "expr": "neutral",
+      "look": [
+       0,
+       0.5
+      ]
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "gentle",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 31.94,
+   "end": 35.38,
+   "line": "Một lần về thăm, bà nhờ tớ lấy cuốn album cũ.",
+   "scene": "insert",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "livingRoom",
+    "item": "book",
+    "label": "Cuốn album cũ"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 35.38,
+   "end": 39.82,
+   "line": "Bà không nhìn rõ nữa, bảo tớ lật từng trang, nói tấm nào.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "fg": "plant",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "prop": "book",
+      "expr": "smile"
+     },
+     {
+      "c": "BA",
+      "pose": "sit",
+      "expr": "gentle",
+      "talk": true,
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 39.82,
+   "end": 45.29,
+   "line": "Đây là đám cưới ông bà. Đây là ba tớ hồi lên ba, cởi trần đứng cạnh con trâu.",
+   "scene": "insert",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "livingRoom",
+    "item": "photo",
+    "label": "Đám cưới ông bà"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 45.29,
+   "end": 49.26,
+   "line": "Mỗi trang, bà kể một chuyện, rồi chép miệng, thương ghê.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "BA",
+    "expr": "love",
+    "talk": true,
+    "bubble": "Thương ghê."
+   }
+  },
+  {
+   "id": "s11",
+   "start": 49.26,
+   "end": 52.6,
+   "line": "Lật chưa hết nửa cuốn, tớ chợt hiểu chuỗi Mân Côi.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "freeze": "À!",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "prop": "book",
+      "expr": "awe"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 52.6,
+   "end": 61.28,
+   "line": "Mỗi chục kinh là một trang album về cuộc đời Chúa Giêsu. Chúa xuống thế làm người, Chúa chịu phép rửa, Chúa vác Thánh Giá, Chúa sống lại.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Album đời Chúa Giêsu",
+    "steps": [
+     "Xuống thế làm người",
+     "Chịu phép rửa",
+     "Vác Thánh Giá",
+     "Sống lại"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 61.28,
+   "end": 67.17,
+   "line": "Người lần hạt không ngồi đếm kinh, mà ngắm từng cảnh, cùng với Đức Mẹ, người hiểu cuộc đời ấy rõ nhất.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "rosary",
+    "label": "Ngắm từng cảnh"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 67.17,
+   "end": 71.77,
+   "line": "Còn câu Kính Mừng lặp đi lặp lại, nó giống tiếng bà chép miệng thương ghê sau mỗi tấm hình.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "BA",
+    "expr": "peaceful",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 71.77,
+   "end": 80.09,
+   "line": "Thánh Gioan Phaolô Hai từng viết, kinh Mân Côi như bản tóm lược Tin Mừng, và sự lặp lại trong đó giống tình yêu cứ quay về với người mình thương.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Kinh Mân Côi",
+    "body": [
+     "Bản tóm lược Tin Mừng.",
+     "Lặp lại như tình yêu quay về."
+    ],
+    "src": "Rosarium Virginis Mariae, 2002",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 80.09,
+   "end": 87.9,
+   "line": "Sách Giáo lý cũng nói, lời cầu nguyện Kitô giáo trước hết là suy niệm các mầu nhiệm của Chúa Kitô, và nêu tên kinh Mân Côi ở đó.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Suy niệm",
+    "body": [
+     "Lời cầu nguyện Kitô giáo",
+     "suy niệm mầu nhiệm Chúa Kitô."
+    ],
+    "src": "GLHTCG 2708",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 87.9,
+   "end": 92.58,
+   "line": "Tối hôm ấy, tớ lần chuỗi với bà. Lần đầu tiên tớ không ngủ gật.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight",
+     "noSofa": true
+    },
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "BA",
+      "pose": "sitPray",
+      "expr": "pray",
+      "prop": "rosary"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "kneelPray",
+      "expr": "pray",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 92.58,
+   "end": 97.16,
+   "line": "Không phải vì tớ đã lớn, mà vì tớ biết mình đang xem album của ai.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Tớ biết mình đang",
+     "xem album của ai."
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 97.16,
+   "end": 100.12,
+   "line": "Đến chục thứ tư, tới phiên bà gục đầu ngủ.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight",
+     "noSofa": true
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "BA",
+      "pose": "sleep",
+      "expr": "asleep"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "kneelPray",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "zzz"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 100.12,
+   "end": 104.86,
+   "line": "Tớ để yên, đọc tiếp cho bà nghe, và lần này tớ cầm cái quạt nan.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "PHAOLO",
+    "expr": "gentle",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 104.86,
+   "end": 108.86,
+   "line": "Hồi nhỏ nhà bạn có giờ kinh tối không, và ai là người hay ngủ gật nhất?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Hồi nhỏ nhà bạn có giờ kinh tối không, và ai là người hay ngủ gật nhất?",
+    "cast": [
+     "PHAOLO",
+     "BA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 49.41
+  },
+  {
+   "start": 49.41,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 88.05
+  },
+  {
+   "start": 88.05,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 108.86
+  }
+ ],
+ "sfx": []
+}
