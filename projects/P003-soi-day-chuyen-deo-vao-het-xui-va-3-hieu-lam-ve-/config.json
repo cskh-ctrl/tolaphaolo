@@ -1,0 +1,36 @@
+{
+ "title": "Sợi dây chuyền 'đeo vào hết xui' và 3 hiểu lầm về Thánh Giá",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 76.28,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "shop",
+  "c": "LONG",
+  "expr": "shocked",
+  "item": "necklace",
+  "kicker": "3 HIỂU LẦM",
+  "lines": [
+   "Đeo Thánh Giá",
+   "cho hết xui?"
+  ]
+ },
+ "episode": "P003"
+}

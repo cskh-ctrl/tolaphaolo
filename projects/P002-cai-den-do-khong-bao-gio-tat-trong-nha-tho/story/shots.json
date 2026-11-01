@@ -1,0 +1,769 @@
+{
+ "title": "Cái đèn đỏ không bao giờ tắt trong nhà thờ",
+ "duration": 99.65,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.56,
+   "line": "Chị Hằng phòng kế toán suýt đi báo bảo vệ nhà thờ chỉ vì một cái đèn đỏ.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "hook": {
+     "kicker": "ĐÈN ĐỎ",
+     "lines": [
+      "Không bao giờ tắt",
+      "trong nhà thờ?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "HANG",
+      "x": -150,
+      "pose": "point",
+      "expr": "worried"
+     },
+     {
+      "c": "PHAOLO",
+      "x": 180,
+      "f": -1,
+      "pose": "relaxed",
+      "expr": "smile"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "!",
+      "at": 1
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.56,
+   "end": 7.3,
+   "line": "Hôm đó cả phòng đi đám cưới em gái anh Long.",
+   "scene": "scene",
+   "set": "wedding",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "wedding",
+    "wide": true,
+    "cam": "panR",
+    "timeTag": "Đám cưới em gái anh Long",
+    "fg": "flowers",
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "wave",
+      "expr": "happy"
+     },
+     {
+      "c": "HANG",
+      "pose": "relaxed",
+      "expr": "smile"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "relaxed",
+      "expr": "smile"
+     },
+     {
+      "c": "MAN",
+      "pose": "talk",
+      "expr": "laugh",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 7.3,
+   "end": 13.54,
+   "line": "Lễ chưa bắt đầu, chị ghé tai tớ: \"Phaolo, cái đèn đỏ bên kia là camera hay báo cháy?",
+   "scene": "ots",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "churchInside",
+    "fg": "PHAOLO",
+    "who": {
+     "c": "HANG",
+     "pose": "talk",
+     "expr": "worried",
+     "talk": [
+      1.2,
+      9
+     ]
+    },
+    "say": [
+     {
+      "str": "Camera hay báo cháy?",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 13.54,
+   "end": 15.84,
+   "line": "Chị thấy nó sáng từ lúc mình vào.\"",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "HANG",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 15.84,
+   "end": 18.93,
+   "line": "Một ngọn đèn nhỏ, ánh đỏ lung linh trong chụp thủy tinh,",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "redLamp",
+    "s": 1.1
+   }
+  },
+  {
+   "id": "s06",
+   "start": 18.93,
+   "end": 21.03,
+   "line": "đặt cạnh một cái hộp mạ vàng.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "tabernacle",
+    "s": 0.9
+   }
+  },
+  {
+   "id": "s07",
+   "start": 21.03,
+   "end": 22.96,
+   "line": "Tớ quyết định trêu chị.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "smirk",
+    "emote": "sparkle"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 22.96,
+   "end": 26.51,
+   "line": "\"Đèn báo đấy chị. Theo luật phải sáng suốt, ngày cũng như đêm.\"",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "fg": "pew",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "smirk",
+      "talk": true
+     },
+     {
+      "c": "HANG",
+      "pose": "stand",
+      "expr": "surprised"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 26.51,
+   "end": 30.23,
+   "line": "Chị tròn mắt: \"Hai mươi bốn tiếng? Tiền điện ai trả?\"",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "HANG",
+    "expr": "shocked",
+    "talk": true,
+    "bubble": "Tiền điện ai trả?",
+    "emote": "?!"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 30.23,
+   "end": 33.8,
+   "line": "\"Giáo xứ. Có nơi còn đốt bằng dầu hay sáp.\"",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "candle",
+    "label": "Dầu hay sáp"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 33.8,
+   "end": 40.2,
+   "line": "\"Thế nó báo gì, báo trộm à?\" \"Không. Nó báo cho người bước vào biết thứ quan trọng nhất ở đây.\"",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "panL",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "talk",
+      "expr": "gentle",
+      "talk": [
+       1.6,
+       9
+      ]
+     },
+     {
+      "c": "HANG",
+      "pose": "think",
+      "expr": "thinking",
+      "talk": [
+       0,
+       1.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 40.2,
+   "end": 43.08,
+   "line": "Chị Hằng đoán: \"Báo trong két có tiền.\"",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "freeze": "KÉT TIỀN?",
+    "chars": [
+     {
+      "c": "HANG",
+      "pose": "point",
+      "expr": "proud",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "facepalm",
+      "expr": "laugh"
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Báo trong két có tiền!",
+      "at": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 43.08,
+   "end": 47.22,
+   "line": "Tớ suýt cười thành tiếng, vì cái hộp ấy đúng là thứ quý nhất ở đây thật.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "laugh",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 47.22,
+   "end": 50.06,
+   "line": "Rồi tớ nói thật. Cái hộp gọi là Nhà Tạm.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "tabernacle",
+    "s": 0.9,
+    "label": "Nhà Tạm"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 50.06,
+   "end": 54.49,
+   "line": "Bên trong là Thánh Thể, tấm bánh mà người Công giáo tin là chính Chúa Giêsu hiện diện thật.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Thánh Thể",
+    "body": [
+     "Người Công giáo tin Chúa Giêsu",
+     "hiện diện thật."
+    ],
+    "src": "GLHTCG 1374",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 54.49,
+   "end": 60.23,
+   "line": "Ngày xưa Nhà Tạm dùng để giữ Mình Thánh mang cho người bệnh, rồi dần thành nơi người ta đến quỳ cầu nguyện thầm lặng.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "OLDLADY",
+      "x": -120,
+      "pose": "kneelPray",
+      "expr": "pray"
+     },
+     {
+      "c": "MAN",
+      "x": 160,
+      "pose": "kneelPray",
+      "expr": "pray",
+      "f": 1
+     }
+    ],
+    "timeTag": "Cầu nguyện thầm lặng"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 60.23,
+   "end": 65.71,
+   "line": "Giáo luật đòi phải có một ngọn đèn đặc biệt luôn cháy bên Nhà Tạm, để chỉ dẫn và tôn kính sự hiện diện ấy.",
+   "scene": "fact",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "churchInside",
+    "title": "Đèn chầu",
+    "body": [
+     "Luôn cháy bên Nhà Tạm, để chỉ dẫn",
+     "và tôn kính sự hiện diện ấy."
+    ],
+    "src": "Giáo luật, điều 940",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 65.71,
+   "end": 69.78,
+   "line": "Màu đỏ thì luật không bắt buộc, chỉ là thói quen phổ biến.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "MÀU ĐỎ?",
+    "lines": [
+     "Không bắt buộc,",
+     "chỉ là thói quen"
+    ],
+    "item": "redLamp"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 69.78,
+   "end": 75.32,
+   "line": "Nói gọn, nó không báo cháy, không báo trộm. Nó báo: trong nhà có người.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "redLamp",
+    "s": 1.0,
+    "label": "Trong nhà có người"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 75.32,
+   "end": 81.0,
+   "line": "Chị Hằng im một chút rồi bảo: \"Giống hồi nhỏ đi học về, thấy đèn bếp sáng là biết mẹ ở nhà.\"",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "HANG",
+    "expr": "gentle",
+    "talk": [
+     1.0,
+     9
+    ],
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 81.0,
+   "end": 83.63,
+   "line": "Tớ thì đi ngang nó cả trăm lần mà chẳng để ý.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "walk": 50,
+      "x": -260,
+      "expr": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s22",
+   "start": 83.63,
+   "end": 88.5,
+   "line": "Từ hôm đó, mỗi lần ghé một nhà thờ vắng giữa trưa, thấy chấm đỏ ấy,",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "pews": true
+    },
+    "cam": "push",
+    "timeTag": "Giữa trưa",
+    "items": [
+     {
+      "item": "redLamp",
+      "x": 330,
+      "y": -200,
+      "s": 0.3
+     }
+    ],
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "x": -80,
+      "pose": "kneelPray",
+      "expr": "peaceful"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s23",
+   "start": 88.5,
+   "end": 91.13,
+   "line": "tớ biết mình không bước vào một căn phòng trống.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Nhà thờ không phải",
+     "căn phòng trống."
+    ]
+   }
+  },
+  {
+   "id": "s24",
+   "start": 91.13,
+   "end": 99.65,
+   "line": "Tuần này, nếu đi ngang một nhà thờ còn mở cửa, bạn thử ghé vào năm phút, tìm xem ngọn đèn ấy ở đâu, rồi kể tớ nghe bạn thấy gì nhé?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Tuần này, nếu đi ngang một nhà thờ còn mở cửa, bạn thử ghé vào năm phút, tìm xem ngọn đèn ấy ở đâu, rồi kể tớ nghe bạn thấy gì nhé?",
+    "cast": [
+     "PHAOLO",
+     "HANG"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 47.37
+  },
+  {
+   "start": 47.37,
+   "mood": "sacred",
+   "intensity": 0.5,
+   "end": 75.47
+  },
+  {
+   "start": 75.47,
+   "mood": "gentle",
+   "intensity": 0.7,
+   "end": 99.65
+  }
+ ],
+ "sfx": []
+}

@@ -1,0 +1,890 @@
+{
+ "title": "Bữa ra mắt nhà bạn gái, tớ có nên làm dấu trước khi ăn?",
+ "duration": 111.6,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 6.35,
+   "line": "Tớ thú thật, bữa ra mắt nhà Vy, thứ làm tớ run nhất không phải bố Vy, mà là đôi đũa.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "hook": {
+     "kicker": "RA MẮT",
+     "lines": [
+      "Có nên làm dấu",
+      "trước khi ăn?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "nervous"
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 120,
+      "y": -150,
+      "s": 0.25
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 6.35,
+   "end": 9.02,
+   "line": "Nhà Vy ở Biên Hòa, không theo đạo.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "wide": true,
+    "cam": "panR",
+    "timeTag": "Biên Hòa",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "sit",
+      "expr": "neutral"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "sit",
+      "expr": "smile"
+     },
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "nervous",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 9.02,
+   "end": 14.84,
+   "line": "Mẹ Vy nấu nguyên mâm: canh chua cá lóc, thịt kho tộ, đĩa rau muống xào tỏi còn bốc khói.",
+   "scene": "insert",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "kitchen",
+    "item": "rice",
+    "label": "Canh chua, thịt kho, rau muống"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 14.84,
+   "end": 18.64,
+   "line": "Bố Vy rót trà, nói một câu: \"Mời cả nhà.\"",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "MAN",
+    "expr": "smile",
+    "talk": [
+     1.4,
+     9
+    ],
+    "bubble": "Mời cả nhà."
+   }
+  },
+  {
+   "id": "s05",
+   "start": 18.64,
+   "end": 20.74,
+   "line": "Thế là ba đôi đũa đồng loạt giơ lên.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "reach",
+      "expr": "happy"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "reach",
+      "expr": "happy"
+     },
+     {
+      "c": "GIRL",
+      "pose": "reach",
+      "expr": "happy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 20.74,
+   "end": 22.14,
+   "line": "Còn tớ thì kẹt.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "nervous",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 22.14,
+   "end": 27.14,
+   "line": "Từ bé, nhà tớ chưa bữa nào ăn mà không làm dấu, đọc một câu kinh ngắn.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "timeTag": "Nhà tớ",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "sitPray",
+      "expr": "pray"
+     },
+     {
+      "c": "BIN",
+      "pose": "sitPray",
+      "expr": "pray"
+     },
+     {
+      "c": "BO",
+      "pose": "sitPray",
+      "expr": "pray",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 27.14,
+   "end": 31.68,
+   "line": "Giờ ngồi đây, tớ có nên làm không? Làm thì sợ hai bác thấy lạ.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "freeze": "3 GIÂY",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "think",
+      "expr": "worried"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "?",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 31.68,
+   "end": 36.04,
+   "line": "Không làm thì như giấu mất một phần con người mình. Tớ đứng hình ba giây.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "sad",
+    "emote": "gloom"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 36.04,
+   "end": 38.56,
+   "line": "Vy đá nhẹ chân tớ dưới gầm bàn.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "boing",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "camZ": 1.1,
+    "chars": [
+     {
+      "c": "GIRL",
+      "pose": "kick",
+      "expr": "smirk"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "surprised",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 38.56,
+   "end": 43.08,
+   "line": "Cuối cùng tớ làm dấu, nhỏ thôi, lẩm nhẩm trong miệng chưa tới mười giây.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "camZ": 1.2,
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "sign": 0.1,
+      "signDur": 2.6,
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 43.08,
+   "end": 45.17,
+   "line": "Ngẩng lên, mẹ Vy đang nhìn.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "WOMAN",
+    "expr": "surprised",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 45.17,
+   "end": 47.55,
+   "line": "Tim tớ rơi xuống đáy bát.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "shocked",
+    "emote": "shock",
+    "shake": true
+   }
+  },
+  {
+   "id": "s14",
+   "start": 47.55,
+   "end": 49.58,
+   "line": "Bác hỏi: \"Con vừa làm gì đó?\"",
+   "scene": "ots",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "ots",
+    "set": "kitchen",
+    "fg": "PHAOLO",
+    "who": {
+     "c": "WOMAN",
+     "pose": "talk",
+     "expr": "confused",
+     "talk": true
+    },
+    "say": [
+     {
+      "str": "Con vừa làm gì đó?",
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 49.58,
+   "end": 54.68,
+   "line": "Tớ đỏ mặt kể thật. Người Công giáo cầu nguyện trước bữa ăn để cảm ơn Chúa vì mâm cơm,",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "embarrassed",
+      "talk": true
+     },
+     {
+      "c": "WOMAN",
+      "pose": "sit",
+      "expr": "thinking",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 54.68,
+   "end": 57.96,
+   "line": "vì người nấu, và nhớ tới những người hôm nay không có gì ăn.",
+   "scene": "insert",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "kitchen",
+    "item": "rice",
+    "label": "Cảm ơn Chúa"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 57.96,
+   "end": 64.62,
+   "line": "Sách Giáo lý Công giáo xếp lời nguyện trước và sau bữa ăn vào nhịp cầu nguyện hằng ngày, như buổi sáng, buổi tối.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Lời nguyện bữa ăn",
+    "body": [
+     "Thuộc nhịp cầu nguyện hằng ngày,",
+     "như kinh sáng, kinh tối."
+    ],
+    "src": "GLHTCG 2698",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 64.62,
+   "end": 70.82,
+   "line": "Không phải luật bắt buộc, cũng chẳng làm món ăn ngon hơn. Chỉ là một cách dừng lại, để không ăn như cái máy.",
+   "scene": "text",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "kitchen",
+    "kicker": "DỪNG LẠI",
+    "lines": [
+     "Để không ăn",
+     "như cái máy"
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 70.82,
+   "end": 76.26,
+   "line": "Tớ nói thêm, Chúa Giêsu cũng ngước mắt lên trời dâng lời chúc tụng trước khi bẻ bánh cho dân chúng.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Chúa Giêsu",
+    "body": [
+     "Ngước mắt lên trời, dâng lời",
+     "chúc tụng rồi bẻ bánh."
+    ],
+    "src": "Mt 14,19",
+    "icon": "dove",
+    "items": []
+   }
+  },
+  {
+   "id": "s20",
+   "start": 76.26,
+   "end": 79.7,
+   "line": "Bố Vy gật gù, gắp cho tớ miếng thịt kho to nhất.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "reach",
+      "expr": "smile"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 1,
+      "type": "sparkle",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 79.7,
+   "end": 83.16,
+   "line": "Mẹ Vy thì cười: \"Vậy là con cảm ơn cả bác nữa à?\"",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "WOMAN",
+    "expr": "laugh",
+    "talk": [
+     0.6,
+     9
+    ],
+    "bubble": "Con cảm ơn cả bác nữa à?"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 83.16,
+   "end": 86.81,
+   "line": "Tớ đáp: \"Dạ, con cảm ơn Chúa trước, cảm ơn bác ngay sau.\"",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "happy",
+    "talk": [
+     0.4,
+     9
+    ]
+   }
+  },
+  {
+   "id": "s23",
+   "start": 86.81,
+   "end": 88.44,
+   "line": "Cả bàn cười.",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "wide": true,
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "sit",
+      "expr": "laugh"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "sit",
+      "expr": "laugh"
+     },
+     {
+      "c": "GIRL",
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 3,
+      "type": "music"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s24",
+   "start": 88.44,
+   "end": 95.44,
+   "line": "Điều tớ không ngờ là bữa thứ hai tớ về chơi, trước khi cầm đũa, mẹ Vy dừng lại, nhìn tớ, rồi nói:",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "timeTag": "Bữa thứ hai",
+    "chars": [
+     {
+      "c": "WOMAN",
+      "pose": "talk",
+      "expr": "gentle",
+      "talk": [
+       3,
+       9
+      ]
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "surprised",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s25",
+   "start": 95.44,
+   "end": 98.08,
+   "line": "\"Con làm cái của con đi, cả nhà đợi.\"",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "WOMAN",
+    "expr": "gentle",
+    "talk": true,
+    "bubble": "Con làm cái của con đi, cả nhà đợi."
+   }
+  },
+  {
+   "id": "s26",
+   "start": 98.08,
+   "end": 103.46,
+   "line": "Tớ hiểu ra, mình sợ người ta thấy lạ, nhưng nhiều khi người ta chỉ chờ mình sống thật thôi.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Người ta chỉ chờ",
+     "mình sống thật."
+    ]
+   }
+  },
+  {
+   "id": "s27",
+   "start": 103.46,
+   "end": 110.3,
+   "line": "Chỉ có điều tớ vẫn chưa dám hỏi, hôm đầu bố Vy gắp miếng thịt to nhất là vì quý, hay vì thấy tớ run quá.",
+   "scene": "close",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "kitchen",
+    "c": "PHAOLO",
+    "expr": "thinking",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s28",
+   "start": 110.3,
+   "end": 111.6,
+   "line": "Bạn đoán xem?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Hôm đầu bố Vy gắp miếng thịt to nhất là vì quý, hay vì thấy tớ run quá? Bạn đoán xem?",
+    "cast": [
+     "PHAOLO",
+     "GIRL"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 49.73
+  },
+  {
+   "start": 49.73,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 76.41
+  },
+  {
+   "start": 76.41,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 111.6
+  }
+ ],
+ "sfx": []
+}

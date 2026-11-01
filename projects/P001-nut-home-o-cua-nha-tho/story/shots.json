@@ -1,0 +1,769 @@
+{
+ "title": "Nút Home ở cửa nhà thờ",
+ "duration": 79.12,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.65,
+   "line": "Khoa đang chỉnh cà vạt thì khựng lại trước cái bồn đá nhỏ ở cửa nhà thờ, nơi ai đi qua cũng nhúng tay vào.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "churchbell",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "push",
+    "hook": {
+     "kicker": "NƯỚC THÁNH",
+     "lines": [
+      "Nút Home",
+      "ở cửa nhà thờ?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "KHOA",
+      "x": -120,
+      "pose": [
+       [
+        0,
+        "holdFront"
+       ],
+       [
+        1.6,
+        "stand"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        1.6,
+        "surprised"
+       ]
+      ]
+     },
+     {
+      "c": "PHAOLO",
+      "x": 200,
+      "f": -1,
+      "pose": "relaxed",
+      "expr": "smile"
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.65,
+   "end": 8.11,
+   "line": "Đám cưới thằng Bin, khách đông nghẹt.",
+   "scene": "scene",
+   "set": "wedding",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "wedding",
+    "wide": true,
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "GROOM",
+      "x": -60,
+      "pose": "wave",
+      "expr": "happy"
+     },
+     {
+      "c": "BRIDE",
+      "x": 60,
+      "pose": "relaxed",
+      "expr": "happy",
+      "f": -1
+     },
+     {
+      "c": "WOMAN2",
+      "x": -330,
+      "pose": "talk",
+      "expr": "smile"
+     },
+     {
+      "c": "MAN",
+      "x": 330,
+      "pose": "cheer",
+      "expr": "laugh",
+      "f": -1
+     }
+    ],
+    "timeTag": "Đám cưới thằng Bin",
+    "fg": "flowers"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 8.11,
+   "end": 13.07,
+   "line": "Khoa thì thầm: \"Nước này để rửa tay trước khi vào à, giống chậu ở cửa nhà hàng?\"",
+   "scene": "ots",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "ots",
+    "set": "churchInside",
+    "fg": "PHAOLO",
+    "who": {
+     "c": "KHOA",
+     "pose": "point",
+     "expr": "confused",
+     "talk": true
+    },
+    "say": [
+     {
+      "str": "Rửa tay trước khi vào à?",
+      "at": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 13.07,
+   "end": 16.49,
+   "line": "Tớ hỏi lại dân lập trình: \"Điện thoại cậu đang mở mấy ứng dụng?\"",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "smirk",
+    "talk": true,
+    "bubble": "Điện thoại cậu đang mở mấy ứng dụng?"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 16.49,
+   "end": 19.11,
+   "line": "Khoa liếc màn hình: \"Mười bảy cái.\"",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "phone",
+    "s": 0.9,
+    "label": "17 ứng dụng"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 19.11,
+   "end": 23.49,
+   "line": "\"Rối quá thì cậu làm gì?\" \"Bấm nút Home, về màn hình chính.\"",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "fg": "pew",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "smile",
+      "talk": [
+       0,
+       1.2
+      ]
+     },
+     {
+      "c": "KHOA",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": [
+       [
+        0,
+        "thinking"
+       ],
+       [
+        1.2,
+        "smile"
+       ]
+      ],
+      "talk": [
+       1.2,
+       9
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 23.49,
+   "end": 26.63,
+   "line": "Đó, cái chấm nước ấy là nút Home của tớ.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "freeze": "NÚT HOME",
+    "frozenChars": false,
+    "items": [
+     {
+      "item": "holyWater",
+      "x": 0,
+      "y": -10,
+      "s": 0.45
+     }
+    ],
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "x": -260,
+      "pose": "point",
+      "expr": "proud"
+     },
+     {
+      "c": "KHOA",
+      "x": 270,
+      "f": -1,
+      "pose": "stand",
+      "expr": "awe"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 26.63,
+   "end": 31.69,
+   "line": "Cả tuần đầu tớ mở đủ thứ, deadline, tiền nhà, giận ai đó.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Cả tuần của tớ",
+    "steps": [
+     "Deadline",
+     "Tiền nhà",
+     "Giận ai đó"
+    ],
+    "at_": 0,
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 31.69,
+   "end": 34.32,
+   "line": "Tới cửa nhà thờ, chạm tay vào nước thánh,",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "holyWater",
+    "s": 1.0
+   }
+  },
+  {
+   "id": "s10",
+   "start": 34.32,
+   "end": 35.5,
+   "line": "làm dấu Thánh Giá,",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "camZ": 1.2,
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "sign": 0.1,
+      "signDur": 2.4,
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 35.5,
+   "end": 37.17,
+   "line": "là bấm về màn hình gốc.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "phone",
+    "s": 0.9,
+    "label": "Màn hình gốc"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 37.17,
+   "end": 42.55,
+   "line": "Màn hình gốc ấy là ngày tớ được rửa tội, ngày người Công giáo tin mình được nhận làm con Chúa.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "x": -80,
+      "pose": "bless",
+      "expr": "gentle"
+     },
+     {
+      "c": "ME_AODAI",
+      "x": 160,
+      "pose": "hold",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "items": [
+     {
+      "item": "water",
+      "x": -10,
+      "y": -40,
+      "s": 0.35
+     }
+    ],
+    "timeTag": "Ngày rửa tội"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 42.55,
+   "end": 45.96,
+   "line": "Sách Giáo lý nói việc dùng nước thánh là để nhắc nhớ phép Rửa.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "dove",
+    "title": "Nước thánh",
+    "body": [
+     "Á bí tích nhắc nhớ",
+     "phép Rửa tội."
+    ],
+    "src": "GLHTCG 1667–1668",
+    "icon": "dove"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 45.96,
+   "end": 50.04,
+   "line": "Nhắc nhớ thôi, nước không tự rửa linh hồn, cũng không phải bùa.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "KHÔNG PHẢI BÙA",
+    "lines": [
+     "Nước không tự",
+     "rửa linh hồn"
+    ],
+    "item": "holyWater"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 50.04,
+   "end": 53.03,
+   "line": "Nó là dấu chỉ giúp lòng mình sẵn sàng đón ơn Chúa.",
+   "scene": "fact",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "churchInside",
+    "title": "Dấu chỉ",
+    "body": [
+     "Giúp lòng mình sẵn sàng",
+     "đón ơn Chúa."
+    ],
+    "src": "GLHTCG 1670",
+    "icon": "heart",
+    "c": "KHOA",
+    "expr": "thinking"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 53.03,
+   "end": 55.28,
+   "line": "Khoa hỏi: \"Chưa rửa tội thì bấm được không?\"",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "KHOA",
+    "expr": "worried",
+    "talk": true,
+    "emote": "?",
+    "bubble": "Chưa rửa tội thì bấm được không?"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 55.28,
+   "end": 63.81,
+   "line": "Tớ bảo chẳng ai kiểm tra đâu, có khi cậu chỉ cần đứng lại ba giây, gác mấy ứng dụng kia sang một bên, là đủ lịch sự với chủ nhà rồi.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "panL",
+    "fg": "pew",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "gentle"
+     },
+     {
+      "c": "KHOA",
+      "pose": "think",
+      "expr": "thinking"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 1,
+      "type": "idea",
+      "at": 2.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 63.81,
+   "end": 67.05,
+   "line": "Khoa không chấm nước. Nhưng tớ thấy nó tắt chuông điện thoại,",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "items": [
+     {
+      "item": "holyWater",
+      "x": -280,
+      "y": -10,
+      "s": 0.35
+     }
+    ],
+    "chars": [
+     {
+      "c": "KHOA",
+      "x": 120,
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "peaceful"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 67.05,
+   "end": 69.61,
+   "line": "cất vào túi áo, rồi mới bước vào.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "KHOA",
+      "x": -150,
+      "walk": 40,
+      "expr": "peaceful"
+     },
+     {
+      "c": "PHAOLO",
+      "x": 150,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 69.61,
+   "end": 72.74,
+   "line": "Tớ nghĩ, đó cũng là một kiểu bấm nút Home.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Dừng lại ba giây",
+     "cũng là bấm nút Home."
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 72.74,
+   "end": 79.12,
+   "line": "Lần đầu bạn bước vào một nhà thờ là dịp gì, đám cưới, đám tang, hay chỉ tình cờ ghé trú mưa?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Lần đầu bạn bước vào một nhà thờ là dịp gì, đám cưới, đám tang, hay chỉ tình cờ ghé trú mưa?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 23.64
+  },
+  {
+   "start": 23.64,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 42.7
+  },
+  {
+   "start": 42.7,
+   "mood": "sacred",
+   "intensity": 0.5,
+   "end": 63.96
+  },
+  {
+   "start": 63.96,
+   "mood": "gentle",
+   "intensity": 0.7,
+   "end": 79.12
+  }
+ ],
+ "sfx": []
+}

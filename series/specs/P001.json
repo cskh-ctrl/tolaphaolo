@@ -1,0 +1,28 @@
+{
+ "id": "P001",
+ "cover": {"set": "churchInside", "c": "KHOA", "expr": "confused", "item": "holyWater", "kicker": "NƯỚC THÁNH", "lines": ["Nút Home", "ở cửa nhà thờ?"]},
+ "music": [[0, "cute", 0.6], ["Đó, cái chấm nước", "gentle", 0.6], ["Sách Giáo lý nói", "sacred", 0.5], ["Khoa không chấm nước", "gentle", 0.7]],
+ "beats": [
+  {"type": "scene", "set": "churchOutside", "cam": "push", "hook": {"kicker": "NƯỚC THÁNH", "lines": ["Nút Home", "ở cửa nhà thờ?"]}, "chars": [{"c": "KHOA", "x": -120, "pose": [[0, "holdFront"], [1.6, "stand"]], "expr": [[0, "neutral"], [1.6, "surprised"]]}, {"c": "PHAOLO", "x": 200, "f": -1, "pose": "relaxed", "expr": "smile"}], "sfx": [{"at": 0.2, "name": "churchbell", "gain": -14}], "amb": {"name": "murmur", "gain": -30}},
+  {"at": "Đám cưới thằng Bin", "type": "scene", "set": "wedding", "wide": true, "cam": "panR", "chars": [{"c": "GROOM", "x": -60, "pose": "wave", "expr": "happy"}, {"c": "BRIDE", "x": 60, "pose": "relaxed", "expr": "happy", "f": -1}, {"c": "WOMAN2", "x": -330, "pose": "talk", "expr": "smile"}, {"c": "MAN", "x": 330, "pose": "cheer", "expr": "laugh", "f": -1}], "timeTag": "Đám cưới thằng Bin", "fg": "flowers"},
+  {"at": "Khoa thì thầm", "type": "ots", "set": "churchInside", "fg": "PHAOLO", "who": {"c": "KHOA", "pose": "point", "expr": "confused", "talk": true}, "say": [{"str": "Rửa tay trước khi vào à?", "at": 0.6}], "captions": false},
+  {"at": "Tớ hỏi lại dân lập trình", "type": "close", "set": "churchInside", "c": "PHAOLO", "expr": "smirk", "talk": true, "bubble": "Điện thoại cậu đang mở mấy ứng dụng?"},
+  {"at": "Khoa liếc màn hình", "type": "insert", "set": "churchInside", "item": "phone", "s": 0.9, "label": "17 ứng dụng"},
+  {"at": "Rối quá thì cậu làm gì", "type": "scene", "set": "churchInside", "fg": "pew", "chars": [{"c": "PHAOLO", "pose": "explain", "expr": "smile", "talk": [0, 1.2]}, {"c": "KHOA", "pose": "phone", "prop": "phone", "expr": [[0, "thinking"], [1.2, "smile"]], "talk": [1.2, 9]}]},
+  {"at": "Đó, cái chấm nước ấy", "type": "scene", "set": "churchInside", "freeze": "NÚT HOME", "frozenChars": false, "items": [{"item": "holyWater", "x": 0, "y": -10, "s": 0.45}], "chars": [{"c": "PHAOLO", "x": -260, "pose": "point", "expr": "proud"}, {"c": "KHOA", "x": 270, "f": -1, "pose": "stand", "expr": "awe"}]},
+  {"at": "Cả tuần đầu tớ mở đủ thứ", "type": "steps", "title": "Cả tuần của tớ", "steps": ["Deadline", "Tiền nhà", "Giận ai đó"], "at_": 0, "c": "PHAOLO"},
+  {"at": "Tới cửa nhà thờ, chạm tay", "type": "insert", "set": "churchInside", "item": "holyWater", "s": 1.0},
+  {"at": "làm dấu Thánh Giá", "type": "scene", "set": "churchInside", "cam": "push", "camZ": 1.2, "chars": [{"c": "PHAOLO", "sign": 0.1, "signDur": 2.4, "expr": "pray"}]},
+  {"at": "là bấm về màn hình gốc", "type": "insert", "set": "dream", "item": "phone", "s": 0.9, "label": "Màn hình gốc"},
+  {"at": "Màn hình gốc ấy là ngày", "type": "scene", "set": "churchInside", "wide": true, "cam": "pull", "chars": [{"c": "CHA_LE", "x": -80, "pose": "bless", "expr": "gentle"}, {"c": "ME_AODAI", "x": 160, "pose": "hold", "expr": "happy", "f": -1}], "items": [{"item": "water", "x": -10, "y": -40, "s": 0.35}], "timeTag": "Ngày rửa tội"},
+  {"at": "Sách Giáo lý nói việc", "type": "fact", "symbol": "dove", "title": "Nước thánh", "body": ["Á bí tích nhắc nhớ", "phép Rửa tội."], "src": "GLHTCG 1667–1668", "icon": "dove"},
+  {"at": "Nhắc nhớ thôi, nước không", "type": "text", "set": "churchInside", "kicker": "KHÔNG PHẢI BÙA", "lines": ["Nước không tự", "rửa linh hồn"], "item": "holyWater"},
+  {"at": "Nó là dấu chỉ giúp lòng", "type": "fact", "set": "churchInside", "title": "Dấu chỉ", "body": ["Giúp lòng mình sẵn sàng", "đón ơn Chúa."], "src": "GLHTCG 1670", "icon": "heart", "c": "KHOA", "expr": "thinking"},
+  {"at": "Khoa hỏi", "type": "close", "set": "churchInside", "c": "KHOA", "expr": "worried", "talk": true, "emote": "?", "bubble": "Chưa rửa tội thì bấm được không?", "captions": false},
+  {"at": "Tớ bảo chẳng ai kiểm tra", "type": "scene", "set": "churchInside", "cam": "panL", "fg": "pew", "chars": [{"c": "PHAOLO", "pose": "explain", "expr": "gentle"}, {"c": "KHOA", "pose": "think", "expr": "thinking"}], "emotes": [{"who": 1, "type": "idea", "at": 2.5}]},
+  {"at": "Khoa không chấm nước", "type": "scene", "set": "churchInside", "cam": "push", "items": [{"item": "holyWater", "x": -280, "y": -10, "s": 0.35}], "chars": [{"c": "KHOA", "x": 120, "pose": "phone", "prop": "phone", "expr": "peaceful"}]},
+  {"at": "cất vào túi áo", "type": "scene", "set": "churchInside", "wide": true, "cam": "push", "chars": [{"c": "KHOA", "x": -150, "walk": 40, "expr": "peaceful"}, {"c": "PHAOLO", "x": 150, "pose": "relaxed", "expr": "smile", "f": -1}]},
+  {"at": "Tớ nghĩ, đó cũng là", "type": "lesson", "c": "PHAOLO", "lines": ["Dừng lại ba giây", "cũng là bấm nút Home."]},
+  {"at": "Lần đầu bạn bước vào", "type": "end", "question": "Lần đầu bạn bước vào một nhà thờ là dịp gì, đám cưới, đám tang, hay chỉ tình cờ ghé trú mưa?", "cast": ["PHAOLO", "KHOA"]}
+ ]
+}

@@ -1,0 +1,823 @@
+{
+ "title": "Ông nội hôn cây Thánh Giá gỗ mỗi tối",
+ "duration": 101.84,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 3.66,
+   "line": "Cây Thánh Giá gỗ của ông nội tớ đã mòn mất một bên tay.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "woodCross",
+    "hook": {
+     "kicker": "VÌ SAO",
+     "lines": [
+      "Ông nội hôn",
+      "Thánh Giá mỗi tối?"
+     ],
+     "y": 0.12
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 3.66,
+   "end": 7.59,
+   "line": "Nó treo trên vách, ngay đầu giường ông, cạnh tờ lịch bloc.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "wide": true,
+    "cam": "push",
+    "items": [
+     {
+      "item": "woodCross",
+      "x": -260,
+      "y": -560,
+      "s": 0.35
+     },
+     {
+      "item": "calendar",
+      "x": -60,
+      "y": -560,
+      "s": 0.3
+     }
+    ],
+    "chars": []
+   }
+  },
+  {
+   "id": "s03",
+   "start": 7.59,
+   "end": 10.3,
+   "line": "Tối nào cũng vậy. Ông đọc kinh xong.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "ONG",
+      "pose": "sitPray",
+      "expr": "pray"
+     }
+    ],
+    "timeTag": "Mỗi tối"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 10.3,
+   "end": 14.26,
+   "line": "Ông đứng dậy, chậm lắm, vì cái đầu gối không còn nghe lời.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "ONG",
+      "pose": [
+       [
+        0,
+        "sit"
+       ],
+       [
+        1.5,
+        "stand"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "worried"
+       ],
+       [
+        1.5,
+        "neutral"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 14.26,
+   "end": 16.1,
+   "line": "Ông gỡ cây Thánh Giá xuống.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "camZ": 1.15,
+    "chars": [
+     {
+      "c": "ONG",
+      "pose": "hold",
+      "expr": "gentle"
+     }
+    ],
+    "items": [
+     {
+      "item": "woodCross",
+      "x": 110,
+      "y": -330,
+      "s": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 16.1,
+   "end": 19.56,
+   "line": "Ông hôn lên chỗ đôi chân bị đóng đinh. Rồi treo lại.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "woodCross",
+    "s": 0.9
+   }
+  },
+  {
+   "id": "s07",
+   "start": 19.56,
+   "end": 21.45,
+   "line": "Hồi nhỏ, tớ thấy chuyện đó kỳ.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "fg": "plant",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "think",
+      "expr": "confused"
+     },
+     {
+      "c": "ONG",
+      "pose": "stand",
+      "expr": "gentle"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Tớ hồi nhỏ"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 21.45,
+   "end": 25.54,
+   "line": "Có lần tớ hỏi: \"Ông ơi, hôn cục gỗ làm gì?\"",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "BIN",
+    "expr": "confused",
+    "talk": true,
+    "bubble": "Ông ơi, hôn cục gỗ làm gì?",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 25.54,
+   "end": 26.85,
+   "line": "Ông không giận.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ONG",
+      "pose": "holdFront",
+      "expr": "gentle"
+     },
+     {
+      "c": "BIN",
+      "pose": "stand",
+      "expr": "neutral"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 26.85,
+   "end": 30.7,
+   "line": "Ông lấy trong túi áo ra tấm ảnh bà nội, cái ảnh đen trắng đã sờn góc.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "photo"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 30.7,
+   "end": 33.18,
+   "line": "Ông hôn lên đó, rồi nhìn tớ.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "ONG",
+    "expr": "peaceful",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 33.18,
+   "end": 35.08,
+   "line": "\"Ông có hôn tờ giấy đâu con.\"",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "ONG",
+    "expr": "gentle",
+    "talk": true,
+    "bubble": "Ông có hôn tờ giấy đâu con."
+   }
+  },
+  {
+   "id": "s13",
+   "start": 35.08,
+   "end": 37.96,
+   "line": "Chỉ vậy thôi. Ông không giải thích thêm.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "BIN",
+    "expr": "thinking",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 37.96,
+   "end": 42.28,
+   "line": "Nhiều năm sau tớ mới hiểu câu đó. Người Công giáo không thờ miếng gỗ.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "think",
+      "expr": "thinking"
+     }
+    ],
+    "timeTag": "Nhiều năm sau"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 42.28,
+   "end": 46.4,
+   "line": "Sách Giáo lý nói, tôn kính một ảnh thánh là hướng về chính Đấng được diễn tả.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Tôn kính ảnh thánh",
+    "body": [
+     "Là hướng về chính",
+     "Đấng được diễn tả."
+    ],
+    "src": "GLHTCG 2132",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 46.4,
+   "end": 50.13,
+   "line": "Cái hôn ấy không dừng ở gỗ. Nó đi tới Người đã chịu đóng đinh.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "crucifix"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 50.13,
+   "end": 54.8,
+   "line": "Và người ta không hôn một người xa lạ. Người ta hôn người mình thương.",
+   "scene": "text",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "dream",
+    "lines": [
+     "Người ta hôn",
+     "người mình thương."
+    ],
+    "item": "heart"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 54.8,
+   "end": 62.9,
+   "line": "Ngày Thứ Sáu Tuần Thánh, cả nhà thờ xếp hàng lên tôn kính Thánh Giá. Có người bái gối. Có người cúi đầu. Có người hôn.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pchurch"
+    },
+    "wide": true,
+    "cam": "pull",
+    "timeTag": "Thứ Sáu Tuần Thánh",
+    "items": [
+     {
+      "item": "woodCross",
+      "x": 0,
+      "y": -60,
+      "s": 0.3
+     }
+    ],
+    "chars": [
+     {
+      "c": "CHA_TIM",
+      "x": -200,
+      "pose": "hold",
+      "expr": "gentle"
+     },
+     {
+      "c": "WOMAN2",
+      "x": 170,
+      "pose": "kneel",
+      "expr": "pray",
+      "f": -1
+     },
+     {
+      "c": "MAN",
+      "x": 360,
+      "pose": "stand",
+      "expr": "peaceful",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 62.9,
+   "end": 67.74,
+   "line": "Ông nội tớ chỉ làm việc đó mỗi tối, trong căn phòng nhỏ, không ai nhìn.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ONG",
+      "pose": "hold",
+      "expr": "peaceful"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s20",
+   "start": 67.74,
+   "end": 70.96,
+   "line": "Tháng trước ông yếu hẳn. Không đứng dậy nổi nữa.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ONG",
+      "pose": "sitBack",
+      "expr": "sad"
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s21",
+   "start": 70.96,
+   "end": 73.36,
+   "line": "Tối đầu tiên, ông cứ nhìn lên vách.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "ONG",
+    "expr": "sad",
+    "look": [
+     -0.6,
+     -0.7
+    ]
+   }
+  },
+  {
+   "id": "s22",
+   "start": 73.36,
+   "end": 77.46,
+   "line": "Tớ hiểu. Tớ gỡ cây Thánh Giá xuống, đặt vào tay ông.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "reach",
+      "expr": "gentle"
+     },
+     {
+      "c": "ONG",
+      "pose": "sitBack",
+      "expr": "peaceful",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s23",
+   "start": 77.46,
+   "end": 81.47,
+   "line": "Ông hôn lên chỗ cũ, chỗ gỗ đã bóng lên vì mấy chục năm môi chạm vào.",
+   "scene": "insert",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "night",
+    "item": "woodCross",
+    "s": 0.9
+   }
+  },
+  {
+   "id": "s24",
+   "start": 81.47,
+   "end": 86.88,
+   "line": "Rồi ông đưa lại cho tớ. Tớ đứng đó, cầm cây Thánh Giá còn ấm tay ông.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "freeze": true,
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "expr": "peaceful"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s25",
+   "start": 86.88,
+   "end": 91.68,
+   "line": "Và lần đầu tiên, tớ cũng cúi xuống hôn. Không phải vì thói quen.",
+   "scene": "close",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "night",
+    "c": "PHAOLO",
+    "expr": "pray",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s26",
+   "start": 91.68,
+   "end": 96.04,
+   "line": "Mà vì tớ chợt thấy, mình đang cầm thứ mà ông thương nhất, ngoài bà.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Thứ ông thương nhất,",
+     "ngoài bà."
+    ]
+   }
+  },
+  {
+   "id": "s27",
+   "start": 96.04,
+   "end": 101.84,
+   "line": "Trong nhà bạn có món đồ nào của ông bà, mòn đến mức chẳng còn đẹp, mà bạn vẫn không nỡ cất đi không?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Trong nhà bạn có món đồ nào của ông bà, mòn đến mức chẳng còn đẹp, mà bạn vẫn không nỡ cất đi không?",
+    "cast": [
+     "PHAOLO",
+     "ONG"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 38.11
+  },
+  {
+   "start": 38.11,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 67.89
+  },
+  {
+   "start": 67.89,
+   "mood": "reflect",
+   "intensity": 0.55,
+   "end": 101.84
+  }
+ ],
+ "sfx": []
+}

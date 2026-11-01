@@ -1,0 +1,767 @@
+{
+ "title": "\"Reng một cái, cả nhà thờ quỳ xuống hết!\"",
+ "duration": 87.38,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.81,
+   "line": "Bé Na vừa ra khỏi nhà thờ đã hỏi: \"Chú ơi, sao nghe reng reng là cả nhà thờ quỳ xuống hết vậy?\"",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "churchbell",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "push",
+    "hook": {
+     "kicker": "TẠI SAO",
+     "lines": [
+      "Reng một cái,",
+      "cả nhà thờ quỳ?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "NA",
+      "x": -140,
+      "pose": "point",
+      "expr": "surprised",
+      "talk": [
+       1.5,
+       9
+      ]
+     },
+     {
+      "c": "PHAOLO",
+      "x": 170,
+      "f": -1,
+      "pose": "relaxed",
+      "expr": "smile"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.81,
+   "end": 8.69,
+   "line": "\"Tại lúc đó là lúc quan trọng nhất trong Thánh lễ.\"",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "fg": "flowers",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "gentle",
+      "talk": true
+     },
+     {
+      "c": "NA",
+      "pose": "stand",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 8.69,
+   "end": 11.7,
+   "line": "\"Quan trọng hơn lúc hát hả chú?\" \"Hơn.\"",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "NA",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 11.7,
+   "end": 15.5,
+   "line": "\"Hơn lúc phát bánh?\" \"Phải có lúc này thì mới có bánh để phát.\"",
+   "scene": "ots",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "churchOutside",
+    "fg": "NA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "smile",
+     "talk": [
+      1.0,
+      9
+     ]
+    }
+   }
+  },
+  {
+   "id": "s05",
+   "start": 15.5,
+   "end": 17.63,
+   "line": "Na nheo mắt: \"Lúc đó có chuyện gì?\"",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "NA",
+    "expr": "annoyed",
+    "talk": true
+   }
+  },
+  {
+   "id": "s06",
+   "start": 17.63,
+   "end": 22.03,
+   "line": "\"Cha đọc lại lời Chúa Giêsu nói trong bữa ăn cuối cùng với các môn đệ.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "pose": "openArms",
+      "expr": "peaceful"
+     }
+    ],
+    "items": [
+     {
+      "item": "wine",
+      "x": 120,
+      "y": -240,
+      "s": 0.18
+     }
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "start": 22.03,
+   "end": 26.18,
+   "line": "Người Công giáo tin rằng ngay lúc ấy, bánh và rượu trở thành Mình và Máu Chúa.\"",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Bánh và rượu",
+    "body": [
+     "Trở thành Mình và Máu",
+     "Chúa Kitô."
+    ],
+    "src": "GLHTCG 1376",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 26.18,
+   "end": 27.54,
+   "line": "\"Nhìn đâu có khác.\"",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "NA",
+    "expr": "pout",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 27.54,
+   "end": 32.1,
+   "line": "\"Ừ, nhìn bên ngoài vẫn như cũ. Nhưng mình tin bên trong là Chúa.\"",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "host",
+    "label": "Bên trong là Chúa"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 32.1,
+   "end": 34.61,
+   "line": "\"Vậy cái chuông làm cho bánh biến thành Chúa hả?\"",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "panL",
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "think",
+      "expr": "thinking",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "neutral"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "?",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 34.61,
+   "end": 41.08,
+   "line": "\"Không. Chuông chỉ là cái báo. Không có chuông thì vẫn vậy. Có nhà thờ còn không rung chuông nữa.\"",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "bell",
+    "label": "Chỉ là cái báo"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 41.08,
+   "end": 42.56,
+   "line": "\"Báo cho ai?\"",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "NA",
+    "expr": "surprised",
+    "talk": true
+   }
+  },
+  {
+   "id": "s13",
+   "start": 42.56,
+   "end": 47.03,
+   "line": "\"Cho người đang lơ mơ. Như chú hồi bằng tuổi con, ngồi đếm bóng đèn trên trần.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "up",
+    "timeTag": "Hồi bé",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "sit",
+      "expr": "sleepy",
+      "look": [
+       0,
+       -1
+      ]
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "zzz",
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 47.03,
+   "end": 50.67,
+   "line": "Reng một cái là giật mình, à, tới lúc rồi.\"",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "churchbell",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "shake": 8,
+    "freeze": "RENG!",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "jump",
+      "expr": "shocked"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 50.67,
+   "end": 54.2,
+   "line": "Na cười khúc khích. \"Còn quỳ là sao chú?\"",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "NA",
+    "expr": "laugh",
+    "talk": [
+     1.2,
+     9
+    ],
+    "emote": "music"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 54.2,
+   "end": 56.94,
+   "line": "\"Con thấy ông bà ngoại về, con làm gì?\"",
+   "scene": "ots",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "churchOutside",
+    "fg": "NA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "explain",
+     "expr": "gentle",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s17",
+   "start": 56.94,
+   "end": 58.72,
+   "line": "\"Con chạy ra khoanh tay chào.\"",
+   "scene": "scene",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "home",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "holdFront",
+      "expr": "happy"
+     },
+     {
+      "c": "OLDLADY",
+      "pose": "openArms",
+      "expr": "joy",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 58.72,
+   "end": 63.51,
+   "line": "\"Đó. Quỳ là cách người lớn khoanh tay chào Chúa. Là thờ lạy.\"",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "pose": "kneelPray",
+      "expr": "pray"
+     },
+     {
+      "c": "MAN",
+      "pose": "kneelPray",
+      "expr": "pray",
+      "f": 1
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "kneelPray",
+      "expr": "pray",
+      "f": 1
+     }
+    ],
+    "tag": "Thờ lạy"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 63.51,
+   "end": 66.02,
+   "line": "\"Vậy cái chuông xe đạp của con rung được không?",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "NA",
+    "expr": "smirk",
+    "talk": true,
+    "emote": "idea"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 66.02,
+   "end": 69.68,
+   "line": "Mai mẹ bưng cơm ra, con rung, cả nhà quỳ.\"",
+   "scene": "scene",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "boing",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "kitchen",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "holdFront",
+      "expr": "surprised"
+     },
+     {
+      "c": "BO",
+      "pose": "kneel",
+      "expr": "shocked",
+      "f": -1
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 0,
+      "y": -180,
+      "s": 0.25
+     }
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 69.68,
+   "end": 72.83,
+   "line": "\"Không được đâu cô nương. Chuông có nghĩa là nhờ điều nó báo.\"",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "PHAOLO",
+    "expr": "laugh",
+    "talk": true
+   }
+  },
+  {
+   "id": "s22",
+   "start": 72.83,
+   "end": 75.78,
+   "line": "Na suy nghĩ rất lâu, rồi kết luận:",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "NA",
+      "pose": "think",
+      "expr": "thinking"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "idea",
+      "at": 2.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s23",
+   "start": 75.78,
+   "end": 78.34,
+   "line": "\"Vậy cái chuông là chuông báo thức cho người ngủ gật.\"",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "NA",
+    "expr": "proud",
+    "talk": true,
+    "bubble": "Chuông báo thức cho người ngủ gật!"
+   }
+  },
+  {
+   "id": "s24",
+   "start": 78.34,
+   "end": 81.46,
+   "line": "Tớ định cãi, nhưng nghĩ lại, nó nói đúng.",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "PHAOLO",
+    "expr": "embarrassed",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s25",
+   "start": 81.46,
+   "end": 87.38,
+   "line": "Nếu một đứa nhỏ sáu tuổi hỏi bạn vì sao cả nhà thờ quỳ xuống, bạn sẽ giải thích cho nó bằng một câu nào?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu một đứa nhỏ sáu tuổi hỏi bạn vì sao cả nhà thờ quỳ xuống, bạn sẽ giải thích cho nó bằng một câu nào?",
+    "cast": [
+     "PHAOLO",
+     "NA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 17.63
+  },
+  {
+   "start": 17.63,
+   "mood": "sacred",
+   "intensity": 0.5,
+   "end": 54.35
+  },
+  {
+   "start": 54.35,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 87.38
+  }
+ ],
+ "sfx": []
+}

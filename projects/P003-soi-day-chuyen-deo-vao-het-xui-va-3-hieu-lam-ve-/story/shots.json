@@ -1,0 +1,652 @@
+{
+ "title": "Sợi dây chuyền 'đeo vào hết xui' và 3 hiểu lầm về Thánh Giá",
+ "duration": 76.28,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.69,
+   "line": "Một triệu tám, cô bán vàng nói đó là giá của sợi dây chuyền Thánh Giá đeo vào hết xui.",
+   "scene": "scene",
+   "set": "shop",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "shop",
+    "cam": "push",
+    "hook": {
+     "kicker": "3 HIỂU LẦM",
+     "lines": [
+      "Đeo Thánh Giá",
+      "cho hết xui?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "WOMAN",
+      "x": -170,
+      "pose": "explain",
+      "expr": "smile"
+     },
+     {
+      "c": "LONG",
+      "x": 180,
+      "f": -1,
+      "pose": "stand",
+      "expr": "surprised"
+     }
+    ]
+   },
+   "amb": {
+    "name": "city",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.69,
+   "end": 7.98,
+   "line": "Anh Long đồng nghiệp tớ suýt rút ví ngay.",
+   "scene": "scene",
+   "set": "shop",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "shop",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "reach",
+      "expr": "happy"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "handsHips",
+      "expr": "smile"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Anh Long"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 7.98,
+   "end": 12.35,
+   "line": "Vợ anh là người Công giáo, sắp sinh nhật, còn anh thì chưa từng bước vào nhà thờ.",
+   "scene": "insert",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "home",
+    "item": "gift",
+    "label": "Sinh nhật vợ"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.35,
+   "end": 16.14,
+   "line": "Anh gọi video: \"Cái nào linh nhất chú chọn giùm anh.\"",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "phonebuzz",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "surprised"
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Cái nào linh nhất?",
+      "at": 0.4,
+      "dy": -40
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 16.14,
+   "end": 19.04,
+   "line": "Tớ bảo khoan đã, gỡ ba hiểu lầm trước.",
+   "scene": "close",
+   "set": "office",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "office",
+    "c": "PHAOLO",
+    "expr": "determined",
+    "talk": true,
+    "emote": "!"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 19.04,
+   "end": 22.63,
+   "line": "Hiểu lầm thứ nhất, Thánh Giá là bùa may. Không phải anh ạ.",
+   "scene": "text",
+   "set": "shop",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "shop",
+    "kicker": "HIỂU LẦM 1",
+    "lines": [
+     "Thánh Giá",
+     "là bùa may"
+    ],
+    "strike": 1.6,
+    "item": "necklace"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 22.63,
+   "end": 26.74,
+   "line": "Thánh Giá nhắc mình nhớ Chúa Giêsu đã chịu chết vì yêu con người.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "crucifix",
+    "s": 0.9
+   }
+  },
+  {
+   "id": "s08",
+   "start": 26.74,
+   "end": 31.18,
+   "line": "Nó giống chiếc nhẫn cưới anh đang đeo, để nhớ người mình thương và lời mình đã hứa,",
+   "scene": "insert",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "home",
+    "item": "ring"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 31.18,
+   "end": 33.58,
+   "line": "chứ nhẫn đâu giữ cho anh khỏi kẹt xe.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "handsOnHead",
+      "expr": "annoyed"
+     }
+    ],
+    "items": [],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "anger",
+      "at": 0.3
+     }
+    ],
+    "timeTag": "Kẹt xe"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 33.58,
+   "end": 40.91,
+   "line": "Sách Giáo lý Công giáo gọi việc gán sức mạnh cho việc làm bề ngoài mà không cần lòng tin là mê tín, và nói rõ đeo bùa hộ mệnh là đáng trách.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Mê tín",
+    "body": [
+     "Gán sức mạnh cho việc làm bề ngoài,",
+     "bất kể lòng tin. Đeo bùa là đáng trách."
+    ],
+    "src": "GLHTCG 2111, 2117",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 40.91,
+   "end": 44.35,
+   "line": "Hiểu lầm thứ hai, đeo càng nhiều càng được phù hộ.",
+   "scene": "text",
+   "set": "shop",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "shop",
+    "kicker": "HIỂU LẦM 2",
+    "lines": [
+     "Đeo càng nhiều",
+     "càng được phù hộ"
+    ],
+    "strike": 1.8
+   }
+  },
+  {
+   "id": "s12",
+   "start": 44.35,
+   "end": 47.12,
+   "line": "Anh Long cười: \"Thế mua hai sợi cho chắc?\"",
+   "scene": "close",
+   "set": "shop",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "shop",
+    "c": "LONG",
+    "expr": "laugh",
+    "talk": true,
+    "bubble": "Mua hai sợi cho chắc?"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 47.12,
+   "end": 51.12,
+   "line": "Nếu thế thì cụ bà nghèo không mua nổi dây chuyền nào sẽ thiệt nhất à?",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "OLDLADY",
+      "pose": "sad",
+      "expr": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 51.12,
+   "end": 53.03,
+   "line": "Chúa đâu tính ơn theo gam vàng.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "heart",
+    "label": "Không tính theo gam vàng"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 53.03,
+   "end": 56.03,
+   "line": "Hiểu lầm thứ ba, quên đeo thì xui.",
+   "scene": "text",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "home",
+    "kicker": "HIỂU LẦM 3",
+    "lines": [
+     "Quên đeo",
+     "thì xui"
+    ],
+    "strike": 1.3
+   }
+  },
+  {
+   "id": "s16",
+   "start": 56.03,
+   "end": 60.34,
+   "line": "Có lần tớ để quên sợi dây ở nhà tắm cả tuần, tuần đó còn được tăng lương.",
+   "scene": "scene",
+   "set": "office",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "office",
+    "freeze": "TĂNG LƯƠNG!",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "cheer",
+      "expr": "joy"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "sparkle",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 60.34,
+   "end": 63.68,
+   "line": "Đức tin nằm trong cách mình sống, không nằm trên cổ.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Đức tin nằm trong cách sống,",
+     "không nằm trên cổ."
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 63.68,
+   "end": 66.29,
+   "line": "Cuối cùng anh Long chọn sợi mảnh nhất, rẻ nhất,",
+   "scene": "scene",
+   "set": "shop",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "shop",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "LONG",
+      "pose": "holdFront",
+      "expr": "gentle"
+     },
+     {
+      "c": "WOMAN",
+      "pose": "relaxed",
+      "expr": "smile"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 66.29,
+   "end": 69.49,
+   "line": "rồi nhờ tớ viết giùm tấm thiệp: em đeo để nhớ Chúa thương em,",
+   "scene": "insert",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "home",
+    "item": "card",
+    "label": "Tấm thiệp"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 69.49,
+   "end": 71.76,
+   "line": "còn anh sẽ cố thương em giống vậy.",
+   "scene": "close",
+   "set": "home",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "home",
+    "c": "LONG",
+    "expr": "love",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s21",
+   "start": 71.76,
+   "end": 76.28,
+   "line": "Nếu là vợ anh Long, bạn thích sợi dây chuyền hơn, hay tấm thiệp hơn?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu là vợ anh Long, bạn thích sợi dây chuyền hơn, hay tấm thiệp hơn?",
+    "cast": [
+     "PHAOLO",
+     "LONG"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 19.19
+  },
+  {
+   "start": 19.19,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 63.83
+  },
+  {
+   "start": 63.83,
+   "mood": "gentle",
+   "intensity": 0.7,
+   "end": 76.28
+  }
+ ],
+ "sfx": []
+}
