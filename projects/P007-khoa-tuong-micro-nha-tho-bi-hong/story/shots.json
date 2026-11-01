@@ -1,0 +1,575 @@
+{
+ "title": "Khoa tưởng micro nhà thờ bị hỏng",
+ "duration": 75.84,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 3.71,
+   "line": "Cha vừa nói \"Chúng ta hãy cầu nguyện\", rồi cả nhà thờ im phăng phắc.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "hook": {
+     "kicker": "TẠI SAO",
+     "lines": [
+      "Thánh lễ có",
+      "phút im lặng?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "pose": "openArms",
+      "expr": "peaceful"
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s02",
+   "start": 3.71,
+   "end": 6.51,
+   "line": "Mười giây. Hai mươi giây.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "freeze": "20 GIÂY",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "pose": "sitPray",
+      "expr": "pray"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sitPray",
+      "expr": "pray"
+     },
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "confused",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 2,
+      "type": "?",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 6.51,
+   "end": 11.1,
+   "line": "Khoa quay sang thì thào: \"Hỏng micro rồi kìa, có ai lên sửa không?\"",
+   "scene": "ots",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "ots",
+    "set": "churchInside",
+    "fg": "PHAOLO",
+    "who": {
+     "c": "KHOA",
+     "pose": "talk",
+     "expr": "worried",
+     "talk": true
+    },
+    "say": [
+     {
+      "str": "Hỏng micro rồi kìa!",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 11.1,
+   "end": 14.82,
+   "line": "Khoa đánh trống cho một ban nhạc cover ở quận Ba, nên tớ hỏi:",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "timeTag": "Ban nhạc cover quận 3",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "cheer",
+      "expr": "joy"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "music"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 14.82,
+   "end": 16.54,
+   "line": "\"Bài nào cậu thích đánh nhất?\"",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "talk",
+      "expr": "smile",
+      "talk": true
+     },
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 16.54,
+   "end": 20.28,
+   "line": "\"Bài có đoạn cả ban dừng bặt một nhịp, rồi mới đập vào điệp khúc.\"",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "happy",
+    "talk": true,
+    "emote": "music"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 20.28,
+   "end": 22.29,
+   "line": "\"Đoạn dừng đó là lỗi à?\"",
+   "scene": "ots",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "cafe",
+    "fg": "KHOA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "think",
+     "expr": "smirk",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s08",
+   "start": 22.29,
+   "end": 26.72,
+   "line": "\"Lỗi gì, đó là đoạn khó nhất. Ai chen vào một tiếng là hỏng cả bài.\"",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "determined",
+    "talk": true,
+    "emote": "!"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 26.72,
+   "end": 34.63,
+   "line": "Đó. Mấy phút im lặng trong Thánh lễ là nốt lặng của bản nhạc ấy. Không phải chỗ trống chờ sửa micro, mà là một phần của bài.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "NỐT LẶNG",
+    "lines": [
+     "Im lặng là",
+     "một phần của bài"
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 34.63,
+   "end": 38.2,
+   "line": "Hướng dẫn chính thức của Sách lễ Rôma ghi hẳn những lúc thinh lặng:",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Thinh lặng thánh",
+    "body": [
+     "Là một phần của cử hành",
+     "Thánh lễ."
+    ],
+    "src": "QCTQ Sách lễ Rôma 45",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 38.2,
+   "end": 48.94,
+   "line": "khi sám hối để mỗi người nhìn lại mình, sau lời mời cầu nguyện để ai nấy thầm thưa điều riêng, sau bài đọc hay bài giảng để Lời Chúa kịp thấm, và sau rước lễ để ngợi khen Chúa trong lòng.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Những lúc thinh lặng",
+    "steps": [
+     "Khi sám hối",
+     "Sau lời mời cầu nguyện",
+     "Sau bài đọc, bài giảng",
+     "Sau rước lễ"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 48.94,
+   "end": 52.6,
+   "line": "Không có nốt lặng, bản nhạc chỉ là một tràng âm thanh dồn dập.",
+   "scene": "insert",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "dream",
+    "item": "mic",
+    "label": "Một tràng âm thanh"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 52.6,
+   "end": 56.1,
+   "line": "Không có im lặng, Thánh lễ dễ thành buổi đọc cho nhanh cho xong.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "MAN",
+      "pose": "talk",
+      "expr": "annoyed",
+      "talk": true
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "sweat"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s14",
+   "start": 56.1,
+   "end": 60.65,
+   "line": "Tớ thú nhận, có những năm tớ ghét mấy giây ấy, vì đầu óc trống trơn.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "embarrassed",
+    "emote": "gloom"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 60.65,
+   "end": 63.21,
+   "line": "Rồi tớ học cách chỉ thở, và thưa một câu thôi:",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "camZ": 1.15,
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sitPray",
+      "expr": "peaceful"
+     }
+    ],
+    "fg": "candle"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 63.21,
+   "end": 64.48,
+   "line": "con đây.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Chỉ thở,",
+     "và thưa: con đây."
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 64.48,
+   "end": 70.82,
+   "line": "Lần im lặng sau, Khoa không thì thào nữa, chỉ gõ nhẹ hai ngón tay lên đầu gối, như đếm nhịp.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sitPray",
+      "expr": "pray"
+     },
+     {
+      "c": "KHOA",
+      "pose": "sit",
+      "expr": "peaceful",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 1,
+      "type": "music",
+      "at": 1.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 70.82,
+   "end": 75.84,
+   "line": "Nếu được hai mươi giây im lặng tuyệt đối ngay bây giờ, bạn sẽ dùng nó để nghĩ về ai?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu được hai mươi giây im lặng tuyệt đối ngay bây giờ, bạn sẽ dùng nó để nghĩ về ai?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.5,
+   "end": 26.87
+  },
+  {
+   "start": 26.87,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 56.25
+  },
+  {
+   "start": 56.25,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 75.84
+  }
+ ],
+ "sfx": []
+}

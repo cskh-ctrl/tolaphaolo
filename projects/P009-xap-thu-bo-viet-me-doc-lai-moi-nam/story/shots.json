@@ -1,0 +1,588 @@
+{
+ "title": "Xấp thư bố viết, mẹ đọc lại mỗi năm",
+ "duration": 95.19,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 6.02,
+   "line": "Hai mươi ba lá thư, buộc bằng sợi thun vàng, nằm trong hộp bánh Danisa cũ dưới đáy tủ.",
+   "scene": "insert",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "insert",
+    "set": "livingRoom",
+    "item": "letters",
+    "hook": {
+     "kicker": "VÌ SAO",
+     "lines": [
+      "Lễ nào cũng",
+      "đọc Kinh Thánh?"
+     ],
+     "y": 0.12
+    }
+   }
+  },
+  {
+   "id": "s02",
+   "start": 6.02,
+   "end": 10.48,
+   "line": "Năm nào cũng vậy, đúng ngày kỷ niệm cưới, mẹ tớ lấy ra đọc lại.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "cam": "push",
+    "timeTag": "Ngày kỷ niệm cưới",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "sit",
+      "expr": "gentle",
+      "prop": "paper"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 10.48,
+   "end": 15.21,
+   "line": "Thư bố viết hồi đi làm công trình ở Đắk Lắk, năm chín mươi tám, khi nhà chưa có điện thoại.",
+   "scene": "scene",
+   "set": "night",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "night",
+    "timeTag": "Đắk Lắk, 1998",
+    "chars": [
+     {
+      "c": "BO",
+      "pose": "sit",
+      "expr": "thinking",
+      "prop": "paper"
+     }
+    ],
+    "fg": "candle"
+   }
+  },
+  {
+   "id": "s04",
+   "start": 15.21,
+   "end": 18.84,
+   "line": "Năm nay mẹ quên kính, đưa tớ đọc giùm một lá.",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "fg": "plant",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "holdFront",
+      "expr": "embarrassed"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "reach",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 18.84,
+   "end": 23.88,
+   "line": "Tớ đọc to: \"Mình ơi, ở đây mưa suốt, anh nhớ nồi canh bí của mình.",
+   "scene": "insert",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "livingRoom",
+    "item": "letters"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 23.88,
+   "end": 30.48,
+   "line": "Thằng Phaolo còn quấy đêm không? Nói với con bố sắp về, ngoan thì bố mua cho cái xe đạp ba bánh màu đỏ.",
+   "scene": "scene",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "dream",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "cheer",
+      "expr": "joy"
+     }
+    ],
+    "tag": "Xe đạp ba bánh màu đỏ"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 30.48,
+   "end": 35.0,
+   "line": "Anh thương mình.\" Mẹ ngồi nghe, cười, mắt đỏ hoe.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "ME",
+    "expr": "cry",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s08",
+   "start": 35.0,
+   "end": 38.46,
+   "line": "Tớ hỏi: \"Mẹ thuộc lòng rồi, đọc làm gì nữa?\"",
+   "scene": "ots",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "ots",
+    "set": "livingRoom",
+    "fg": "ME",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "confused",
+     "talk": true
+    },
+    "say": [
+     {
+      "str": "Thuộc lòng rồi mà mẹ?",
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": 38.46,
+   "end": 41.24,
+   "line": "Mẹ bảo: \"Đọc lên thì nghe được giọng bố.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "ME",
+    "expr": "gentle",
+    "talk": true,
+    "bubble": "Đọc lên thì nghe được giọng bố."
+   }
+  },
+  {
+   "id": "s10",
+   "start": 41.24,
+   "end": 42.53,
+   "line": "Đọc thầm thì chỉ là chữ.\"",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "freeze": true,
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "think",
+      "expr": "awe"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 42.53,
+   "end": 46.16,
+   "line": "Câu đó làm tớ nghĩ tới phần đọc Kinh Thánh trong Thánh lễ.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "pose": "holdFront",
+      "prop": "book",
+      "expr": "peaceful"
+     }
+    ],
+    "tag": "Phần đọc Kinh Thánh"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 46.16,
+   "end": 52.35,
+   "line": "Tớ từng thắc mắc, Kinh Thánh lên mạng là có, sao lễ nào cũng phải có người đứng lên đọc to cho cả nhà thờ nghe?",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "confused",
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 52.35,
+   "end": 61.96,
+   "line": "Hướng dẫn chính thức của Sách lễ Rôma nói, khi Kinh Thánh được đọc lên trong nhà thờ, chính Thiên Chúa nói với dân Người, và Chúa Kitô hiện diện trong lời của Người.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Lời Chúa",
+    "body": [
+     "Khi Kinh Thánh được đọc lên,",
+     "chính Thiên Chúa nói với dân Người."
+    ],
+    "src": "QCTQ Sách lễ Rôma 29",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 61.96,
+   "end": 68.74,
+   "line": "Sách Giáo lý kể, từ thời các tín hữu đầu tiên, Thánh lễ luôn có hai phần gắn liền, phần Lời Chúa và phần Thánh Thể,",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Thánh lễ có hai phần",
+    "steps": [
+     "Phần Lời Chúa",
+     "Phần Thánh Thể"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 68.74,
+   "end": 72.25,
+   "line": "như hai môn đệ đi Emmau được Chúa giải thích Kinh Thánh rồi mới bẻ bánh.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "bible",
+    "title": "Emmau",
+    "body": [
+     "Chúa giải thích Kinh Thánh,",
+     "rồi mới bẻ bánh."
+    ],
+    "src": "GLHTCG 1346–1347; Lc 24",
+    "icon": "bible"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 72.25,
+   "end": 74.72,
+   "line": "Nên phần đọc ấy không phải phần khởi động.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "bible",
+    "label": "Không phải phần khởi động"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 74.72,
+   "end": 79.19,
+   "line": "Nó là lá thư của Người mình chưa thấy mặt, đọc lên giữa những người đang chờ.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Lá thư của Người",
+     "mình chưa thấy mặt."
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 79.19,
+   "end": 85.6,
+   "line": "Mẹ cất xấp thư, buộc dây thun lại, rồi nói thêm: \"Cái xe đạp ba bánh đó, bố con mua thật đấy.\"",
+   "scene": "scene",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "livingRoom",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "ME",
+      "pose": "holdFront",
+      "expr": "smile",
+      "talk": [
+       2.5,
+       9
+      ]
+     }
+    ],
+    "items": [
+     {
+      "item": "letters",
+      "x": -250,
+      "y": -160,
+      "s": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 85.6,
+   "end": 89.64,
+   "line": "Tớ không nhớ chiếc xe. Nhưng tớ nhớ giọng mẹ lúc nói câu ấy.",
+   "scene": "close",
+   "set": "livingRoom",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "livingRoom",
+    "c": "PHAOLO",
+    "expr": "peaceful",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 89.64,
+   "end": 95.19,
+   "line": "Trong một lá thư hay tin nhắn của người thân, có câu nào bạn đã thuộc lòng đến mức nghe được cả giọng người viết?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Trong một lá thư hay tin nhắn của người thân, có câu nào bạn đã thuộc lòng đến mức nghe được cả giọng người viết?",
+    "cast": [
+     "PHAOLO",
+     "ME"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "gentle",
+   "intensity": 0.5,
+   "end": 42.53
+  },
+  {
+   "start": 42.53,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 79.19
+  },
+  {
+   "start": 79.19,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 95.19
+  }
+ ],
+ "sfx": []
+}

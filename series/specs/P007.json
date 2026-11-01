@@ -1,0 +1,23 @@
+{"id":"P007",
+ "cover":{"set":"churchInside","c":"KHOA","expr":"confused","item":"mic","kicker":"TẠI SAO","lines":["Thánh lễ có","phút im lặng?"]},
+ "music":[[0,"cute",0.5],["Đó. Mấy phút im lặng","sacred",0.45],["Tớ thú nhận","gentle",0.6]],
+ "beats":[
+ {"type":"scene","set":"churchInside","cam":"push","hook":{"kicker":"TẠI SAO","lines":["Thánh lễ có","phút im lặng?"]},"chars":[{"c":"CHA_LE","pose":"openArms","expr":"peaceful"}],"amb":{"name":"roomtone","gain":-30}},
+ {"at":"Mười giây","type":"scene","set":"churchInside","freeze":"20 GIÂY","chars":[{"c":"WOMAN2","pose":"sitPray","expr":"pray"},{"c":"PHAOLO","pose":"sitPray","expr":"pray"},{"c":"KHOA","pose":"sit","expr":"confused","f":-1}],"emotes":[{"who":2,"type":"?","at":1}]},
+ {"at":"Khoa quay sang thì thào","type":"ots","set":"churchInside","fg":"PHAOLO","who":{"c":"KHOA","pose":"talk","expr":"worried","talk":true},"say":[{"str":"Hỏng micro rồi kìa!","at":0.4}],"captions":false},
+ {"at":"Khoa đánh trống cho","type":"scene","set":"street","setOpt":{"mood":"pnight"},"timeTag":"Ban nhạc cover quận 3","chars":[{"c":"KHOA","pose":"cheer","expr":"joy"}],"emotes":[{"who":0,"type":"music"}]},
+ {"at":"Bài nào cậu thích","type":"scene","set":"cafe","fg":"cup","chars":[{"c":"PHAOLO","pose":"talk","expr":"smile","talk":true},{"c":"KHOA","pose":"sit","expr":"thinking"}]},
+ {"at":"Bài có đoạn cả ban","type":"close","set":"cafe","c":"KHOA","expr":"happy","talk":true,"emote":"music"},
+ {"at":"Đoạn dừng đó là lỗi","type":"ots","set":"cafe","fg":"KHOA","who":{"c":"PHAOLO","pose":"think","expr":"smirk","talk":true}},
+ {"at":"Lỗi gì, đó là đoạn","type":"close","set":"cafe","c":"KHOA","expr":"determined","talk":true,"emote":"!"},
+ {"at":"Đó. Mấy phút im lặng","type":"text","set":"churchInside","kicker":"NỐT LẶNG","lines":["Im lặng là","một phần của bài"]},
+ {"at":"Hướng dẫn chính thức","type":"fact","symbol":"bible","title":"Thinh lặng thánh","body":["Là một phần của cử hành","Thánh lễ."],"src":"QCTQ Sách lễ Rôma 45","icon":"bible"},
+ {"at":"khi sám hối để","type":"steps","title":"Những lúc thinh lặng","steps":["Khi sám hối","Sau lời mời cầu nguyện","Sau bài đọc, bài giảng","Sau rước lễ"],"c":"PHAOLO"},
+ {"at":"Không có nốt lặng","type":"insert","set":"dream","item":"mic","label":"Một tràng âm thanh"},
+ {"at":"Không có im lặng, Thánh lễ","type":"scene","set":"churchInside","cam":"panR","chars":[{"c":"MAN","pose":"talk","expr":"annoyed","talk":true}],"emotes":[{"who":0,"type":"sweat"}]},
+ {"at":"Tớ thú nhận","type":"close","set":"churchInside","c":"PHAOLO","expr":"embarrassed","emote":"gloom"},
+ {"at":"Rồi tớ học cách","type":"scene","set":"churchInside","cam":"push","camZ":1.15,"chars":[{"c":"PHAOLO","pose":"sitPray","expr":"peaceful"}],"fg":"candle"},
+ {"at":"con đây","type":"lesson","c":"PHAOLO","lines":["Chỉ thở,","và thưa: con đây."]},
+ {"at":"Lần im lặng sau","type":"scene","set":"churchInside","cam":"push","chars":[{"c":"PHAOLO","pose":"sitPray","expr":"pray"},{"c":"KHOA","pose":"sit","expr":"peaceful","f":-1}],"emotes":[{"who":1,"type":"music","at":1.5}]},
+ {"at":"Nếu được hai mươi giây","type":"end","question":"Nếu được hai mươi giây im lặng tuyệt đối ngay bây giờ, bạn sẽ dùng nó để nghĩ về ai?","cast":["PHAOLO","KHOA"]}
+]}

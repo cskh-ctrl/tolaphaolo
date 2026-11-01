@@ -1,0 +1,686 @@
+{
+ "title": "Bị bà cụ khều tay khi lên rước lễ, Khoa tưởng mình bị phân biệt",
+ "duration": 101.11,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.16,
+   "line": "Khoa đang đứng giữa hàng người lên rước lễ thì một bà cụ khều nhẹ tay nó.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "hook": {
+     "kicker": "TẠI SAO",
+     "lines": [
+      "Không phải ai",
+      "cũng được rước lễ?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "stand",
+      "expr": "surprised"
+     },
+     {
+      "c": "OLDLADY",
+      "pose": "reach",
+      "expr": "gentle",
+      "f": -1
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "!",
+      "at": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.16,
+   "end": 6.82,
+   "line": "Tớ ngồi ở ghế, tim rớt cái bịch.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "shocked",
+    "emote": "shock"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 6.82,
+   "end": 15.26,
+   "line": "Lễ tám giờ sáng Chúa nhật, Khoa đi cùng vì hai đứa hẹn ăn phở. Trước khi vào, nó dặn: \"Ai làm gì tớ làm nấy, cho khỏi lạc loài.\"",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "timeTag": "8 giờ sáng Chúa nhật",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "talk",
+      "expr": "smile",
+      "talk": [
+       2.5,
+       9
+      ]
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "relaxed",
+      "expr": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 15.26,
+   "end": 18.2,
+   "line": "Thế là cả dãy đứng dậy, nó cũng đi lên.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "panR",
+    "chars": [
+     {
+      "c": "WOMAN2",
+      "walk": 40,
+      "expr": "peaceful"
+     },
+     {
+      "c": "MAN",
+      "walk": 40,
+      "expr": "peaceful"
+     },
+     {
+      "c": "KHOA",
+      "walk": 40,
+      "expr": "nervous"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 18.2,
+   "end": 22.28,
+   "line": "Bà cụ ghé tai nói gì đó, rồi cha giơ tay lên trên đầu nó.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "holdFront",
+      "expr": "nervous"
+     },
+     {
+      "c": "CHA_LE",
+      "pose": "bless",
+      "expr": "gentle",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 22.28,
+   "end": 25.31,
+   "line": "Nó quay về ghế, mặt đỏ như trái gấc.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "KHOA",
+    "expr": "embarrassed",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 25.31,
+   "end": 29.13,
+   "line": "Ở quán phở, nó buông đũa: \"Không cùng đạo thì bị chặn, đúng không?",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "talk",
+      "expr": "angry",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "worried"
+     }
+    ],
+    "items": [
+     {
+      "item": "rice",
+      "x": 0,
+      "y": -170,
+      "s": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 29.13,
+   "end": 33.54,
+   "line": "Cha còn đánh dấu lên đầu tớ cho cả nhà thờ biết tớ là người ngoài.\"",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "sad",
+    "talk": true,
+    "emote": "gloom"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 33.54,
+   "end": 36.4,
+   "line": "Nhìn từ phía nó, đúng là giống bị phân biệt thật.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "thinking"
+   }
+  },
+  {
+   "id": "s10",
+   "start": 36.4,
+   "end": 43.06,
+   "line": "Tớ hỏi: \"Bà cụ nói gì với cậu?\" Khoa nhớ lại: \"Bà bảo, con khoanh tay trước ngực đi con.\"",
+   "scene": "ots",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "cafe",
+    "fg": "PHAOLO",
+    "who": {
+     "c": "KHOA",
+     "pose": "think",
+     "expr": "thinking",
+     "talk": [
+      1.5,
+      9
+     ]
+    },
+    "say": [
+     {
+      "str": "Khoanh tay trước ngực đi con.",
+      "at": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": 43.06,
+   "end": 46.9,
+   "line": "Tớ bật cười. \"Cái cha làm trên đầu cậu không phải đánh dấu.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "laugh",
+    "talk": true
+   }
+  },
+  {
+   "id": "s12",
+   "start": 46.9,
+   "end": 52.6,
+   "line": "Đó là phép lành. Ở nhiều nơi, ai chưa rước lễ thì khoanh tay, cha chúc lành cho.\"",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "freeze": "PHÉP LÀNH",
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "pose": "bless",
+      "expr": "gentle"
+     },
+     {
+      "c": "KHOA",
+      "pose": "holdFront",
+      "expr": "peaceful",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s13",
+   "start": 52.6,
+   "end": 55.66,
+   "line": "Nó nhíu mày: \"Thế sao không cho tớ nhận bánh luôn?\"",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "confused",
+    "talk": true,
+    "emote": "?"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 55.66,
+   "end": 58.877,
+   "line": "Tớ chỉ vào mình: \"Thì hôm nay tớ cũng có lên đâu.\"",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "smirk",
+    "talk": true
+   }
+  },
+  {
+   "id": "s15",
+   "start": 58.877,
+   "end": 60.3,
+   "line": "Khoa trố mắt.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "shocked",
+    "emote": "?!"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 60.3,
+   "end": 65.18,
+   "line": "Tớ thú thật, tám giờ kém năm tớ còn đang nuốt ổ bánh mì chả lụa ngoài bãi xe.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "timeTag": "8 giờ kém 5",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "holdFront",
+      "expr": "happy",
+      "prop": "cup"
+     }
+    ],
+    "items": [
+     {
+      "item": "bread",
+      "x": 0,
+      "y": -250,
+      "s": 0.15
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 65.18,
+   "end": 74.98,
+   "line": "Người Công giáo phải giữ chay ít nhất một giờ trước khi rước lễ. Ai biết mình mắc tội nặng mà chưa xưng tội cũng không lên. Người lên phải là người đã rửa tội, đã học giáo lý.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Trước khi rước lễ",
+    "steps": [
+     "Giữ chay 1 giờ",
+     "Không mắc tội nặng",
+     "Đã rửa tội, học giáo lý"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 74.98,
+   "end": 77.77,
+   "line": "Vì với tụi tớ, đó là chính Chúa Giêsu.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "host",
+    "label": "Chính Chúa Giêsu"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 77.77,
+   "end": 85.4,
+   "line": "Rước lễ là nói bằng cả thân mình: con tin trọn điều Hội thánh tin, con thuộc về gia đình này. Người ta gọi là hiệp thông.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Hiệp thông",
+    "body": [
+     "Con tin trọn điều Hội thánh tin,",
+     "con thuộc về gia đình này."
+    ],
+    "src": "GLHTCG 1385, 1415",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 85.4,
+   "end": 88.64,
+   "line": "Không phải ai hơn ai, mà lời thưa vâng đó phải thật.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Không ai hơn ai,",
+     "lời thưa vâng phải thật."
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 88.64,
+   "end": 94.04,
+   "line": "Khoa kéo tô phở lại gần: \"Vậy hôm nay người bị chặn là ông, mà chặn bằng ổ bánh mì.\"",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "smirk",
+    "talk": true,
+    "bubble": "Người bị chặn là ông!"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 94.04,
+   "end": 95.07,
+   "line": "Tớ cãi không lại.",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "embarrassed",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s23",
+   "start": 95.07,
+   "end": 101.11,
+   "line": "Nếu đứng trong hàng hôm đó, bạn sẽ khoanh tay xin phép lành, hay ngồi yên ở ghế mà nhìn?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu đứng trong hàng hôm đó, bạn sẽ khoanh tay xin phép lành, hay ngồi yên ở ghế mà nhìn?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 43.21
+  },
+  {
+   "start": 43.21,
+   "mood": "gentle",
+   "intensity": 0.55,
+   "end": 65.33
+  },
+  {
+   "start": 65.33,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 88.79
+  },
+  {
+   "start": 88.79,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 101.11
+  }
+ ],
+ "sfx": []
+}

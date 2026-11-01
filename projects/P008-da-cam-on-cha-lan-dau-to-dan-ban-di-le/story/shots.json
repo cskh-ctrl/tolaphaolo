@@ -1,0 +1,713 @@
+{
+ "title": "\"Dạ, cảm ơn cha\": lần đầu tớ dẫn bạn đi lễ",
+ "duration": 107.52,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.3,
+   "line": "Cha nói \"Chúa ở cùng anh chị em\", cả nhà thờ đáp \"Và ở cùng cha\",",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "hook": {
+     "kicker": "LẦN ĐẦU ĐI LỄ",
+     "lines": [
+      "\"Dạ,",
+      "cảm ơn cha!\""
+     ]
+    },
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "pose": "openArms",
+      "expr": "gentle"
+     }
+    ]
+   },
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s02",
+   "start": 4.3,
+   "end": 8.86,
+   "line": "riêng Khoa đáp to, rõ, lễ phép: \"Dạ, cảm ơn cha.\"",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "KHOA",
+    "expr": "proud",
+    "talk": true,
+    "bubble": "Dạ, cảm ơn cha."
+   }
+  },
+  {
+   "id": "s03",
+   "start": 8.86,
+   "end": 10.85,
+   "line": "Ba bà cụ hàng ghế trên quay xuống cùng lúc.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "boing",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "freeze": "!!!",
+    "shake": 6,
+    "chars": [
+     {
+      "c": "OLDLADY",
+      "pose": "stand",
+      "expr": "shocked",
+      "f": -1
+     },
+     {
+      "c": "BA",
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     },
+     {
+      "c": "BAN",
+      "pose": "stand",
+      "expr": "shocked",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 10.85,
+   "end": 16.66,
+   "line": "Lễ sáu giờ chiều thứ Bảy, lần đầu tớ dẫn Khoa đi lễ, sau một năm nó hỏi tới hỏi lui.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "timeTag": "6 giờ chiều thứ Bảy",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "walk": 30,
+      "expr": "happy"
+     },
+     {
+      "c": "KHOA",
+      "walk": 30,
+      "expr": "nervous"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05",
+   "start": 16.66,
+   "end": 21.04,
+   "line": "Tớ đã dặn nó cứ ngồi xem, mọi người đứng thì đứng, ngồi thì ngồi.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "fg": "pew",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "explain",
+      "expr": "smile"
+     },
+     {
+      "c": "KHOA",
+      "pose": "stand",
+      "expr": "thinking"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06",
+   "start": 21.04,
+   "end": 25.67,
+   "line": "Ai ngờ nó tưởng phải đáp như đi xem văn nghệ, người trên sân khấu chào thì khán giả cảm ơn.",
+   "scene": "scene",
+   "set": "dream",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "dream",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "cheer",
+      "expr": "laugh"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "music"
+     }
+    ],
+    "tag": "Xem văn nghệ?"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 25.67,
+   "end": 32.49,
+   "line": "Suốt buổi, Khoa liếc miệng tớ để đáp theo, chậm nửa nhịp, như hát karaoke không có chữ chạy.",
+   "scene": "ots",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "ots",
+    "set": "churchInside",
+    "fg": "KHOA",
+    "who": {
+     "c": "PHAOLO",
+     "pose": "talk",
+     "expr": "neutral",
+     "talk": true
+    }
+   }
+  },
+  {
+   "id": "s08",
+   "start": 32.49,
+   "end": 36.61,
+   "line": "Tới câu \"Xin Chúa thương xót chúng con\", nó đọc thành \"chúng tôi\", nghe trang nghiêm lắm.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "KHOA",
+    "expr": "determined",
+    "talk": true,
+    "bubble": "...chúng tôi.",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 36.61,
+   "end": 44.11,
+   "line": "Ra quán chè đầu hẻm, nó hỏi thẳng: \"Sao cha nói câu nào mọi người cũng phải đáp? Kiểm tra ai thuộc bài à?\"",
+   "scene": "scene",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "cafe",
+    "setOpt": {
+     "mood": "pevening"
+    },
+    "fg": "cup",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "talk",
+      "expr": "confused",
+      "talk": true
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "neutral"
+     }
+    ],
+    "say": [
+     {
+      "who": 0,
+      "str": "Kiểm tra ai thuộc bài à?",
+      "at": 2.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 44.11,
+   "end": 48.28,
+   "line": "Thánh lễ không phải buổi biểu diễn, cha là ca sĩ còn tụi tớ là khán giả.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "KHÔNG PHẢI",
+    "lines": [
+     "Buổi biểu diễn"
+    ],
+    "strike": 1.3
+   }
+  },
+  {
+   "id": "s11",
+   "start": 48.28,
+   "end": 50.21,
+   "line": "Thánh lễ là việc chung của cả cộng đoàn.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "wide": true,
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "pose": "openArms",
+      "expr": "gentle"
+     },
+     {
+      "c": "WOMAN2",
+      "pose": "talk",
+      "expr": "smile",
+      "f": -1
+     },
+     {
+      "c": "MAN",
+      "pose": "talk",
+      "expr": "smile",
+      "f": -1
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "talk",
+      "expr": "smile",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": 50.21,
+   "end": 59.26,
+   "line": "Hướng dẫn chính thức của Sách lễ Rôma nói các lời đối đáp giữa linh mục và giáo dân tạo nên sự hiệp thông giữa hai bên, và là cách cả cộng đoàn cùng tham dự tích cực.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Lời đối đáp",
+    "body": [
+     "Tạo nên sự hiệp thông giữa",
+     "linh mục và cộng đoàn."
+    ],
+    "src": "QCTQ Sách lễ Rôma 34–35",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 59.26,
+   "end": 62.47,
+   "line": "Cha không đọc thay mình, mình cũng không ngồi xem cha đọc.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "bible"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 62.47,
+   "end": 65.11,
+   "line": "Khoa nhăn mặt: \"Nghe như họp tổ dân phố.\"",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "KHOA",
+    "expr": "annoyed",
+    "talk": true,
+    "bubble": "Như họp tổ dân phố."
+   }
+  },
+  {
+   "id": "s15",
+   "start": 65.11,
+   "end": 71.5,
+   "line": "Tớ cười: \"Gần đúng. Có điều tổ dân phố bàn chuyện rác, còn ở đây cả xóm cùng nói với Chúa.\"",
+   "scene": "close",
+   "set": "cafe",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "cafe",
+    "c": "PHAOLO",
+    "expr": "laugh",
+    "talk": true
+   }
+  },
+  {
+   "id": "s16",
+   "start": 71.5,
+   "end": 76.66,
+   "line": "Tớ thú thật, nhiều năm tớ đáp như cái máy, miệng đáp mà đầu nghĩ chuyện công ty.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "sleepy"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "gloom"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 76.66,
+   "end": 81.7,
+   "line": "Hôm đó, nghe giọng lạc nhịp của Khoa, tớ mới nghe rõ lại từng câu mình vẫn nói.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "awe",
+    "emote": "sparkle"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 81.7,
+   "end": 86.38,
+   "line": "\"Và ở cùng cha\" là tớ chúc lành lại cho cha, chứ không phải câu chào cho có.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "\"Và ở cùng cha\"",
+     "là lời chúc lành lại."
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": 86.38,
+   "end": 92.12,
+   "line": "Tuần sau, Khoa xin tớ tờ giấy in sẵn các câu đáp, dán lên tủ lạnh, tập như học lời bài hát.",
+   "scene": "insert",
+   "set": "kitchen",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "kitchen",
+    "item": "card",
+    "label": "Dán lên tủ lạnh"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 92.12,
+   "end": 93.71,
+   "line": "Lễ tuần rồi nó đáp đúng hết.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "KHOA",
+      "pose": "stand",
+      "expr": "proud"
+     },
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 93.71,
+   "end": 99.99,
+   "line": "Chỉ có lúc cha chúc mọi người ra về bình an, nó buột miệng: \"Dạ, cha cũng vậy nha.\"",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "KHOA",
+    "expr": "happy",
+    "talk": true,
+    "bubble": "Dạ, cha cũng vậy nha!"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 99.99,
+   "end": 103.04,
+   "line": "Không bà cụ nào quay lại, chỉ có cha bật cười.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "CHA_LE",
+      "pose": "wave",
+      "expr": "laugh"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "heart"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s23",
+   "start": 103.04,
+   "end": 107.52,
+   "line": "Bạn nghĩ cha cười vì Khoa sai, hay vì Khoa đúng theo một kiểu rất riêng?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Bạn nghĩ cha cười vì Khoa sai, hay vì Khoa đúng theo một kiểu rất riêng?",
+    "cast": [
+     "PHAOLO",
+     "KHOA"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.6,
+   "end": 44.11
+  },
+  {
+   "start": 44.11,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 62.65
+  },
+  {
+   "start": 62.65,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 107.52
+  }
+ ],
+ "sfx": []
+}

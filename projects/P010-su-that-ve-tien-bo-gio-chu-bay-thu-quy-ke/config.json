@@ -1,0 +1,36 @@
+{
+ "title": "Sự thật về tiền bỏ giỏ: chú Bảy thủ quỹ kể",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 77.69,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "churchInside",
+  "c": "BAY",
+  "expr": "smirk",
+  "item": "basket",
+  "kicker": "SỰ THẬT",
+  "lines": [
+   "Tiền bỏ giỏ",
+   "đi về đâu?"
+  ]
+ },
+ "episode": "P010"
+}

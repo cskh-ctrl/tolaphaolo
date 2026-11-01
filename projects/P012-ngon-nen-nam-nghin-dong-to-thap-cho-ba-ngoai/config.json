@@ -1,0 +1,39 @@
+{
+ "title": "Ngọn nến năm nghìn đồng tớ thắp cho bà ngoại",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 109.94,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "churchInside",
+  "setOpt": {
+   "mood": "pnight"
+  },
+  "c": "PHAOLO",
+  "expr": "pray",
+  "item": "candles",
+  "kicker": "VÌ SAO",
+  "lines": [
+   "Người Công giáo",
+   "thắp nến?"
+  ]
+ },
+ "episode": "P012"
+}

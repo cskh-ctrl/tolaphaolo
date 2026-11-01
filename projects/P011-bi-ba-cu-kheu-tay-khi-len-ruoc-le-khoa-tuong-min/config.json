@@ -1,0 +1,36 @@
+{
+ "title": "Bị bà cụ khều tay khi lên rước lễ, Khoa tưởng mình bị phân biệt",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 101.11,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "churchInside",
+  "c": "KHOA",
+  "expr": "shocked",
+  "item": "host",
+  "kicker": "TẠI SAO",
+  "lines": [
+   "Không phải ai",
+   "cũng được rước lễ?"
+  ]
+ },
+ "episode": "P011"
+}

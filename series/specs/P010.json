@@ -1,0 +1,23 @@
+{"id":"P010",
+ "cover":{"set":"churchInside","c":"BAY","expr":"smirk","item":"basket","kicker":"SỰ THẬT","lines":["Tiền bỏ giỏ","đi về đâu?"]},
+ "music":[[0,"cute",0.55],["Sách Giáo lý nói","sacred",0.45],["Có thời tớ bỏ giỏ","gentle",0.6]],
+ "beats":[
+ {"type":"scene","set":"shop","cam":"push","hook":{"kicker":"SỰ THẬT","lines":["Tiền bỏ giỏ","đi về đâu?"]},"chars":[{"c":"BAY","pose":"holdFront","expr":"smile"}],"labels":[{"who":0,"str":"Chú Bảy"}]},
+ {"at":"và chú đếm xong","type":"insert","set":"churchInside","item":"book","label":"Hai người ký"},
+ {"at":"Sáng nay tớ ngồi","type":"scene","set":"churchInside","fg":"table","items":[{"item":"money","x":0,"y":-190,"s":0.25}],"chars":[{"c":"PHAOLO","pose":"sit","expr":"smile"},{"c":"BAY","pose":"sit","expr":"neutral","f":-1}]},
+ {"at":"Câu thứ nhất","type":"text","set":"churchInside","kicker":"CÂU 1","lines":["Tiền giỏ","cha xứ giữ hết"],"strike":1.6,"item":"basket"},
+ {"at":"Chú chỉ vào cuốn sổ","type":"fact","symbol":"church","title":"Báo cáo minh bạch","body":["Người quản trị phải báo cáo","cho giáo dân về của dâng cúng."],"src":"Giáo luật, điều 1287 §2","icon":"church"},
+ {"at":"Tiền điện, sửa mái tôn","type":"steps","title":"Ghi hết vào sổ","steps":["Tiền điện","Sửa mái tôn","Gạo cho cụ neo đơn"],"c":"BAY"},
+ {"at":"Câu thứ hai","type":"text","set":"churchInside","kicker":"CÂU 2","lines":["Gửi hết","về Vatican"],"strike":1.4},
+ {"at":"Chú cười","type":"close","set":"churchInside","c":"BAY","expr":"laugh","talk":true,"bubble":"Lấy gì trả tiền điện, con?","captions":false},
+ {"at":"Tiền giỏ chủ yếu","type":"scene","set":"churchOutside","wide":true,"cam":"push","chars":[{"c":"BAY","pose":"point","expr":"smile"}]},
+ {"at":"Chỉ một số ngày","type":"steps","title":"Quyên góp riêng","steps":["Chủng viện","Truyền giáo","Bão lụt"],"c":"PHAOLO"},
+ {"at":"Câu thứ ba","type":"text","set":"churchInside","kicker":"CÂU 3","lines":["Bỏ nhiều","được ơn nhiều"],"strike":1.4},
+ {"at":"Chú lắc đầu","type":"close","set":"churchInside","c":"BAY","expr":"gentle","talk":true,"bubble":"Ơn Chúa không bán theo ký.","captions":false},
+ {"at":"Sách Giáo lý nói","type":"fact","symbol":"heart","title":"Giúp đỡ Giáo hội","body":["Mỗi người tùy khả năng.","Của lễ chia cho người nghèo."],"src":"GLHTCG 2043, 1351","icon":"heart"},
+ {"at":"Có thời tớ bỏ giỏ","type":"scene","set":"churchInside","cam":"push","chars":[{"c":"PHAOLO","pose":"reach","expr":"neutral"}],"items":[{"item":"basket","x":160,"y":-150,"s":0.25}]},
+ {"at":"Hôm nay cầm tờ","type":"insert","set":"churchInside","item":"money","label":"5.000đ gấp làm tư"},
+ {"at":"tớ thấy mình nợ","type":"close","set":"churchInside","c":"PHAOLO","expr":"guilty","emote":"sweat"},
+ {"at":"Tớ không biết bà cụ","type":"lesson","c":"PHAOLO","lines":["Của dâng không đo","bằng mệnh giá."]},
+ {"at":"Nếu gặp lại bà","type":"end","question":"Nếu gặp lại bà ở cửa nhà thờ, bạn nghĩ tớ nên nói gì?","cast":["PHAOLO","BAY"]}
+]}

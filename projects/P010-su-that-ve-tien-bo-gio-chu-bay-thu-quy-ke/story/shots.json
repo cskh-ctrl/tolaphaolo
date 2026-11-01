@@ -1,0 +1,553 @@
+{
+ "title": "Sự thật về tiền bỏ giỏ: chú Bảy thủ quỹ kể",
+ "duration": 77.69,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 5.13,
+   "line": "Người giữ tiền giỏ ở giáo xứ tớ không phải cha xứ, mà là chú Bảy bán tạp hóa đầu xóm,",
+   "scene": "scene",
+   "set": "shop",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "shop",
+    "cam": "push",
+    "hook": {
+     "kicker": "SỰ THẬT",
+     "lines": [
+      "Tiền bỏ giỏ",
+      "đi về đâu?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "BAY",
+      "pose": "holdFront",
+      "expr": "smile"
+     }
+    ],
+    "labels": [
+     {
+      "who": 0,
+      "str": "Chú Bảy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 5.13,
+   "end": 9.52,
+   "line": "và chú đếm xong phải có hai người ký vào cuốn sổ bìa xanh mới được cất tiền.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "book",
+    "label": "Hai người ký"
+   }
+  },
+  {
+   "id": "s03",
+   "start": 9.52,
+   "end": 13.82,
+   "line": "Sáng nay tớ ngồi phụ chú đếm, nghe chú gỡ ba câu người ta hay nói.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "fg": "table",
+    "items": [
+     {
+      "item": "money",
+      "x": 0,
+      "y": -190,
+      "s": 0.25
+     }
+    ],
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sit",
+      "expr": "smile"
+     },
+     {
+      "c": "BAY",
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": 13.82,
+   "end": 16.32,
+   "line": "Câu thứ nhất, tiền giỏ cha xứ giữ hết.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "CÂU 1",
+    "lines": [
+     "Tiền giỏ",
+     "cha xứ giữ hết"
+    ],
+    "strike": 1.6,
+    "item": "basket"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 16.32,
+   "end": 22.27,
+   "line": "Chú chỉ vào cuốn sổ. Giáo luật buộc người quản trị phải báo cáo cho giáo dân về của họ dâng cúng.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "church",
+    "title": "Báo cáo minh bạch",
+    "body": [
+     "Người quản trị phải báo cáo",
+     "cho giáo dân về của dâng cúng."
+    ],
+    "src": "Giáo luật, điều 1287 §2",
+    "icon": "church"
+   }
+  },
+  {
+   "id": "s06",
+   "start": 22.27,
+   "end": 28.11,
+   "line": "Tiền điện, sửa mái tôn, gạo cho mấy cụ neo đơn, ghi hết, cuối năm đọc trước nhà thờ.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Ghi hết vào sổ",
+    "steps": [
+     "Tiền điện",
+     "Sửa mái tôn",
+     "Gạo cho cụ neo đơn"
+    ],
+    "c": "BAY"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 28.11,
+   "end": 31.37,
+   "line": "Câu thứ hai, tiền giỏ gửi hết về Vatican.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "CÂU 2",
+    "lines": [
+     "Gửi hết",
+     "về Vatican"
+    ],
+    "strike": 1.4
+   }
+  },
+  {
+   "id": "s08",
+   "start": 31.37,
+   "end": 34.84,
+   "line": "Chú cười: \"Gửi hết thì lấy gì trả tiền điện, con?\"",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "BAY",
+    "expr": "laugh",
+    "talk": true,
+    "bubble": "Lấy gì trả tiền điện, con?"
+   }
+  },
+  {
+   "id": "s09",
+   "start": 34.84,
+   "end": 37.43,
+   "line": "Tiền giỏ chủ yếu lo cho chính giáo xứ.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "BAY",
+      "pose": "point",
+      "expr": "smile"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 37.43,
+   "end": 46.6,
+   "line": "Chỉ một số ngày có quyên góp riêng theo lệnh giám mục, cho chủng viện, truyền giáo, bão lụt, và tiền ấy chuyển đi đúng việc. Cụ thể thì mỗi giáo phận một khác.",
+   "scene": "steps",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "steps",
+    "title": "Quyên góp riêng",
+    "steps": [
+     "Chủng viện",
+     "Truyền giáo",
+     "Bão lụt"
+    ],
+    "c": "PHAOLO"
+   }
+  },
+  {
+   "id": "s11",
+   "start": 46.6,
+   "end": 49.34,
+   "line": "Câu thứ ba, bỏ nhiều thì được ơn nhiều.",
+   "scene": "text",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "text",
+    "set": "churchInside",
+    "kicker": "CÂU 3",
+    "lines": [
+     "Bỏ nhiều",
+     "được ơn nhiều"
+    ],
+    "strike": 1.4
+   }
+  },
+  {
+   "id": "s12",
+   "start": 49.34,
+   "end": 52.22,
+   "line": "Chú lắc đầu: \"Ơn Chúa không bán theo ký.\"",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "BAY",
+    "expr": "gentle",
+    "talk": true,
+    "bubble": "Ơn Chúa không bán theo ký."
+   }
+  },
+  {
+   "id": "s13",
+   "start": 52.22,
+   "end": 61.53,
+   "line": "Sách Giáo lý nói tín hữu có bổn phận giúp nhu cầu vật chất của Giáo hội, mỗi người tùy khả năng. Từ thời đầu, của lễ đã được chia cho người nghèo, người bệnh.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "heart",
+    "title": "Giúp đỡ Giáo hội",
+    "body": [
+     "Mỗi người tùy khả năng.",
+     "Của lễ chia cho người nghèo."
+    ],
+    "src": "GLHTCG 2043, 1351",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 61.53,
+   "end": 65.54,
+   "line": "Có thời tớ bỏ giỏ tờ nhỏ nhất trong ví, như trả tiền giữ xe.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "reach",
+      "expr": "neutral"
+     }
+    ],
+    "items": [
+     {
+      "item": "basket",
+      "x": 160,
+      "y": -150,
+      "s": 0.25
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": 65.54,
+   "end": 68.91,
+   "line": "Hôm nay cầm tờ năm ngàn gấp làm tư của bà cụ bán vé số,",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "money",
+    "label": "5.000đ gấp làm tư"
+   }
+  },
+  {
+   "id": "s16",
+   "start": 68.91,
+   "end": 71.5,
+   "line": "tớ thấy mình nợ cái giỏ một lời xin lỗi.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "c": "PHAOLO",
+    "expr": "guilty",
+    "emote": "sweat"
+   }
+  },
+  {
+   "id": "s17",
+   "start": 71.5,
+   "end": 73.86,
+   "line": "Tớ không biết bà cụ ấy tên gì.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Của dâng không đo",
+     "bằng mệnh giá."
+    ]
+   }
+  },
+  {
+   "id": "s18",
+   "start": 73.86,
+   "end": 77.69,
+   "line": "Nếu gặp lại bà ở cửa nhà thờ, bạn nghĩ tớ nên nói gì?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Nếu gặp lại bà ở cửa nhà thờ, bạn nghĩ tớ nên nói gì?",
+    "cast": [
+     "PHAOLO",
+     "BAY"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "cute",
+   "intensity": 0.55,
+   "end": 52.37
+  },
+  {
+   "start": 52.37,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 61.53
+  },
+  {
+   "start": 61.53,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 77.69
+  }
+ ],
+ "sfx": []
+}

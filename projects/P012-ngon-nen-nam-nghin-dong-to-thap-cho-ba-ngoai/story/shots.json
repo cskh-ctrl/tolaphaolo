@@ -1,0 +1,710 @@
+{
+ "title": "Ngọn nến năm nghìn đồng tớ thắp cho bà ngoại",
+ "duration": 109.94,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 2.66,
+   "line": "Bệnh viện không cho thắp nến trong phòng bệnh.",
+   "scene": "scene",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "scene",
+    "set": "hospital",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "cam": "push",
+    "hook": {
+     "kicker": "VÌ SAO",
+     "lines": [
+      "Người Công giáo",
+      "thắp nến?"
+     ]
+    },
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "sad",
+      "expr": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "start": 2.66,
+   "end": 5.21,
+   "line": "Nên tớ thắp ở nhà thờ cách đó hai con đường.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "wide": true,
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "walk": 40,
+      "expr": "sad"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03",
+   "start": 5.21,
+   "end": 11.88,
+   "line": "Bà ngoại tớ nằm khoa hô hấp đã chín ngày. Mỗi bệnh nhân chỉ được một người nuôi. Mẹ ở lại.",
+   "scene": "scene",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "hospital",
+    "timeTag": "Ngày thứ 9",
+    "chars": [
+     {
+      "c": "BAN",
+      "pose": "lie",
+      "expr": "asleep",
+      "rot": -1.57,
+      "y": -140,
+      "x": -120
+     },
+     {
+      "c": "ME",
+      "pose": "sit",
+      "expr": "worried",
+      "x": 260,
+      "f": -1
+     }
+    ]
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s04",
+   "start": 11.88,
+   "end": 14.88,
+   "line": "Tớ phải về, vì sáng mai còn đi làm.",
+   "scene": "close",
+   "set": "hospital",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "hospital",
+    "c": "PHAOLO",
+    "expr": "sad"
+   }
+  },
+  {
+   "id": "s05",
+   "start": 14.88,
+   "end": 20.47,
+   "line": "Cửa chính nhà thờ đã đóng. Chỉ còn góc đài Đức Mẹ bên hông, một dãy nến nhỏ trong cốc nhựa đỏ.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight",
+     "pews": false
+    },
+    "wide": true,
+    "cam": "panR",
+    "items": [
+     {
+      "item": "statue",
+      "x": -220,
+      "y": -120,
+      "s": 0.35
+     },
+     {
+      "item": "candles",
+      "x": 120,
+      "y": -60,
+      "s": 0.3
+     }
+    ],
+    "chars": []
+   }
+  },
+  {
+   "id": "s06",
+   "start": 20.47,
+   "end": 26.31,
+   "line": "Năm nghìn một cây. Tớ bỏ tiền vào hộp, mồi lửa từ ngọn nến của ai đó thắp trước.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "candle",
+    "label": "5.000đ"
+   }
+  },
+  {
+   "id": "s07",
+   "start": 26.31,
+   "end": 29.7,
+   "line": "Rồi đứng đó. Tớ không nghĩ ra câu kinh nào dài.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight",
+     "pews": false
+    },
+    "cam": "push",
+    "fg": "candle",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "pray",
+      "expr": "pray"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s08",
+   "start": 29.7,
+   "end": 35.26,
+   "line": "Tớ chỉ nói, Chúa ơi, bà ngoại con sợ bóng tối. Xin Chúa ở với bà.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": false,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "PHAOLO",
+    "expr": "pray",
+    "bubble": "Xin Chúa ở với bà."
+   }
+  },
+  {
+   "id": "s09",
+   "start": 35.26,
+   "end": 40.78,
+   "line": "Hồi nhỏ, tớ hay chê người lớn thắp nến. Chúa đâu cần ánh sáng, Chúa thấy hết mà.",
+   "scene": "scene",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchInside",
+    "timeTag": "Hồi nhỏ",
+    "chars": [
+     {
+      "c": "BIN",
+      "pose": "crossArms",
+      "expr": "smirk"
+     }
+    ],
+    "emotes": [
+     {
+      "who": 0,
+      "type": "?"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "start": 40.78,
+   "end": 44.52,
+   "line": "Tối đó tớ hiểu khác. Ngọn nến không phải để Chúa thấy đường.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.05,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "candle",
+    "freeze": true
+   }
+  },
+  {
+   "id": "s11",
+   "start": 44.52,
+   "end": 47.44,
+   "line": "Nó để tớ nói điều mà miệng tớ không nói hết.",
+   "scene": "close",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "PHAOLO",
+    "expr": "peaceful",
+    "emote": "heart"
+   }
+  },
+  {
+   "id": "s12",
+   "start": 47.44,
+   "end": 53.84,
+   "line": "Người Công giáo thắp nến như một dấu chỉ. Ánh sáng nhắc về Chúa Giêsu, Đấng tụi tớ tin là ánh sáng thế gian.",
+   "scene": "fact",
+   "set": "",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "symbol": "cross",
+    "title": "Ánh sáng thế gian",
+    "body": [
+     "Ngọn nến là dấu chỉ nhắc về",
+     "Chúa Giêsu, ánh sáng thế gian."
+    ],
+    "src": "Ga 8,12; GLHTCG 1145–1152",
+    "icon": "cross"
+   }
+  },
+  {
+   "id": "s13",
+   "start": 53.84,
+   "end": 57.14,
+   "line": "Ngọn lửa cháy chậm, như lời cầu được kéo dài thêm.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "candles"
+   }
+  },
+  {
+   "id": "s14",
+   "start": 57.14,
+   "end": 61.4,
+   "line": "Nó không có phép thuật. Chúa nghe tớ không phải vì nến cháy lâu hay mau.",
+   "scene": "fact",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "fact",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "title": "Không phải bùa",
+    "body": [
+     "Gán hiệu lực cho cử chỉ",
+     "bề ngoài là mê tín."
+    ],
+    "src": "GLHTCG 2111",
+    "icon": "heart"
+   }
+  },
+  {
+   "id": "s15",
+   "start": 61.4,
+   "end": 68.56,
+   "line": "Nhưng khi tớ phải quay lưng đi, nó vẫn sáng ở đó. Như thể tớ để lại một phần lòng mình, đứng canh thay.",
+   "scene": "lesson",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "lesson",
+    "c": "PHAOLO",
+    "lines": [
+     "Để lại một phần lòng mình,",
+     "đứng canh thay."
+    ]
+   }
+  },
+  {
+   "id": "s16",
+   "start": 68.56,
+   "end": 71.76,
+   "line": "Tớ đi ra bãi xe. Ngoảnh lại một lần.",
+   "scene": "scene",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "cam": "pull",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "stand",
+      "expr": "peaceful",
+      "f": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s17",
+   "start": 71.76,
+   "end": 78.94,
+   "line": "Ngọn nến của tớ đứng giữa mấy ngọn khác. Có ngọn sắp tàn, có ngọn mới thắp. Tớ không biết những người kia cầu cho ai.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "candles"
+   }
+  },
+  {
+   "id": "s18",
+   "start": 78.94,
+   "end": 81.5,
+   "line": "Nhưng tự nhiên tớ thấy mình không cô đơn.",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "c": "PHAOLO",
+    "expr": "gentle"
+   }
+  },
+  {
+   "id": "s19",
+   "start": 81.5,
+   "end": 89.76,
+   "line": "Gần mười một giờ, mẹ nhắn Zalo. Bà ăn được hai muỗng cháo. Bà hỏi thằng Phaolo về tới nhà chưa. Chỉ vậy thôi.",
+   "scene": "insert",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "phonebuzz",
+     "gain": -12
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "item": "phone",
+    "label": "Bà ăn được hai muỗng cháo"
+   }
+  },
+  {
+   "id": "s20",
+   "start": 89.76,
+   "end": 92.54,
+   "line": "Tớ ngồi trên yên xe đọc đi đọc lại tin nhắn đó.",
+   "scene": "scene",
+   "set": "street",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "scene",
+    "set": "street",
+    "setOpt": {
+     "mood": "pnight"
+    },
+    "cam": "push",
+    "chars": [
+     {
+      "c": "PHAOLO",
+      "pose": "phone",
+      "prop": "phone",
+      "expr": "cry"
+     }
+    ],
+    "items": [
+     {
+      "item": "heart",
+      "x": 0,
+      "y": -600,
+      "s": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "id": "s21",
+   "start": 92.54,
+   "end": 100.84,
+   "line": "Sáng hôm sau đi ngang, ngọn nến đã tắt, cốc nhựa chỉ còn một vòng sáp mỏng. Nhưng lời tớ nói tối qua, tớ tin Chúa vẫn giữ.",
+   "scene": "insert",
+   "set": "churchInside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "captions": true,
+   "params": {
+    "type": "insert",
+    "set": "churchInside",
+    "item": "candle",
+    "label": "Sáng hôm sau"
+   }
+  },
+  {
+   "id": "s22",
+   "start": 100.84,
+   "end": 104.76,
+   "line": "Chiều nay tan làm, tớ sẽ ghé lại, thêm năm nghìn nữa.",
+   "scene": "close",
+   "set": "churchOutside",
+   "in": {
+    "type": "cut",
+    "dur": 0.3
+   },
+   "sfx": [],
+   "captions": true,
+   "params": {
+    "type": "close",
+    "set": "churchOutside",
+    "c": "PHAOLO",
+    "expr": "smile",
+    "emote": "sparkle"
+   }
+  },
+  {
+   "id": "s23",
+   "start": 104.76,
+   "end": 109.94,
+   "line": "Bạn có nhớ ngọn nến nào mình từng thắp cho một người thân, và câu mình đã nói thầm trước nó không?",
+   "scene": "end",
+   "set": "",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "captions": false,
+   "params": {
+    "type": "end",
+    "question": "Bạn có nhớ ngọn nến nào mình từng thắp cho một người thân, và câu mình đã nói thầm trước nó không?",
+    "cast": [
+     "PHAOLO",
+     "BAN"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "mood": "reflect",
+   "intensity": 0.5,
+   "end": 35.41
+  },
+  {
+   "start": 35.41,
+   "mood": "sacred",
+   "intensity": 0.45,
+   "end": 81.65
+  },
+  {
+   "start": 81.65,
+   "mood": "gentle",
+   "intensity": 0.6,
+   "end": 109.94
+  }
+ ],
+ "sfx": []
+}

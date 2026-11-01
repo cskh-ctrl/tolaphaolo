@@ -1,0 +1,36 @@
+{
+ "title": "Khoa tưởng micro nhà thờ bị hỏng",
+ "lang": "vi",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "pastel",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 75.84,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": {
+  "enabled": true,
+  "gainDb": -20
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "cover": {
+  "set": "churchInside",
+  "c": "KHOA",
+  "expr": "confused",
+  "item": "mic",
+  "kicker": "TẠI SAO",
+  "lines": [
+   "Thánh lễ có",
+   "phút im lặng?"
+  ]
+ },
+ "episode": "P007"
+}
